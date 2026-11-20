@@ -124,6 +124,7 @@ class TestWhichSourcesAreRead:
         assert sorted(s for s in feed.COLLECTORS if feed.closed_reason(records[s], TODAY) is None) == [
             "EU/ConsolidatedLegislation",
             "IE/Acts",
+            "UK/LegislationGovUK",
         ]
 
     def test_a_register_in_another_format_stops_the_run(self, tmp_path):
@@ -237,6 +238,162 @@ class TestDatedSources:
         seen = {i["id"]: i["first_seen"] for i in second["items"]}
         assert seen == {"02020R0001-20261101": "2026-11-20", "02020R0002-20261119": "2026-11-21"}
         assert [i["id"] for i in second["items"]] == ["02020R0002-20261119", "02020R0001-20261101"]
+
+
+# ------------------------------------------------- the United Kingdom's feed
+
+
+def uk_entry(code, year, number, published, title="Example Regulations 2026", note="These Regulations make provision about examples."):
+    return f"""<entry>
+      <id>http://www.legislation.gov.uk/id/{code}/{year}/{number}</id>
+      <title>{title}</title>
+      <link href="http://www.legislation.gov.uk/{code}/{year}/{number}/made"/>
+      <updated>{published}T10:00:00Z</updated><published>{published}T09:30:00.123456Z</published>
+      <summary>{note}</summary>
+    </entry>"""
+
+
+def uk_page(entries):
+    return ('<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom">'
+            "<id>http://www.legislation.gov.uk/all/data.feed</id><title>Search Results</title>" + "".join(entries) + "</feed>")
+
+
+class UkPages:
+    """Serves numbered pages of the feed and records what was asked for."""
+
+    def __init__(self, pages):
+        self.pages = pages
+        self.asked = []
+
+    def get(self, url):
+        self.asked.append(url)
+        number = int(url.split("page=")[1]) if "page=" in url else 1
+        return self.pages[number - 1].encode()
+
+
+class TestUnitedKingdomFeed:
+    def test_an_entry_gives_identifier_kind_title_and_publication_day_and_never_its_note(self):
+        page = uk_page([
+            uk_entry("uksi", 2026, 1224, "2026-11-20", "The Example (Amendment)\n   Regulations 2026"),
+            uk_entry("ukpga", 2026, 31, "2026-11-19", "Example Act 2026"),
+            uk_entry("ukdsi", 2026, 9780348277012, "2026-11-18", "The Draft Example Order 2026"),
+            uk_entry("ssi", 2026, 348, "2026-11-18", "The Example (Scotland) Order 2026"),
+        ])
+        items, on_page = feed.parse_uk_feed(page, TODAY)
+        assert on_page == 4
+        assert items[0] == {
+            "id": "uksi/2026/1224",
+            "kind": "statutory_instrument",
+            "title": "The Example (Amendment) Regulations 2026",
+            "date": "2026-11-20",
+            "url": "https://www.legislation.gov.uk/uksi/2026/1224",
+        }
+        assert [(i["id"], i["kind"]) for i in items[1:]] == [
+            ("ukpga/2026/31", "act"),
+            ("ukdsi/2026/9780348277012", "draft_statutory_instrument"),
+            ("ssi/2026/348", "statutory_instrument"),
+        ]
+        assert "make provision about examples" not in json.dumps(items)
+
+    def test_a_welsh_title_is_taken_in_english_and_a_draft_is_known_by_its_type(self):
+        welsh = """<entry><id>http://www.legislation.gov.uk/id/wsi/2026/137</id>
+          <title type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">
+            <span xml:lang="en">The Example (Wales) Order 2026</span> / <span xml:lang="cy">Gorchymyn Enghraifft (Cymru) 2026</span>
+          </div></title><published>2026-11-20T12:10:57Z</published></entry>"""
+        draft = uk_entry("uksi", 2026, 1219, "2026-11-20", "The Example (Draft) Regulations 2026").replace(
+            "<summary>", '<ukm:DocumentMainType xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata" Value="UnitedKingdomDraftStatutoryInstrument"/><summary>')
+        other = """<entry><id>http://www.legislation.gov.uk/id/nisr/2026/9</id>
+          <title type="xhtml"><div xmlns="http://www.w3.org/1999/xhtml">The Example Rules <b>(Northern Ireland)</b> 2026</div></title>
+          <published>2026-11-19T12:00:00Z</published></entry>"""
+        # A made instrument that also lists the draft it came from is not a draft.
+        made = uk_entry("uksi", 2026, 1215, "2026-11-19", "The Example (Made) Regulations 2026").replace(
+            "<summary>", '<ukm:DocumentMainType xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata" Value="UnitedKingdomStatutoryInstrument"/>'
+            '<ukm:DocumentMainType xmlns:ukm="http://www.legislation.gov.uk/namespaces/metadata" Value="UnitedKingdomDraftStatutoryInstrument"/><summary>')
+        items, _ = feed.parse_uk_feed(uk_page([welsh, draft, other, made]), TODAY)
+        assert [(i["id"], i["kind"], i["title"]) for i in items] == [
+            ("wsi/2026/137", "statutory_instrument", "The Example (Wales) Order 2026"),
+            ("uksi/2026/1219", "draft_statutory_instrument", "The Example (Draft) Regulations 2026"),
+            ("nisr/2026/9", "statutory_instrument", "The Example Rules (Northern Ireland) 2026"),
+            ("uksi/2026/1215", "statutory_instrument", "The Example (Made) Regulations 2026"),
+        ]
+
+    def test_entries_that_are_not_what_they_should_be_are_left_out(self):
+        page = uk_page([
+            uk_entry("uksi", 2026, 1, "2026-11-20"),
+            uk_entry("uksi", 2026, 1, "2026-11-20", "A second entry with the same number"),
+            uk_entry("uksi", 2026, 2, "2029-01-01", "Dated ahead"),
+            uk_entry("uksi", 2026, 3, "2026-08-21", "Too old"),
+            uk_entry("uksi", 2026, 4, "20 November", "Bad date"),
+            uk_entry("uksi", 2026, 5, "2026-11-20", "   "),
+            uk_entry("UKSI", 2026, 6, "2026-11-20", "Bad type"),
+            uk_entry("uksi", "Geo5", 7, "2026-11-20", "Regnal year"),
+        ]).replace("legislation.gov.uk/id/uksi/2026/5", "legislation.gov.uk.evil.test/id/uksi/2026/5")
+        items, on_page = feed.parse_uk_feed(page, TODAY)
+        assert on_page == 8 and [i["id"] for i in items] == ["uksi/2026/1"]
+
+    @pytest.mark.parametrize(
+        "page",
+        [
+            "not xml at all",
+            "<feed>no namespace</feed>",
+            '<rss xmlns="http://www.w3.org/2005/Atom"/>',
+            '<?xml version="1.0"?><!DOCTYPE feed [<!ENTITY a "aaaa">]><feed xmlns="http://www.w3.org/2005/Atom">&a;</feed>',
+        ],
+    )
+    def test_an_answer_that_is_not_a_plain_atom_feed_is_a_failure(self, page):
+        with pytest.raises(feed.FeedError):
+            feed.parse_uk_feed(page, TODAY)
+
+    def test_reading_stops_at_the_first_page_with_nothing_new(self):
+        full = lambda start: [uk_entry("uksi", 2026, n, "2026-11-20") for n in range(start, start - 20, -1)]
+        pages = UkPages([uk_page(full(100)), uk_page(full(80)), uk_page(full(60)), uk_page(full(40))])
+        known = frozenset(f"uksi/2026/{n}" for n in range(1, 81))
+        items = feed.collect_uk_legislation(pages, TODAY, known)
+        # Page 1 is all new, page 2 is all known: stop there, two requests.
+        assert pages.asked == [feed.UK_FEED, feed.UK_FEED + "?page=2"]
+        assert len(items) == 40
+
+    def test_reading_stops_at_a_short_page_and_never_goes_past_the_page_limit(self):
+        short = UkPages([uk_page([uk_entry("uksi", 2026, 1, "2026-11-20")])])
+        assert len(feed.collect_uk_legislation(short, TODAY)) == 1 and len(short.asked) == 1
+        endless = UkPages([uk_page([uk_entry("uksi", 2026, page * 100 + n, "2026-11-20") for n in range(20)]) for page in range(1, 12)])
+        items = feed.collect_uk_legislation(endless, TODAY)
+        assert len(endless.asked) == feed.UK_MAX_PAGES and len(items) == feed.UK_MAX_PAGES * 20
+
+    def test_what_was_not_returned_this_time_is_kept_until_it_leaves_the_window(self):
+        listed = [consolidated("uksi/2026/1", "2026-11-01"), consolidated("uksi/2026/2", "2026-11-10")]
+        collectors = {"XX/Statutes": {"collect": lambda fetcher, today, known: [i for i in listed if i["id"] not in known] or listed[-1:],
+                                      "hosts": ("example.org",), "dated": True, "incremental": True}}
+        first, _, _ = build(collectors, [record("XX/Statutes")])
+        assert first["items_count"] == 2
+        listed.append(consolidated("uksi/2026/3", "2026-11-20", "A corrected title"))
+        second, _, _ = build(collectors, [record("XX/Statutes")], previous=first, today=date(2026, 11, 21))
+        got = {i["id"]: i["first_seen"] for i in second["items"]}
+        assert got == {"uksi/2026/1": "2026-11-20", "uksi/2026/2": "2026-11-20", "uksi/2026/3": "2026-11-21"}
+        # Ninety days after its date, the oldest leaves although the publisher was not asked about it again.
+        later, _, _ = build(collectors, [record("XX/Statutes", review_by="2027-12-01")], previous=second, today=date(2027, 1, 31))
+        assert sorted(i["id"] for i in later["items"]) == ["uksi/2026/2", "uksi/2026/3"]
+
+    def test_a_source_that_is_not_incremental_still_drops_what_the_publisher_no_longer_lists(self):
+        listed = [consolidated("02020R0001-20261101", "2026-11-01"), consolidated("02020R0002-20261102", "2026-11-02")]
+        collectors = {"XX/Statutes": dated(lambda: listed)}
+        first, _, _ = build(collectors, [record("XX/Statutes")])
+        listed.pop(0)
+        second, _, _ = build(collectors, [record("XX/Statutes")], previous=first)
+        assert [i["id"] for i in second["items"]] == ["02020R0002-20261102"]
+
+    def test_the_publisher_s_crawl_delay_is_kept(self):
+        collector = feed.COLLECTORS["UK/LegislationGovUK"]
+        assert collector["hosts"] == ("www.legislation.gov.uk",) and collector["min_interval"] == 5.0
+        clock = FakeClock()
+        fetcher = feed.Fetcher(collector["hosts"], opener=FakeOpener(), clock=clock, sleep=clock.sleep, min_interval=collector["min_interval"])
+        fetcher.get("https://www.legislation.gov.uk/new/data.feed")
+        clock.now += 1.5
+        fetcher.get("https://www.legislation.gov.uk/new/data.feed?page=2")
+        assert clock.slept == [3.5]
+        # A publisher's delay can lengthen the wait and never shorten it.
+        assert feed.Fetcher(("a.example",), min_interval=0.1).min_interval == feed.MIN_INTERVAL_SECONDS
+        assert feed.UK_MAX_PAGES * feed.UK_PAGE_SIZE <= feed.MAX_ITEMS_PER_SOURCE
 
 
 # ---------------------------------------------------------- undated sources
@@ -499,13 +656,18 @@ class TestFetching:
         with pytest.raises(feed.FeedError):
             handler.redirect_request(None, None, 302, "Found", {}, "http://a.example/x")
 
-    def test_the_default_client_name_gives_no_name_address_or_contact(self, monkeypatch):
+    def test_the_default_client_name_points_to_the_public_repository_and_gives_no_email_or_person(self, monkeypatch):
         opener = FakeOpener()
         fetcher, _ = self.fetcher(opener)
         fetcher.get("https://a.example/1")
         agent = opener.requests[0][1]["User-agent"]
         assert agent == feed.DEFAULT_USER_AGENT
-        assert not any(mark in agent.lower() for mark in ("@", "http", "github", "matcham", "signal", "workflows"))
+        # legislation.gov.uk refuses anonymous clients: the name identifies the job and the page that explains it.
+        assert agent.startswith("changes-feed/1.0 (+https://github.com/matchamfraser/legal-sources;")
+        # Apart from the repository's own address (which carries the GitHub account name), nothing names a person or gives an email.
+        rest = agent.lower().replace("https://github.com/matchamfraser/legal-sources", "")
+        assert "@" not in agent
+        assert not any(mark in rest for mark in ("fraser", "matcham", "signal", "workflows", "gmail", "http"))
         assert opener.requests[0][2] == feed.REQUEST_TIMEOUT_SECONDS
 
     def test_an_operator_can_set_the_client_name(self):

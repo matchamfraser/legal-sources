@@ -182,7 +182,7 @@ when its record is verified, green or double yellow, allows links, has a
 credit line and is not past its `review_by` date. Otherwise it is left out and
 named under `skipped` with the reason, and any of its items already in the
 feed are dropped. Knowing how to read a source gives the script no permission
-to read it: the UK sources stay out until their records are verified.
+to read it: a source joins the feed only once its record is open.
 
 **It holds no text, and asks for none.**
 
@@ -190,11 +190,15 @@ to read it: the UK sources stay out until their records are verified.
 | --- | --- | --- |
 | `EU/ConsolidatedLegislation` | One query to the Publications Office's metadata service for consolidated versions dated in the last 90 days. | A consolidated version: CELEX number, the act's title, the consolidation date, a EUR-Lex link. |
 | `IE/Acts` | The year's two list pages on the Irish Statute Book, Acts and statutory instruments. In the first 90 days of a year, last year's two as well. | An Act or an instrument: year and number, title, a link to the Statute Book. |
+| `UK/LegislationGovUK` | legislation.gov.uk's own feed of new legislation, which its fair use policy points to instead of crawling. Newest first, 20 at a time, only until a page holds nothing new, and never more than five pages. | An Act or instrument, including drafts: type, year and number, title (in English, for a Welsh instrument), the day legislation.gov.uk published it, a link. The explanatory note the feed carries is not kept. |
 
-- **Rate.** Never more than one request a second to a host, and at most five
-  requests a run today.
-- **Client name.** The default names the job and gives no person, address or
-  contact. To send one, set the repository variable
+- **Rate.** Never more than one request a second to a host, and slower where
+  a publisher asks: legislation.gov.uk's robots.txt asks for five seconds
+  between requests, and gets them. At most ten requests a run.
+- **Client name.** legislation.gov.uk refuses anonymous clients and asks for
+  a contact or a page that explains the job. The default names the job and
+  points to this repository; it gives no email address or person's name. To
+  send something else, set the repository variable
   `CHANGES_FEED_USER_AGENT`.
 - **Addresses.** `https` only, to the named host only, and a redirect anywhere
   else is refused. A link in the feed is built from the identifier, never
@@ -203,7 +207,10 @@ to read it: the UK sources stay out until their records are verified.
   most 400 characters.
 
 **Dates.** The EU service gives each consolidated version a date, and the feed
-keeps the ones from the last 90 days up to today. The Irish list pages give a
+keeps the ones from the last 90 days up to today. For the UK, `date` is the
+day legislation.gov.uk published the item, which is not always the day it was
+made or laid. Because the UK feed is read only as far back as it needs to be,
+items found on earlier runs are kept until they are 90 days old. The Irish list pages give a
 number and a title and no date, so `date` is `null` and `first_seen` is the
 day the feed first saw the item. The feed remembers which numbers it has seen
 (`state`), so a number that appears late is still picked up. On its first run

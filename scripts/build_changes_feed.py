@@ -33,6 +33,7 @@ import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
+from xml.etree import ElementTree
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_REGISTER = ROOT / "verified" / "register.json"
@@ -45,8 +46,12 @@ MAX_BYTES = 1_000_000
 MAX_TITLE = 400
 OPEN_SIGNALS = ("green", "double_yellow")
 
-# No name, address or contact is sent unless the operator sets one.
-DEFAULT_USER_AGENT = "changes-feed/1.0 (legislation titles, dates and links only; one request a second at most)"
+# The page that explains this job is its public repository. legislation.gov.uk's fair use policy refuses
+# anonymous clients and asks for a contact or such a page; no email address or person's name is sent.
+DEFAULT_USER_AGENT = (
+    "changes-feed/1.0 (+https://github.com/matchamfraser/legal-sources; "
+    "legislation titles, dates and links only; one request a second at most)"
+)
 USER_AGENT_ENV = "CHANGES_FEED_USER_AGENT"
 MIN_INTERVAL_SECONDS = 1.0
 REQUEST_TIMEOUT_SECONDS = 60
@@ -101,10 +106,12 @@ class _SameHostRedirects(urllib.request.HTTPRedirectHandler):
 
 
 class Fetcher:
-    """GET a page from an allowed host, never faster than one a second for each host."""
+    """GET a page from an allowed host, never faster than one a second for each host, and slower where a publisher asks."""
 
-    def __init__(self, allowed_hosts, user_agent=None, opener=None, clock=time.monotonic, sleep=time.sleep):
+    def __init__(self, allowed_hosts, user_agent=None, opener=None, clock=time.monotonic, sleep=time.sleep, min_interval=None):
         self.allowed_hosts = frozenset(allowed_hosts)
+        # A publisher's own crawl delay can only lengthen the wait, never shorten it.
+        self.min_interval = max(MIN_INTERVAL_SECONDS, min_interval or 0)
         self.user_agent = user_agent or DEFAULT_USER_AGENT
         self.opener = opener or urllib.request.build_opener(_SameHostRedirects(self.allowed_hosts))
         self.clock = clock
@@ -118,7 +125,7 @@ class Fetcher:
             raise FeedError("address is not on the allowed list")
         last = self._last.get(parts.hostname)
         if last is not None:
-            wait = MIN_INTERVAL_SECONDS - (self.clock() - last)
+            wait = self.min_interval - (self.clock() - last)
             if wait > 0:
                 self.sleep(wait)
         self._last[parts.hostname] = self.clock()
@@ -328,10 +335,93 @@ def collect_ie_statute_book(fetcher, today):
 
 
 # --------------------------------------------------------------------------
+# United Kingdom: legislation.gov.uk's own feed of newly published
+# legislation, which its fair use policy points to in place of crawling. It
+# is read a page of 20 at a time, newest first, five seconds apart as the
+# site's robots.txt asks, and only until a page holds nothing new. The feed
+# also carries each item's explanatory note; that is text, and is not kept.
+# --------------------------------------------------------------------------
+
+UK_HOST = "www.legislation.gov.uk"
+UK_FEED = "https://www.legislation.gov.uk/new/data.feed"
+UK_CRAWL_DELAY_SECONDS = 5.0
+UK_MAX_PAGES = 5
+UK_PAGE_SIZE = 20
+UK_ID_RE = re.compile(r"https?://www\.legislation\.gov\.uk/id/([a-z]{2,8})/([0-9]{4})/([0-9]{1,13})")
+UK_ACTS = {"ukpga", "ukla", "asp", "asc", "anaw", "mwa", "nia", "ukcm"}
+UK_DRAFTS = {"ukdsi", "sdsi", "nidsr"}
+_ATOM = "{http://www.w3.org/2005/Atom}"
+_UKM = "{http://www.legislation.gov.uk/namespaces/metadata}"
+_XML_LANG = "{http://www.w3.org/XML/1998/namespace}lang"
+
+
+def _uk_title(entry):
+    """The entry's title. A Welsh instrument gives it in English and Welsh; the English is taken."""
+    title = entry.find(_ATOM + "title")
+    if title is None:
+        return ""
+    english = [node for node in title.iter() if node.get(_XML_LANG) == "en"]
+    return clean_title("".join((english[0] if english else title).itertext()))
+
+
+def parse_uk_feed(page, today):
+    """One page of the feed -> (items, entries on the page). Anything unexpected is left out."""
+    if "<!DOCTYPE" in page or "<!ENTITY" in page:
+        raise FeedError("the feed declares entities, which a feed should not")
+    try:
+        root = ElementTree.fromstring(page)
+    except ElementTree.ParseError:
+        raise FeedError("the feed is not well-formed XML")
+    if root.tag != _ATOM + "feed":
+        raise FeedError("the answer is not an Atom feed")
+    start = today - timedelta(days=WINDOW_DAYS)
+    entries = root.findall(_ATOM + "entry")
+    items = {}
+    for entry in entries:
+        match = UK_ID_RE.fullmatch((entry.findtext(_ATOM + "id") or "").strip())
+        day = parse_day((entry.findtext(_ATOM + "published") or "")[:10])
+        title = _uk_title(entry)
+        if not match or day is None or not (start <= day <= today) or not title:
+            continue
+        code, year, number = match.groups()
+        # A made instrument can also list the draft it came from, so it is a draft only if every type says so.
+        types = [node.get("Value") or "" for node in entry.findall(_UKM + "DocumentMainType")]
+        draft = code in UK_DRAFTS or (bool(types) and all("Draft" in value for value in types))
+        identifier = f"{code}/{year}/{number}"
+        if identifier in items:
+            continue
+        kind = "draft_statutory_instrument" if draft else "act" if code in UK_ACTS else "statutory_instrument"
+        items[identifier] = {
+            "id": identifier,
+            "kind": kind,
+            "title": title,
+            "date": day.isoformat(),  # the day legislation.gov.uk published it, not the day it was made
+            "url": f"https://www.legislation.gov.uk/{identifier}",
+        }
+    return list(items.values()), len(entries)
+
+
+def collect_uk_legislation(fetcher, today, known=frozenset()):
+    """Newest first, stopping at the first page that holds nothing the feed has not already seen."""
+    items = {}
+    for page_number in range(1, UK_MAX_PAGES + 1):
+        address = UK_FEED if page_number == 1 else f"{UK_FEED}?page={page_number}"
+        found, on_page = parse_uk_feed(fetcher.get(address).decode("utf-8", errors="replace"), today)
+        fresh = [item for item in found if item["id"] not in known and item["id"] not in items]
+        for item in found:
+            items.setdefault(item["id"], item)
+        if not fresh or on_page < UK_PAGE_SIZE:
+            break
+    return list(items.values())
+
+
+# --------------------------------------------------------------------------
 # The sources this script knows how to read. A source is read only when its
 # register record is open; being listed here gives no permission by itself.
 # "dated" sources give each item a date. For the others the feed remembers
 # which identifiers it has seen and dates an item by when it first saw it.
+# An "incremental" source is read newest first and only as far as needed, so
+# what it returns adds to what the feed already holds and does not replace it.
 # --------------------------------------------------------------------------
 
 COLLECTORS = {
@@ -339,6 +429,13 @@ COLLECTORS = {
         "collect": collect_eu_consolidated,
         "hosts": (EU_HOST,),
         "dated": True,
+    },
+    "UK/LegislationGovUK": {
+        "collect": collect_uk_legislation,
+        "hosts": (UK_HOST,),
+        "dated": True,
+        "incremental": True,
+        "min_interval": UK_CRAWL_DELAY_SECONDS,
     },
     "IE/Acts": {
         "collect": collect_ie_statute_book,
@@ -451,13 +548,25 @@ def _order(items):
     return sorted(items, key=lambda i: (_shown_day(i), i["source"], _number(i), i["id"]), reverse=True)
 
 
-def merge_dated(source_id, collected, earlier, today):
-    """Dated sources: the feed is what the publisher lists inside the window."""
+def merge_dated(source_id, collected, earlier, today, incremental=False):
+    """Dated sources: the feed is what the publisher lists inside the window.
+
+    An incremental source is only read as far back as it needs to be, so the
+    items it did not return this time are kept from the run before.
+    """
     first_seen = {item["id"]: item["first_seen"] for item in earlier}
-    return [
+    merged = [
         {"source": source_id, **item, "first_seen": first_seen.get(item["id"], today.isoformat())}
         for item in collected
     ]
+    if incremental:
+        returned = {item["id"] for item in collected}
+        merged += [
+            {"source": source_id, **{k: item.get(k) for k in ("id", "kind", "title", "date", "url", "first_seen")}}
+            for item in earlier
+            if item["id"] not in returned and parse_day(item.get("date")) is not None
+        ]
+    return merged
 
 
 def merge_undated(source_id, collected, earlier, seen_state, seed, today):
@@ -559,11 +668,16 @@ def build_feed(records, previous, today, now, fetch_factory, collectors=None, lo
         summary = _source_summary(record)
         error = None
         try:
-            collected = collector["collect"](fetch_factory(collector["hosts"]), today)
+            incremental = bool(collector.get("incremental"))
+            fetcher = fetch_factory(collector)
+            if incremental:
+                collected = collector["collect"](fetcher, today, frozenset(item["id"] for item in earlier))
+            else:
+                collected = collector["collect"](fetcher, today)
             if not collected and (earlier or earlier_state):
                 raise FeedError("the publisher listed nothing, which is not believable")
             if collector["dated"]:
-                merged, new_state = merge_dated(source_id, collected, earlier, today), {}
+                merged, new_state = merge_dated(source_id, collected, earlier, today, incremental), {}
             else:
                 merged, new_state = merge_undated(
                     source_id, collected, earlier, earlier_state.get("seen"), collector.get("seed", {}), today
@@ -663,7 +777,7 @@ def main(argv=None):
     def log(message):
         print(f"::warning::{message}" if in_actions and message.startswith("failed") else message)
 
-    feed, succeeded = build_feed(records, previous, today, now, lambda hosts: Fetcher(hosts, user_agent), log=log)
+    feed, succeeded = build_feed(records, previous, today, now, lambda collector: Fetcher(collector["hosts"], user_agent, min_interval=collector.get("min_interval")), log=log)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(serialise(feed), encoding="utf-8")
     print(f"{feed['items_count']} items from {succeeded} of {len(feed['sources'])} open sources -> {args.out}")
