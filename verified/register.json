@@ -12,12 +12,12 @@
     "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
   },
   "schema_version": 1,
-  "records_count": 8,
+  "records_count": 36,
   "latest_date_read": "2026-11-20",
   "signals": {
     "green": 1,
-    "double_yellow": 3,
-    "yellow": 3,
+    "double_yellow": 20,
+    "yellow": 14,
     "red": 1
   },
   "records": [
@@ -167,6 +167,570 @@
       }
     },
     {
+      "id": "UK/AsylumSupport",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced. GOV.UK can change or withdraw a page at any time."
+      ],
+      "conditions": [
+        "The decisions name people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the asylum support decisions of the First-tier Tribunal, which are appeals by asylum seekers, published on GOV.UK. The licence allows commercial reuse of what GOV.UK publishes under it, but it does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "First-tier Tribunal (Social Entitlement Chamber) — Asylum Support Decisions",
+        "country": "UK",
+        "url": "https://www.gov.uk/asylum-support-tribunal-decisions",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/CC",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Charity Commission guidance and decisions from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Case pages, decisions and inquiry reports can name individuals. Personal data is outside the licence, so those documents wait for the data protection check (TEC-763).",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Charity Commission",
+        "country": "UK",
+        "url": "https://www.gov.uk/government/organisations/charity-commission",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/CMA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Competition and Markets Authority cases and guidance from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Case pages, decisions and inquiry reports can name individuals. Personal data is outside the licence, so those documents wait for the data protection check (TEC-763).",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Competition and Markets Authority (CMA)",
+        "country": "UK",
+        "url": "https://www.gov.uk/cma-cases",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/CentralArbitrationCommittee",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced. GOV.UK can change or withdraw a page at any time."
+      ],
+      "conditions": [
+        "The decisions name people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the decisions of the Central Arbitration Committee, published on GOV.UK. The licence allows commercial reuse of what GOV.UK publishes under it, but it does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "Central Arbitration Committee (CAC) — Decisions",
+        "country": "UK",
+        "url": "https://www.gov.uk/government/organisations/central-arbitration-committee",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/CertificationOfficer",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced. GOV.UK can change or withdraw a page at any time."
+      ],
+      "conditions": [
+        "The decisions name people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the decisions of the Certification Officer on complaints about trade unions and employers' associations, published on GOV.UK. The licence allows commercial reuse of what GOV.UK publishes under it, but it does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "Certification Officer (Trade Unions & Employers' Associations) — Decisions",
+        "country": "UK",
+        "url": "https://www.gov.uk/government/organisations/certification-officer",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/EA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Environment Agency guidance from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Environment Agency",
+        "country": "UK",
+        "url": "https://www.gov.uk/government/organisations/environment-agency",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/ET",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced. GOV.UK can change or withdraw a page at any time."
+      ],
+      "conditions": [
+        "The decisions name people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the employment tribunal decisions, published on GOV.UK. The licence allows commercial reuse of what GOV.UK publishes under it, but it does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Employment Tribunals",
+        "country": "UK",
+        "url": "https://www.gov.uk/employment-tribunal-decisions",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/FSA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Food Standards Agency publications from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. The Agency's own website was not read for this record. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Food Standards Agency (FSA)",
+        "country": "UK",
+        "url": "https://www.gov.uk/government/organisations/food-standards-agency",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/FTT-Tax",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced. GOV.UK can change or withdraw a page at any time."
+      ],
+      "conditions": [
+        "The decisions name people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the tax and chancery tribunal decisions, published on GOV.UK. The licence allows commercial reuse of what GOV.UK publishes under it, but it does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK First-tier Tribunal - Tax Chamber",
+        "country": "UK",
+        "url": "https://www.gov.uk",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
       "id": "UK/FindCaseLaw",
       "signal": "yellow",
       "verified": true,
@@ -219,6 +783,382 @@
         "name": "UK Find Case Law (National Archives)",
         "country": "UK",
         "url": "https://caselaw.nationalarchives.gov.uk/",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/HMLR",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "HM Land Registry practice guides and guidance from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK HM Land Registry",
+        "country": "UK",
+        "url": "https://www.gov.uk/government/organisations/land-registry",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/HMRC-Excise",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "HMRC excise guidance from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK HMRC Excise Decisions",
+        "country": "UK",
+        "url": "https://www.gov.uk/government/organisations/hm-revenue-customs",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/HMRC-Manuals",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "HMRC manuals from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. legal-sources lists the HMRC manuals twice; UK/HMRC is the same record. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "HMRC Tax Guidance Manuals",
+        "country": "UK",
+        "url": "https://www.gov.uk/government/collections/hmrc-manuals",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/HMRC",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "HMRC manuals from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. legal-sources lists the HMRC manuals twice; UK/HMRC-Manuals is the same record. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK HMRC Tax Manuals",
+        "country": "UK",
+        "url": "https://www.gov.uk/hmrc-internal-manuals",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/IAC",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced. GOV.UK can change or withdraw a page at any time."
+      ],
+      "conditions": [
+        "The decisions name people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the tribunal appeal decisions, published on GOV.UK. The licence allows commercial reuse of what GOV.UK publishes under it, but it does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Immigration and Asylum Chamber",
+        "country": "UK",
+        "url": "https://www.gov.uk",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/IPO-Designs",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced. GOV.UK can change or withdraw a page at any time."
+      ],
+      "conditions": [
+        "The decisions name people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the registered design hearing decisions of the Intellectual Property Office, published on GOV.UK. The licence allows commercial reuse of what GOV.UK publishes under it, but it does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Intellectual Property Office — Registered Design Hearing Decisions",
+        "country": "UK",
+        "url": "https://www.gov.uk/designs-decisions",
         "data_types": [
           "case_law"
         ]
@@ -353,6 +1293,572 @@
       }
     },
     {
+      "id": "UK/MCA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Maritime and Coastguard Agency guidance from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Maritime and Coastguard Agency",
+        "country": "UK",
+        "url": "https://www.gov.uk/government/organisations/maritime-and-coastguard-agency",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/MHRA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "MHRA guidance and safety alerts from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Medicines Agency (MHRA)",
+        "country": "UK",
+        "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/NCA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "National Crime Agency publications from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. The Agency's own website was not read for this record. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK National Crime Agency (AML Unit)",
+        "country": "UK",
+        "url": "https://www.nationalcrimeagency.gov.uk",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/ORR",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Office of Rail and Road publications from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. The Office's own website was not read for this record. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Office of Rail and Road",
+        "country": "UK",
+        "url": "https://www.orr.gov.uk",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/Ofcom",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Ofcom publications from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. Ofcom publishes most of its work on its own website, whose terms were not read for this record. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Communications Regulator (Ofcom)",
+        "country": "UK",
+        "url": "https://www.ofcom.org.uk",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/Ofgem",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Ofgem publications from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. Ofgem publishes most of its work on its own website, whose terms were not read for this record. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Gas and Electricity Markets Authority (Ofgem)",
+        "country": "UK",
+        "url": "https://www.ofgem.gov.uk",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/Ofwat",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Ofwat publications from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. Ofwat publishes most of its work on its own website, whose terms were not read for this record. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Water Services Regulation (Ofwat)",
+        "country": "UK",
+        "url": "https://www.ofwat.gov.uk",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/RPB",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Insolvency Service guidance from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Recognised Professional Bodies (Insolvency)",
+        "country": "UK",
+        "url": "https://www.gov.uk",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/RPT",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced. GOV.UK can change or withdraw a page at any time."
+      ],
+      "conditions": [
+        "The decisions name people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the residential property decisions of the First-tier Tribunal, published on GOV.UK. The licence allows commercial reuse of what GOV.UK publishes under it, but it does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK First-tier Tribunal (Property Chamber) — Residential Property Decisions",
+        "country": "UK",
+        "url": "https://www.gov.uk/residential-property-tribunal-decisions",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
       "id": "UK/SRA",
       "signal": "red",
       "verified": true,
@@ -400,6 +1906,255 @@
         "url": "https://www.sra.org.uk",
         "data_types": [
           "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/SchoolsAdjudicator",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced. GOV.UK can change or withdraw a page at any time."
+      ],
+      "conditions": [
+        "The decisions name people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the determinations of the Office of the Schools Adjudicator, published on GOV.UK. The licence allows commercial reuse of what GOV.UK publishes under it, but it does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "Office of the Schools Adjudicator (OSA) — Determinations",
+        "country": "UK",
+        "url": "https://www.gov.uk/government/organisations/office-of-the-schools-adjudicator",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/TRA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Trade Remedies Authority publications from GOV.UK (www.gov.uk). Contains public sector information licensed under the Open Government Licence v3.0. Extract only. GOV.UK has the current version.",
+      "status_lines": [
+        "GOV.UK can change or withdraw a page at any time, and says the most up to date version of its content is always on GOV.UK.",
+        "GOV.UK says it does not publish advice: get professional or specialist advice before acting on the content.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "GOV.UK's terms say most of its content is Crown copyright and published under the Open Government Licence, and that content which is not is usually credited to its author. The licence allows copying, adapting and commercial use, including in a product or application. GOV.UK gives no attribution statement of its own, so the licence's default statement is used in the attribution line. This record covers what GOV.UK publishes for this body, which is what legal-sources collects. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Trade Remedies Authority",
+        "country": "UK",
+        "url": "https://www.trade-remedies.service.gov.uk",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/TeachingRegulationAgency",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced. GOV.UK can change or withdraw a page at any time."
+      ],
+      "conditions": [
+        "The decisions name people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the teacher misconduct panel decisions, which name teachers and set out findings against them, published on GOV.UK. The licence allows commercial reuse of what GOV.UK publishes under it, but it does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "Teaching Regulation Agency (TRA) — Teacher Misconduct Panel Decisions",
+        "country": "UK",
+        "url": "https://www.gov.uk/government/organisations/teaching-regulation-agency",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/TrafficCommissioner",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GOV.UK, terms and conditions",
+          "url": "https://www.gov.uk/help/terms-conditions"
+        },
+        {
+          "title": "GOV.UK, reuse GOV.UK content",
+          "url": "https://www.gov.uk/help/reuse-govuk-content"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "GOV.UK Content API",
+          "url": "https://content-api.publishing.service.gov.uk/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced. GOV.UK can change or withdraw a page at any time."
+      ],
+      "conditions": [
+        "The decisions name people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Only what GOV.UK publishes under the Open Government Licence. The footer says \"except where otherwise stated\", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.",
+        "Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.",
+        "GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the regulatory decisions of the Traffic Commissioners, which include disqualifications of named people, published on GOV.UK. The licence allows commercial reuse of what GOV.UK publishes under it, but it does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "Traffic Commissioners for Great Britain — Regulatory Decisions",
+        "country": "UK",
+        "url": "https://www.gov.uk/traffic-commissioner-regulatory-decisions",
+        "data_types": [
+          "case_law"
         ]
       }
     },
