@@ -119,6 +119,23 @@ Three United Kingdom sources were read later the same day:
   material may not be used for commercial purposes. Red. It is the first
   record where the label was not merely imprecise but pointed the wrong way.
 
+Twenty-eight more United Kingdom sources are fetched from GOV.UK, so one set
+of terms covers them: GOV.UK's terms and conditions, its page on reusing
+content, the Open Government Licence v3.0 and the Content API's page.
+
+- **Seventeen are guidance and publications** (HMRC manuals, HM Land Registry
+  practice guides, the Charity Commission, the Competition and Markets
+  Authority and others). Double yellow: open, but only what GOV.UK publishes
+  under the licence, and content credited to another author is left out.
+- **Eleven are tribunal and regulator decisions** (employment tribunals,
+  teacher misconduct panels, asylum support and others). The licence allows
+  commercial reuse, but the decisions name people and personal data is outside
+  it. Verified, and link only, until the data protection check is done.
+- Several of these bodies (Ofcom, Ofgem, Ofwat, the Office of Rail and Road,
+  the National Crime Agency, the Food Standards Agency) publish most of their
+  work on their own websites. Those terms were not read; each record covers
+  only what GOV.UK publishes.
+
 Four sources the product uses have no id in `manifest.yaml` (Companies House,
 GLEIF, the UK sanctions list and the gov.uk bank holidays feed), so they
 cannot have a record here.

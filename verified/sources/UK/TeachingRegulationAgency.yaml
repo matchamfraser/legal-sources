@@ -1,0 +1,37 @@
+id: UK/TeachingRegulationAgency
+terms:
+- title: GOV.UK, terms and conditions
+  url: https://www.gov.uk/help/terms-conditions
+- title: GOV.UK, reuse GOV.UK content
+  url: https://www.gov.uk/help/reuse-govuk-content
+- title: Open Government Licence v3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+- title: GOV.UK Content API
+  url: https://content-api.publishing.service.gov.uk/
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: Open Government Licence v3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+commercial_use: allowed
+assistant_reading: unknown
+storing_text: unknown
+linking: permitted
+status_lines:
+- Linked, not reproduced. GOV.UK can change or withdraw a page at any time.
+conditions:
+- The decisions name people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).
+- 'Only what GOV.UK publishes under the Open Government Licence. The footer says "except where otherwise stated", and content that is not Crown copyright is usually credited to its author: check each document, and leave out anything credited to someone else.'
+- 'Automated access: GOV.UK says the site may be scraped if its robots.txt is respected, and that requests are rate limited. Its Content API may be used by anyone for any purpose.'
+- GOV.UK welcomes links. Its permission is needed to charge users for following one, or to say a site is associated with or endorsed by GOV.UK or a department.
+not_covered:
+- Personal data in the information
+- Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset
+- Military insignia
+- Third party rights the information provider is not authorised to license
+- Other intellectual property rights, including patents, trade marks and design rights
+- Identity documents such as the British passport
+evidence: The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The reuse page is marked last updated 9 December 2022. No saved copy is filed yet; filing is tracked on TEC-746.
+notes: Verified and held at link only. In legal-sources this source is the teacher misconduct panel decisions, which name teachers and set out findings against them, published on GOV.UK. The licence allows commercial reuse of what GOV.UK publishes under it, but it does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.
+signal: yellow
