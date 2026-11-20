@@ -1,0 +1,32 @@
+id: EU/EUR-Lex
+terms:
+  - title: EUR-Lex legal notice (disclaimer and copyright notice)
+    url: https://eur-lex.europa.eu/content/legal-notice/legal-notice.html
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU
+  url: https://eur-lex.europa.eu/content/legal-notice/legal-notice.html
+commercial_use: allowed
+assistant_reading: unknown
+storing_text: unknown
+linking: permitted
+status_lines:
+  - Only European Union documents published in the Official Journal of the European Union are deemed authentic.
+  - For case law, only the versions published in the European Court Reports are deemed official sources.
+not_covered:
+  - The EUR-Lex logo, which needs the prior consent of the Publications Office
+  - Logos, names, trademarks, patents and registered designs
+evidence: PDF of the legal notice page saved by the reader on 20 November 2026. Its filing location is tracked on TEC-746.
+notes: >-
+  The reader saved and supplied the page; an AI assistant working for the
+  reader read it in full the same day.
+  Held at link only. The notice allows commercial and non-commercial reuse of
+  the legal documents published in EUR-Lex unless otherwise specified, but this
+  source covers legislation as adopted and case law, and two things are not
+  settled for those: no attribution line has been approved, and judgments name
+  people, so the data protection check comes first (TEC-761, TEC-763). The CC
+  BY 4.0 wording in the notice is for consolidated texts and summaries, which
+  are recorded under EU/ConsolidatedLegislation.
+signal: yellow

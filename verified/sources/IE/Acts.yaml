@@ -1,0 +1,50 @@
+id: IE/Acts
+terms:
+  - title: Irish Statute Book, Open Data Initiative
+    url: https://www.irishstatutebook.ie/open-data.html
+  - title: Oireachtas (Open Data) PSI Licence
+    url: https://www.oireachtas.ie/en/open-data/license/
+  - title: Houses of the Oireachtas, copyright and re-use
+    url: https://www.oireachtas.ie/en/copyright-and-reuse/
+  - title: Irish Statute Book, disclaimer
+    url: https://www.irishstatutebook.ie/disclaimer.html
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: Oireachtas (Public Sector Information – Open Data) Licence, incorporating Creative Commons Attribution 4.0 International
+  url: https://www.oireachtas.ie/en/open-data/license/
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: >-
+  Irish legislation from the electronic Irish Statute Book (irishstatutebook.ie),
+  produced by the Office of the Attorney General. © Houses of the Oireachtas.
+  Reused under the Oireachtas (Public Sector Information – Open Data) Licence,
+  which incorporates CC BY 4.0. Extract only. Publication does not mean a
+  provision is in force; see the Irish Statute Book disclaimer.
+status_lines:
+  - As enacted or as made, not revised.
+  - Publication of legislation on the Irish Statute Book does not indicate that a provision was, or is currently, in force.
+  - Extract only, where a single section or a capped passage is shown.
+not_covered:
+  - Logos, crests and insignia, such as the official harp and other State emblems of Ireland
+  - Rights of third persons that the licensor is not authorised to license
+  - Documents whose re-use is restricted to protect a person's personal data
+  - Broadcast proceedings, which have their own licence
+evidence: PDF of the licence dated 27 March 2016, supplied by the reader on 20 November 2026. Its filing location is tracked on TEC-746.
+notes: >-
+  The Statute Book's open data page says re-use of the data on the site is
+  subject to the Oireachtas (Open Data) PSI Licence. Clause 3.2 requires the
+  re-user to identify the Houses of the Oireachtas as creator, keep the
+  copyright notice, keep a reference to the licence and keep any disclaimer
+  notice. An Act read as XML and as HTML and a statutory instrument read as
+  HTML carried no copyright notice of their own. The owner decided on
+  20 November 2026 that statutory instruments are credited to the Houses of
+  the Oireachtas, as Acts are, and approved the attribution line. The reader
+  supplied and confirmed the licence and the copyright and re-use wording; the
+  open data and disclaimer pages were retrieved and read by an AI assistant
+  working for the reader on the same day. legal-sources labels this source
+  "Irish Open Government Licence", which is not what the site says.
+signal: green
