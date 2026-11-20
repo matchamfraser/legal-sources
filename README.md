@@ -1,5 +1,10 @@
 # World Wide Law
 
+> **This is a modified fork.** It was modified by Fraser Matcham, beginning 20 November 2026, from
+> [worldwidelaw/legal-sources](https://github.com/worldwidelaw/legal-sources). It adds a verified
+> terms register in [`verified/`](verified/README.md). See [`FORK.md`](FORK.md) for what was added.
+> It is not affiliated with or endorsed by World Wide Law.
+
 **Open-source collection scripts for open legal data from 110+ countries.**
 
 Every country publishes its laws, court decisions, and regulations online -- but in different formats, behind different APIs, with different access rules. World Wide Law is building the open infrastructure to collect, normalize, and make all of it searchable.

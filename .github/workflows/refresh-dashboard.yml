@@ -22,7 +22,8 @@ concurrency:
 
 jobs:
   refresh:
-    if: github.ref == 'refs/heads/main'
+    # Fork guard (FORK.md): only upstream's repository publishes the dashboard.
+    if: github.ref == 'refs/heads/main' && github.repository == 'worldwidelaw/legal-sources'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:

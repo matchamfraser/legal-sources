@@ -1,0 +1,54 @@
+name: Test Verified Register
+
+# Added in this fork (see FORK.md). Validates the verified terms register and
+# checks that verified/register.json matches the records. It never publishes.
+
+on:
+  pull_request:
+    paths:
+      - 'verified/**'
+      - 'scripts/build_verified_register.py'
+      - 'tests/test_verified_register.py'
+      - 'manifest.yaml'
+      - '.github/workflows/test-verified-register.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'verified/**'
+      - 'scripts/build_verified_register.py'
+      - 'tests/test_verified_register.py'
+      - 'manifest.yaml'
+      - '.github/workflows/test-verified-register.yml'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: verified-register-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            .github
+            scripts
+            tests
+            verified
+          sparse-checkout-cone-mode: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate the register and check the export
+        run: |
+          set -euo pipefail
+          python -m pip install pyyaml pytest
+          python scripts/build_verified_register.py --check
+          python -m pytest tests/test_verified_register.py -q
