@@ -18,6 +18,10 @@ unchanged.
 | `scripts/build_verified_register.py` | Validates the records and writes `verified/register.json`. |
 | `tests/test_verified_register.py` | Offline tests for it. |
 | `.github/workflows/test-verified-register.yml` | Runs those tests on changes to the register. |
+| `scripts/build_changes_feed.py` | Builds the changes feed: titles, dates and links of new legislation, from sources whose record is open. No document text. |
+| `tests/test_changes_feed.py` | Offline tests for it, run by the same workflow. |
+| `.github/workflows/changes-feed.yml` | Runs it once a day and commits `verified/changes.json` to the `data` branch. See rule 5. |
+| `verified/data-branch.md` | The README published on the `data` branch. |
 | `FORK.md` and the note at the top of `README.md` | This notice. |
 | One condition each in `.github/workflows/cla.yml` and `refresh-dashboard.yml` | Stops upstream's two workflows running in this fork. See rule 4. |
 
@@ -50,6 +54,11 @@ work came from.
 
    If upstream edits either condition line, keep this fork's guard when
    resolving the merge.
+5. **Generated data goes to the `data` branch, never to `main`.** The daily
+   changes feed is committed there by its workflow, so `main` only ever
+   differs from upstream by this fork's own hand-made changes. The branch
+   holds `verified/changes.json`, a README and a copy of `LICENSE`, and
+   nothing is committed to it by hand.
 
 ## Taking upstream's changes
 
