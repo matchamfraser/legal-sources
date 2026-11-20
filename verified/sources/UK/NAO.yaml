@@ -1,0 +1,25 @@
+id: UK/NAO
+terms:
+- title: National Audit Office, copyright statement
+  url: https://www.nao.org.uk/about-us/copyright-statement/
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: National Audit Office copyright statement. Non-commercial use only; this is not the Open Government Licence.
+  url: https://www.nao.org.uk/about-us/copyright-statement/
+commercial_use: not_allowed
+assistant_reading: not_granted
+storing_text: not_permitted
+linking: permitted
+conditions:
+- 'National Audit Office material may be copied for non-commercial purposes only: research, private study, or limited internal circulation for review. It must be acknowledged, reproduced with complete accuracy and not used in a misleading context.'
+- Any other use, including for commercial gain, needs the Office's express permission.
+- Crown copyright information on the site is under the Open Government Licence; Parliamentary copyright material may need its own licence.
+- Links to pages are allowed. A linked page must load in the whole window, not in a frame.
+not_covered:
+- Third party copyright material
+- The NAO logo and related logos
+evidence: The page was retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.
+notes: 'Red: the publisher''s own terms, not an open licence. legal-sources labels this source "ogl-3.0" and collects the Office''s audit reports, which are the Office''s own copyright. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.'
+signal: red

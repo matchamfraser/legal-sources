@@ -1,0 +1,22 @@
+id: UK/TPR
+terms:
+- title: The Pensions Regulator, terms and conditions
+  url: https://www.thepensionsregulator.gov.uk/website-policies/terms-and-conditions
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: The Pensions Regulator website terms and conditions. Personal non-commercial use; this is not the Open Government Licence.
+  url: https://www.thepensionsregulator.gov.uk/website-policies/terms-and-conditions
+commercial_use: not_allowed
+assistant_reading: not_granted
+storing_text: not_permitted
+linking: permitted
+conditions:
+- The website is made available for personal non-commercial use. Any use of its materials must acknowledge the regulator as the source and is subject to the intellectual property rights in them.
+- No permission is needed to link to the site. A link must not suggest association with, or endorsement by, The Pensions Regulator.
+not_covered:
+- Materials licensed to the regulator by others
+evidence: The page was retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.
+notes: 'Red: the publisher''s own terms, not an open licence. legal-sources labels this source "ogl-3.0". The terms and conditions do not mention the Open Government Licence. Enforcement reports can name people, so the data protection check would also apply (TEC-763). An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.'
+signal: red

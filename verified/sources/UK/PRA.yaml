@@ -1,0 +1,23 @@
+id: UK/PRA
+terms:
+- title: Bank of England, legal (terms of use)
+  url: https://www.bankofengland.co.uk/legal
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: Bank of England website terms. Non-commercial personal or internal use; this is not the Open Government Licence.
+  url: https://www.bankofengland.co.uk/legal
+commercial_use: not_allowed
+assistant_reading: not_granted
+storing_text: not_permitted
+linking: permitted
+conditions:
+- The site's resources may be downloaded, displayed or printed for personal use, or internal use within one organisation, for non-commercial purposes. Other re-use needs the Bank's permission.
+- A link is allowed if it is fair and legal and suggests no association, approval or endorsement. It may only be placed on a website the linker owns, the site must not be framed, and the Bank may withdraw the permission.
+- The PRA Rulebook has its own terms of use, which were not read for this record. Data in the Bank's statistical database is under the Open Government Licence, with exceptions.
+not_covered:
+- Third party copyright material, which stays with its owner
+evidence: The page was retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.
+notes: 'Red: the publisher''s own terms, not an open licence. legal-sources labels this source "ogl-3.0" and collects PRA policy statements, supervisory statements, consultation papers and letters from bankofengland.co.uk. The Bank''s terms say the copyright in the site''s contents is owned by the Governor and Company of the Bank of England. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.'
+signal: red

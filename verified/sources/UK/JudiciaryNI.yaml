@@ -1,0 +1,34 @@
+id: UK/JudiciaryNI
+terms:
+- title: Judiciary NI, Crown copyright
+  url: https://www.judiciaryni.uk/crown-copyright
+- title: Judiciary NI, terms and conditions
+  url: https://www.judiciaryni.uk/terms-and-conditions
+- title: Open Government Licence v3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: Open Government Licence v3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+commercial_use: allowed
+assistant_reading: unknown
+storing_text: unknown
+linking: unknown
+status_lines:
+- Linked, not reproduced.
+conditions:
+- The judgments name people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).
+- Material used under the licence must be acknowledged as Crown copyright, with the title of the source document or publication.
+- Logos and images, the site's own or a third party's, may not be copied without the owner's approval.
+not_covered:
+- Personal data in the information
+- Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset
+- Military insignia
+- Third party rights the information provider is not authorised to license
+- Other intellectual property rights, including patents, trade marks and design rights
+- Identity documents such as the British passport
+evidence: The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.
+notes: Verified and held at link only. In legal-sources this source is the decisions of the Northern Ireland courts and reserved tribunals. The site says its material is Crown copyright and licensed under the Open Government Licence unless otherwise indicated. The licence does not cover the personal data in a judgment, so whether an assistant may read these is left open here and no attribution line is set. The pages read say nothing about linking to the site. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.
+signal: yellow

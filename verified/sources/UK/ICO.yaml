@@ -1,0 +1,38 @@
+id: UK/ICO
+terms:
+- title: ICO, copyright and re-use of materials
+  url: https://ico.org.uk/global/copyright-and-re-use-of-materials/
+- title: ICO, disclaimer
+  url: https://ico.org.uk/global/disclaimer/
+- title: Open Government Licence v3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: Open Government Licence v3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: Information Commission’s Office, [name and date of publication], licensed under the Open Government Licence. Extract only. The ICO's website has the latest version.
+status_lines:
+- The ICO updates its guidance from time to time and recommends using the latest version on its website.
+- Extract only, where a single section or a capped passage is shown.
+conditions:
+- 'Text only. Images are not covered: in most cases a third party holds their copyright, and the ICO grants no right to re-use them.'
+- 'The attribution is the one the ICO gives, with the name and date of the publication filled in for each document: "Information Commission’s Office, [name and date of publication], licensed under the Open Government Licence."'
+- 'The site says "except where otherwise stated": check each document.'
+- Enforcement notices and decisions can name individuals. Personal data is outside the licence, so those documents wait for the data protection check (TEC-763).
+not_covered:
+- Personal data in the information
+- Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset
+- Military insignia
+- Third party rights the information provider is not authorised to license
+- Other intellectual property rights, including patents, trade marks and design rights
+- Identity documents such as the British passport
+- The ICO's logos, whose use the ICO says signifies its approval and needs its consent
+evidence: The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.
+notes: The ICO's page says "All text content on this website is available under the Open Government Licence (OGL) v3.0, except where otherwise stated", and gives the attribution to use. The wording of that attribution is the page's own, including "Information Commission’s Office". The pages read set no condition on linking to the site and ask for no permission, so linking is recorded as permitted on that basis; they also say nothing about automated access. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record, approved the attribution line and accepted that basis for the linking position on 20 November 2026.
+signal: double_yellow

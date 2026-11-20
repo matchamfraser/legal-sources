@@ -1,0 +1,36 @@
+id: UK/RPTWales
+terms:
+- title: Copyright statement
+  url: https://residentialpropertytribunal.gov.wales/copyright
+- title: Terms and conditions
+  url: https://residentialpropertytribunal.gov.wales/terms-and-conditions
+- title: Open Government Licence v3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: Open Government Licence v3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+commercial_use: allowed
+assistant_reading: unknown
+storing_text: unknown
+linking: permitted
+status_lines:
+- Linked, not reproduced.
+conditions:
+- The decisions are about people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).
+- Material must be reproduced accurately and not used in a misleading context, with its source identified and its copyright status acknowledged.
+- 'Material identified as a third party''s copyright is not covered: its owner''s permission is needed.'
+- Links are encouraged. The site's pages must not be loaded into frames on another site.
+not_covered:
+- Personal data in the information
+- Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset
+- Military insignia
+- Third party rights the information provider is not authorised to license
+- Other intellectual property rights, including patents, trade marks and design rights
+- Identity documents such as the British passport
+- The tribunal's and the Welsh Government's logos, which need permission
+evidence: The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.
+notes: Verified and held at link only. In legal-sources this source is the decisions of the Residential Property Tribunal Wales. The site's copyright statement says most of its material is Crown copyright and may be re-used free of charge under the Open Government Licence. The licence does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. The five Welsh tribunal websites in the register carry the same statement and terms. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.
+signal: yellow

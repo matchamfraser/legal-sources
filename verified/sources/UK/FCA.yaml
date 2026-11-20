@@ -1,0 +1,25 @@
+id: UK/FCA
+terms:
+- title: FCA, legal information (terms, copyright notice and disclaimer)
+  url: https://www.fca.org.uk/legal
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: FCA website terms and copyright notice. All rights reserved for the website; this is not the Open Government Licence.
+  url: https://www.fca.org.uk/legal
+commercial_use: not_allowed
+assistant_reading: not_granted
+storing_text: not_permitted
+linking: unknown
+conditions:
+- Extracts may be printed and downloaded for personal use or for use within one firm or organisation. They must not be distributed, sold or circulated to third parties, or modified.
+- No part of the site may be reproduced or stored in another website, or in any public or private electronic retrieval system or service, without the FCA's prior written permission.
+- No scraper, robot, spider, data mining or other automated tool may be used on the site without the FCA's prior written consent.
+- The source must be acknowledged in all copies.
+- 'The FCA Handbook is different: the page says its content can be reproduced and adapted under the Open Government Licence v3.0 and the Handbook''s own terms and conditions, which were not read for this record.'
+not_covered:
+- Parliamentary material, third party stock images and other material marked as someone else's
+evidence: The page was retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.
+notes: 'Red: the publisher''s own terms, not an open licence. legal-sources labels this source "ogl-3.0" and collects the FCA''s decision and final notices from fca.org.uk. The site''s terms apply the Open Government Licence only where it is expressly stated, and to the Handbook. The notices name firms and individuals, so the data protection check would also apply (TEC-763). The page says nothing about links to the FCA''s site. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.'
+signal: red

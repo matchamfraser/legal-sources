@@ -1,0 +1,33 @@
+id: UK/ONR
+terms:
+- title: Office for Nuclear Regulation, copyright
+  url: https://www.onr.org.uk/access-to-information/copyright
+- title: Open Government Licence v3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: Open Government Licence v3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: Office for Nuclear Regulation guidance from onr.org.uk. Contains public sector information published by the Office for Nuclear Regulation and licensed under the Open Government Licence v3.0. Extract only.
+status_lines:
+- Extract only, where a single section or a capped passage is shown.
+conditions:
+- Some images, illustrations and multimedia material are not owned by the Office and cannot be reproduced without their owner's permission.
+- 'The site says its information is under copyright protection "unless otherwise indicated": check each document.'
+not_covered:
+- Personal data in the information
+- Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset
+- Military insignia
+- Third party rights the information provider is not authorised to license
+- Other intellectual property rights, including patents, trade marks and design rights
+- Identity documents such as the British passport
+- The Office's logos, which need its prior written permission
+evidence: The two pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.
+notes: The copyright page says the material on the website may be used and reused free of charge under the Open Government Licence, and gives a preferred acknowledgement, which is used in the attribution line. The Office is not a Crown body; the copyright is its own. The page sets no condition on linking to the site and asks for no permission, so linking is recorded as permitted on that basis; it also says nothing about automated access. legal-sources also collects some of this source from GOV.UK, whose terms are recorded on the GOV.UK sources. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record, approved the attribution line and accepted that basis for the linking position on 20 November 2026.
+signal: double_yellow

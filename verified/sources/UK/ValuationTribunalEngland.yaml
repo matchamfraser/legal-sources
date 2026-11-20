@@ -1,0 +1,30 @@
+id: UK/ValuationTribunalEngland
+terms:
+- title: Valuation Tribunal Service, copyright
+  url: https://valuationtribunal.gov.uk/copyright/
+- title: Valuation Tribunal Service, terms of use
+  url: https://valuationtribunal.gov.uk/terms-of-use/
+- title: Open Government Licence v3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: Valuation Tribunal Service copyright statement, which refers to the Open Government Licence v3.0, and website terms of use, which restrict use
+  url: https://valuationtribunal.gov.uk/copyright/
+commercial_use: unknown
+assistant_reading: unknown
+storing_text: unknown
+linking: permitted
+status_lines:
+- Linked, not reproduced.
+conditions:
+- The site's two pages disagree. The copyright page says its material may be re-used free of charge in any format, and points to the Open Government Licence. The terms of use say the website is for non-commercial, personal use only and that nothing may be reproduced without the Service's written agreement. Until the Service says which governs, commercial use is not recorded as allowed.
+- The decisions are about named taxpayers and ratepayers. The data protection check comes before any text is read (TEC-763).
+- Where material is re-used it must be accurate, not misleading, and acknowledged as Valuation Tribunal Service copyright with the title of the source document.
+not_covered:
+- Logos, photographs and video
+- Third party copyright material
+evidence: The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.
+notes: Verified and held at link only. In legal-sources this source is the determinations of the Valuation Tribunal for England, collected from the Service's appeal search site. The copyright page encourages links to the website. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.
+signal: yellow

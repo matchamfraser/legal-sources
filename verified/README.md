@@ -136,6 +136,32 @@ content, the Open Government Licence v3.0 and the Content API's page.
   work on their own websites. Those terms were not read; each record covers
   only what GOV.UK publishes.
 
+The remaining United Kingdom sources labelled "ogl-3.0" each have their own
+website, and reading those is where the label failed most often:
+
+- **Six are red.** The Competition Appeal Tribunal, the Financial Conduct
+  Authority, the Gambling Commission, the National Audit Office, the Bank of
+  England (for the Prudential Regulation Authority) and The Pensions Regulator
+  each publish under their own terms: private study, personal or internal
+  use, non-commercial use, or copying only with approval. None of those pages
+  applies the Open Government Licence to the website as a whole. The FCA
+  Handbook and the PRA Rulebook have separate terms, which were not read.
+- **Two are open, with their own acknowledgements.** The Information
+  Commissioner's Office and the Office for Nuclear Regulation apply the Open
+  Government Licence and each says how to credit it. Neither says anything
+  about links to its site; linking is recorded as permitted on that basis,
+  and the records say so.
+- **Seven hold decisions and are link only.** The five Welsh tribunals and the
+  Judiciary of Northern Ireland publish under the Open Government Licence, and
+  the Privy Council decisions sit on Find Case Law under the Open Justice
+  Licence. All name people.
+- **One publisher contradicts itself.** The Valuation Tribunal Service's
+  copyright page points to the Open Government Licence; its terms of use say
+  non-commercial, personal use only. Commercial use is not recorded as
+  allowed.
+- **Seven could not be read** and have a record that says only that: a site
+  that refused the request, or no terms page that could be found.
+
 Four sources the product uses have no id in `manifest.yaml` (Companies House,
 GLEIF, the UK sanctions list and the gov.uk bank holidays feed), so they
 cannot have a record here.
