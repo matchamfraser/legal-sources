@@ -159,8 +159,13 @@ website, and reading those is where the label failed most often:
   copyright page points to the Open Government Licence; its terms of use say
   non-commercial, personal use only. Commercial use is not recorded as
   allowed.
-- **Seven could not be read** and have a record that says only that: a site
-  that refused the request, or no terms page that could be found.
+- **Seven could not be read at first.** Opened later the same day in a
+  browser, two were settled: the Civil Aviation Authority publishes under its
+  own terms (no reproduction for publication; red), and the planning appeals
+  portal under the Open Government Licence with maps and plans excluded
+  (verified, link only). Five remain unread: two sites refuse automated
+  browsers, and three publish no terms page that could be found. Each
+  record says what was tried.
 
 Four sources the product uses have no id in `manifest.yaml` (Companies House,
 GLEIF, the UK sanctions list and the gov.uk bank holidays feed), so they

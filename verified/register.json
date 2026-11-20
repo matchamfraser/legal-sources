@@ -17,8 +17,8 @@
   "signals": {
     "green": 1,
     "double_yellow": 22,
-    "yellow": 29,
-    "red": 7
+    "yellow": 28,
+    "red": 8
   },
   "records": [
     {
@@ -184,7 +184,7 @@
       "conditions": [],
       "not_covered": [],
       "evidence": null,
-      "notes": "Not yet verified for this register: its website has no terms or copyright page that could be found from the home page on 20 November 2026, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding.",
+      "notes": "Not yet verified for this register: its website was opened in a browser on 20 November 2026 and has no terms or copyright page that could be found: none in its footer, and the usual addresses do not exist. The footer says only \"Copyright © 2026 ASA and CAP\", so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by asking the publisher.",
       "source": {
         "name": "UK Advertising Standards Authority (ASA)",
         "country": "UK",
@@ -376,23 +376,37 @@
     },
     {
       "id": "UK/CAA",
-      "signal": "yellow",
-      "verified": false,
-      "terms": [],
-      "date_read": null,
-      "read_by": null,
-      "review_by": null,
-      "licence": null,
-      "commercial_use": "unknown",
-      "assistant_reading": "unknown",
-      "storing_text": "unknown",
-      "linking": "unknown",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Civil Aviation Authority, copyright information",
+          "url": "https://www.caa.co.uk/about-us/request-information/copyright-information/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Civil Aviation Authority copyright information. All rights reserved; this is not the Open Government Licence.",
+        "url": "https://www.caa.co.uk/about-us/request-information/copyright-information/"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
       "attribution_line": null,
       "status_lines": [],
-      "conditions": [],
-      "not_covered": [],
-      "evidence": null,
-      "notes": "Not yet verified for this register: its website policies page lists no copyright or re-use terms that could be found on 20 November 2026, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding.",
+      "conditions": [
+        "Information and publications may be downloaded free of charge for use within a company or organisation, or for personal use, but may not be reproduced for publication. Any other use needs the Authority's approval.",
+        "No permission is needed to link directly to pages on the site. The Authority recommends linking to section home pages or its published short addresses, because pages change."
+      ],
+      "not_covered": [
+        "Material identified as a third party's copyright",
+        "The CAA's logo and name, which are trade marks used only with its permission"
+      ],
+      "evidence": "The page was opened in a browser and read on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Red: the publisher's own terms, not an open licence. legal-sources labels this source \"ogl-3.0\". The copyright page says the Authority owns the copyright in the site's information unless otherwise indicated, that it may not be reproduced for publication, and that all rights are otherwise reserved. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 20 November 2026.",
       "source": {
         "name": "UK Civil Aviation Authority (CAA)",
         "country": "UK",
@@ -780,7 +794,7 @@
       "conditions": [],
       "not_covered": [],
       "evidence": null,
-      "notes": "Not yet verified for this register: its website refused the request for its pages on 20 November 2026, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding.",
+      "notes": "Not yet verified for this register: its website refused automated browsers on 20 November 2026 with a security check, which was not bypassed, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by asking the publisher.",
       "source": {
         "name": "UK Electoral Commission",
         "country": "UK",
@@ -1633,7 +1647,7 @@
       "conditions": [],
       "not_covered": [],
       "evidence": null,
-      "notes": "Not yet verified for this register: its website refused the request for its terms page on 20 November 2026, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding.",
+      "notes": "Not yet verified for this register: its website refused automated browsers on 20 November 2026 with a security check, which was not bypassed, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by asking the publisher.",
       "source": {
         "name": "UK Press Standards Organisation",
         "country": "UK",
@@ -2441,7 +2455,7 @@
       "conditions": [],
       "not_covered": [],
       "evidence": null,
-      "notes": "Not yet verified for this register: its website has no terms or copyright page that could be found on 20 November 2026, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding.",
+      "notes": "Not yet verified for this register: the Ombudsman's websites were opened in a browser on 20 November 2026 and have no terms or copyright page that could be found, in their footers, sitemap or publication scheme. The decisions site says real names of individuals are not published, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by asking the publisher.",
       "source": {
         "name": "UK Parliamentary and Health Service Ombudsman",
         "country": "UK",
@@ -2496,22 +2510,46 @@
     {
       "id": "UK/PlanningAppeals",
       "signal": "yellow",
-      "verified": false,
-      "terms": [],
-      "date_read": null,
-      "read_by": null,
-      "review_by": null,
-      "licence": null,
-      "commercial_use": "unknown",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Appeals casework portal, terms and conditions",
+          "url": "https://www.gov.uk/guidance/appeals-casework-portal-terms-and-conditions"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
       "assistant_reading": "unknown",
       "storing_text": "unknown",
-      "linking": "unknown",
+      "linking": "permitted",
       "attribution_line": null,
-      "status_lines": [],
-      "conditions": [],
-      "not_covered": [],
-      "evidence": null,
-      "notes": "Not yet verified for this register: the appeals casework portal's terms are a separate document, which was not read on 20 November 2026, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding.",
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The decisions are about named appellants and particular properties, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Maps, plans and drawings on the portal are made available under section 47 of the Copyright, Designs and Patents Act 1988. Further copies need the copyright owner's permission, and Ordnance Survey maps need an Ordnance Survey licence.",
+        "Some information on the portal is excluded from the licence, and third parties' copyright must be respected.",
+        "A link is allowed if it is fair and legal, suggests no association, approval or endorsement, is placed only on a website the linker owns, and does not frame the portal. The permission can be withdrawn without notice."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Logos",
+        "Maps, plans and drawings made available under section 47 of the Copyright, Designs and Patents Act 1988",
+        "Third party rights the information provider is not authorised to license"
+      ],
+      "evidence": "The two pages were opened in a browser and read on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the Planning Inspectorate's appeal decisions, collected from its appeals casework portal. The portal's terms say it is published under the Open Government Licence v3.0, with exceptions. The licence does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 20 November 2026.",
       "source": {
         "name": "UK Planning Appeal Decisions",
         "country": "UK",
@@ -3117,7 +3155,7 @@
       "conditions": [],
       "not_covered": [],
       "evidence": null,
-      "notes": "Not yet verified for this register: its website has no terms or copyright page that could be found on 20 November 2026, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding.",
+      "notes": "Not yet verified for this register: the Tribunal's websites were opened in a browser on 20 November 2026, including the decisions portal at valuationtribunalwales.net, and have no terms or copyright page that could be found, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by asking the publisher.",
       "source": {
         "name": "Valuation Tribunal for Wales — Decisions",
         "country": "UK",
