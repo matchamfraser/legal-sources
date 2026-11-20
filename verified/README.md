@@ -86,6 +86,28 @@ Terms change. Each verified record carries a `review_by` date no more than a
 year after it was read. To review: open the terms page, read it again, update
 the record and both dates, and rebuild.
 
+## What the first records found
+
+The register was seeded on 20 November 2026 with the sources the Legal
+Workflows pilot uses. Reading the terms changed the picture in three places:
+
+- **`IE/Acts`.** legal-sources labels the Irish Statute Book "Irish Open
+  Government Licence". The site says its data is under the Oireachtas (Open
+  Data) PSI Licence, which incorporates CC BY 4.0. Commercial reuse is allowed
+  either way, but the credit the licence asks for is different.
+- **`EU/ConsolidatedLegislation`.** legal-sources cites Commission Decision
+  2011/833/EU as the licence. That decision covers Commission documents. The
+  page that governs EUR-Lex content is the EUR-Lex legal notice, which puts
+  consolidated texts under CC BY 4.0 and excludes documents with special
+  conditions, such as the international accounting standards.
+- **Commercial use is not the whole answer.** `EU/EUR-Lex` is verified and
+  allows commercial reuse, and is still link only here, because no attribution
+  line is approved for it and its case law names people.
+
+Four sources the product uses have no id in `manifest.yaml` (Companies House,
+GLEIF, the UK sanctions list and the gov.uk bank holidays feed), so they
+cannot have a record here.
+
 ## Licence and credit
 
 The register is part of this fork and is under the GNU Affero General Public

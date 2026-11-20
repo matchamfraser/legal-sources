@@ -1,0 +1,47 @@
+id: EU/ConsolidatedLegislation
+terms:
+  - title: EUR-Lex legal notice (disclaimer and copyright notice)
+    url: https://eur-lex.europa.eu/content/legal-notice/legal-notice.html
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: EUR-Lex legal notice; consolidated texts under Creative Commons Attribution 4.0 International
+  url: https://creativecommons.org/licenses/by/4.0/
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: >-
+  EU legislation from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026.
+  Consolidated texts are reused under CC BY 4.0. Extract only. Only the Official
+  Journal of the European Union is authentic.
+status_lines:
+  - Only European Union documents published in the Official Journal of the European Union are deemed authentic.
+  - Extract only, where a single article or a capped passage is shown.
+conditions:
+  - >-
+    Documents with special conditions are title and link only: CELEX 32023R1803
+    and 32008R1126 (international accounting standards), every consolidated
+    version of them, and any regulation whose title says it adopts or amends
+    international accounting standards.
+  - Third-party works inside a document, and content showing identifiable private individuals, may need their own permission.
+not_covered:
+  - The EUR-Lex logo, which needs the prior consent of the Publications Office
+  - Logos, names, trademarks, patents and registered designs
+evidence: PDF of the legal notice page saved by the reader on 20 November 2026. Its filing location is tracked on TEC-746.
+notes: >-
+  The reader saved and supplied the page; an AI assistant working for the
+  reader read it in full the same day.
+  The notice says the legal documents published in EUR-Lex can be reused for
+  commercial or non-commercial purposes unless otherwise specified, that the
+  consolidated texts are licensed under CC BY 4.0 (acknowledge the source and
+  indicate changes), and that EUR-Lex metadata is CC0. It sets no condition on
+  linking and has no separate term on automated analysis. Regulation (EU)
+  2023/1803 says in recital 14 that the IFRS Foundation owns the copyright in
+  the standards; Regulation (EC) No 1126/2008 says "Reproduction allowed within
+  the European Economic Area". The eur-lex.europa.eu website returns an empty
+  response to automated requests; the Publications Office endpoints do not.
+  The attribution line and the exclusion rule were approved by the owner on
+  20 November 2026.
+signal: double_yellow
