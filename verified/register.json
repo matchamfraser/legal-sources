@@ -1,0 +1,24 @@
+{
+  "_notice": {
+    "title": "Verified terms register for official legal sources",
+    "what_this_is": "Each record states what a named person found when they read the source's own terms on the date given. It is information, not legal advice. Terms change: check the terms page before relying on a record past its review_by date.",
+    "licence": "GNU Affero General Public License, version 3 or any later version",
+    "licence_url": "https://www.gnu.org/licenses/agpl-3.0.html",
+    "copyright": [
+      "Source ids, names, countries, addresses and types: Copyright (C) 2025 World Wide Law Contributors (legal-sources, https://github.com/worldwidelaw/legal-sources).",
+      "Verification records: Copyright (C) 2026 Fraser Matcham."
+    ],
+    "source": "https://github.com/matchamfraser/legal-sources",
+    "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
+  },
+  "schema_version": 1,
+  "records_count": 0,
+  "latest_date_read": null,
+  "signals": {
+    "green": 0,
+    "double_yellow": 0,
+    "yellow": 0,
+    "red": 0
+  },
+  "records": []
+}
