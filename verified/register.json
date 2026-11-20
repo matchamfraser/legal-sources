@@ -16,9 +16,9 @@
   "latest_date_read": "2026-11-20",
   "signals": {
     "green": 1,
-    "double_yellow": 1,
-    "yellow": 6,
-    "red": 0
+    "double_yellow": 3,
+    "yellow": 3,
+    "red": 1
   },
   "records": [
     {
@@ -169,22 +169,52 @@
     {
       "id": "UK/FindCaseLaw",
       "signal": "yellow",
-      "verified": false,
-      "terms": [],
-      "date_read": null,
-      "read_by": null,
-      "review_by": null,
-      "licence": null,
-      "commercial_use": "unknown",
-      "assistant_reading": "unknown",
-      "storing_text": "unknown",
-      "linking": "unknown",
-      "attribution_line": null,
-      "status_lines": [],
-      "conditions": [],
-      "not_covered": [],
-      "evidence": null,
-      "notes": "Not yet verified for this register: nobody has re-read the terms of Find Case Law for it, so it is link only here. The Legal Workflows product records its own position for this source separately.",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Open Justice Licence v2.0",
+          "url": "https://caselaw.nationalarchives.gov.uk/open-justice-licence"
+        },
+        {
+          "title": "Find Case Law, terms of use",
+          "url": "https://caselaw.nationalarchives.gov.uk/terms-of-use"
+        },
+        {
+          "title": "Find Case Law, when you need permission",
+          "url": "https://caselaw.nationalarchives.gov.uk/when-you-need-permission"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Justice Licence v2.0",
+        "url": "https://caselaw.nationalarchives.gov.uk/open-justice-licence"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Judgment details from Find Case Law (caselaw.nationalarchives.gov.uk), The National Archives. Contains information licensed under the Open Justice - Licence v2.0. Linked, not reproduced: read the judgment on Find Case Law.",
+      "status_lines": [
+        "Linked, not reproduced. Find Case Law holds the current version of a judgment, and a judgment can be revised or withdrawn.",
+        "Nothing here has official status, and neither the courts nor The National Archives endorse this use."
+      ],
+      "conditions": [
+        "The licence does not cover computational analysis, \"including indexing by search engines\". The publisher says that means automated or algorithmic processing of large numbers of judgments, including using AI or large language models, text mining, building vector databases and bulk programmatic searching. That needs a separate licence from The National Archives, which is free to apply for.",
+        "A judgment may be copied one at a time as it is needed. Remove a copy that Find Case Law no longer publishes or has replaced with a revised version, and use the current version.",
+        "Comply with any judicial decision that restricts the use of personal data in a judgment. The licence is not a data sharing or processing agreement, so a re-user needs its own legal basis for the personal data.",
+        "Do not mislead about a judgment or its source, present it without regard to the dignity of the courts, or use it in a way that jeopardises the administration of justice.",
+        "No external indexing of documents. Follow robots.txt and the indexing directives on each document, and make a reasonable number of requests."
+      ],
+      "not_covered": [
+        "Emblems and insignia of the courts and tribunals",
+        "Information that has not been published or disclosed under information access legislation",
+        "Third party rights the licensor is not authorised to license",
+        "Other intellectual property rights, including patents, trademarks and design rights"
+      ],
+      "evidence": "The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The terms of use are marked last updated on 20 August 2024. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. Commercial reuse is allowed, including putting judgments into a product, but an assistant reading judgment text is computational analysis as the publisher describes it, and the licence does not grant that. Judgments name people, so the data protection check comes before anything more is done with them (TEC-763). An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record and approved the attribution line on 20 November 2026.",
       "source": {
         "name": "UK Find Case Law (National Archives)",
         "country": "UK",
@@ -196,23 +226,59 @@
     },
     {
       "id": "UK/Legislation",
-      "signal": "yellow",
-      "verified": false,
-      "terms": [],
-      "date_read": null,
-      "read_by": null,
-      "review_by": null,
-      "licence": null,
-      "commercial_use": "unknown",
-      "assistant_reading": "unknown",
-      "storing_text": "unknown",
-      "linking": "unknown",
-      "attribution_line": null,
-      "status_lines": [],
-      "conditions": [],
-      "not_covered": [],
-      "evidence": null,
-      "notes": "Not yet verified for this register: nobody has re-read the terms of legislation.gov.uk for it, so it is link only here. The Legal Workflows product records its own position for this source separately.",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "legislation.gov.uk, contributors and re-using data derived from EUR-Lex",
+          "url": "https://www.legislation.gov.uk/contributors"
+        },
+        {
+          "title": "legislation.gov.uk, fair use policy",
+          "url": "https://www.legislation.gov.uk/fair-use-policy"
+        },
+        {
+          "title": "legislation.gov.uk, help (what is published and how up to date it is)",
+          "url": "https://www.legislation.gov.uk/help"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "UK legislation from legislation.gov.uk, published by The National Archives. © Crown and database right. Contains public sector information licensed under the Open Government Licence v3.0. Extract only. Revised text may have changes still to be applied; see the changes noted on legislation.gov.uk.",
+      "status_lines": [
+        "Revised legislation may have changes that have not yet been applied. legislation.gov.uk aims to apply an amendment within three months of its coming into force, and says with each item whether changes are outstanding.",
+        "An original version (as enacted or as made) has had no changes applied to it.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Legislation originating from the EU is derived from EUR-Lex and has a second set of terms. Acknowledge both sources and claim no official endorsement. The site suggests: \"Crown © and database right material re-used under the Open Government Licence. Material derived from the European Institutions © European Union, 1998-2019 and re-used under the terms of the Commission Decision 2011/833/EU.\"",
+        "Statutory instruments, rules and orders made before 1987 that Westlaw UK contributed carry the attribution \"Westlaw UK derived from Crown Copyright material and contributed to legislation.gov.uk\". They are in their original form only.",
+        "Statutes of the Realm (1235 to 1713) contributed by British History Online carry the attribution \"British History Online derived from Crown Copyright material and contributed to legislation.gov.uk\".",
+        "Automated access follows the site's fair use policy. Send a user agent with a clear identifier (anonymous ones are refused, and contact details are strongly recommended), follow robots.txt, and stay under 1,500 requests in any 5 minutes. For new legislation, use the publisher's feeds and not a crawl."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "The footer of legislation.gov.uk says \"All content is available under the Open Government Licence v3.0 except where otherwise stated\", and that the site also contains content derived from EUR-Lex. The contributors page is where the exceptions are stated. The licence allows copying, publishing, adapting and commercial use, including in a product or application; nothing on the pages read restricts automated analysis, and the fair use policy welcomes downloading data for re-use. The site gives no attribution statement of its own for UK legislation, so the licence's default statement is used inside the attribution line. The help page says legislation.gov.uk is the official place of publication for newly enacted legislation. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record and approved the attribution line on 20 November 2026. legal-sources lists this site twice; UK/LegislationGovUK is the same record.",
       "source": {
         "name": "UK Legislation (legislation.gov.uk)",
         "country": "UK",
@@ -224,23 +290,59 @@
     },
     {
       "id": "UK/LegislationGovUK",
-      "signal": "yellow",
-      "verified": false,
-      "terms": [],
-      "date_read": null,
-      "read_by": null,
-      "review_by": null,
-      "licence": null,
-      "commercial_use": "unknown",
-      "assistant_reading": "unknown",
-      "storing_text": "unknown",
-      "linking": "unknown",
-      "attribution_line": null,
-      "status_lines": [],
-      "conditions": [],
-      "not_covered": [],
-      "evidence": null,
-      "notes": "Not yet verified for this register: nobody has re-read the terms of legislation.gov.uk for it, so it is link only here. The Legal Workflows product records its own position for this source separately.",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        },
+        {
+          "title": "legislation.gov.uk, contributors and re-using data derived from EUR-Lex",
+          "url": "https://www.legislation.gov.uk/contributors"
+        },
+        {
+          "title": "legislation.gov.uk, fair use policy",
+          "url": "https://www.legislation.gov.uk/fair-use-policy"
+        },
+        {
+          "title": "legislation.gov.uk, help (what is published and how up to date it is)",
+          "url": "https://www.legislation.gov.uk/help"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "UK legislation from legislation.gov.uk, published by The National Archives. © Crown and database right. Contains public sector information licensed under the Open Government Licence v3.0. Extract only. Revised text may have changes still to be applied; see the changes noted on legislation.gov.uk.",
+      "status_lines": [
+        "Revised legislation may have changes that have not yet been applied. legislation.gov.uk aims to apply an amendment within three months of its coming into force, and says with each item whether changes are outstanding.",
+        "An original version (as enacted or as made) has had no changes applied to it.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Legislation originating from the EU is derived from EUR-Lex and has a second set of terms. Acknowledge both sources and claim no official endorsement. The site suggests: \"Crown © and database right material re-used under the Open Government Licence. Material derived from the European Institutions © European Union, 1998-2019 and re-used under the terms of the Commission Decision 2011/833/EU.\"",
+        "Statutory instruments, rules and orders made before 1987 that Westlaw UK contributed carry the attribution \"Westlaw UK derived from Crown Copyright material and contributed to legislation.gov.uk\". They are in their original form only.",
+        "Statutes of the Realm (1235 to 1713) contributed by British History Online carry the attribution \"British History Online derived from Crown Copyright material and contributed to legislation.gov.uk\".",
+        "Automated access follows the site's fair use policy. Send a user agent with a clear identifier (anonymous ones are refused, and contact details are strongly recommended), follow robots.txt, and stay under 1,500 requests in any 5 minutes. For new legislation, use the publisher's feeds and not a crawl."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "The footer of legislation.gov.uk says \"All content is available under the Open Government Licence v3.0 except where otherwise stated\", and that the site also contains content derived from EUR-Lex. The contributors page is where the exceptions are stated. The licence allows copying, publishing, adapting and commercial use, including in a product or application; nothing on the pages read restricts automated analysis, and the fair use policy welcomes downloading data for re-use. The site gives no attribution statement of its own for UK legislation, so the licence's default statement is used inside the attribution line. The help page says legislation.gov.uk is the official place of publication for newly enacted legislation. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record and approved the attribution line on 20 November 2026. legal-sources lists this site twice; UK/Legislation is the same record.",
       "source": {
         "name": "UK Legislation",
         "country": "UK",
@@ -252,23 +354,46 @@
     },
     {
       "id": "UK/SRA",
-      "signal": "yellow",
-      "verified": false,
-      "terms": [],
-      "date_read": null,
-      "read_by": null,
-      "review_by": null,
-      "licence": null,
-      "commercial_use": "unknown",
-      "assistant_reading": "unknown",
-      "storing_text": "unknown",
-      "linking": "unknown",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "SRA, terms and conditions of service",
+          "url": "https://www.sra.org.uk/sra/how-we-work/terms-conditions-service/"
+        },
+        {
+          "title": "SRA, publication scheme (how the information can be used, and copyright)",
+          "url": "https://www.sra.org.uk/sra/how-we-work/privacy-data-information/disclosure-policy/publication/"
+        },
+        {
+          "title": "SRA Standards and Regulations, terms of use",
+          "url": "https://www.sra.org.uk/sra/how-we-work/privacy-data-information/sra-standards-regulations-terms/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "SRA website terms and conditions of service. All rights reserved; this is not the Open Government Licence.",
+        "url": "https://www.sra.org.uk/sra/how-we-work/terms-conditions-service/"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
       "attribution_line": null,
       "status_lines": [],
-      "conditions": [],
-      "not_covered": [],
-      "evidence": null,
-      "notes": "Not yet verified for this register: nobody has re-read the terms of the SRA for it, so it is link only here. The Legal Workflows product records its own position for this source separately.",
+      "conditions": [
+        "Extracts may be used for review, discussion, academic study and other legitimate pursuits without asking, if the information is used fairly and the source is acknowledged.",
+        "Entire sections of the SRA Standards and Regulations may be reproduced only under their own terms of use: tell the SRA first, by email, which publication they will appear in; use the latest version, accurately, with its version and the date it was taken; and carry the SRA's notice, which begins \"This work is owned by and published under licence from the Solicitors Regulation Authority\".",
+        "The SRA says it will pursue any use of its material for commercial gain or to misrepresent its regulatory position."
+      ],
+      "not_covered": [
+        "Trade marks, service marks and trade names, and the SRA's motifs, designs and logos",
+        "Rights of third parties, which the SRA does not warrant"
+      ],
+      "evidence": "The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The publication scheme is marked last updated 17 March 2026 and the Standards and Regulations terms are dated October 2020. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Red: the SRA's own terms, not an open licence. legal-sources labels this source \"ogl-3.0\"; none of the pages read mentions the Open Government Licence, and the terms of service say material on the website may not be reproduced or \"used for any public or commercial purposes\". Linking needs no permission. In legal-sources this source is the SRA's regulatory decisions and Solicitors Disciplinary Tribunal decisions, which name individuals, so it is also flagged for the data protection check (TEC-763). The Tribunal is a separate body with its own website, whose terms were not read for this record. The terms for reproducing the Standards and Regulations are a separate, notify-first licence; a product that reproduces them relies on that licence, not on this record. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
       "source": {
         "name": "UK Solicitors Regulation Authority",
         "country": "UK",

@@ -1,6 +1,46 @@
 id: UK/FindCaseLaw
-signal: yellow
+terms:
+  - title: Open Justice Licence v2.0
+    url: https://caselaw.nationalarchives.gov.uk/open-justice-licence
+  - title: Find Case Law, terms of use
+    url: https://caselaw.nationalarchives.gov.uk/terms-of-use
+  - title: Find Case Law, when you need permission
+    url: https://caselaw.nationalarchives.gov.uk/when-you-need-permission
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: Open Justice Licence v2.0
+  url: https://caselaw.nationalarchives.gov.uk/open-justice-licence
+commercial_use: allowed
+assistant_reading: not_granted
+storing_text: permitted
+linking: permitted
+attribution_line: >-
+  Judgment details from Find Case Law (caselaw.nationalarchives.gov.uk), The
+  National Archives. Contains information licensed under the Open Justice -
+  Licence v2.0. Linked, not reproduced: read the judgment on Find Case Law.
+status_lines:
+  - Linked, not reproduced. Find Case Law holds the current version of a judgment, and a judgment can be revised or withdrawn.
+  - Nothing here has official status, and neither the courts nor The National Archives endorse this use.
+conditions:
+  - 'The licence does not cover computational analysis, "including indexing by search engines". The publisher says that means automated or algorithmic processing of large numbers of judgments, including using AI or large language models, text mining, building vector databases and bulk programmatic searching. That needs a separate licence from The National Archives, which is free to apply for.'
+  - A judgment may be copied one at a time as it is needed. Remove a copy that Find Case Law no longer publishes or has replaced with a revised version, and use the current version.
+  - Comply with any judicial decision that restricts the use of personal data in a judgment. The licence is not a data sharing or processing agreement, so a re-user needs its own legal basis for the personal data.
+  - Do not mislead about a judgment or its source, present it without regard to the dignity of the courts, or use it in a way that jeopardises the administration of justice.
+  - No external indexing of documents. Follow robots.txt and the indexing directives on each document, and make a reasonable number of requests.
+not_covered:
+  - Emblems and insignia of the courts and tribunals
+  - Information that has not been published or disclosed under information access legislation
+  - Third party rights the licensor is not authorised to license
+  - Other intellectual property rights, including patents, trademarks and design rights
+evidence: The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The terms of use are marked last updated on 20 August 2024. No saved copy is filed yet; filing is tracked on TEC-746.
 notes: >-
-  Not yet verified for this register: nobody has re-read the terms of Find Case Law
-  for it, so it is link only here. The Legal Workflows product records its own
-  position for this source separately.
+  Verified and held at link only. Commercial reuse is allowed, including
+  putting judgments into a product, but an assistant reading judgment text is
+  computational analysis as the publisher describes it, and the licence does
+  not grant that. Judgments name people, so the data protection check comes
+  before anything more is done with them (TEC-763). An AI assistant working
+  for the reader retrieved and read the pages; the reader confirmed the record
+  and approved the attribution line on 20 November 2026.
+signal: yellow
