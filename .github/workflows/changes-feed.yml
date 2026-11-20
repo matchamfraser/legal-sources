@@ -62,7 +62,7 @@ jobs:
 
       - name: Build the feed
         env:
-          # Optional repository variable. Unset, the script sends a client name with no contact in it.
+          # Optional repository variable. Unset, the script sends a client name that points to this repository, with no email.
           CHANGES_FEED_USER_AGENT: ${{ vars.CHANGES_FEED_USER_AGENT }}
         run: |
           set -euo pipefail
