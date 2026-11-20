@@ -19,6 +19,7 @@ unchanged.
 | `tests/test_verified_register.py` | Offline tests for it. |
 | `.github/workflows/test-verified-register.yml` | Runs those tests on changes to the register. |
 | `FORK.md` and the note at the top of `README.md` | This notice. |
+| One condition each in `.github/workflows/cla.yml` and `refresh-dashboard.yml` | Stops upstream's two workflows running in this fork. See rule 4. |
 
 The additions are Copyright (C) 2026 Fraser Matcham and are under the same
 licence as the rest of the repository.
@@ -31,16 +32,24 @@ work came from.
 
 1. **Add, do not edit.** New work goes in new files and directories. Upstream's
    files are left alone wherever that is possible, so that taking upstream's
-   changes stays a clean merge. The one edit to an upstream file is the short
-   note at the top of `README.md`.
+   changes stays a clean merge. The edits to upstream files are the short
+   note at the top of `README.md` and the two workflow conditions in rule 4.
 2. **`LICENSE` is never altered or removed.**
 3. **Upstream's licence labels are leads.** Nothing in `verified/` is copied or
    inferred from `manifest.yaml`, `docs/licenses.json` or a `config.yaml`.
-4. **Upstream's workflows are left as they are.** `refresh-dashboard.yml` runs
-   on a schedule and pushes to `main`; GitHub does not run scheduled workflows
-   in a fork unless someone turns them on. Leave it off here: it would add
-   commits to `main` that upstream does not have. `cla.yml` asks contributors
-   to sign upstream's contributor agreement and does not apply to this fork.
+4. **Upstream's two workflows do not run here.** Each carries one added
+   condition, `github.repository == 'worldwidelaw/legal-sources'`, and nothing
+   else in them is changed.
+   - `cla.yml` asks contributors to sign upstream's contributor agreement. It
+     ran on this fork's first pull request and failed it, although that
+     agreement does not apply to work kept in the fork.
+   - `refresh-dashboard.yml` commits to `main` on a schedule and whenever
+     `sources/`, `manifest.yaml` or the dashboard scripts change on `main`.
+     Here that would fire on every merge from upstream and add commits to
+     `main` that upstream does not have.
+
+   If upstream edits either condition line, keep this fork's guard when
+   resolving the merge.
 
 ## Taking upstream's changes
 
