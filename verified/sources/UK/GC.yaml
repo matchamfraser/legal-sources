@@ -1,0 +1,22 @@
+id: UK/GC
+terms:
+- title: Gambling Commission, terms of use
+  url: https://www.gamblingcommission.gov.uk/terms-of-use
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: Gambling Commission website terms of use. All rights reserved; this is not the Open Government Licence.
+  url: https://www.gamblingcommission.gov.uk/terms-of-use
+commercial_use: not_allowed
+assistant_reading: not_granted
+storing_text: not_permitted
+linking: permitted
+conditions:
+- Copying any material on the site needs prior approval from the owner of the rights in it, unless the site states otherwise for that material.
+- No permission is needed to link to a page. The site's pages must not be loaded into frames on another site, and a link must not be taken as endorsement.
+not_covered:
+- Names, images and logos of the Commission and of third parties
+evidence: The page was retrieved on 20 November 2026 by an AI assistant working for the reader. The terms are marked last updated 14 October 2020. No saved copy is filed yet; filing is tracked on TEC-746.
+notes: 'Red: the publisher''s own terms, not an open licence. legal-sources labels this source "ogl-3.0". The terms of use do not mention the Open Government Licence. Regulatory actions name licence holders, so the data protection check would also apply (TEC-763). An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.'
+signal: red

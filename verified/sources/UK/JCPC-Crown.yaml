@@ -1,0 +1,35 @@
+id: UK/JCPC-Crown
+terms:
+- title: Open Justice Licence v2.0
+  url: https://caselaw.nationalarchives.gov.uk/open-justice-licence
+- title: Find Case Law, terms of use
+  url: https://caselaw.nationalarchives.gov.uk/terms-of-use
+- title: Find Case Law, when you need permission
+  url: https://caselaw.nationalarchives.gov.uk/when-you-need-permission
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: Open Justice Licence v2.0
+  url: https://caselaw.nationalarchives.gov.uk/open-justice-licence
+commercial_use: allowed
+assistant_reading: not_granted
+storing_text: permitted
+linking: permitted
+attribution_line: 'Judgment details from Find Case Law (caselaw.nationalarchives.gov.uk), The National Archives. Contains information licensed under the Open Justice - Licence v2.0. Linked, not reproduced: read the judgment on Find Case Law.'
+status_lines:
+- Linked, not reproduced. Find Case Law holds the current version of a judgment, and a judgment can be revised or withdrawn.
+- Nothing here has official status, and neither the courts nor The National Archives endorse this use.
+conditions:
+- The licence does not cover computational analysis, "including indexing by search engines". The publisher says that means automated or algorithmic processing of large numbers of judgments, including using AI or large language models. That needs a separate licence from The National Archives.
+- A judgment may be copied one at a time as it is needed. Remove a copy that Find Case Law no longer publishes or has replaced, and use the current version.
+- Comply with any judicial decision that restricts the use of personal data in a judgment. A re-user needs its own legal basis for the personal data.
+- No external indexing of documents. Follow robots.txt and make a reasonable number of requests.
+not_covered:
+- Emblems and insignia of the courts and tribunals
+- Information that has not been published or disclosed under information access legislation
+- Third party rights the licensor is not authorised to license
+- Other intellectual property rights, including patents, trademarks and design rights
+evidence: The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The terms of use are marked last updated on 20 August 2024. No saved copy is filed yet; filing is tracked on TEC-746.
+notes: Verified and held at link only. legal-sources labels this source "ogl-3.0", but it collects Privy Council decisions from Find Case Law, whose licence is the Open Justice Licence. The terms and the position are those recorded under UK/FindCaseLaw. Judgments name people, so the data protection check also applies (TEC-763). An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.
+signal: yellow

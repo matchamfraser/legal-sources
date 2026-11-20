@@ -12,13 +12,13 @@
     "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
   },
   "schema_version": 1,
-  "records_count": 36,
+  "records_count": 59,
   "latest_date_read": "2026-11-20",
   "signals": {
     "green": 1,
-    "double_yellow": 20,
-    "yellow": 14,
-    "red": 1
+    "double_yellow": 22,
+    "yellow": 29,
+    "red": 7
   },
   "records": [
     {
@@ -167,6 +167,152 @@
       }
     },
     {
+      "id": "UK/ASA",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: its website has no terms or copyright page that could be found from the home page on 20 November 2026, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding.",
+      "source": {
+        "name": "UK Advertising Standards Authority (ASA)",
+        "country": "UK",
+        "url": "https://www.asa.org.uk",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/AdjudicationPanelWales",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Copyright statement",
+          "url": "https://adjudicationpanel.gov.wales/copyright"
+        },
+        {
+          "title": "Terms and conditions",
+          "url": "https://adjudicationpanel.gov.wales/terms-and-conditions"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The decisions are about people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Material must be reproduced accurately and not used in a misleading context, with its source identified and its copyright status acknowledged.",
+        "Material identified as a third party's copyright is not covered: its owner's permission is needed.",
+        "Links are encouraged. The site's pages must not be loaded into frames on another site."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport",
+        "The tribunal's and the Welsh Government's logos, which need permission"
+      ],
+      "evidence": "The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the decision reports of the Adjudication Panel for Wales, on alleged breaches of councillors' codes of conduct. The site's copyright statement says most of its material is Crown copyright and may be re-used free of charge under the Open Government Licence. The licence does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. The five Welsh tribunal websites in the register carry the same statement and terms. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "The Adjudication Panel for Wales — Decision Reports",
+        "country": "UK",
+        "url": "https://adjudicationpanel.gov.wales/decisions",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/AgriculturalLandTribunalWales",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Copyright statement",
+          "url": "https://agriculturallandtribunal.gov.wales/copyright"
+        },
+        {
+          "title": "Terms and conditions",
+          "url": "https://agriculturallandtribunal.gov.wales/terms-and-conditions"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The decisions are about people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Material must be reproduced accurately and not used in a misleading context, with its source identified and its copyright status acknowledged.",
+        "Material identified as a third party's copyright is not covered: its owner's permission is needed.",
+        "Links are encouraged. The site's pages must not be loaded into frames on another site."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport",
+        "The tribunal's and the Welsh Government's logos, which need permission"
+      ],
+      "evidence": "The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the decisions of the Agricultural Land Tribunal for Wales. The site's copyright statement says most of its material is Crown copyright and may be re-used free of charge under the Open Government Licence. The licence does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. The five Welsh tribunal websites in the register carry the same statement and terms. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "Agricultural Land Tribunal for Wales — Decisions",
+        "country": "UK",
+        "url": "https://agriculturallandtribunal.gov.wales/decisions",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
       "id": "UK/AsylumSupport",
       "signal": "yellow",
       "verified": true,
@@ -223,6 +369,79 @@
         "name": "First-tier Tribunal (Social Entitlement Chamber) — Asylum Support Decisions",
         "country": "UK",
         "url": "https://www.gov.uk/asylum-support-tribunal-decisions",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/CAA",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: its website policies page lists no copyright or re-use terms that could be found on 20 November 2026, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding.",
+      "source": {
+        "name": "UK Civil Aviation Authority (CAA)",
+        "country": "UK",
+        "url": "https://www.caa.co.uk",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/CAT",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Competition Appeal Tribunal, copyright notice",
+          "url": "https://www.catribunal.org.uk/copyright-notice"
+        },
+        {
+          "title": "Competition Appeal Tribunal, disclaimer",
+          "url": "https://www.catribunal.org.uk/disclaimer"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Competition Appeal Tribunal copyright notice. All rights reserved; this is not the Open Government Licence.",
+        "url": "https://www.catribunal.org.uk/copyright-notice"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "Text and images may be downloaded or printed for private reference, research and study. Any other use needs an application to the Competition Service.",
+        "A link to a page is permitted if the browser window shows nothing but that page and its address, and none of the information is modified."
+      ],
+      "not_covered": [
+        "Content of external websites the site links to"
+      ],
+      "evidence": "The two pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Red: the publisher's own terms, not an open licence. legal-sources labels this source \"ogl-3.0\". The copyright notice does not mention the Open Government Licence: it says the copyright is held by the Tribunal and the Competition Service. The judgments also name parties. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Competition Appeal Tribunal",
+        "country": "UK",
+        "url": "https://www.catribunal.org.uk",
         "data_types": [
           "case_law"
         ]
@@ -544,6 +763,34 @@
       }
     },
     {
+      "id": "UK/EC",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: its website refused the request for its pages on 20 November 2026, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding.",
+      "source": {
+        "name": "UK Electoral Commission",
+        "country": "UK",
+        "url": "https://www.electoralcommission.org.uk",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
       "id": "UK/ET",
       "signal": "yellow",
       "verified": true,
@@ -602,6 +849,109 @@
         "url": "https://www.gov.uk/employment-tribunal-decisions",
         "data_types": [
           "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/EducationTribunalWales",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Copyright statement",
+          "url": "https://educationtribunal.gov.wales/copyright"
+        },
+        {
+          "title": "Terms and conditions",
+          "url": "https://educationtribunal.gov.wales/terms-and-conditions"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The decisions are about people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Material must be reproduced accurately and not used in a misleading context, with its source identified and its copyright status acknowledged.",
+        "Material identified as a third party's copyright is not covered: its owner's permission is needed.",
+        "Links are encouraged. The site's pages must not be loaded into frames on another site."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport",
+        "The tribunal's and the Welsh Government's logos, which need permission"
+      ],
+      "evidence": "The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the decisions of the Education Tribunal for Wales on additional learning needs. legal-sources describes them as anonymised; they concern children, and are held all the same. The site's copyright statement says most of its material is Crown copyright and may be re-used free of charge under the Open Government Licence. The licence does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. The five Welsh tribunal websites in the register carry the same statement and terms. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "Education Tribunal for Wales — Decisions",
+        "country": "UK",
+        "url": "https://educationtribunal.gov.wales/decisions",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/FCA",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "FCA, legal information (terms, copyright notice and disclaimer)",
+          "url": "https://www.fca.org.uk/legal"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "FCA website terms and copyright notice. All rights reserved for the website; this is not the Open Government Licence.",
+        "url": "https://www.fca.org.uk/legal"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "Extracts may be printed and downloaded for personal use or for use within one firm or organisation. They must not be distributed, sold or circulated to third parties, or modified.",
+        "No part of the site may be reproduced or stored in another website, or in any public or private electronic retrieval system or service, without the FCA's prior written permission.",
+        "No scraper, robot, spider, data mining or other automated tool may be used on the site without the FCA's prior written consent.",
+        "The source must be acknowledged in all copies.",
+        "The FCA Handbook is different: the page says its content can be reproduced and adapted under the Open Government Licence v3.0 and the Handbook's own terms and conditions, which were not read for this record."
+      ],
+      "not_covered": [
+        "Parliamentary material, third party stock images and other material marked as someone else's"
+      ],
+      "evidence": "The page was retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Red: the publisher's own terms, not an open licence. legal-sources labels this source \"ogl-3.0\" and collects the FCA's decision and final notices from fca.org.uk. The site's terms apply the Open Government Licence only where it is expressly stated, and to the Handbook. The notices name firms and individuals, so the data protection check would also apply (TEC-763). The page says nothing about links to the FCA's site. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Financial Conduct Authority (FCA)",
+        "country": "UK",
+        "url": "https://www.fca.org.uk",
+        "data_types": [
+          "doctrine"
         ]
       }
     },
@@ -785,6 +1135,47 @@
         "url": "https://caselaw.nationalarchives.gov.uk/",
         "data_types": [
           "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/GC",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Gambling Commission, terms of use",
+          "url": "https://www.gamblingcommission.gov.uk/terms-of-use"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Gambling Commission website terms of use. All rights reserved; this is not the Open Government Licence.",
+        "url": "https://www.gamblingcommission.gov.uk/terms-of-use"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "Copying any material on the site needs prior approval from the owner of the rights in it, unless the site states otherwise for that material.",
+        "No permission is needed to link to a page. The site's pages must not be loaded into frames on another site, and a link must not be taken as endorsement."
+      ],
+      "not_covered": [
+        "Names, images and logos of the Commission and of third parties"
+      ],
+      "evidence": "The page was retrieved on 20 November 2026 by an AI assistant working for the reader. The terms are marked last updated 14 October 2020. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Red: the publisher's own terms, not an open licence. legal-sources labels this source \"ogl-3.0\". The terms of use do not mention the Open Government Licence. Regulatory actions name licence holders, so the data protection check would also apply (TEC-763). An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Gambling Commission",
+        "country": "UK",
+        "url": "https://www.gamblingcommission.gov.uk",
+        "data_types": [
+          "doctrine"
         ]
       }
     },
@@ -1103,6 +1494,66 @@
       }
     },
     {
+      "id": "UK/ICO",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "ICO, copyright and re-use of materials",
+          "url": "https://ico.org.uk/global/copyright-and-re-use-of-materials/"
+        },
+        {
+          "title": "ICO, disclaimer",
+          "url": "https://ico.org.uk/global/disclaimer/"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Information Commission’s Office, [name and date of publication], licensed under the Open Government Licence. Extract only. The ICO's website has the latest version.",
+      "status_lines": [
+        "The ICO updates its guidance from time to time and recommends using the latest version on its website.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Text only. Images are not covered: in most cases a third party holds their copyright, and the ICO grants no right to re-use them.",
+        "The attribution is the one the ICO gives, with the name and date of the publication filled in for each document: \"Information Commission’s Office, [name and date of publication], licensed under the Open Government Licence.\"",
+        "The site says \"except where otherwise stated\": check each document.",
+        "Enforcement notices and decisions can name individuals. Personal data is outside the licence, so those documents wait for the data protection check (TEC-763)."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport",
+        "The ICO's logos, whose use the ICO says signifies its approval and needs its consent"
+      ],
+      "evidence": "The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "The ICO's page says \"All text content on this website is available under the Open Government Licence (OGL) v3.0, except where otherwise stated\", and gives the attribution to use. The wording of that attribution is the page's own, including \"Information Commission’s Office\". The pages read set no condition on linking to the site and ask for no permission, so linking is recorded as permitted on that basis; they also say nothing about automated access. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record, approved the attribution line and accepted that basis for the linking position on 20 November 2026.",
+      "source": {
+        "name": "UK Information Commissioner (ICO)",
+        "country": "UK",
+        "url": "https://ico.org.uk",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
       "id": "UK/IPO-Designs",
       "signal": "yellow",
       "verified": true,
@@ -1159,6 +1610,148 @@
         "name": "UK Intellectual Property Office — Registered Design Hearing Decisions",
         "country": "UK",
         "url": "https://www.gov.uk/designs-decisions",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/IPSO",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: its website refused the request for its terms page on 20 November 2026, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding.",
+      "source": {
+        "name": "UK Press Standards Organisation",
+        "country": "UK",
+        "url": "https://www.ipso.co.uk",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/JCPC-Crown",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Open Justice Licence v2.0",
+          "url": "https://caselaw.nationalarchives.gov.uk/open-justice-licence"
+        },
+        {
+          "title": "Find Case Law, terms of use",
+          "url": "https://caselaw.nationalarchives.gov.uk/terms-of-use"
+        },
+        {
+          "title": "Find Case Law, when you need permission",
+          "url": "https://caselaw.nationalarchives.gov.uk/when-you-need-permission"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Justice Licence v2.0",
+        "url": "https://caselaw.nationalarchives.gov.uk/open-justice-licence"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Judgment details from Find Case Law (caselaw.nationalarchives.gov.uk), The National Archives. Contains information licensed under the Open Justice - Licence v2.0. Linked, not reproduced: read the judgment on Find Case Law.",
+      "status_lines": [
+        "Linked, not reproduced. Find Case Law holds the current version of a judgment, and a judgment can be revised or withdrawn.",
+        "Nothing here has official status, and neither the courts nor The National Archives endorse this use."
+      ],
+      "conditions": [
+        "The licence does not cover computational analysis, \"including indexing by search engines\". The publisher says that means automated or algorithmic processing of large numbers of judgments, including using AI or large language models. That needs a separate licence from The National Archives.",
+        "A judgment may be copied one at a time as it is needed. Remove a copy that Find Case Law no longer publishes or has replaced, and use the current version.",
+        "Comply with any judicial decision that restricts the use of personal data in a judgment. A re-user needs its own legal basis for the personal data.",
+        "No external indexing of documents. Follow robots.txt and make a reasonable number of requests."
+      ],
+      "not_covered": [
+        "Emblems and insignia of the courts and tribunals",
+        "Information that has not been published or disclosed under information access legislation",
+        "Third party rights the licensor is not authorised to license",
+        "Other intellectual property rights, including patents, trademarks and design rights"
+      ],
+      "evidence": "The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The terms of use are marked last updated on 20 August 2024. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. legal-sources labels this source \"ogl-3.0\", but it collects Privy Council decisions from Find Case Law, whose licence is the Open Justice Licence. The terms and the position are those recorded under UK/FindCaseLaw. Judgments name people, so the data protection check also applies (TEC-763). An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "Judicial Committee of the Privy Council (Crown Dependencies)",
+        "country": "UK",
+        "url": "https://caselaw.nationalarchives.gov.uk",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/JudiciaryNI",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Judiciary NI, Crown copyright",
+          "url": "https://www.judiciaryni.uk/crown-copyright"
+        },
+        {
+          "title": "Judiciary NI, terms and conditions",
+          "url": "https://www.judiciaryni.uk/terms-and-conditions"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The judgments name people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Material used under the licence must be acknowledged as Crown copyright, with the title of the source document or publication.",
+        "Logos and images, the site's own or a third party's, may not be copied without the owner's approval."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport"
+      ],
+      "evidence": "The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the decisions of the Northern Ireland courts and reserved tribunals. The site says its material is Crown copyright and licensed under the Open Government Licence unless otherwise indicated. The licence does not cover the personal data in a judgment, so whether an assistant may read these is left open here and no attribution line is set. The pages read say nothing about linking to the site. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "Judiciary of Northern Ireland — Judicial Decisions",
+        "country": "UK",
+        "url": "https://www.judiciaryni.uk/judicial-decisions",
         "data_types": [
           "case_law"
         ]
@@ -1419,6 +2012,50 @@
       }
     },
     {
+      "id": "UK/NAO",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "National Audit Office, copyright statement",
+          "url": "https://www.nao.org.uk/about-us/copyright-statement/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "National Audit Office copyright statement. Non-commercial use only; this is not the Open Government Licence.",
+        "url": "https://www.nao.org.uk/about-us/copyright-statement/"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "National Audit Office material may be copied for non-commercial purposes only: research, private study, or limited internal circulation for review. It must be acknowledged, reproduced with complete accuracy and not used in a misleading context.",
+        "Any other use, including for commercial gain, needs the Office's express permission.",
+        "Crown copyright information on the site is under the Open Government Licence; Parliamentary copyright material may need its own licence.",
+        "Links to pages are allowed. A linked page must load in the whole window, not in a frame."
+      ],
+      "not_covered": [
+        "Third party copyright material",
+        "The NAO logo and related logos"
+      ],
+      "evidence": "The page was retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Red: the publisher's own terms, not an open licence. legal-sources labels this source \"ogl-3.0\" and collects the Office's audit reports, which are the Office's own copyright. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK National Audit Office",
+        "country": "UK",
+        "url": "https://www.nao.org.uk",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
       "id": "UK/NCA",
       "signal": "double_yellow",
       "verified": true,
@@ -1476,6 +2113,59 @@
         "name": "UK National Crime Agency (AML Unit)",
         "country": "UK",
         "url": "https://www.nationalcrimeagency.gov.uk",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/ONR",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Office for Nuclear Regulation, copyright",
+          "url": "https://www.onr.org.uk/access-to-information/copyright"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Office for Nuclear Regulation guidance from onr.org.uk. Contains public sector information published by the Office for Nuclear Regulation and licensed under the Open Government Licence v3.0. Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Some images, illustrations and multimedia material are not owned by the Office and cannot be reproduced without their owner's permission.",
+        "The site says its information is under copyright protection \"unless otherwise indicated\": check each document."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport",
+        "The Office's logos, which need its prior written permission"
+      ],
+      "evidence": "The two pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "The copyright page says the material on the website may be used and reused free of charge under the Open Government Licence, and gives a preferred acknowledgement, which is used in the attribution line. The Office is not a Crown body; the copyright is its own. The page sets no condition on linking to the site and asks for no permission, so linking is recorded as permitted on that basis; it also says nothing about automated access. legal-sources also collects some of this source from GOV.UK, whose terms are recorded on the GOV.UK sources. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record, approved the attribution line and accepted that basis for the linking position on 20 November 2026.",
+      "source": {
+        "name": "UK Office for Nuclear Regulation (ONR)",
+        "country": "UK",
+        "url": "https://www.onr.org.uk",
         "data_types": [
           "doctrine"
         ]
@@ -1734,6 +2424,104 @@
       }
     },
     {
+      "id": "UK/PHSO",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: its website has no terms or copyright page that could be found on 20 November 2026, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding.",
+      "source": {
+        "name": "UK Parliamentary and Health Service Ombudsman",
+        "country": "UK",
+        "url": "https://decisions.ombudsman.org.uk",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/PRA",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Bank of England, legal (terms of use)",
+          "url": "https://www.bankofengland.co.uk/legal"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Bank of England website terms. Non-commercial personal or internal use; this is not the Open Government Licence.",
+        "url": "https://www.bankofengland.co.uk/legal"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "The site's resources may be downloaded, displayed or printed for personal use, or internal use within one organisation, for non-commercial purposes. Other re-use needs the Bank's permission.",
+        "A link is allowed if it is fair and legal and suggests no association, approval or endorsement. It may only be placed on a website the linker owns, the site must not be framed, and the Bank may withdraw the permission.",
+        "The PRA Rulebook has its own terms of use, which were not read for this record. Data in the Bank's statistical database is under the Open Government Licence, with exceptions."
+      ],
+      "not_covered": [
+        "Third party copyright material, which stays with its owner"
+      ],
+      "evidence": "The page was retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Red: the publisher's own terms, not an open licence. legal-sources labels this source \"ogl-3.0\" and collects PRA policy statements, supervisory statements, consultation papers and letters from bankofengland.co.uk. The Bank's terms say the copyright in the site's contents is owned by the Governor and Company of the Bank of England. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Prudential Regulation Authority (PRA)",
+        "country": "UK",
+        "url": "https://www.bankofengland.co.uk/prudential-regulation",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "UK/PlanningAppeals",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: the appeals casework portal's terms are a separate document, which was not read on 20 November 2026, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding.",
+      "source": {
+        "name": "UK Planning Appeal Decisions",
+        "country": "UK",
+        "url": "https://acp.planninginspectorate.gov.uk",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
       "id": "UK/RPB",
       "signal": "double_yellow",
       "verified": true,
@@ -1859,6 +2647,65 @@
       }
     },
     {
+      "id": "UK/RPTWales",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Copyright statement",
+          "url": "https://residentialpropertytribunal.gov.wales/copyright"
+        },
+        {
+          "title": "Terms and conditions",
+          "url": "https://residentialpropertytribunal.gov.wales/terms-and-conditions"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The decisions are about people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Material must be reproduced accurately and not used in a misleading context, with its source identified and its copyright status acknowledged.",
+        "Material identified as a third party's copyright is not covered: its owner's permission is needed.",
+        "Links are encouraged. The site's pages must not be loaded into frames on another site."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport",
+        "The tribunal's and the Welsh Government's logos, which need permission"
+      ],
+      "evidence": "The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the decisions of the Residential Property Tribunal Wales. The site's copyright statement says most of its material is Crown copyright and may be re-used free of charge under the Open Government Licence. The licence does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. The five Welsh tribunal websites in the register carry the same statement and terms. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "Residential Property Tribunal Wales — Decisions",
+        "country": "UK",
+        "url": "https://residentialpropertytribunal.gov.wales/decisions",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
       "id": "UK/SRA",
       "signal": "red",
       "verified": true,
@@ -1968,6 +2815,47 @@
         "url": "https://www.gov.uk/government/organisations/office-of-the-schools-adjudicator",
         "data_types": [
           "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/TPR",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "The Pensions Regulator, terms and conditions",
+          "url": "https://www.thepensionsregulator.gov.uk/website-policies/terms-and-conditions"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "The Pensions Regulator website terms and conditions. Personal non-commercial use; this is not the Open Government Licence.",
+        "url": "https://www.thepensionsregulator.gov.uk/website-policies/terms-and-conditions"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "The website is made available for personal non-commercial use. Any use of its materials must acknowledge the regulator as the source and is subject to the intellectual property rights in them.",
+        "No permission is needed to link to the site. A link must not suggest association with, or endorsement by, The Pensions Regulator."
+      ],
+      "not_covered": [
+        "Materials licensed to the regulator by others"
+      ],
+      "evidence": "The page was retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Red: the publisher's own terms, not an open licence. legal-sources labels this source \"ogl-3.0\". The terms and conditions do not mention the Open Government Licence. Enforcement reports can name people, so the data protection check would also apply (TEC-763). An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "UK Pensions Regulator",
+        "country": "UK",
+        "url": "https://www.thepensionsregulator.gov.uk",
+        "data_types": [
+          "doctrine"
         ]
       }
     },
@@ -2153,6 +3041,146 @@
         "name": "Traffic Commissioners for Great Britain — Regulatory Decisions",
         "country": "UK",
         "url": "https://www.gov.uk/traffic-commissioner-regulatory-decisions",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/ValuationTribunalEngland",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Valuation Tribunal Service, copyright",
+          "url": "https://valuationtribunal.gov.uk/copyright/"
+        },
+        {
+          "title": "Valuation Tribunal Service, terms of use",
+          "url": "https://valuationtribunal.gov.uk/terms-of-use/"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Valuation Tribunal Service copyright statement, which refers to the Open Government Licence v3.0, and website terms of use, which restrict use",
+        "url": "https://valuationtribunal.gov.uk/copyright/"
+      },
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The site's two pages disagree. The copyright page says its material may be re-used free of charge in any format, and points to the Open Government Licence. The terms of use say the website is for non-commercial, personal use only and that nothing may be reproduced without the Service's written agreement. Until the Service says which governs, commercial use is not recorded as allowed.",
+        "The decisions are about named taxpayers and ratepayers. The data protection check comes before any text is read (TEC-763).",
+        "Where material is re-used it must be accurate, not misleading, and acknowledged as Valuation Tribunal Service copyright with the title of the source document."
+      ],
+      "not_covered": [
+        "Logos, photographs and video",
+        "Third party copyright material"
+      ],
+      "evidence": "The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the determinations of the Valuation Tribunal for England, collected from the Service's appeal search site. The copyright page encourages links to the website. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "Valuation Tribunal for England (VTE) — Decisions",
+        "country": "UK",
+        "url": "https://appealsearch.valuationtribunal.gov.uk/",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/ValuationTribunalWales",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: its website has no terms or copyright page that could be found on 20 November 2026, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding.",
+      "source": {
+        "name": "Valuation Tribunal for Wales — Decisions",
+        "country": "UK",
+        "url": "https://valuationtribunalwales.net/",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "UK/WelshLanguageTribunal",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Copyright statement",
+          "url": "https://welshlanguagetribunal.gov.wales/copyright"
+        },
+        {
+          "title": "Terms and conditions",
+          "url": "https://welshlanguagetribunal.gov.wales/terms-and-conditions"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "date_read": "2026-11-20",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-20",
+      "licence": {
+        "name": "Open Government Licence v3.0",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The decisions are about people, and personal data is outside the Open Government Licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Material must be reproduced accurately and not used in a misleading context, with its source identified and its copyright status acknowledged.",
+        "Material identified as a third party's copyright is not covered: its owner's permission is needed.",
+        "Links are encouraged. The site's pages must not be loaded into frames on another site."
+      ],
+      "not_covered": [
+        "Personal data in the information",
+        "Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset",
+        "Military insignia",
+        "Third party rights the information provider is not authorised to license",
+        "Other intellectual property rights, including patents, trade marks and design rights",
+        "Identity documents such as the British passport",
+        "The tribunal's and the Welsh Government's logos, which need permission"
+      ],
+      "evidence": "The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the decisions of the Welsh Language Tribunal. The site's copyright statement says most of its material is Crown copyright and may be re-used free of charge under the Open Government Licence. The licence does not cover the personal data in a decision, so whether an assistant may read these is left open here and no attribution line is set. The five Welsh tribunal websites in the register carry the same statement and terms. An AI assistant working for the reader retrieved and read the pages; the reader confirmed the record on 20 November 2026.",
+      "source": {
+        "name": "Welsh Language Tribunal (Tribiwnlys y Gymraeg) — Decisions",
+        "country": "UK",
+        "url": "https://welshlanguagetribunal.gov.wales/decisions",
         "data_types": [
           "case_law"
         ]
