@@ -1,6 +1,41 @@
 id: UK/SRA
-signal: yellow
+terms:
+  - title: SRA, terms and conditions of service
+    url: https://www.sra.org.uk/sra/how-we-work/terms-conditions-service/
+  - title: SRA, publication scheme (how the information can be used, and copyright)
+    url: https://www.sra.org.uk/sra/how-we-work/privacy-data-information/disclosure-policy/publication/
+  - title: SRA Standards and Regulations, terms of use
+    url: https://www.sra.org.uk/sra/how-we-work/privacy-data-information/sra-standards-regulations-terms/
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: SRA website terms and conditions of service. All rights reserved; this is not the Open Government Licence.
+  url: https://www.sra.org.uk/sra/how-we-work/terms-conditions-service/
+commercial_use: not_allowed
+assistant_reading: not_granted
+storing_text: not_permitted
+linking: permitted
+conditions:
+  - Extracts may be used for review, discussion, academic study and other legitimate pursuits without asking, if the information is used fairly and the source is acknowledged.
+  - 'Entire sections of the SRA Standards and Regulations may be reproduced only under their own terms of use: tell the SRA first, by email, which publication they will appear in; use the latest version, accurately, with its version and the date it was taken; and carry the SRA''s notice, which begins "This work is owned by and published under licence from the Solicitors Regulation Authority".'
+  - The SRA says it will pursue any use of its material for commercial gain or to misrepresent its regulatory position.
+not_covered:
+  - Trade marks, service marks and trade names, and the SRA's motifs, designs and logos
+  - Rights of third parties, which the SRA does not warrant
+evidence: The three pages were retrieved on 20 November 2026 by an AI assistant working for the reader. The publication scheme is marked last updated 17 March 2026 and the Standards and Regulations terms are dated October 2020. No saved copy is filed yet; filing is tracked on TEC-746.
 notes: >-
-  Not yet verified for this register: nobody has re-read the terms of the SRA
-  for it, so it is link only here. The Legal Workflows product records its own
-  position for this source separately.
+  Red: the SRA's own terms, not an open licence. legal-sources labels this
+  source "ogl-3.0"; none of the pages read mentions the Open Government
+  Licence, and the terms of service say material on the website may not be
+  reproduced or "used for any public or commercial purposes". Linking needs no
+  permission. In legal-sources this source is the SRA's regulatory decisions
+  and Solicitors Disciplinary Tribunal decisions, which name individuals, so
+  it is also flagged for the data protection check (TEC-763). The Tribunal is
+  a separate body with its own website, whose terms were not read for this
+  record. The terms for reproducing the Standards and Regulations are a
+  separate, notify-first licence; a product that reproduces them relies on
+  that licence, not on this record. An AI assistant working for the reader
+  retrieved and read the pages; the reader confirmed the record on
+  20 November 2026.
+signal: red

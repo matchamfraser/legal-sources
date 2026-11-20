@@ -104,6 +104,21 @@ Workflows pilot uses. Reading the terms changed the picture in three places:
   allows commercial reuse, and is still link only here, because no attribution
   line is approved for it and its case law names people.
 
+Three United Kingdom sources were read later the same day:
+
+- **`UK/LegislationGovUK`** (and `UK/Legislation`, the same site listed twice).
+  The Open Government Licence v3.0 applies, as labelled, but "except where
+  otherwise stated": legislation originating from the EU needs a second
+  acknowledgement, and two contributed collections carry their own
+  attributions. Automated access has a fair use policy. Double yellow.
+- **`UK/FindCaseLaw`.** The Open Justice Licence v2.0 allows commercial reuse
+  and does not cover computational analysis, which the publisher says includes
+  using AI or large language models. Verified, and link only.
+- **`UK/SRA`.** legal-sources labels it "ogl-3.0". The SRA's pages do not
+  mention the Open Government Licence, and its terms of service say website
+  material may not be used for commercial purposes. Red. It is the first
+  record where the label was not merely imprecise but pointed the wrong way.
+
 Four sources the product uses have no id in `manifest.yaml` (Companies House,
 GLEIF, the UK sanctions list and the gov.uk bank holidays feed), so they
 cannot have a record here.

@@ -1,6 +1,57 @@
 id: UK/LegislationGovUK
-signal: yellow
+terms:
+  - title: Open Government Licence v3.0
+    url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+  - title: legislation.gov.uk, contributors and re-using data derived from EUR-Lex
+    url: https://www.legislation.gov.uk/contributors
+  - title: legislation.gov.uk, fair use policy
+    url: https://www.legislation.gov.uk/fair-use-policy
+  - title: legislation.gov.uk, help (what is published and how up to date it is)
+    url: https://www.legislation.gov.uk/help
+date_read: 2026-11-20
+read_by: Fraser Matcham
+review_by: 2027-05-20
+licence:
+  name: Open Government Licence v3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: >-
+  UK legislation from legislation.gov.uk, published by The National Archives.
+  © Crown and database right. Contains public sector information licensed
+  under the Open Government Licence v3.0. Extract only. Revised text may have
+  changes still to be applied; see the changes noted on legislation.gov.uk.
+status_lines:
+  - Revised legislation may have changes that have not yet been applied. legislation.gov.uk aims to apply an amendment within three months of its coming into force, and says with each item whether changes are outstanding.
+  - An original version (as enacted or as made) has had no changes applied to it.
+  - Extract only, where a single section or a capped passage is shown.
+conditions:
+  - 'Legislation originating from the EU is derived from EUR-Lex and has a second set of terms. Acknowledge both sources and claim no official endorsement. The site suggests: "Crown © and database right material re-used under the Open Government Licence. Material derived from the European Institutions © European Union, 1998-2019 and re-used under the terms of the Commission Decision 2011/833/EU."'
+  - 'Statutory instruments, rules and orders made before 1987 that Westlaw UK contributed carry the attribution "Westlaw UK derived from Crown Copyright material and contributed to legislation.gov.uk". They are in their original form only.'
+  - 'Statutes of the Realm (1235 to 1713) contributed by British History Online carry the attribution "British History Online derived from Crown Copyright material and contributed to legislation.gov.uk".'
+  - Automated access follows the site's fair use policy. Send a user agent with a clear identifier (anonymous ones are refused, and contact details are strongly recommended), follow robots.txt, and stay under 1,500 requests in any 5 minutes. For new legislation, use the publisher's feeds and not a crawl.
+not_covered:
+  - Personal data in the information
+  - Departmental or public sector logos, crests and the Royal Arms, except where they form an integral part of a document or dataset
+  - Military insignia
+  - Third party rights the information provider is not authorised to license
+  - Other intellectual property rights, including patents, trade marks and design rights
+  - Identity documents such as the British passport
+evidence: The four pages were retrieved on 20 November 2026 by an AI assistant working for the reader. No saved copy is filed yet; filing is tracked on TEC-746.
 notes: >-
-  Not yet verified for this register: nobody has re-read the terms of legislation.gov.uk
-  for it, so it is link only here. The Legal Workflows product records its own
-  position for this source separately.
+  The footer of legislation.gov.uk says "All content is available under the
+  Open Government Licence v3.0 except where otherwise stated", and that the
+  site also contains content derived from EUR-Lex. The contributors page is
+  where the exceptions are stated. The licence allows copying, publishing,
+  adapting and commercial use, including in a product or application; nothing
+  on the pages read restricts automated analysis, and the fair use policy
+  welcomes downloading data for re-use. The site gives no attribution
+  statement of its own for UK legislation, so the licence's default statement
+  is used inside the attribution line. The help page says legislation.gov.uk
+  is the official place of publication for newly enacted legislation. An AI
+  assistant working for the reader retrieved and read the pages; the reader
+  confirmed the record and approved the attribution line on 20 November 2026.
+  legal-sources lists this site twice; UK/Legislation is the same record.
+signal: double_yellow
