@@ -1,0 +1,1804 @@
+{
+ "_notice": {
+  "title": "Changes feed for official legal sources",
+  "what_this_is": "Titles, identifiers, dates and links for legislation an official publisher has newly published or newly consolidated. It holds no text of any document. It is information, not legal advice, and it is not a complete or official list: follow the link and rely on the publisher.",
+  "credits": "Titles, identifiers and dates are each publisher's. Show the attribution_line given under sources for every source whose items you show. No publisher endorses this feed.",
+  "licence": "GNU Affero General Public License, version 3 or any later version",
+  "licence_url": "https://www.gnu.org/licenses/agpl-3.0.html",
+  "copyright": [
+   "Source ids and names: Copyright (C) 2025 World Wide Law Contributors (legal-sources, https://github.com/worldwidelaw/legal-sources).",
+   "Verification records and this compilation: Copyright (C) 2026 Fraser Matcham."
+  ],
+  "source": "https://github.com/matchamfraser/legal-sources",
+  "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
+ },
+ "schema_version": 1,
+ "generated_at": "2026-11-20T14:38:41Z",
+ "window_days": 90,
+ "sources": {
+  "EU/ConsolidatedLegislation": {
+   "name": "EU — Consolidated Legislation (In-force Texts)",
+   "country": "EU",
+   "signal": "double_yellow",
+   "attribution_line": "EU legislation from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Consolidated texts are reused under CC BY 4.0. Extract only. Only the Official Journal of the European Union is authentic.",
+   "licence": {
+    "name": "EUR-Lex legal notice; consolidated texts under Creative Commons Attribution 4.0 International",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+   },
+   "status_lines": [
+    "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+    "Extract only, where a single article or a capped passage is shown."
+   ],
+   "conditions": [
+    "Documents with special conditions are title and link only: CELEX 32023R1803 and 32008R1126 (international accounting standards), every consolidated version of them, and any regulation whose title says it adopts or amends international accounting standards.",
+    "Third-party works inside a document, and content showing identifiable private individuals, may need their own permission."
+   ],
+   "date_read": "2026-11-20",
+   "review_by": "2027-05-20",
+   "ok": true,
+   "error": null,
+   "checked_at": "2026-11-20T14:38:41Z",
+   "last_success": "2026-11-20T14:38:41Z",
+   "items_count": 147
+  },
+  "IE/Acts": {
+   "name": "Irish Statute Database",
+   "country": "IE",
+   "signal": "green",
+   "attribution_line": "Irish legislation from the electronic Irish Statute Book (irishstatutebook.ie), produced by the Office of the Attorney General. © Houses of the Oireachtas. Reused under the Oireachtas (Public Sector Information – Open Data) Licence, which incorporates CC BY 4.0. Extract only. Publication does not mean a provision is in force; see the Irish Statute Book disclaimer.",
+   "licence": {
+    "name": "Oireachtas (Public Sector Information – Open Data) Licence, incorporating Creative Commons Attribution 4.0 International",
+    "url": "https://www.oireachtas.ie/en/open-data/license/"
+   },
+   "status_lines": [
+    "As enacted or as made, not revised.",
+    "Publication of legislation on the Irish Statute Book does not indicate that a provision was, or is currently, in force.",
+    "Extract only, where a single section or a capped passage is shown."
+   ],
+   "conditions": [],
+   "date_read": "2026-11-20",
+   "review_by": "2027-05-20",
+   "ok": true,
+   "error": null,
+   "checked_at": "2026-11-20T14:38:41Z",
+   "last_success": "2026-11-20T14:38:41Z",
+   "items_count": 40
+  }
+ },
+ "skipped": {},
+ "truncated": false,
+ "items_count": 187,
+ "items": [
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/588",
+   "kind": "statutory_instrument",
+   "title": "Local Community Development Committee (Section 128E) (Amendment) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/588/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/587",
+   "kind": "statutory_instrument",
+   "title": "The Solicitors Acts 1954 to 2015 (Apprentices’ Fees) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/587/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/586",
+   "kind": "statutory_instrument",
+   "title": "Planning and Development (Amendment) Act 2026 (Commencement) (No. 3) Order 2026.",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/586/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/585",
+   "kind": "statutory_instrument",
+   "title": "Statistics (Census of Population) Order 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/585/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/584",
+   "kind": "statutory_instrument",
+   "title": "European Union (Restrictive Measures concerning Ukraine) (No. 16) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/584/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/583",
+   "kind": "statutory_instrument",
+   "title": "European Union (Restrictive Measures concerning Russia) (No. 10) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/583/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/582",
+   "kind": "statutory_instrument",
+   "title": "European Union (Restrictive Measures against Cyber-attacks threatening the Union or its Member States) (No. 4) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/582/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/581",
+   "kind": "statutory_instrument",
+   "title": "European Union (Restrictive Measures concerning Hamas and the Palestinian Islamic Jihad)(No.3) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/581/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/580",
+   "kind": "statutory_instrument",
+   "title": "European Union (Restrictive Measures Against Serious Human Rights Violations and Abuses) (No. 4) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/580/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/579",
+   "kind": "statutory_instrument",
+   "title": "Protection of Young Persons (Employment in Food and Beverage Services Sector) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/579/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/578",
+   "kind": "statutory_instrument",
+   "title": "National Archives Act 1986 (Section 8(1A)) (Transfer of Departmental Records) (No. 2) Order 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/578/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/577",
+   "kind": "statutory_instrument",
+   "title": "National Archives Act 1986 (Section 8(1A)) (Transfer of Departmental Records) Order 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/577/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/576",
+   "kind": "statutory_instrument",
+   "title": "Environment (Miscellaneous Provisions) Act 2026 (Commencement) (No. 2) Order 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/576/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/575",
+   "kind": "statutory_instrument",
+   "title": "Avian Influenza (Biosecurity measures) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/575/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/574",
+   "kind": "statutory_instrument",
+   "title": "Criminal Justice (Terrorist Offences) Act 2005 (Section 42) (Restrictive Measures concerning Certain Persons and Entities Associated with the ISIL (Da’esh) and Al-Qaida Organisations) (No. 10) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/574/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/573",
+   "kind": "statutory_instrument",
+   "title": "International Protection Act 2026 (Section 63) (Age Assessment) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/573/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/572",
+   "kind": "statutory_instrument",
+   "title": "European Union (Capital Requirements) (Amendment) (No. 3) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/572/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/571",
+   "kind": "statutory_instrument",
+   "title": "European Union (Consumer Credit Agreements) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/571/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/570",
+   "kind": "statutory_instrument",
+   "title": "European Union (Restrictive Measures concerning the Democratic Republic of the Congo) (No. 3) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/570/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/569",
+   "kind": "statutory_instrument",
+   "title": "Domestic Violence Judgments Register Act 2026 (Commencement) Order 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/569/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/568",
+   "kind": "statutory_instrument",
+   "title": "Sea-Fisheries and Maritime Jurisdiction (Mussel Seed) (Opening of Fisheries) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/568/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/567",
+   "kind": "statutory_instrument",
+   "title": "European Union (Renewable Transport Fuel Obligation) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/567/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/566",
+   "kind": "statutory_instrument",
+   "title": "Social Welfare (Cost of Disability Payment) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/566/made/en/pdf",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/565",
+   "kind": "statutory_instrument",
+   "title": "Criminal Law, Civil Law and Defence (Miscellaneous Provisions) Act 2026 (Section 90) (Designation of Independent Authority) Order 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/565/made/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/564",
+   "kind": "statutory_instrument",
+   "title": "Criminal Law, Civil Law and Defence (Miscellaneous Provisions) Act 2026 (Commencement) (No. 3) Order 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/564/made/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/563",
+   "kind": "statutory_instrument",
+   "title": "Development (Strategic Gas Reserve) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/563/made/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/562",
+   "kind": "statutory_instrument",
+   "title": "European Union (Capital Requirements) (Amendment) (No. 2) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/562/made/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/561",
+   "kind": "statutory_instrument",
+   "title": "European Union (Unmanned Aircraft Systems Products) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/561/made/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/560",
+   "kind": "statutory_instrument",
+   "title": "Consumer Protection Act 2007 (Competition and Consumer Protection Commission) Levy Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/560/made/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/559",
+   "kind": "statutory_instrument",
+   "title": "European Union (Restrictive Measures concerning Iraq) (No. 2) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/559/made/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/act/38",
+   "kind": "act",
+   "title": "Public Health (Tobacco Products and Nicotine Inhaling Products) (Amendment) Act 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/act/38/enacted/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/act/37",
+   "kind": "act",
+   "title": "Employment Equality and Institutional Burials (Amendment) Act 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/act/37/enacted/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/act/36",
+   "kind": "act",
+   "title": "Development (Strategic Gas Reserve) Act 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/act/36/enacted/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/act/35",
+   "kind": "act",
+   "title": "Israeli Settlements in the Occupied Palestinian Territory (Prohibition of Importation of Goods) Act 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/act/35/enacted/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/act/34",
+   "kind": "act",
+   "title": "Criminal Law, Civil Law and Defence (Miscellaneous Provisions) Act 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/act/34/enacted/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/act/33",
+   "kind": "act",
+   "title": "Housing and Residential Tenancies (Miscellaneous Provisions) Act 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/act/33/enacted/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/act/32",
+   "kind": "act",
+   "title": "Health (Provision of Contraception Prescribing Service in Retail Pharmacy Business) Act 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/act/32/enacted/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/act/31",
+   "kind": "act",
+   "title": "Regulation of Artificial Intelligence Act 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/act/31/enacted/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/act/30",
+   "kind": "act",
+   "title": "Guardianship of Infants and Child Care (Amendment) Act 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/act/30/enacted/en/html",
+   "seeded": true
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/act/29",
+   "kind": "act",
+   "title": "Domestic Violence Judgments Register Act 2026",
+   "date": null,
+   "first_seen": "2026-11-20",
+   "url": "https://www.irishstatutebook.ie/eli/2026/act/29/enacted/en/html",
+   "seeded": true
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023R2720-20261117",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EU) 2023/2720 of 27 November 2023 opening and providing for the management of the Union autonomous tariff quotas for certain fishery products for the 2024–2026 period (Text with EEA relevance)",
+   "date": "2026-11-17",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023R2720-20261117"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02015D1814-20261117",
+   "kind": "consolidated_version",
+   "title": "Decision (EU) 2015/1814 of the European Parliament and of the Council of 6 October 2015 concerning the establishment and operation of a market stability reserve for the Union greenhouse gas emission trading scheme and amending Directive 2003/87/EC (Text with EEA relevance)",
+   "date": "2026-11-17",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015D1814-20261117"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023D0941-20261116",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2023/941 of 2 May 2023 on harmonised standards for personal protective equipment drafted in support of Regulation (EU) 2016/425 of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-11-16",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023D0941-20261116"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02022D2191-20261115",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2022/2191 of 8 November 2022 on the harmonised standards for radio equipment drafted in support of Directive 2014/53/EU of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-11-15",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02022D2191-20261115"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02012D0715-20261115",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision of 22 November 2012 establishing a list of third countries with a regulatory framework applicable to active substances for medicinal products for human use and the respective control and enforcement activities ensuring a level of protection of public health equivalent to that in the Union, in accordance with Directive 2001/83/EC of the European Parliament and of t…",
+   "date": "2026-11-15",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02012D0715-20261115"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02022O0912-20261114",
+   "kind": "consolidated_version",
+   "title": "Guideline (EU) 2022/912 of the European Central Bank of 24 February 2022 on a new-generation Trans-European Automated Real-time Gross Settlement Express Transfer system (TARGET) and repealing Guideline ECB/2012/27 (ECB/2022/8)",
+   "date": "2026-11-14",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02022O0912-20261114"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02017R0587-20261112",
+   "kind": "consolidated_version",
+   "title": "Commission Delegated Regulation (EU) 2017/587 of 14 July 2016 supplementing Regulation (EU) No 600/2014 of the European Parliament and of the Council on markets in financial instruments with regard to regulatory technical standards on transparency requirements for trading venues and investment firms in respect of shares, depositary receipts, exchange-traded funds, certificates and other similar f…",
+   "date": "2026-11-12",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0587-20261112"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02013R0149-20261110",
+   "kind": "consolidated_version",
+   "title": "Commission Delegated Regulation (EU) No 149/2013 of 19 December 2012 supplementing Regulation (EU) No 648/2012 of the European Parliament and of the Council with regard to regulatory technical standards on indirect clearing arrangements, the clearing obligation, the public register, access to a trading venue, non-financial counterparties, and risk mitigation techniques for OTC derivatives contrac…",
+   "date": "2026-11-10",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02013R0149-20261110"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02017R0745-20261109",
+   "kind": "consolidated_version",
+   "title": "Regulation (EU) 2017/745 of the European Parliament and of the Council of 5 April 2017 on medical devices, amending Directive 2001/83/EC, Regulation (EC) No 178/2002 and Regulation (EC) No 1223/2009 and repealing Council Directives 90/385/EEC and 93/42/EEC (Text with EEA relevance)",
+   "date": "2026-11-09",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0745-20261109"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02008R1333-20261108",
+   "kind": "consolidated_version",
+   "title": "Regulation (EC) No 1333/2008 of the European Parliament and of the Council of 16 December 2008 on food additives (Text with EEA relevance)",
+   "date": "2026-11-08",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1333-20261108"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02012R0231-20261108",
+   "kind": "consolidated_version",
+   "title": "Commission Regulation (EU) No 231/2012 of 9 March 2012 laying down specifications for food additives listed in Annexes II and III to Regulation (EC) No 1333/2008 of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-11-08",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02012R0231-20261108"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02002R0881-20261105",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EC) No 881/2002 of 27 May 2002 imposing certain specific restrictive measures directed against certain persons and entities associated with the ISIL (Da'esh) and Al-Qaida organisations",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002R0881-20261105"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021R0405-20261104",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2021/405 of 24 March 2021 laying down the lists of third countries or regions thereof authorised for the entry into the Union of certain animals and goods intended for human consumption in accordance with Regulation (EU) 2017/625 of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-11-04",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0405-20261104"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02017R0392-20261103",
+   "kind": "consolidated_version",
+   "title": "Commission Delegated Regulation (EU) 2017/392 of 11 November 2016 supplementing Regulation (EU) No 909/2014 of the European Parliament and of the Council with regard to regulatory technical standards on authorisation, supervisory and operational requirements for central securities depositories (Text with EEA relevance)",
+   "date": "2026-11-03",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0392-20261103"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02015R2446-20261101",
+   "kind": "consolidated_version",
+   "title": "Commission Delegated Regulation (EU) 2015/2446 of 28 July 2015 supplementing Regulation (EU) No 952/2013 of the European Parliament and of the Council as regards detailed rules concerning certain provisions of the Union Customs Code",
+   "date": "2026-11-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015R2446-20261101"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02018R1882-20261101",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2018/1882 of 3 December 2018 on the application of certain disease prevention and control rules to categories of listed diseases and establishing a list of species and groups of species posing a considerable risk for the spread of those listed diseases (Text with EEA relevance)",
+   "date": "2026-11-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02018R1882-20261101"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02020R0689-20261101",
+   "kind": "consolidated_version",
+   "title": "Commission Delegated Regulation (EU) 2020/689 of 17 December 2019 supplementing Regulation (EU) 2016/429 of the European Parliament and of the Council as regards rules for surveillance, eradication programmes, and disease-free status for certain listed and emerging diseases (Text with EEA relevance)",
+   "date": "2026-11-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02020R0689-20261101"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02020R0688-20261101",
+   "kind": "consolidated_version",
+   "title": "Commission Delegated Regulation (EU) 2020/688 of 17 December 2019 supplementing Regulation (EU) 2016/429 of the European Parliament and of the Council, as regards animal health requirements for movements within the Union of terrestrial animals and hatching eggs (Text with EEA relevance)",
+   "date": "2026-11-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02020R0688-20261101"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02020R0687-20261101",
+   "kind": "consolidated_version",
+   "title": "Commission Delegated Regulation (EU) 2020/687 of 17 December 2019 supplementing Regulation (EU) 2016/429 of the European Parliament and the Council, as regards rules for the prevention and control of certain listed diseases (Text with EEA relevance)",
+   "date": "2026-11-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02020R0687-20261101"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02020R0686-20261101",
+   "kind": "consolidated_version",
+   "title": "Commission Delegated Regulation (EU) 2020/686 of 17 December 2019 supplementing Regulation (EU) 2016/429 of the European Parliament and of the Council as regards the approval of germinal product establishments and the traceability and animal health requirements for movements within the Union of germinal products of certain kept terrestrial animals (Text with EEA relevance)",
+   "date": "2026-11-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02020R0686-20261101"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021R0620-20261101",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2021/620 of 15 April 2021 laying down rules for the application of Regulation (EU) 2016/429 of the European Parliament and of the Council as regards the approval of the disease-free and non-vaccination status of certain Member States or zones or compartments thereof as regards certain listed diseases and the approval of eradication programmes for those list…",
+   "date": "2026-11-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0620-20261101"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021R0403-20261101",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2021/403 of 24 March 2021 laying down rules for the application of Regulations (EU) 2016/429 and (EU) 2017/625 of the European Parliament and of the Council as regards model animal health certificates and model animal health/official certificates, for the entry into the Union and movements between Member States of consignments of certain categories of terre…",
+   "date": "2026-11-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0403-20261101"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02001D0171-20261029",
+   "kind": "consolidated_version",
+   "title": "Commission Decision of 19 February 2001 establishing the conditions for a derogation for glass packaging in relation to the heavy metal concentration levels established in Directive 94/62/EC on packaging and packaging waste (notified under document number C(2001) 398) (Text with EEA relevance) (2001/171/EC)",
+   "date": "2026-10-29",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02001D0171-20261029"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02016D1693-20261028",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2016/1693 of 20 September 2016 concerning restrictive measures against ISIL (Da'esh) and Al-Qaeda and persons, groups, undertakings and entities associated with them and repealing Common Position 2002/402/CFSP",
+   "date": "2026-10-28",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016D1693-20261028"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02010D0573-20261028",
+   "kind": "consolidated_version",
+   "title": "Council Decision 2010/573/CFSP of 27 September 2010 concerning restrictive measures against the leadership of the Transnistrian region of the Republic of Moldova",
+   "date": "2026-10-28",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02010D0573-20261028"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023D2447-20261026",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2023/2447 of 24 October 2023 concerning emergency measures in relation to outbreaks of highly pathogenic avian influenza in certain Member States (notified under document C(2023)7450) (Text with EEA relevance)",
+   "date": "2026-10-26",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023D2447-20261026"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02022D2245-20261026",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2022/2245 of 14 November 2022 on an assistance measure under the European Peace Facility to support the Ukrainian Armed Forces trained by the European Union Military Assistance Mission in support of Ukraine with military equipment, and platforms, designed to deliver lethal force",
+   "date": "2026-10-26",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02022D2245-20261026"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024R2215-20261026",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2024/2215 of 6 September 2024 establishing, pursuant to Regulation (EU) 2024/573 of the European Parliament and of the Council, minimum requirements for the issuance of certificates to natural and legal persons and the conditions for the mutual recognition of such certificates, as regards stationary refrigeration, air conditioning and heat pump equipment, o…",
+   "date": "2026-10-26",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2215-20261026"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02019D2110-20261026",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2019/2110 of 9 December 2019 on the European Union CSDP Advisory Mission in the Central African Republic (EUAM RCA)",
+   "date": "2026-10-26",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019D2110-20261026"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023D0927-20261026",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2023/927 of 5 May 2023 on an assistance measure under the European Peace Facility to support the Ukrainian Armed Forces through the provision of ammunition",
+   "date": "2026-10-26",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023D0927-20261026"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02025D0609-20261026",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2025/609 of 24 March 2025 on an assistance measure under the European Peace Facility to support the Armed Forces of Mauritania",
+   "date": "2026-10-26",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02025D0609-20261026"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021D0509-20261026",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2021/509 of 22 March 2021 establishing a European Peace Facility, and repealing Decision (CFSP) 2015/528",
+   "date": "2026-10-26",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021D0509-20261026"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02022D0339-20261026",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2022/339 of 28 February 2022 on an assistance measure under the European Peace Facility to support the Ukrainian Armed Forces",
+   "date": "2026-10-26",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02022D0339-20261026"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02022D0338-20261026",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2022/338 of 28 February 2022 on an assistance measure under the European Peace Facility for the supply to the Ukrainian Armed Forces of military equipment, and platforms, designed to deliver lethal force",
+   "date": "2026-10-26",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02022D0338-20261026"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023D0231-20261026",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2023/231 of 2 February 2023 on an assistance measure under the European Peace Facility to support the Ukrainian Armed Forces trained by the European Union Military Assistance Mission in support of Ukraine",
+   "date": "2026-10-26",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023D0231-20261026"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02012R0079-20261026",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) No 79/2012 of 31 January 2012 laying down detailed rules for implementing certain provisions of Council Regulation (EU) No 904/2010 concerning administrative cooperation and combating fraud in the field of value added tax (recast)",
+   "date": "2026-10-26",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02012R0079-20261026"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024R2175-20261025",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2024/2175 of 3 September 2024 granting a Union authorisation for the biocidal product family Contec Calcium Hypochlorite Product Family in accordance with Regulation (EU) No 528/2012 of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-10-25",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2175-20261025"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023R1763-20261025",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2023/1763 of 12 September 2023 granting a Union authorisation for the biocidal product family Lactic acid Family – Quatchem in accordance with Regulation (EU) No 528/2012 of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-10-25",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023R1763-20261025"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02022R2105-20261024",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2022/2105 of 29 July 2022 laying down rules on conformity checks of marketing standards for olive oil and methods of analysis of the characteristics of olive oil",
+   "date": "2026-10-24",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02022R2105-20261024"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02022R2104-20261024",
+   "kind": "consolidated_version",
+   "title": "Commission Delegated Regulation (EU) 2022/2104 of 29 July 2022 supplementing Regulation (EU) No 1308/2013 of the European Parliament and of the Council as regards marketing standards for olive oil, and repealing Commission Regulation (EEC) No 2568/91 and Commission Implementing Regulation (EU) No 29/2012",
+   "date": "2026-10-24",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02022R2104-20261024"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02003R1210-20261024",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EC) No 1210/2003 of 7 July 2003 concerning certain specific restrictions on economic and financial relations with Iraq and repealing Regulation (EC) No 2465/96",
+   "date": "2026-10-24",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02003R1210-20261024"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021R0404-20261022",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2021/404 of 24 March 2021 laying down the lists of third countries, territories or zones thereof from which the entry into the Union of animals, germinal products and products of animal origin is permitted in accordance with Regulation (EU) 2016/429 of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-10-22",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0404-20261022"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023R0265-20261021",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2023/265 of 9 February 2023 imposing a definitive anti-dumping duty on imports of ceramic tiles originating in India and Türkiye",
+   "date": "2026-10-21",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023R0265-20261021"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02026D2331-20261016",
+   "kind": "consolidated_version",
+   "title": "Political and Security Committee Decision (CFSP) 2026/2331 of 13 October 2026 on the appointment of the Head of the Civilian Pillar of the European Union Support Mission in Lebanon (EUSM Lebanon) (EUSM Lebanon/1/2026)",
+   "date": "2026-10-16",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02026D2331-20261016"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02026D1108-20261016",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2026/1108 of 13 May 2026 concerning certain emergency measures relating to sheep pox and goat pox in Romania and repealing Implementing Decision (EU) 2026/1015 and Implementing Decision (EU) 2025/2415 (notified under document C(2026) 3323) (Only the Romanian text is authentic) (Text with EEA relevance)",
+   "date": "2026-10-16",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02026D1108-20261016"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024R3084-20261015",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2024/3084 of 4 December 2024 on the functioning of the information system pursuant to Regulation (EU) 2023/1115 of the European Parliament and of the Council on the making available on the Union market and the export from the Union of certain commodities and products associated with deforestation and forest degradation",
+   "date": "2026-10-15",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R3084-20261015"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02019R2072-20261015",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2019/2072 of 28 November 2019 establishing uniform conditions for the implementation of Regulation (EU) 2016/2031 of the European Parliament and the Council, as regards protective measures against pests of plants, and repealing Commission Regulation (EC) No 690/2008 and amending Commission Implementing Regulation (EU) 2018/2019",
+   "date": "2026-10-15",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R2072-20261015"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02009R1284-20261015",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EU) No 1284/2009 of 22 December 2009 concerning restrictive measures in view of the situation in Guinea",
+   "date": "2026-10-15",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R1284-20261015"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02006R0765-20261015",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EC) No 765/2006 of 18 May 2006 concerning restrictive measures in view of the situation in Belarus and the involvement of Belarus in the Russian aggression against Ukraine",
+   "date": "2026-10-15",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02006R0765-20261015"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02012D0642-20261015",
+   "kind": "consolidated_version",
+   "title": "Council Decision 2012/642/CFSP of 15 October 2012 concerning restrictive measures in view of the situation in Belarus and the involvement of Belarus in the Russian aggression against Ukraine",
+   "date": "2026-10-15",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02012D0642-20261015"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02010D0638-20261015",
+   "kind": "consolidated_version",
+   "title": "Council Decision 2010/638/CFSP of 25 October 2010 concerning restrictive measures in view of the situation in Guinea",
+   "date": "2026-10-15",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02010D0638-20261015"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02014R0269-20261015",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EU) No 269/2014 of 17 March 2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+   "date": "2026-10-15",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014R0269-20261015"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02014D0145-20261015",
+   "kind": "consolidated_version",
+   "title": "Council Decision 2014/145/CFSP of 17 March 2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+   "date": "2026-10-15",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014D0145-20261015"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02018D1544-20261014",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2018/1544 of 15 October 2018 concerning restrictive measures against the proliferation and use of chemical weapons",
+   "date": "2026-10-14",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02018D1544-20261014"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02025D0680-20261014",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2025/680 of 8 April 2025 fixing the definitive allocation of Union aid to Member States for school fruit and vegetables and for school milk for the period from 1 August 2025 to 31 July 2026 and amending Implementing Decision (EU) 2024/845",
+   "date": "2026-10-14",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02025D0680-20261014"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023D2287-20261013",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2023/2287 of 23 October 2023 concerning restrictive measures in view of the situation in Niger",
+   "date": "2026-10-13",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023D2287-20261013"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02019D1720-20261013",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2019/1720 of 14 October 2019 concerning restrictive measures in view of the situation in Nicaragua",
+   "date": "2026-10-13",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019D1720-20261013"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02019R1716-20261013",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EU) 2019/1716 of 14 October 2019 concerning restrictive measures in view of the situation in Nicaragua",
+   "date": "2026-10-13",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R1716-20261013"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02015D1333-20261013",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2015/1333 of 31 July 2015 concerning restrictive measures in view of the situation in Libya, and repealing Decision 2011/137/CFSP",
+   "date": "2026-10-13",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015D1333-20261013"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02016R0044-20261013",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EU) 2016/44 of 18 January 2016 concerning restrictive measures in view of the situation in Libya and repealing Regulation (EU) No 204/2011",
+   "date": "2026-10-13",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016R0044-20261013"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02017D1869-20261012",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2017/1869 of 16 October 2017 on the European Union Advisory Mission in support of Security Sector Reform in Iraq (EUAM Iraq)",
+   "date": "2026-10-12",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017D1869-20261012"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02017R1509-20261012",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EU) 2017/1509 of 30 August 2017 concerning restrictive measures against the Democratic People's Republic of Korea and repealing Regulation (EC) No 329/2007",
+   "date": "2026-10-12",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R1509-20261012"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02016D0849-20261012",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2016/849 of 27 May 2016 concerning restrictive measures against the Democratic People's Republic of Korea and repealing Decision 2013/183/CFSP",
+   "date": "2026-10-12",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016D0849-20261012"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02014R0269-20261012",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EU) No 269/2014 of 17 March 2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+   "date": "2026-10-12",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014R0269-20261012"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02014D0145-20261012",
+   "kind": "consolidated_version",
+   "title": "Council Decision 2014/145/CFSP of 17 March 2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+   "date": "2026-10-12",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014D0145-20261012"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023R2147-20261010",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EU) 2023/2147 of 9 October 2023 concerning restrictive measures in view of activities undermining the stability and political transition of Sudan",
+   "date": "2026-10-10",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023R2147-20261010"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023D2135-20261010",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2023/2135 of 9 October 2023 concerning restrictive measures in view of activities undermining the stability and political transition of Sudan",
+   "date": "2026-10-10",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023D2135-20261010"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02002R0881-20261010",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EC) No 881/2002 of 27 May 2002 imposing certain specific restrictive measures directed against certain persons and entities associated with the ISIL (Da'esh) and Al-Qaida organisations",
+   "date": "2026-10-10",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002R0881-20261010"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024D2643-20261009",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2024/2643 of 8 October 2024 concerning restrictive measures in view of Russia’s destabilising activities",
+   "date": "2026-10-09",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024D2643-20261009"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024R2642-20261009",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EU) 2024/2642 of 8 October 2024 concerning restrictive measures in view of Russia’s destabilising activities",
+   "date": "2026-10-09",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2642-20261009"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02020D0472-20261009",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2020/472 of 31 March 2020 on a European Union military operation in the Mediterranean (EUNAVFOR MED IRINI)",
+   "date": "2026-10-09",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02020D0472-20261009"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02016Y0312(02)-20261008",
+   "kind": "consolidated_version",
+   "title": "Recommendation of the European Systemic Risk Board of 15 December 2015 on the assessment of cross-border effects of and voluntary reciprocity for macroprudential policy measures (ESRB/2015/2)",
+   "date": "2026-10-08",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016Y0312%2802%29-20261008"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023D0941-20261008",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2023/941 of 2 May 2023 on harmonised standards for personal protective equipment drafted in support of Regulation (EU) 2016/425 of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-10-08",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023D0941-20261008"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02025R0897-20261006",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2025/897 of 15 May 2025 approving the listing of ports in accordance with Chapter II of Implementing Regulation (EU) 2024/1474",
+   "date": "2026-10-06",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02025R0897-20261006"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024R1767-20261004",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2024/1767 of 26 June 2024 granting a Union authorisation for the biocidal product family Sure Lactic Family in accordance with Regulation (EU) No 528/2012 of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-10-04",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1767-20261004"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02017R0373-20261004",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2017/373 of 1 March 2017 laying down common requirements for providers of air traffic management/air navigation services and other air traffic management network functions and their oversight, repealing Regulation (EC) No 482/2008, Implementing Regulations (EU) No 1034/2011, (EU) No 1035/2011 and (EU) 2016/1377 and amending Regulation (EU) No 677/2011 (Text…",
+   "date": "2026-10-04",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0373-20261004"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02025D0165-20261002",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2025/165 of 30 January 2025 on the harmonised standards for pressure equipment drafted in support of Directive 2014/68/EU of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-10-02",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02025D0165-20261002"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024R2750-20261001",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2024/2750 of 25 October 2024 granting a Union authorisation for the biocidal product family LANXESS CMIT/MIT biocidal product family in accordance with Regulation (EU) No 528/2012 of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2750-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02022R2202-20261001",
+   "kind": "consolidated_version",
+   "title": "Commission Delegated Regulation (EU) 2022/2202 of 29 August 2022 supplementing Regulation (EU) 2021/1153 of the European Parliament and of the Council by establishing a list of selected cross-border projects in the field of renewable energy (Text with EEA relevance)",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02022R2202-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02015R1998-20261001",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2015/1998 of 5 November 2015 laying down detailed measures for the implementation of the common basic standards on aviation security (Text with EEA relevance)",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015R1998-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02022D1668-20261001",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2022/1668 of 28 September 2022 on harmonised standards for equipment and protective systems intended for use in potentially explosive atmospheres drafted in support of Directive 2014/34/EU of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02022D1668-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02020D1465-20261001",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2020/1465 of 12 October 2020 on a European Union action in support of the United Nations Verification and Inspection Mechanism in Yemen",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02020D1465-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021D1442-20261001",
+   "kind": "consolidated_version",
+   "title": "Decision (EU) 2021/1442 of the European Central Bank of 3 August 2021 on delegation of the power to adopt decisions on internal models and on extension of deadlines (ECB/2021/38)",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021D1442-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02025D1160-20261001",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2025/1160 of 5 June 2025 concerning certain emergency measures relating to sheep pox and goat pox in Bulgaria and repealing Implementing Decision (EU) 2025/948 (notified under document C(2025) 3705) (Only the Bulgarian text is authentic) (Text with EEA relevance)",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02025D1160-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02005E0889-20261001",
+   "kind": "consolidated_version",
+   "title": "Council Joint Action 2005/889/CFSP of 25 November 2005 on establishing a European Union Border Assistance Mission for the Rafah Crossing Point (EU BAM Rafah)",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02005E0889-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021O0830-20261001",
+   "kind": "consolidated_version",
+   "title": "Guideline (EU) 2021/830 of the European Central Bank of 26 March 2021 on balance sheet item statistics and interest rate statistics of monetary financial institutions (ECB/2021/11)",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021O0830-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02013D0700-20261001",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision of 22 November 2013 on setting up the European Social Survey as a European Research Infrastructure Consortium (ESS ERIC) (2013/700/EU)",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02013D0700-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02012R0649-20261001",
+   "kind": "consolidated_version",
+   "title": "Regulation (EU) No 649/2012 of the European Parliament and of the Council of 4 July 2012 concerning the export and import of hazardous chemicals (recast) (Text with EEA relevance)",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02012R0649-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021R0632-20261001",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2021/632 of 13 April 2021 laying down rules for the application of Regulation (EU) 2017/625 of the European Parliament and of the Council as regards the lists of animals, products of animal origin, germinal products, animal by-products and derived products, composite products, and hay and straw subject to official controls at border control posts, and repea…",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0632-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02026D0582-20261001",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2026/582 of 11 March 2026 concerning certain emergency measures relating to foot and mouth disease in Cyprus and repealing Implementing Decision (EU) 2026/484 (notified under document C(2026) 1758) (Only the Greek text is authentic) (Text with EEA relevance)",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02026D0582-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02013D0354-20261001",
+   "kind": "consolidated_version",
+   "title": "Council Decision 2013/354/CFSP of 3 July 2013 on the European Union Police Mission for the Palestinian Territories (EUPOL COPPS)",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02013D0354-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02015D1763-20260930",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2015/1763 of 1 October 2015 concerning restrictive measures in view of the situation in Burundi",
+   "date": "2026-09-30",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015D1763-20260930"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02025D1582-20260930",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2025/1582 of 29 July 2025 concerning certain emergency measures relating to infection with lumpy skin disease virus in Italy and repealing Implementing Decision (EU) 2025/1318 (notified under document C(2025) 5362) (Only the Italian text is authentic) (Text with EEA relevance)",
+   "date": "2026-09-30",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02025D1582-20260930"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02019R1021-20260930",
+   "kind": "consolidated_version",
+   "title": "Regulation (EU) 2019/1021 of the European Parliament and of the Council of 20 June 2019 on persistent organic pollutants (recast) (Text with EEA relevance)",
+   "date": "2026-09-30",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R1021-20260930"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023D2447-20260928",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2023/2447 of 24 October 2023 concerning emergency measures in relation to outbreaks of highly pathogenic avian influenza in certain Member States (notified under document C(2023)7450) (Text with EEA relevance)",
+   "date": "2026-09-28",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023D2447-20260928"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024R1485-20260928",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EU) 2024/1485 of 27 May 2024 concerning restrictive measures in view of the situation in Russia",
+   "date": "2026-09-28",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1485-20260928"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024D1484-20260928",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2024/1484 of 27 May 2024 concerning restrictive measures in view of the situation in Russia",
+   "date": "2026-09-28",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024D1484-20260928"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024D1455-20260928",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2024/1455 of 21 May 2024 on an assistance measure under the European Peace Facility to support the Beninese Armed Forces",
+   "date": "2026-09-28",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024D1455-20260928"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02014R0269-20260928",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EU) No 269/2014 of 17 March 2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+   "date": "2026-09-28",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014R0269-20260928"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02014D0145-20260928",
+   "kind": "consolidated_version",
+   "title": "Council Decision 2014/145/CFSP of 17 March 2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+   "date": "2026-09-28",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014D0145-20260928"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02011L0083-20260927",
+   "kind": "consolidated_version",
+   "title": "Directive 2011/83/EU of the European Parliament and of the Council of 25 October 2011 on consumer rights, amending Council Directive 93/13/EEC and Directive 1999/44/EC of the European Parliament and of the Council and repealing Council Directive 85/577/EEC and Directive 97/7/EC of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-09-27",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02011L0083-20260927"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02005L0029-20260927",
+   "kind": "consolidated_version",
+   "title": "Directive 2005/29/EC of the European Parliament and of the Council of 11 May 2005 concerning unfair business-to-consumer commercial practices in the internal market and amending Council Directive 84/450/EEC, Directives 97/7/EC, 98/27/EC and 2002/65/EC of the European Parliament and of the Council and Regulation (EC) No 2006/2004 of the European Parliament and of the Council (Unfair Commercial Pra…",
+   "date": "2026-09-27",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02005L0029-20260927"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024D2643-20260924",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2024/2643 of 8 October 2024 concerning restrictive measures in view of Russia’s destabilising activities",
+   "date": "2026-09-24",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024D2643-20260924"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024R2642-20260924",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EU) 2024/2642 of 8 October 2024 concerning restrictive measures in view of Russia’s destabilising activities",
+   "date": "2026-09-24",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2642-20260924"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02025R2143-20260924",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2025/2143 of 23 October 2025 amending Regulation (EU) 2015/340 as regards the introduction of competency-based training and assessment and virtual training of air traffic controllers",
+   "date": "2026-09-24",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02025R2143-20260924"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021D1875-20260923",
+   "kind": "consolidated_version",
+   "title": "Council Decision (EU) 2021/1875 of 22 October 2021 concerning the position to be adopted on behalf of the Union in the annual consultations with the United Kingdom to agree on total allowable catches",
+   "date": "2026-09-23",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021D1875-20260923"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021D1765-20260923",
+   "kind": "consolidated_version",
+   "title": "Council Decision (EU) 2021/1765 of 5 October 2021 on the position to be adopted on behalf of the European Union, for the period 2021–2026, within the Specialised Committee on Fisheries established by the Trade and Cooperation Agreement between the European Union and the European Atomic Energy Community, of the one part, and the United Kingdom of Great Britain and Northern Ireland, of the other pa…",
+   "date": "2026-09-23",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021D1765-20260923"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024R1257-20260923",
+   "kind": "consolidated_version",
+   "title": "Regulation (EU) 2024/1257 of the European Parliament and of the Council of 24 April 2024 on type-approval of motor vehicles and engines and of systems, components and separate technical units intended for such vehicles, with respect to their emissions and battery durability (Euro 7), amending Regulation (EU) 2018/858 of the European Parliament and of the Council and repealing Regulations (EC) No…",
+   "date": "2026-09-23",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1257-20260923"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02026D0820-20260923",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2026/820 of 1 April 2026 concerning certain emergency measures relating to foot and mouth disease in Greece and repealing Implementing Decision (EU) 2026/732 (notified under document C(2026) 2350) (Only the Greek text is authentic) (Text with EEA relevance)",
+   "date": "2026-09-23",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02026D0820-20260923"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021R0404-20260923",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2021/404 of 24 March 2021 laying down the lists of third countries, territories or zones thereof from which the entry into the Union of animals, germinal products and products of animal origin is permitted in accordance with Regulation (EU) 2016/429 of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-09-23",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0404-20260923"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021D1115(01)-20260922",
+   "kind": "consolidated_version",
+   "title": "Commission Decision of 12 November 2021 setting up the group of experts on the European Food Security Crisis Preparedness and Response Mechanism",
+   "date": "2026-09-22",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021D1115%2801%29-20260922"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024D2207-20260922",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2024/2207 of 29 August 2024 concerning certain emergency measures relating to sheep pox and goat pox in Greece (notified under document C(2024) 6222) (Only the Greek text is authentic) (Text with EEA relevance)",
+   "date": "2026-09-22",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024D2207-20260922"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02025D1554-20260922",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2025/1554 of 25 July 2025 on an assistance measure under the European Peace Facility to support the Djibouti Armed Forces",
+   "date": "2026-09-22",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02025D1554-20260922"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02002R0881-20260922",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EC) No 881/2002 of 27 May 2002 imposing certain specific restrictive measures directed against certain persons and entities associated with the ISIL (Da'esh) and Al-Qaida organisations",
+   "date": "2026-09-22",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002R0881-20260922"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02010R0468-20260922",
+   "kind": "consolidated_version",
+   "title": "Commission Regulation (EU) No 468/2010 of 28 May 2010 establishing the EU list of vessels engaged in illegal, unreported and unregulated fishing",
+   "date": "2026-09-22",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02010R0468-20260922"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02022R0191-20260922",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2022/191 of 16 February 2022 imposing a definitive anti-dumping duty on imports of certain iron or steel fasteners originating in the People’s Republic of China",
+   "date": "2026-09-22",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02022R0191-20260922"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021R0821-20260921",
+   "kind": "consolidated_version",
+   "title": "Regulation (EU) 2021/821 of the European Parliament and of the Council of 20 May 2021 setting up a Union regime for the control of exports, brokering, technical assistance, transit and transfer of dual-use items (recast)",
+   "date": "2026-09-21",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0821-20260921"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023D2447-20260918",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2023/2447 of 24 October 2023 concerning emergency measures in relation to outbreaks of highly pathogenic avian influenza in certain Member States (notified under document C(2023)7450) (Text with EEA relevance)",
+   "date": "2026-09-18",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023D2447-20260918"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023R1115-20260918",
+   "kind": "consolidated_version",
+   "title": "Regulation (EU) 2023/1115 of the European Parliament and of the Council of 31 May 2023 on the making available on the Union market and the export from the Union of certain commodities and products associated with deforestation and forest degradation and repealing Regulation (EU) No 995/2010 (Text with EEA relevance)",
+   "date": "2026-09-18",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023R1115-20260918"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02004R0273-20260918",
+   "kind": "consolidated_version",
+   "title": "Regulation (EC) No 273/2004 of the European Parliament and of the Council of 11 February 2004 on drug precursors (Text with EEA relevance)",
+   "date": "2026-09-18",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02004R0273-20260918"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02005R0111-20260918",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EC) No 111/2005 of 22 December 2004 laying down rules for the monitoring of trade between the Union and third countries in drug precursors",
+   "date": "2026-09-18",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02005R0111-20260918"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02026D1108-20260914",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2026/1108 of 13 May 2026 concerning certain emergency measures relating to sheep pox and goat pox in Romania and repealing Implementing Decision (EU) 2026/1015 and Implementing Decision (EU) 2025/2415 (notified under document C(2026) 3323) (Only the Romanian text is authentic) (Text with EEA relevance)",
+   "date": "2026-09-14",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02026D1108-20260914"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023D0740-20260914",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2023/740 of 4 April 2023 on harmonised standards for toys drafted in support of Directive 2009/48/EC of the European Parliament and of the Council",
+   "date": "2026-09-14",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023D0740-20260914"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02022R2292-20260913",
+   "kind": "consolidated_version",
+   "title": "Commission Delegated Regulation (EU) 2022/2292 of 6 September 2022 supplementing Regulation (EU) 2017/625 of the European Parliament and of the Council with regard to requirements for the entry into the Union of consignments of food-producing animals and certain goods intended for human consumption (Text with EEA relevance)",
+   "date": "2026-09-13",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02022R2292-20260913"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02017R2394-20260912",
+   "kind": "consolidated_version",
+   "title": "Regulation (EU) 2017/2394 of the European Parliament and of the Council of 12 December 2017 on cooperation between national authorities responsible for the enforcement of consumer protection laws and repealing Regulation (EC) No 2006/2004 (Text with EEA relevance)",
+   "date": "2026-09-12",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R2394-20260912"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02019R1242-20260910",
+   "kind": "consolidated_version",
+   "title": "Regulation (EU) 2019/1242 of the European Parliament and of the Council of 20 June 2019 setting CO2 emission performance standards for new heavy-duty vehicles and amending Regulations (EC) No 595/2009 and (EU) 2018/956 of the European Parliament and of the Council and Council Directive 96/53/EC (Text with EEA relevance)",
+   "date": "2026-09-10",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R1242-20260910"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02025D1160-20260910",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2025/1160 of 5 June 2025 concerning certain emergency measures relating to sheep pox and goat pox in Bulgaria and repealing Implementing Decision (EU) 2025/948 (notified under document C(2025) 3705) (Only the Bulgarian text is authentic) (Text with EEA relevance)",
+   "date": "2026-09-10",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02025D1160-20260910"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021R0404-20260908",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2021/404 of 24 March 2021 laying down the lists of third countries, territories or zones thereof from which the entry into the Union of animals, germinal products and products of animal origin is permitted in accordance with Regulation (EU) 2016/429 of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-09-08",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0404-20260908"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02025D2499-20260907",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2025/2499 of 9 December 2025 amending Implementing Decision (EU) 2022/2191 as regards harmonised standards for short range devices and mobile communication on board aircraft systems (Text with EEA relevance)",
+   "date": "2026-09-07",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02025D2499-20260907"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023D1586-20260907",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2023/1586 of 26 July 2023 on harmonised standards for machinery drafted in support of Directive 2006/42/EC of the European Parliament and of the Council",
+   "date": "2026-09-07",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023D1586-20260907"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023D2584-20260906",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2023/2584 of 15 November 2023 on harmonised standards for the interoperability of the rail systems drafted in support of Directive (EU) 2016/797 of the European Parliament and of the Council",
+   "date": "2026-09-06",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023D2584-20260906"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02026D1279-20260904",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2026/1279 of 12 June 2026 on harmonised standards for personal protective equipment drafted in support of Regulation (EU) 2016/425 of the European Parliament and of the Council and repealing Commission Implementing Decision (EU) 2023/941 (Text with EEA relevance)",
+   "date": "2026-09-04",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02026D1279-20260904"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021R0405-20260903",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2021/405 of 24 March 2021 laying down the lists of third countries or regions thereof authorised for the entry into the Union of certain animals and goods intended for human consumption in accordance with Regulation (EU) 2017/625 of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-09-03",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0405-20260903"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024R1257-20260902",
+   "kind": "consolidated_version",
+   "title": "Regulation (EU) 2024/1257 of the European Parliament and of the Council of 24 April 2024 on type-approval of motor vehicles and engines and of systems, components and separate technical units intended for such vehicles, with respect to their emissions and battery durability (Euro 7), amending Regulation (EU) 2018/858 of the European Parliament and of the Council and repealing Regulations (EC) No…",
+   "date": "2026-09-02",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R1257-20260902"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02002A0430(04)-20260901",
+   "kind": "consolidated_version",
+   "title": "Agreement between the European Community and the Swiss Confederation on trade in agricultural products",
+   "date": "2026-09-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002A0430%2804%29-20260901"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02016R2070-20260901",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2016/2070 of 14 September 2016 laying down implementing technical standards for templates, definitions and IT-solutions to be used by institutions when reporting to the European Banking Authority and to competent authorities in accordance with Article 78(2) of Directive 2013/36/EU of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-09-01",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016R2070-20260901"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02009L0048-20260829",
+   "kind": "consolidated_version",
+   "title": "Directive 2009/48/EC of the European Parliament and of the Council of 18 June 2009 on the safety of toys (Text with EEA relevance)",
+   "date": "2026-08-29",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009L0048-20260829"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02002R0881-20260828",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EC) No 881/2002 of 27 May 2002 imposing certain specific restrictive measures directed against certain persons and entities associated with the ISIL (Da'esh) and Al-Qaida organisations",
+   "date": "2026-08-28",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002R0881-20260828"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021D1402-20260827",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2021/1402 of 25 August 2021 on harmonised standards for gas meters and other measuring instruments drafted in support of Directive 2014/32/EU of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-08-27",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021D1402-20260827"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02023R0594-20260826",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2023/594 of 16 March 2023 laying down special disease control measures for African swine fever and repealing Implementing Regulation (EU) 2021/605 (Text with EEA relevance)",
+   "date": "2026-08-26",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023R0594-20260826"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02019R1154-20260825",
+   "kind": "consolidated_version",
+   "title": "Regulation (EU) 2019/1154 of the European Parliament and of the Council of 20 June 2019 on a multiannual recovery plan for Mediterranean swordfish and amending Council Regulation (EC) No 1967/2006 and Regulation (EU) 2017/2107 of the European Parliament and of the Council",
+   "date": "2026-08-25",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R1154-20260825"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021R0404-20260825",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2021/404 of 24 March 2021 laying down the lists of third countries, territories or zones thereof from which the entry into the Union of animals, germinal products and products of animal origin is permitted in accordance with Regulation (EU) 2016/429 of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-08-25",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0404-20260825"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02015R0098-20260825",
+   "kind": "consolidated_version",
+   "title": "Commission Delegated Regulation (EU) 2015/98 of 18 November 2014 on the implementation of the Union's international obligations, as referred to in Article 15(2) of Regulation (EU) No 1380/2013 of the European Parliament and of the Council, under the International Convention for the Conservation of Atlantic Tunas and the Convention on Future Multilateral Cooperation in the Northwest Atlantic Fishe…",
+   "date": "2026-08-25",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015R0098-20260825"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02008R1234-20260824",
+   "kind": "consolidated_version",
+   "title": "Commission Regulation (EC) No 1234/2008 of 24 November 2008 concerning the examination of variations to the terms of marketing authorisations for medicinal products for human use (Text with EEA relevance)",
+   "date": "2026-08-24",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02008R1234-20260824"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02026D1108-20260824",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2026/1108 of 13 May 2026 concerning certain emergency measures relating to sheep pox and goat pox in Romania and repealing Implementing Decision (EU) 2026/1015 and Implementing Decision (EU) 2025/2415 (notified under document C(2026) 3323) (Only the Romanian text is authentic) (Text with EEA relevance)",
+   "date": "2026-08-24",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02026D1108-20260824"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02017R0567-20260823",
+   "kind": "consolidated_version",
+   "title": "Commission Delegated Regulation (EU) 2017/567 of 18 May 2016 supplementing Regulation (EU) No 600/2014 of the European Parliament and of the Council with regard to definitions, transparency, portfolio compression and supervisory measures on product intervention and positions (Text with EEA relevance)",
+   "date": "2026-08-23",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0567-20260823"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02002R0881-20260822",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EC) No 881/2002 of 27 May 2002 imposing certain specific restrictive measures directed against certain persons and entities associated with the ISIL (Da'esh) and Al-Qaida organisations",
+   "date": "2026-08-22",
+   "first_seen": "2026-11-20",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002R0881-20260822"
+  }
+ ],
+ "state": {
+  "IE/Acts": {
+   "seen": {
+    "eli/2026/act": "1-38",
+    "eli/2026/si": "1-71,73-588"
+   }
+  }
+ }
+}
