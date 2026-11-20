@@ -1,0 +1,97 @@
+name: Changes Feed
+
+# Added in this fork (see FORK.md). Once a day it asks official publishers for
+# the titles, dates and links of new legislation and commits one JSON file to
+# the `data` branch. It never commits to main, it never asks for the text of a
+# document, and it reads a source only while that source's record in
+# verified/register.json is open. Rules: verified/README.md.
+
+on:
+  schedule:
+    - cron: '23 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: changes-feed
+  cancel-in-progress: false
+
+jobs:
+  build:
+    # Runs in this fork only, so it stays switched off if the file ever reaches another repository.
+    if: github.repository == 'matchamfraser/legal-sources'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      # Always main's script and main's register, whichever branch the run was started from.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          sparse-checkout: |
+            scripts
+            verified
+          sparse-checkout-cone-mode: true
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch the feed as it stands
+        id: previous
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/feed"
+          : > "$RUNNER_TEMP/feed/previous.json"
+          status=0
+          git ls-remote --exit-code --heads origin data > /dev/null || status=$?
+          if [ "$status" -eq 0 ]; then
+            git fetch --quiet --depth=1 origin "+refs/heads/data:refs/remotes/origin/data"
+            git show origin/data:verified/changes.json > "$RUNNER_TEMP/feed/previous.json"
+            echo "parent=$(git rev-parse origin/data)" >> "$GITHUB_OUTPUT"
+          elif [ "$status" -eq 2 ]; then
+            echo "No data branch yet. This is the first run."
+            echo "parent=" >> "$GITHUB_OUTPUT"
+          else
+            echo "Could not ask the repository whether the data branch exists." >&2
+            exit 1
+          fi
+
+      - name: Build the feed
+        env:
+          # Optional repository variable. Unset, the script sends a client name with no contact in it.
+          CHANGES_FEED_USER_AGENT: ${{ vars.CHANGES_FEED_USER_AGENT }}
+        run: |
+          set -euo pipefail
+          python scripts/build_changes_feed.py \
+            --previous "$RUNNER_TEMP/feed/previous.json" \
+            --out "$RUNNER_TEMP/feed/changes.json"
+
+      - name: Commit it to the data branch
+        env:
+          PARENT: ${{ steps.previous.outputs.parent }}
+          GIT_AUTHOR_NAME: github-actions[bot]
+          GIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+          GIT_COMMITTER_NAME: github-actions[bot]
+          GIT_COMMITTER_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+        run: |
+          set -euo pipefail
+          # The branch holds three files and nothing else. The commit is built
+          # without checking the branch out, so main's files never reach it.
+          export GIT_INDEX_FILE="$RUNNER_TEMP/feed/index"
+          rm -f "$GIT_INDEX_FILE"
+          add() { git update-index --add --cacheinfo "100644,$(git hash-object -w "$1"),$2"; }
+          add "$RUNNER_TEMP/feed/changes.json" verified/changes.json
+          add verified/data-branch.md README.md
+          add LICENSE LICENSE
+          tree=$(git write-tree)
+          if [ -n "$PARENT" ]; then
+            commit=$(git commit-tree "$tree" -p "$PARENT" -m "Changes feed: $(date -u +%F)")
+          else
+            commit=$(git commit-tree "$tree" -m "Changes feed: $(date -u +%F)")
+          fi
+          # Not forced: if the branch moved since it was read, this fails and tomorrow's run starts again.
+          git push origin "$commit:refs/heads/data"

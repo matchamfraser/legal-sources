@@ -1,14 +1,18 @@
 name: Test Verified Register
 
-# Added in this fork (see FORK.md). Validates the verified terms register and
-# checks that verified/register.json matches the records. It never publishes.
+# Added in this fork (see FORK.md). Validates the verified terms register,
+# checks that verified/register.json matches the records, and runs the offline
+# tests for the changes feed. It never publishes and never touches the network
+# beyond installing its two test packages.
 
 on:
   pull_request:
     paths:
       - 'verified/**'
       - 'scripts/build_verified_register.py'
+      - 'scripts/build_changes_feed.py'
       - 'tests/test_verified_register.py'
+      - 'tests/test_changes_feed.py'
       - 'manifest.yaml'
       - '.github/workflows/test-verified-register.yml'
   push:
@@ -16,7 +20,9 @@ on:
     paths:
       - 'verified/**'
       - 'scripts/build_verified_register.py'
+      - 'scripts/build_changes_feed.py'
       - 'tests/test_verified_register.py'
+      - 'tests/test_changes_feed.py'
       - 'manifest.yaml'
       - '.github/workflows/test-verified-register.yml'
 
@@ -51,4 +57,4 @@ jobs:
           set -euo pipefail
           python -m pip install pyyaml pytest
           python scripts/build_verified_register.py --check
-          python -m pytest tests/test_verified_register.py -q
+          python -m pytest tests/test_verified_register.py tests/test_changes_feed.py -q
