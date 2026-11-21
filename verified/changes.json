@@ -13,7 +13,7 @@
   "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
  },
  "schema_version": 1,
- "generated_at": "2026-11-20T14:38:41Z",
+ "generated_at": "2026-11-21T09:24:14Z",
  "window_days": 90,
  "sources": {
   "EU/ConsolidatedLegislation": {
@@ -37,9 +37,9 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-20T14:38:41Z",
-   "last_success": "2026-11-20T14:38:41Z",
-   "items_count": 147
+   "checked_at": "2026-11-21T09:24:14Z",
+   "last_success": "2026-11-21T09:24:14Z",
+   "items_count": 146
   },
   "IE/Acts": {
    "name": "Irish Statute Database",
@@ -60,15 +60,97 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-20T14:38:41Z",
-   "last_success": "2026-11-20T14:38:41Z",
+   "checked_at": "2026-11-21T09:24:14Z",
+   "last_success": "2026-11-21T09:24:14Z",
    "items_count": 40
+  },
+  "UK/LegislationGovUK": {
+   "name": "UK Legislation",
+   "country": "UK",
+   "signal": "double_yellow",
+   "attribution_line": "UK legislation from legislation.gov.uk, published by The National Archives. © Crown and database right. Contains public sector information licensed under the Open Government Licence v3.0. Extract only. Revised text may have changes still to be applied; see the changes noted on legislation.gov.uk.",
+   "licence": {
+    "name": "Open Government Licence v3.0",
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+   },
+   "status_lines": [
+    "Revised legislation may have changes that have not yet been applied. legislation.gov.uk aims to apply an amendment within three months of its coming into force, and says with each item whether changes are outstanding.",
+    "An original version (as enacted or as made) has had no changes applied to it.",
+    "Extract only, where a single section or a capped passage is shown."
+   ],
+   "conditions": [
+    "Legislation originating from the EU is derived from EUR-Lex and has a second set of terms. Acknowledge both sources and claim no official endorsement. The site suggests: \"Crown © and database right material re-used under the Open Government Licence. Material derived from the European Institutions © European Union, 1998-2019 and re-used under the terms of the Commission Decision 2011/833/EU.\"",
+    "Statutory instruments, rules and orders made before 1987 that Westlaw UK contributed carry the attribution \"Westlaw UK derived from Crown Copyright material and contributed to legislation.gov.uk\". They are in their original form only.",
+    "Statutes of the Realm (1235 to 1713) contributed by British History Online carry the attribution \"British History Online derived from Crown Copyright material and contributed to legislation.gov.uk\".",
+    "Automated access follows the site's fair use policy. Send a user agent with a clear identifier (anonymous ones are refused, and contact details are strongly recommended), follow robots.txt, and stay under 1,500 requests in any 5 minutes. For new legislation, use the publisher's feeds and not a crawl."
+   ],
+   "date_read": "2026-11-20",
+   "review_by": "2027-05-20",
+   "ok": true,
+   "error": null,
+   "checked_at": "2026-11-21T09:24:14Z",
+   "last_success": "2026-11-21T09:24:14Z",
+   "items_count": 94
   }
  },
  "skipped": {},
  "truncated": false,
- "items_count": 187,
+ "items_count": 280,
  "items": [
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1216",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (Loch Goil) Regulations 2026",
+   "date": "2026-11-21",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1216"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1224",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (Portmoak, Perth and Kinross) (Emergency) Regulations 2026",
+   "date": "2026-11-20",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1224"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1219",
+   "kind": "statutory_instrument",
+   "title": "The Financial Services and Markets Act 2000 (Cryptoassets) (Miscellaneous Amendments) Regulations 2026",
+   "date": "2026-11-20",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1219"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1211",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (Helicopter Flight) (No. 11) Regulations 2026",
+   "date": "2026-11-20",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1211"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/348",
+   "kind": "statutory_instrument",
+   "title": "The A83 Trunk Road (Campbeltown) (Temporary Prohibition on Use of Road) (No. 4) Order 2026",
+   "date": "2026-11-20",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/348"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "wsi/2026/137",
+   "kind": "statutory_instrument",
+   "title": "The Disused Mine and Quarry Tips (Wales) Act 2025 (Commencement and Saving Provisions) Order 2026",
+   "date": "2026-11-20",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/wsi/2026/137"
+  },
   {
    "source": "IE/Acts",
    "id": "eli/2026/si/588",
@@ -470,6 +552,258 @@
    "seeded": true
   },
   {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1218",
+   "kind": "statutory_instrument",
+   "title": "The Individual Savings Account (Amendment and Revocation) Regulations 2026",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1218"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1217",
+   "kind": "statutory_instrument",
+   "title": "The Value Added Tax (Drugs and Medicines) (Health and Welfare) Order 2026",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1217"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1215",
+   "kind": "statutory_instrument",
+   "title": "The Financial Services and Markets Act 2023 (Addition of Relevant Enactments) Regulations 2026",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1215"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1209",
+   "kind": "statutory_instrument",
+   "title": "The Armed Forces (Amendment of Service Courts Rules) Rules 2026",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1209"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1208",
+   "kind": "statutory_instrument",
+   "title": "The Planning and Infrastructure Act 2025 (Commencement No. 5 and Transitional Provisions) Regulations 2026",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1208"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1202",
+   "kind": "statutory_instrument",
+   "title": "The Traffic Orders and Notices (Provision of Digital Information) (England) Regulations 2026",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1202"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/347",
+   "kind": "statutory_instrument",
+   "title": "The A82 Trunk Road (Fort William) (Temporary Prohibition on Use of Road) (No. 2) Order 2026",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/347"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/346",
+   "kind": "statutory_instrument",
+   "title": "The Budget (Scotland) Act 2026 Amendment Regulations 2026",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/346"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/345",
+   "kind": "statutory_instrument",
+   "title": "Act of Adjournal (Criminal Procedure Rules 1996 Amendment) (Criminal Justice Modernisation and Abusive Domestic Behaviour Reviews (Scotland) Act 2025) 2026",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/345"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/344",
+   "kind": "statutory_instrument",
+   "title": "The Circular Economy (Scotland) Act 2024 (Commencement No. 3) Regulations 2026",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/344"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/343",
+   "kind": "statutory_instrument",
+   "title": "The Air Departure Tax (Scotland) Act 2017 (Commencement No. 2) Regulations 2026",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/343"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/342",
+   "kind": "statutory_instrument",
+   "title": "The Scottish Languages Act 2025 (Commencement No. 3) Regulations 2026",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/342"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "nisr/2026/193",
+   "kind": "statutory_instrument",
+   "title": "The Hemp (Third Country Imports) (Amendment) Regulations (Northern Ireland) 2026",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/nisr/2026/193"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "wsi/2026/136",
+   "kind": "statutory_instrument",
+   "title": "The Education (School Attendance Order) (Wales) Regulations 2026",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/wsi/2026/136"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1210",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (Specified Area) (Restricted Area EGR160) Regulations 2026",
+   "date": "2026-11-18",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1210"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1207",
+   "kind": "statutory_instrument",
+   "title": "The Social Security (Non-Benefit Payments) Regulations 2026",
+   "date": "2026-11-18",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1207"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1204",
+   "kind": "statutory_instrument",
+   "title": "The Value Added Tax (Distance Selling) (Amendments) Regulations 2026",
+   "date": "2026-11-18",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1204"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1201",
+   "kind": "statutory_instrument",
+   "title": "The Online Safety Act 2023 (Commencement No. 8) Regulations 2026",
+   "date": "2026-11-18",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1201"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1197",
+   "kind": "statutory_instrument",
+   "title": "The Railways (Interoperability in Northern Ireland) (Convention on International Carriage by Rail) (Amendment) Regulations 2026",
+   "date": "2026-11-18",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1197"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "nisr/2026/192",
+   "kind": "statutory_instrument",
+   "title": "The Government Resources and Accounts (Northern Ireland) Act 2001 (Estimates and Accounts) (Designation of Bodies) (Amendment) Order 2026",
+   "date": "2026-11-18",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/nisr/2026/192"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "nisr/2026/191",
+   "kind": "statutory_instrument",
+   "title": "The Rehabilitation of Offenders (Exceptions) (Amendment No. 2) Order (Northern Ireland) 2026",
+   "date": "2026-11-18",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/nisr/2026/191"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "nisr/2026/190",
+   "kind": "statutory_instrument",
+   "title": "The Police Act 1997 (Criminal Records) (Amendment No. 2) Regulations (Northern Ireland) 2026",
+   "date": "2026-11-18",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/nisr/2026/190"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1206",
+   "kind": "statutory_instrument",
+   "title": "The Bank Levy (Definitions and Amendments) Regulations 2026",
+   "date": "2026-11-17",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1206"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1205",
+   "kind": "statutory_instrument",
+   "title": "The Human Rights Act 1998 (Remedial) Order 2026",
+   "date": "2026-11-17",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1205"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1203",
+   "kind": "statutory_instrument",
+   "title": "The Critical Third Parties (Designation) (Amendment) Regulations 2026",
+   "date": "2026-11-17",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1203"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1196",
+   "kind": "statutory_instrument",
+   "title": "The Electrical Safety Standards in the Private Rented Sector and Social Rented Sector (England) (Amendment) Regulations 2026",
+   "date": "2026-11-17",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1196"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1195",
+   "kind": "statutory_instrument",
+   "title": "The Hazards in Social Housing (Prescribed Requirements) (England) (Amendment) Regulations 2026",
+   "date": "2026-11-17",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1195"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1194",
+   "kind": "statutory_instrument",
+   "title": "The Border Security, Asylum and Immigration Act 2025 (Specified Purposes Related to Policing) Regulations 2026",
+   "date": "2026-11-17",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1194"
+  },
+  {
    "source": "EU/ConsolidatedLegislation",
    "id": "02023R2720-20261117",
    "kind": "consolidated_version",
@@ -486,6 +820,42 @@
    "date": "2026-11-17",
    "first_seen": "2026-11-20",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015D1814-20261117"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1193",
+   "kind": "statutory_instrument",
+   "title": "The Statement of Trade Union Rights Regulations 2026",
+   "date": "2026-11-16",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1193"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1189",
+   "kind": "statutory_instrument",
+   "title": "The Network Rail (Tackley Level Crossing) Order 2026",
+   "date": "2026-11-16",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1189"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1173",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (Preston, Lancashire) Regulations 2026",
+   "date": "2026-11-16",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1173"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "nisr/2026/189",
+   "kind": "statutory_instrument",
+   "title": "The Parking Places (Disabled Persons’ Vehicles) (Amendment No. 5) Order (Northern Ireland) 2026",
+   "date": "2026-11-16",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/nisr/2026/189"
   },
   {
    "source": "EU/ConsolidatedLegislation",
@@ -524,6 +894,159 @@
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02022O0912-20261114"
   },
   {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1192",
+   "kind": "statutory_instrument",
+   "title": "The Town and Country Planning (Fees for Applications, Deemed Applications, Requests and Site Visits) (England) (Amendment and Transitional Provision) Regulations 2026",
+   "date": "2026-11-13",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1192"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1191",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (Helicopter Flight) (No. 10) Regulations 2026",
+   "date": "2026-11-13",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1191"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1190",
+   "kind": "statutory_instrument",
+   "title": "The Service and Administration Charges (England) Regulations 2026",
+   "date": "2026-11-13",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1190"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1188",
+   "kind": "statutory_instrument",
+   "title": "The Scotland Act 1998 (Agency Arrangements) (Specification) (Digital Waste Tracking) Order 2026",
+   "date": "2026-11-13",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1188"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/341",
+   "kind": "statutory_instrument",
+   "title": "The Mental Health (Care and Treatment) (Scotland) Act 2003 Remedial Order 2026",
+   "date": "2026-11-13",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/341"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1183",
+   "kind": "statutory_instrument",
+   "title": "The Collective Investment Schemes (Amendment etc.) (EU Exit) (Amendment) Regulations 2026",
+   "date": "2026-11-12",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1183"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1182",
+   "kind": "statutory_instrument",
+   "title": "The Feed-in Tariffs (Amendment) (British Industrial Competitiveness Scheme Excluded Electricity) Order 2026",
+   "date": "2026-11-12",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1182"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1181",
+   "kind": "statutory_instrument",
+   "title": "The Building Insurance Information (England) Regulations 2026",
+   "date": "2026-11-12",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1181"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1180",
+   "kind": "statutory_instrument",
+   "title": "The Marine Licensing (Exempted Activities and Fees) (Amendment) (No. 2) Regulations 2026",
+   "date": "2026-11-12",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1180"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1179",
+   "kind": "statutory_instrument",
+   "title": "The Radio Selection Services (Designation) Regulations 2026",
+   "date": "2026-11-12",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1179"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1147",
+   "kind": "statutory_instrument",
+   "title": "The Secretaries of State for Business, Innovation, Science and Trade and for Digital, Culture, Media and Sport and the Chancellor of the Duchy of Lancaster Order 2026",
+   "date": "2026-11-12",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1147"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/340",
+   "kind": "statutory_instrument",
+   "title": "The Maximum Number of Judges (Scotland) Order 2026",
+   "date": "2026-11-12",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/340"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/339",
+   "kind": "statutory_instrument",
+   "title": "The A92/A972 Trunk Road (Dundee) (Temporary 30mph and 40mph Speed Restrictions) Order 2026",
+   "date": "2026-11-12",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/339"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/337",
+   "kind": "statutory_instrument",
+   "title": "The A702 Trunk Road (Carlops) (Temporary Prohibition on Use, Waiting, Loading and Unloading) Order 2026",
+   "date": "2026-11-12",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/337"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/336",
+   "kind": "statutory_instrument",
+   "title": "The A737/A738 Trunk Road (St James Viaduct) (Temporary Prohibition on Use of Road and Temporary 30mph and 50mph Speed Restrictions) (No. 2) Order 2026",
+   "date": "2026-11-12",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/336"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/335",
+   "kind": "statutory_instrument",
+   "title": "The Children (Care and Justice) (Scotland) Act 2024 (Commencement No. 4) Regulations 2026",
+   "date": "2026-11-12",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/335"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/334",
+   "kind": "statutory_instrument",
+   "title": "The Victims, Witnesses, and Justice Reform (Scotland) Act 2025 (Commencement No. 3) Regulations 2026",
+   "date": "2026-11-12",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/334"
+  },
+  {
    "source": "EU/ConsolidatedLegislation",
    "id": "02017R0587-20261112",
    "kind": "consolidated_version",
@@ -533,6 +1056,123 @@
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0587-20261112"
   },
   {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1186",
+   "kind": "statutory_instrument",
+   "title": "The Withdrawal Agreement (Windsor Framework and Governance) (Amendment) Regulations 2026",
+   "date": "2026-11-11",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1186"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1184",
+   "kind": "statutory_instrument",
+   "title": "The National Health Service (Pharmaceutical and Local Pharmaceutical Services) (Amendment) (No. 3) Regulations 2026",
+   "date": "2026-11-11",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1184"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1175",
+   "kind": "statutory_instrument",
+   "title": "The Education (Student Loans) (Repayment) (Amendment) (No. 2) Regulations 2026",
+   "date": "2026-11-11",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1175"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/338",
+   "kind": "statutory_instrument",
+   "title": "The Renewables Obligation (Scotland) Amendment (No. 2) Order 2026",
+   "date": "2026-11-11",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/338"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "nisr/2026/188",
+   "kind": "statutory_instrument",
+   "title": "The County Court (Amendment) Rules (Northern Ireland) 2026",
+   "date": "2026-11-11",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/nisr/2026/188"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "nisr/2026/187",
+   "kind": "statutory_instrument",
+   "title": "The County Courts (Financial Limits) Order (Northern Ireland) 2026",
+   "date": "2026-11-11",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/nisr/2026/187"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "nisr/2026/186",
+   "kind": "statutory_instrument",
+   "title": "The Universal Credit, Personal Independence Payment, Jobseeker’s Allowance and Employment and Support Allowance (Claims and Payments) (Amendment No. 2) Regulations (Northern Ireland) 2026",
+   "date": "2026-11-11",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/nisr/2026/186"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1178",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (RAF Mildenhall, Norfolk) (Emergency) Regulations 2026",
+   "date": "2026-11-10",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1178"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1177",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (RAF Feltwell, Norfolk) (Emergency) Regulations 2026",
+   "date": "2026-11-10",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1177"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1176",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (RAF Lakenheath, Norfolk) (Emergency) Regulations 2026",
+   "date": "2026-11-10",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1176"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1170",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (Tilbury Docks, Essex) Regulations 2026",
+   "date": "2026-11-10",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1170"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "wsi/2026/135",
+   "kind": "statutory_instrument",
+   "title": "The Fostering Panels (Establishment and Functions) (Wales) (Amendment and Transitional Provision) Regulations 2026",
+   "date": "2026-11-10",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/wsi/2026/135"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "wsi/2026/134",
+   "kind": "statutory_instrument",
+   "title": "The Products of Animal Origin (Disease Control) (Wales) (Amendment) Order 2026",
+   "date": "2026-11-10",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/wsi/2026/134"
+  },
+  {
    "source": "EU/ConsolidatedLegislation",
    "id": "02013R0149-20261110",
    "kind": "consolidated_version",
@@ -540,6 +1180,60 @@
    "date": "2026-11-10",
    "first_seen": "2026-11-20",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02013R0149-20261110"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1172",
+   "kind": "statutory_instrument",
+   "title": "The Registration of Births and Deaths (Amendment) Regulations 2026",
+   "date": "2026-11-09",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1172"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1165",
+   "kind": "statutory_instrument",
+   "title": "The Children’s Wellbeing and Schools Act 2026 (Commencement No. 1) Regulations 2026",
+   "date": "2026-11-09",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1165"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/333",
+   "kind": "statutory_instrument",
+   "title": "The Air Departure Tax (Scotland) Amendment Regulations 2026",
+   "date": "2026-11-09",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/333"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/332",
+   "kind": "statutory_instrument",
+   "title": "The A75 Trunk Road (Glasgow Road Roundabout, Cuckoo Bridge) (30mph Speed Limit) Order 2026",
+   "date": "2026-11-09",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/332"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/331",
+   "kind": "statutory_instrument",
+   "title": "The A702 Trunk Road (Biggar) (20mph and 30mph Speed Limits) Order 2026",
+   "date": "2026-11-09",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/331"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/330",
+   "kind": "statutory_instrument",
+   "title": "The Air Departure Tax (Administration) (Scotland) Amendment Regulations 2026",
+   "date": "2026-11-09",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/330"
   },
   {
    "source": "EU/ConsolidatedLegislation",
@@ -567,6 +1261,186 @@
    "date": "2026-11-08",
    "first_seen": "2026-11-20",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02012R0231-20261108"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1171",
+   "kind": "statutory_instrument",
+   "title": "The Renewables Obligation and Electricity Capacity (Amendment) (British Industrial Competitiveness Scheme Excluded Electricity) Regulations 2026",
+   "date": "2026-11-06",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1171"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "nisr/2026/185",
+   "kind": "statutory_instrument",
+   "title": "The Parking and Waiting Restrictions (Newtownabbey) (Amendment) Order (Northern Ireland) 2026",
+   "date": "2026-11-06",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/nisr/2026/185"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "wsi/2026/133",
+   "kind": "statutory_instrument",
+   "title": "The Non-Domestic Rating (Description and Value of Differential Multipliers) (Amendment) (Wales) Regulations 2026",
+   "date": "2026-11-06",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/wsi/2026/133"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "nia/2026/10",
+   "kind": "act",
+   "title": "Administrative and Financial Provisions Act (Northern Ireland) 2026",
+   "date": "2026-11-06",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/nia/2026/10"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1169",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (Hampstead) Regulations 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1169"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1168",
+   "kind": "statutory_instrument",
+   "title": "The Registration of Births and Deaths (England and Wales) (Specified Requirements) Regulations 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1168"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1167",
+   "kind": "statutory_instrument",
+   "title": "The Data (Use and Access) Act 2025 (Commencement No. 10) Regulations 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1167"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1166",
+   "kind": "statutory_instrument",
+   "title": "The Cumberland (Electoral Changes) Order 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1166"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1164",
+   "kind": "statutory_instrument",
+   "title": "The Strategic Planning (Consequential and Miscellaneous Amendments) Regulations 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1164"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1163",
+   "kind": "statutory_instrument",
+   "title": "The Strategic Planning (Costs of Public Examinations) (Standard Daily Amount) (England) Regulations 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1163"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1162",
+   "kind": "statutory_instrument",
+   "title": "The Strategic Planning Authorities (Spatial Development Strategy) Regulations 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1162"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1161",
+   "kind": "statutory_instrument",
+   "title": "The Spatial Development Strategy (Examination Procedure) Rules 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1161"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/329",
+   "kind": "statutory_instrument",
+   "title": "The Provision of Early Learning and Childcare (Specified Children) (Scotland) Amendment Order 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/329"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/328",
+   "kind": "statutory_instrument",
+   "title": "Act of Adjournal (Criminal Procedure Rules 1996 Amendment) (Miscellaneous) (No. 2) 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/328"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/327",
+   "kind": "statutory_instrument",
+   "title": "The Employment Tribunals Extension of Jurisdiction (Amendment) (Scotland) Order 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/327"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/326",
+   "kind": "statutory_instrument",
+   "title": "The Transport (Scotland) Act 2019 (Commencement No. 9) Regulations 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/326"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/325",
+   "kind": "statutory_instrument",
+   "title": "The A889 Trunk Road (Dalwhinnie) (40mph Speed Limit) Order 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/325"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/324",
+   "kind": "statutory_instrument",
+   "title": "The Building Safety Levy (Scotland) Act 2026 (Commencement No. 1) Regulations 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/324"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/323",
+   "kind": "statutory_instrument",
+   "title": "The Trusts and Succession (Scotland) Act 2024 (Commencement No. 2 and Saving and Transitory Provision) Regulations 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/ssi/2026/323"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "wsi/2026/132",
+   "kind": "statutory_instrument",
+   "title": "The Representation of the People (Electoral Registration without Applications) (Electoral Reform) (Wales) Regulations 2026",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-21",
+   "url": "https://www.legislation.gov.uk/wsi/2026/132"
   },
   {
    "source": "EU/ConsolidatedLegislation",
@@ -1782,15 +2656,6 @@
    "date": "2026-08-23",
    "first_seen": "2026-11-20",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0567-20260823"
-  },
-  {
-   "source": "EU/ConsolidatedLegislation",
-   "id": "02002R0881-20260822",
-   "kind": "consolidated_version",
-   "title": "Council Regulation (EC) No 881/2002 of 27 May 2002 imposing certain specific restrictive measures directed against certain persons and entities associated with the ISIL (Da'esh) and Al-Qaida organisations",
-   "date": "2026-08-22",
-   "first_seen": "2026-11-20",
-   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002R0881-20260822"
   }
  ],
  "state": {
