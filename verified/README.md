@@ -175,8 +175,10 @@ cannot have a record here.
 
 `scripts/build_changes_feed.py` builds `verified/changes.json`: titles,
 identifiers, dates and links for legislation an official publisher has newly
-published or newly consolidated. A scheduled workflow runs it once a day and
-commits the file to the `data` branch. The file is never on `main`.
+published or newly consolidated. A scheduled workflow runs it twice a day, at
+04:23 and 16:23 UTC, and commits the file to the `data` branch. The file is
+never on `main`. Twice, because GitHub can drop a scheduled run when it is
+busy; a second run adds only what is new since the first.
 
 ```sh
 python3 scripts/build_changes_feed.py --out out/verified/changes.json
