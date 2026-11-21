@@ -4,7 +4,7 @@ This branch holds one generated file, [`verified/changes.json`](verified/changes
 titles, identifiers, dates and links for legislation that an official publisher
 has newly published or newly consolidated. It holds no text of any document.
 
-A scheduled job on `main` rebuilds the file once a day and commits it here.
+A scheduled job on `main` rebuilds the file twice a day and commits it here.
 Nothing else is committed to this branch, and nobody edits the file by hand.
 
 - **What it is not.** It is not a complete or official list, and it is not
