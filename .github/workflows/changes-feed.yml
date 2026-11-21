@@ -1,14 +1,17 @@
 name: Changes Feed
 
-# Added in this fork (see FORK.md). Once a day it asks official publishers for
+# Added in this fork (see FORK.md). Twice a day it asks official publishers for
 # the titles, dates and links of new legislation and commits one JSON file to
 # the `data` branch. It never commits to main, it never asks for the text of a
 # document, and it reads a source only while that source's record in
 # verified/register.json is open. Rules: verified/README.md.
 
 on:
+  # Twice a day, because GitHub can drop a scheduled run when it is busy. The
+  # build is safe to repeat: a second run adds only what is new since the first.
   schedule:
     - cron: '23 4 * * *'
+    - cron: '23 16 * * *'
   workflow_dispatch:
 
 permissions:
