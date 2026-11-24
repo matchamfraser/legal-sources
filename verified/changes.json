@@ -13,7 +13,7 @@
   "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
  },
  "schema_version": 1,
- "generated_at": "2026-11-24T02:57:44Z",
+ "generated_at": "2026-11-24T14:59:59Z",
  "window_days": 90,
  "sources": {
   "EU/ConsolidatedLegislation": {
@@ -37,9 +37,9 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-24T02:57:44Z",
-   "last_success": "2026-11-24T02:57:44Z",
-   "items_count": 140
+   "checked_at": "2026-11-24T14:59:59Z",
+   "last_success": "2026-11-24T14:59:59Z",
+   "items_count": 146
   },
   "IE/Acts": {
    "name": "Irish Statute Database",
@@ -60,9 +60,9 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-24T02:57:44Z",
-   "last_success": "2026-11-24T02:57:44Z",
-   "items_count": 40
+   "checked_at": "2026-11-24T14:59:59Z",
+   "last_success": "2026-11-24T14:59:59Z",
+   "items_count": 45
   },
   "UK/LegislationGovUK": {
    "name": "UK Legislation",
@@ -88,15 +88,132 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-24T02:57:44Z",
-   "last_success": "2026-11-24T02:57:44Z",
-   "items_count": 108
+   "checked_at": "2026-11-24T14:59:59Z",
+   "last_success": "2026-11-24T14:59:59Z",
+   "items_count": 116
   }
  },
  "skipped": {},
  "truncated": false,
- "items_count": 288,
+ "items_count": 307,
  "items": [
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1230",
+   "kind": "statutory_instrument",
+   "title": "The Crime and Policing Act 2026 (Commencement No. 5) (Amendment) Regulations 2026",
+   "date": "2026-11-24",
+   "first_seen": "2026-11-24",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1230"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1228",
+   "kind": "statutory_instrument",
+   "title": "The Air Traffic Management and Unmanned Aircraft (Specified Information etc.) Regulations 2026",
+   "date": "2026-11-24",
+   "first_seen": "2026-11-24",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1228"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1227",
+   "kind": "statutory_instrument",
+   "title": "The Cambourne to Cambridge Order 2026",
+   "date": "2026-11-24",
+   "first_seen": "2026-11-24",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1227"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1223",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (Edinburgh) (No. 3) Regulations 2026",
+   "date": "2026-11-24",
+   "first_seen": "2026-11-24",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1223"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1222",
+   "kind": "statutory_instrument",
+   "title": "The Electricity (Individual Exemption from the Requirement for a Transmission Licence) (Dogger Bank A) (Amendment) Order 2026",
+   "date": "2026-11-24",
+   "first_seen": "2026-11-24",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1222"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1221",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (New Year Celebrations, London) Regulations 2026",
+   "date": "2026-11-24",
+   "first_seen": "2026-11-24",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1221"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "nisr/2026/201",
+   "kind": "statutory_instrument",
+   "title": "The Exchange Street, Belfast (Abandonment) Order (Northern Ireland) 2026",
+   "date": "2026-11-24",
+   "first_seen": "2026-11-24",
+   "url": "https://www.legislation.gov.uk/nisr/2026/201"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "wsi/2026/138",
+   "kind": "statutory_instrument",
+   "title": "The Care Planning, Placement and Case Review (Wales) (Amendment) Regulations 2026",
+   "date": "2026-11-24",
+   "first_seen": "2026-11-24",
+   "url": "https://www.legislation.gov.uk/wsi/2026/138"
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/593",
+   "kind": "statutory_instrument",
+   "title": "National Archives Act 1986 (Section 8(1A)) (Transfer of Departmental Records) (No. 4) Order 2026",
+   "date": null,
+   "first_seen": "2026-11-24",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/593/made/en/pdf"
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/592",
+   "kind": "statutory_instrument",
+   "title": "European Union (Data Protection Act 2018) (Amendment of section 60) Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-24",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/592/made/en/pdf"
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/591",
+   "kind": "statutory_instrument",
+   "title": "Aircraft Noise (Dublin Airport) Regulation Act 2019 Levy No. 8 Regulations 2026",
+   "date": null,
+   "first_seen": "2026-11-24",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/591/made/en/pdf"
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/590",
+   "kind": "statutory_instrument",
+   "title": "National Archives Act 1986 (Section 8(1A)) (Transfer of Departmental Records) (No. 3) Order 2026",
+   "date": null,
+   "first_seen": "2026-11-24",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/590/made/en/pdf"
+  },
+  {
+   "source": "IE/Acts",
+   "id": "eli/2026/si/589",
+   "kind": "statutory_instrument",
+   "title": "Planning and Development Act 2024 (Commencement) (No. 3) Order 2026",
+   "date": null,
+   "first_seen": "2026-11-24",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/589/made/en/pdf"
+  },
   {
    "source": "UK/LegislationGovUK",
    "id": "uksi/2026/1229",
@@ -222,6 +339,15 @@
    "date": "2026-11-23",
    "first_seen": "2026-11-23",
    "url": "https://www.legislation.gov.uk/nisr/2026/194"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02012R0528-20261123",
+   "kind": "consolidated_version",
+   "title": "Regulation (EU) No 528/2012 of the European Parliament and of the Council of 22 May 2012 concerning the making available on the market and use of biocidal products (Text with EEA relevance)",
+   "date": "2026-11-23",
+   "first_seen": "2026-11-24",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02012R0528-20261123"
   },
   {
    "source": "UK/LegislationGovUK",
@@ -484,7 +610,7 @@
    "title": "Sea-Fisheries and Maritime Jurisdiction (Mussel Seed) (Opening of Fisheries) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/568/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/568/made/en/html",
    "seeded": true
   },
   {
@@ -494,7 +620,7 @@
    "title": "European Union (Renewable Transport Fuel Obligation) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/567/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/567/made/en/html",
    "seeded": true
   },
   {
@@ -504,7 +630,7 @@
    "title": "Social Welfare (Cost of Disability Payment) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/566/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/566/made/en/html",
    "seeded": true
   },
   {
@@ -1570,6 +1696,15 @@
   },
   {
    "source": "EU/ConsolidatedLegislation",
+   "id": "02025R1272-20261105",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2025/1272 of 6 May 2025 laying down rules for the application of Regulation (EU) No 1308/2013 of the European Parliament and of the Council with regard to the electronic system for agricultural non-customs formalities (ELAN)",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-24",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02025R1272-20261105"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
    "id": "02002R0881-20261105",
    "kind": "consolidated_version",
    "title": "Council Regulation (EC) No 881/2002 of 27 May 2002 imposing certain specific restrictive measures directed against certain persons and entities associated with the ISIL (Da'esh) and Al-Qaida organisations",
@@ -1666,6 +1801,15 @@
    "date": "2026-11-01",
    "first_seen": "2026-11-20",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0403-20261101"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02021R0404-20261030",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2021/404 of 24 March 2021 laying down the lists of third countries, territories or zones thereof from which the entry into the Union of animals, germinal products and products of animal origin is permitted in accordance with Regulation (EU) 2016/429 of the European Parliament and of the Council (Text with EEA relevance)",
+   "date": "2026-10-30",
+   "first_seen": "2026-11-24",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0404-20261030"
   },
   {
    "source": "EU/ConsolidatedLegislation",
@@ -2191,6 +2335,15 @@
   },
   {
    "source": "EU/ConsolidatedLegislation",
+   "id": "02025D1708-20261001",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Decision (EU) 2025/1708 of 29 July 2025 concerning certain emergency measures relating to infection with lumpy skin disease virus in France and repealing Implementing Decision (EU) 2025/1336 (notified under document C(2025) 5363) (Only the French text is authentic) (Text with EEA relevance)",
+   "date": "2026-10-01",
+   "first_seen": "2026-11-24",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02025D1708-20261001"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
    "id": "02022D1668-20261001",
    "kind": "consolidated_version",
    "title": "Commission Implementing Decision (EU) 2022/1668 of 28 September 2022 on harmonised standards for equipment and protective systems intended for use in potentially explosive atmospheres drafted in support of Directive 2014/34/EU of the European Parliament and of the Council (Text with EEA relevance)",
@@ -2416,6 +2569,15 @@
   },
   {
    "source": "EU/ConsolidatedLegislation",
+   "id": "02015R0340-20260924",
+   "kind": "consolidated_version",
+   "title": "Commission Regulation (EU) 2015/340 of 20 February 2015 laying down technical requirements and administrative procedures relating to air traffic controllers' licences and certificates pursuant to Regulation (EC) No 216/2008 of the European Parliament and of the Council, amending Commission Implementing Regulation (EU) No 923/2012 and repealing Commission Regulation (EU) No 805/2011 (Text with EEA…",
+   "date": "2026-09-24",
+   "first_seen": "2026-11-24",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015R0340-20260924"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
    "id": "02021D1875-20260923",
    "kind": "consolidated_version",
    "title": "Council Decision (EU) 2021/1875 of 22 October 2021 concerning the position to be adopted on behalf of the Union in the annual consultations with the United Kingdom to agree on total allowable catches",
@@ -2521,6 +2683,15 @@
    "date": "2026-09-21",
    "first_seen": "2026-11-20",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0821-20260921"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02025R0004-20260919",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2025/4 of 17 December 2024 imposing a definitive anti-dumping duty and definitively collecting the provisional duty imposed on imports of titanium dioxide originating in the People’s Republic of China",
+   "date": "2026-09-19",
+   "first_seen": "2026-11-24",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02025R0004-20260919"
   },
   {
    "source": "EU/ConsolidatedLegislation",
@@ -2734,7 +2905,7 @@
   "IE/Acts": {
    "seen": {
     "eli/2026/act": "1-38",
-    "eli/2026/si": "1-71,73-588"
+    "eli/2026/si": "1-71,73-593"
    }
   }
  }
