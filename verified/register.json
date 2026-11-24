@@ -12,13 +12,13 @@
     "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
   },
   "schema_version": 1,
-  "records_count": 105,
+  "records_count": 116,
   "latest_date_read": "2026-11-24",
   "signals": {
     "green": 2,
-    "double_yellow": 51,
-    "yellow": 41,
-    "red": 11
+    "double_yellow": 56,
+    "yellow": 46,
+    "red": 12
   },
   "records": [
     {
@@ -63,6 +63,48 @@
         "url": "https://eur-lex.europa.eu",
         "data_types": [
           "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/AMLA",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Authority for Anti-Money Laundering and Countering the Financing of Terrorism, legal notice",
+          "url": "https://www.amla.europa.eu/legal-notice_en"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "AMLA copyright notice: non-commercial reproduction only; commercial reproduction needs prior written permission",
+        "url": "https://www.amla.europa.eu/legal-notice_en"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "Reproduction for non-commercial purposes is authorised without prior permission, save where otherwise stated, with the source acknowledged as \"Source: Authority for Anti-Money Laundering and Countering the Financing of Terrorism, https://www.amla.europa.eu/\".",
+        "\"As a general rule, any reproduction of information and documents from the AMLA's website carried out in the course of a commercial activity requires the prior written permission of AMLA.\""
+      ],
+      "not_covered": [
+        "AMLA's name, abbreviation, logos and trademarks",
+        "Third-party material"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Red: the publisher's own terms allow non-commercial reproduction only. The catalogue labels this source with the EUR-Lex position; AMLA's own copyright notice, in a collapsed section of its legal notice page, says otherwise. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "EU Anti-Money Laundering Authority (AMLA)",
+        "country": "EU",
+        "url": "https://www.amla.europa.eu",
+        "data_types": [
+          "doctrine"
         ]
       }
     },
@@ -472,6 +514,51 @@
       }
     },
     {
+      "id": "EU/EBA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Banking Authority, legal notice",
+          "url": "https://www.eba.europa.eu/find-out-about-us/legal-notice"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EBA legal notice: reproduction authorised with acknowledgement",
+        "url": "https://www.eba.europa.eu/find-out-about-us/legal-notice"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Banking Authority material from eba.europa.eu. Source: European Banking Authority. © EBA. Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Reproduction is authorised \"provided the source is acknowledged, save where otherwise stated\": check each document.",
+        "Third-party material, where copyright vests in a third party, needs that holder's permission. Publicly available legislative text is not the EBA's copyright."
+      ],
+      "not_covered": [
+        "The EBA's name, abbreviation and logo, except when reproducing EBA material that contains the logo",
+        "Third-party material"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "The EBA's legal notice says: \"Reproduction of all EBA material on this site is authorised, provided the source is acknowledged, save where otherwise stated.\" It sets no limit to non-commercial use. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Banking Authority (EBA)",
+        "country": "EU",
+        "url": "https://www.eba.europa.eu",
+        "data_types": [
+          "doctrine",
+          "legislation"
+        ]
+      }
+    },
+    {
       "id": "EU/ECB-Opinions",
       "signal": "double_yellow",
       "verified": true,
@@ -629,6 +716,170 @@
       }
     },
     {
+      "id": "EU/EDPB-OSSRegister",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Data Protection Board, copyright",
+          "url": "https://www.edpb.europa.eu/copyright_en"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EDPB copyright notice: reuse authorised for commercial and non-commercial purposes, on conditions",
+        "url": "https://www.edpb.europa.eu/copyright_en"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The decisions are about named firms and people. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Acknowledge the source of the document, and do not delete or change the indications of the author or source.",
+        "Do not distort the original meaning or message of the documents."
+      ],
+      "not_covered": [
+        "Third-party material"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the EDPB's register of final one-stop-shop decisions taken by national supervisory authorities, which name controllers and sometimes individuals. The terms allow commercial reuse, but whether an assistant may read decisions about named people is left open here and no attribution line is set. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "EDPB Article 60 One-Stop-Shop Register of Final Decisions",
+        "country": "EU",
+        "url": "https://www.edpb.europa.eu/registers/register-of-final-one-stop-shop-decisions_en",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/EDPB",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Data Protection Board, copyright",
+          "url": "https://www.edpb.europa.eu/copyright_en"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EDPB copyright notice: reuse authorised for commercial and non-commercial purposes, on conditions",
+        "url": "https://www.edpb.europa.eu/copyright_en"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Data Protection Board guidelines and documents from edpb.europa.eu. Source: European Data Protection Board. Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Acknowledge the source of the document, and do not delete or change the indications of the author or source.",
+        "Do not distort the original meaning or message of the documents.",
+        "Binding decisions and other documents can name organisations and individuals; those wait for the data protection check (TEC-763)."
+      ],
+      "not_covered": [
+        "Third-party material for which the EDPB holds no rights of use"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "The EDPB's copyright page says: \"The reuse of any information of this website is authorized for commercial and non-commercial purposes\", on the conditions listed. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Data Protection Board Documents",
+        "country": "EU",
+        "url": "https://www.edpb.europa.eu/our-work-tools/documents/our-documents_en",
+        "data_types": [
+          "doctrine",
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/EDPS",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: its website refused automated browsers (HTTP 403), so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "European Data Protection Supervisor Opinions",
+        "country": "EU",
+        "url": "https://www.edps.europa.eu/data-protection/our-work/our-work-by-type/opinions_en",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/EIOPA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Insurance and Occupational Pensions Authority, legal notice",
+          "url": "https://www.eiopa.europa.eu/legal-notice_en"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EIOPA legal notice: reproduction authorised without prior permission, on conditions",
+        "url": "https://www.eiopa.europa.eu/legal-notice_en"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Source: EIOPA - European Insurance and Occupational Pensions Authority, https://eiopa.europa.eu/. Extract only; available free of charge on EIOPA's website. EIOPA does not endorse this use.",
+      "status_lines": [
+        "Only the Official Journal of the European Union is authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Acknowledge the source in EIOPA's words: \"Source: EIOPA - European Insurance and Occupational Pensions Authority, https://eiopa.europa.eu/\".",
+        "Material that is transformed, for example summarised or translated, and republished must carry EIOPA's twofold disclaimer: that it was drafted using material downloaded from EIOPA's website, and that EIOPA does not endorse the publication.",
+        "Where the material is in documents that are sold, buyers must be told it can be obtained free of charge from EIOPA's website.",
+        "EIOPA's own tools have their own licence agreements."
+      ],
+      "not_covered": [
+        "EIOPA's corporate identity, logo and audio-visual material",
+        "Third-party material"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "EIOPA's legal notice says reproduction \"is authorised without prior permission, provided that the user acknowledges the Authority as the source\", in the words used at the start of the attribution line. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU Insurance and Pensions Authority (EIOPA)",
+        "country": "EU",
+        "url": "https://www.eiopa.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
       "id": "EU/EP-Decisions",
       "signal": "double_yellow",
       "verified": true,
@@ -764,6 +1015,49 @@
       }
     },
     {
+      "id": "EU/ESAs-BoA",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Insurance and Occupational Pensions Authority, legal notice",
+          "url": "https://www.eiopa.europa.eu/legal-notice_en"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EIOPA legal notice: reproduction authorised without prior permission, on conditions",
+        "url": "https://www.eiopa.europa.eu/legal-notice_en"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The decisions are about named firms and people. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Acknowledge the source in EIOPA's words: \"Source: EIOPA - European Insurance and Occupational Pensions Authority, https://eiopa.europa.eu/\"."
+      ],
+      "not_covered": [
+        "Third-party material"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the decisions of the Joint Board of Appeal of the European Supervisory Authorities, published on EIOPA's website, so EIOPA's terms apply. The terms allow commercial reuse, but whether an assistant may read decisions about named people is left open here and no attribution line is set. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "European Supervisory Authorities Joint Board of Appeal (EBA/EIOPA/ESMA)",
+        "country": "EU",
+        "url": "https://www.eiopa.europa.eu/decisions-board-appeal_en",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
       "id": "EU/ESC-Opinions",
       "signal": "double_yellow",
       "verified": true,
@@ -805,6 +1099,142 @@
         "url": "https://eur-lex.europa.eu",
         "data_types": [
           "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/ESMA-Sanctions",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Securities and Markets Authority, legal notice and data protection",
+          "url": "https://www.esma.europa.eu/about-esma/legal-notice-and-data-protection"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "ESMA copyright notice: reproduction authorised with acknowledgement, on conditions",
+        "url": "https://www.esma.europa.eu/about-esma/legal-notice-and-data-protection"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The decisions are about named firms and people. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Reproduction is authorised \"except as otherwise stated, provided the source is acknowledged\"."
+      ],
+      "not_covered": [
+        "Third-party material"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the sanctions register ESMA publishes, which records sanctions imposed by national authorities on named firms and individuals. The terms allow commercial reuse, but whether an assistant may read decisions about named people is left open here and no attribution line is set. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "ESMA Sanctions Register",
+        "country": "EU",
+        "url": "https://registers.esma.europa.eu/publication/searchRegister?core=esma_registers_sanctions",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/ESMA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Securities and Markets Authority, legal notice and data protection",
+          "url": "https://www.esma.europa.eu/about-esma/legal-notice-and-data-protection"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "ESMA copyright notice: reproduction authorised with acknowledgement, on conditions",
+        "url": "https://www.esma.europa.eu/about-esma/legal-notice-and-data-protection"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Securities and Markets Authority material from esma.europa.eu. Source: ESMA. Extract only; available free of charge on ESMA's website. ESMA does not endorse this use.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Reproduction is authorised \"except as otherwise stated, provided the source is acknowledged\".",
+        "Where the material is in documents that are sold, buyers must be told it can be obtained free of charge from ESMA's website.",
+        "Material that is transformed, for example summarised or translated, and republished must say: \"This document has been drafted using material downloaded from ESMA's website\", and that ESMA does not endorse the publication."
+      ],
+      "not_covered": [
+        "ESMA's name, abbreviation, logo and other images, except when reproducing ESMA material that contains them",
+        "Third-party material",
+        "Publicly available legislative text, which is not ESMA's copyright"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "The copyright notice sits in a collapsed section of ESMA's legal notice page and was read from the page's source. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Securities and Markets Authority (ESMA)",
+        "country": "EU",
+        "url": "https://www.esma.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/ESRB",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Systemic Risk Board, disclaimer and copyright",
+          "url": "https://www.esrb.europa.eu/services/disclaimer/html/index.en.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "ESRB copyright terms: free use, on conditions",
+        "url": "https://www.esrb.europa.eu/services/disclaimer/html/index.en.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Systemic Risk Board recommendations, warnings and opinions. Source: European Systemic Risk Board. Extract only; available free of charge on the ESRB's website. Only ESRB legal instruments as published in the Official Journal of the European Union are authentic.",
+      "status_lines": [
+        "Only ESRB legal instruments as published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Reproduced accurately, with the ESRB cited as the source.",
+        "Where the material is included in something that is sold, buyers must be told, before they pay and each time they reach the material, that it can be obtained free of charge from the ESRB's website.",
+        "Any change made to the material must be stated.",
+        "Documents that bear their authors' names need the ESRB's or the authors' written authorisation before republication."
+      ],
+      "not_covered": [
+        "The ESRB's name and logo",
+        "Third-party material"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "In legal-sources this source is the ESRB's recommendations, warnings and opinions, collected through the Publications Office. The ESRB's terms, which match the ECB's, allow free use of its information, including in documents that are sold, on the conditions listed. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Systemic Risk Board (Recommendations, Warnings & Opinions)",
+        "country": "EU",
+        "url": "https://www.esrb.europa.eu/mppa/recommendations/html/index.en.html",
+        "data_types": [
+          "legislation"
         ]
       }
     },
@@ -1251,6 +1681,34 @@
         "name": "EU — Rules of Procedure & Institutional Acts",
         "country": "EU",
         "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/SRB-Decisions",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: the Single Resolution Board's legal notice page covers data protection only, and no copyright or re-use terms could be found on its website, so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "Single Resolution Board Decisions",
+        "country": "EU",
+        "url": "https://www.srb.europa.eu/",
         "data_types": [
           "doctrine"
         ]

@@ -258,6 +258,22 @@ batch is the 27 sources whose documents come from EUR-Lex itself:
 - **Two are the Advocates General's opinions**, the same documents listed
   twice. They are case law and name parties: verified, and link only.
 
+The second EU batch is the financial and data protection regulators, each
+read on its own website:
+
+- **Open, each on its own conditions:** the EBA, ESMA, EIOPA, the ESRB and
+  the EDPB allow commercial reuse with the source acknowledged. ESMA, EIOPA
+  and the ESRB also require buyers of anything sold to be told the material
+  is free on their websites; ESMA and EIOPA require a disclaimer on
+  summaries and translations. Double yellow.
+- **Verified, link only:** ESMA's sanctions register, the ESAs' Joint Board
+  of Appeal and the EDPB's register of one-stop-shop decisions. They are
+  decisions about named firms and people.
+- **Red:** AMLA, whose copyright notice allows non-commercial reproduction
+  only.
+- **Not yet read:** the Single Resolution Board (no copyright terms found)
+  and the EDPS (refuses automated browsers).
+
 ## Irish sources
 
 The other 19 Irish sources were read on 24 November 2026 (TEC-743). Irish

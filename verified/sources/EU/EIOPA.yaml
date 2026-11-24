@@ -1,0 +1,29 @@
+id: EU/EIOPA
+terms:
+- title: European Insurance and Occupational Pensions Authority, legal notice
+  url: https://www.eiopa.europa.eu/legal-notice_en
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: 'EIOPA legal notice: reproduction authorised without prior permission, on conditions'
+  url: https://www.eiopa.europa.eu/legal-notice_en
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: 'Source: EIOPA - European Insurance and Occupational Pensions Authority, https://eiopa.europa.eu/. Extract only; available free of charge on EIOPA''s website. EIOPA does not endorse this use.'
+status_lines:
+- Only the Official Journal of the European Union is authentic.
+- Extract only, where a single section or a capped passage is shown.
+conditions:
+- 'Acknowledge the source in EIOPA''s words: "Source: EIOPA - European Insurance and Occupational Pensions Authority, https://eiopa.europa.eu/".'
+- 'Material that is transformed, for example summarised or translated, and republished must carry EIOPA''s twofold disclaimer: that it was drafted using material downloaded from EIOPA''s website, and that EIOPA does not endorse the publication.'
+- Where the material is in documents that are sold, buyers must be told it can be obtained free of charge from EIOPA's website.
+- EIOPA's own tools have their own licence agreements.
+not_covered:
+- EIOPA's corporate identity, logo and audio-visual material
+- Third-party material
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: EIOPA's legal notice says reproduction "is authorised without prior permission, provided that the user acknowledges the Authority as the source", in the words used at the start of the attribution line. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.
+signal: double_yellow

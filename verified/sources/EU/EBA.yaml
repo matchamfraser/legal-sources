@@ -1,0 +1,26 @@
+id: EU/EBA
+terms:
+- title: European Banking Authority, legal notice
+  url: https://www.eba.europa.eu/find-out-about-us/legal-notice
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: 'EBA legal notice: reproduction authorised with acknowledgement'
+  url: https://www.eba.europa.eu/find-out-about-us/legal-notice
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: 'European Banking Authority material from eba.europa.eu. Source: European Banking Authority. © EBA. Extract only.'
+status_lines:
+- Extract only, where a single section or a capped passage is shown.
+conditions:
+- 'Reproduction is authorised "provided the source is acknowledged, save where otherwise stated": check each document.'
+- Third-party material, where copyright vests in a third party, needs that holder's permission. Publicly available legislative text is not the EBA's copyright.
+not_covered:
+- The EBA's name, abbreviation and logo, except when reproducing EBA material that contains the logo
+- Third-party material
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: 'The EBA''s legal notice says: "Reproduction of all EBA material on this site is authorised, provided the source is acknowledged, save where otherwise stated." It sets no limit to non-commercial use. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.'
+signal: double_yellow
