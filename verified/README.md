@@ -238,6 +238,26 @@ items, say that a consolidated EU text is not the authentic version, and do
 not present a `first_seen` day as the day an Irish Act was signed or an
 instrument was made.
 
+## EU sources
+
+The rest of the EU catalogue is being read in batches (TEC-743). The first
+batch is the 27 sources whose documents come from EUR-Lex itself:
+
+- **Twenty-three are EU documents** (Commission proposals and staff working
+  documents, Parliament and Council positions, treaties, international
+  agreements, recommendations, budgets and others). The EUR-Lex legal notice
+  says that, unless otherwise specified, the legal documents published in
+  EUR-Lex may be reused for commercial or non-commercial purposes. Double
+  yellow, because some documents carry special conditions and some include
+  third-party works or identifiable people. The CC BY 4.0 wording in the
+  notice covers only consolidated texts, summaries and editorial content.
+- **Two are the European Central Bank's legal acts and opinions.** The
+  Publications Office says ECB publications follow the ECB's own rules, which
+  allow free use, including in products that are sold, on conditions. Double
+  yellow.
+- **Two are the Advocates General's opinions**, the same documents listed
+  twice. They are case law and name parties: verified, and link only.
+
 ## Licence and credit
 
 The register is part of this fork and is under the GNU Affero General Public

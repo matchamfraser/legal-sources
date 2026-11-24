@@ -12,15 +12,330 @@
     "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
   },
   "schema_version": 1,
-  "records_count": 59,
-  "latest_date_read": "2026-11-20",
+  "records_count": 86,
+  "latest_date_read": "2026-11-24",
   "signals": {
     "green": 1,
-    "double_yellow": 22,
-    "yellow": 28,
+    "double_yellow": 47,
+    "yellow": 30,
     "red": 8
   },
   "records": [
+    {
+      "id": "EU/AG-Opinions",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced.",
+        "For case law, only the versions published in the European Court Reports are deemed official sources."
+      ],
+      "conditions": [
+        "The opinions are case law and name parties. Additional rights may need clearing where content depicts identifiable private individuals; nothing is read from them until the data protection check is done (TEC-763).",
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Its filing location is tracked on TEC-746.",
+      "notes": "Verified and held at link only, as EU case law on EU/EUR-Lex is. In legal-sources this source is the opinions of the Advocates General of the Court of Justice, collected from EUR-Lex. legal-sources lists them twice; EU/AG-Opinions and EU/AdvocateGeneralOpinions are the same documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "CJEU — Opinions of the Advocates General",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/AdvocateGeneralOpinions",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced.",
+        "For case law, only the versions published in the European Court Reports are deemed official sources."
+      ],
+      "conditions": [
+        "The opinions are case law and name parties. Additional rights may need clearing where content depicts identifiable private individuals; nothing is read from them until the data protection check is done (TEC-763).",
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Its filing location is tracked on TEC-746.",
+      "notes": "Verified and held at link only, as EU case law on EU/EUR-Lex is. In legal-sources this source is the opinions of the Advocates General of the Court of Justice, collected from EUR-Lex. legal-sources lists them twice; EU/AG-Opinions and EU/AdvocateGeneralOpinions are the same documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "EU — Advocate General Opinions (CJEU)",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/Budgets",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "EU budgets and amending budgets from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is eU budgets and amending budgets, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU — Budgets, Amending Budgets & Statements of Revenue and Expenditure",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/CFSP-Acts",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Common foreign and security policy acts from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is common foreign and security policy acts, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU — CFSP Joint Actions & Common Positions",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
+    {
+      "id": "EU/COM-Documents",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Commission proposals and communications from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is european Commission proposals and communications, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Commission — Proposals & Communications (COM documents)",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/CommissionOpinions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Commission opinions from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is european Commission opinions, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU — Commission Opinions",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/ComplementaryLegislation",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "EU complementary legislation from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is eU complementary legislation, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU — Complementary Legislation",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
     {
       "id": "EU/ConsolidatedLegislation",
       "signal": "double_yellow",
@@ -67,6 +382,433 @@
       }
     },
     {
+      "id": "EU/Council-Positions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Council positions at first reading from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is council positions at first reading, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "Council of the EU — Positions at First Reading",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/CouncilResolutions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Council resolutions from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is council resolutions, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU — Council Resolutions",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/ECB-Opinions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        },
+        {
+          "title": "Publications Office of the European Union, legal notices: copyright",
+          "url": "https://op.europa.eu/en/web/about-us/legal-notices/publications-office-of-the-european-union-copyright"
+        },
+        {
+          "title": "European Central Bank, disclaimer and copyright",
+          "url": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "European Central Bank copyright terms (the Publications Office says ECB publications follow the ECB's own rules)",
+        "url": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Central Bank opinions from EUR-Lex (eur-lex.europa.eu). Source: European Central Bank. Extract only; the full text is available free of charge on EUR-Lex and the ECB's website. Only ECB legal instruments as published in the Official Journal of the European Union are authentic.",
+      "status_lines": [
+        "Only ECB legal instruments as published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Reproduced accurately, with the ECB cited as the source.",
+        "Where the material is included in something that is sold, buyers must be told, before they pay and each time they reach the material, that it can be obtained free of charge from the ECB's website.",
+        "Any change made to the material, such as adjusting data, must be stated.",
+        "Documents that bear their authors' names, such as ECB Working Papers, need the ECB's or the authors' written authorisation before republication.",
+        "Only ECB legal instruments as published in the Official Journal of the European Union are deemed authentic."
+      ],
+      "not_covered": [
+        "The ECB's name and logos",
+        "Third-party material"
+      ],
+      "evidence": "The three pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Their filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is european Central Bank opinions, collected from EUR-Lex. The Publications Office's copyright page says \"the publications of the European Central Bank are subject to the specific rules\" of the ECB, so this record follows the ECB's terms rather than the EUR-Lex notice alone. The ECB's terms allow free use of its information, including in documents that are sold, on the conditions listed. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Central Bank — Opinions",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/ECB",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        },
+        {
+          "title": "Publications Office of the European Union, legal notices: copyright",
+          "url": "https://op.europa.eu/en/web/about-us/legal-notices/publications-office-of-the-european-union-copyright"
+        },
+        {
+          "title": "European Central Bank, disclaimer and copyright",
+          "url": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "European Central Bank copyright terms (the Publications Office says ECB publications follow the ECB's own rules)",
+        "url": "https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Central Bank legal acts from EUR-Lex (eur-lex.europa.eu). Source: European Central Bank. Extract only; the full text is available free of charge on EUR-Lex and the ECB's website. Only ECB legal instruments as published in the Official Journal of the European Union are authentic.",
+      "status_lines": [
+        "Only ECB legal instruments as published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Reproduced accurately, with the ECB cited as the source.",
+        "Where the material is included in something that is sold, buyers must be told, before they pay and each time they reach the material, that it can be obtained free of charge from the ECB's website.",
+        "Any change made to the material, such as adjusting data, must be stated.",
+        "Documents that bear their authors' names, such as ECB Working Papers, need the ECB's or the authors' written authorisation before republication.",
+        "Only ECB legal instruments as published in the Official Journal of the European Union are deemed authentic."
+      ],
+      "not_covered": [
+        "The ECB's name and logos",
+        "Third-party material"
+      ],
+      "evidence": "The three pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Their filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is european Central Bank legal acts, collected from EUR-Lex. The Publications Office's copyright page says \"the publications of the European Central Bank are subject to the specific rules\" of the ECB, so this record follows the ECB's terms rather than the EUR-Lex notice alone. The ECB's terms allow free use of its information, including in documents that are sold, on the conditions listed. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Central Bank (ECB)",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu/browse/institutions/bank.html",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/ECSC-Decisions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "ECSC general decisions from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is eCSC general decisions, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU — ECSC General Decisions",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
+    {
+      "id": "EU/EP-Decisions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Parliament decisions from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is european Parliament decisions, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Parliament — Decisions",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/EP-Positions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Parliament positions from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is european Parliament positions, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Parliament — Positions / Legislative Resolutions",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/EP-Resolutions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Parliament resolutions from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is european Parliament resolutions, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Parliament — Non-Legislative Resolutions",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/ESC-Opinions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Economic and Social Committee opinions from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is economic and Social Committee opinions, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "Economic and Social Committee — Opinions (historical AC series)",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
       "id": "EU/EUR-Lex",
       "signal": "yellow",
       "verified": true,
@@ -106,6 +848,501 @@
         "data_types": [
           "legislation",
           "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/FrameworkDecisions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Framework decisions and joint actions from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is framework decisions and joint actions, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU — Framework Decisions & Joint Actions",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
+    {
+      "id": "EU/InternationalAgreements",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "EU international agreements from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is eU international agreements, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU — International Agreements",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
+    {
+      "id": "EU/JC-Documents",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Joint communications and joint reports from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is joint communications and joint reports, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU Joint Communications & Joint Reports (High Representative + Commission)",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52025JC0025",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/JointBodyDecisions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Decisions of bodies set up by international agreements from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is decisions of bodies set up by international agreements, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU — Decisions of Bodies Established by International Agreements",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
+    {
+      "id": "EU/OJC-Acts",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Official Journal C series acts from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is official Journal C series acts, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU — Official Journal C-series Acts",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/OJC-Declarations",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Official Journal C series declarations from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is official Journal C series declarations, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU — OJ C-series Declarations & Joint Statements",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/ParliamentaryAssemblies",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Acts of EU joint parliamentary assemblies from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is acts of EU joint parliamentary assemblies, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU Joint / Regional Parliamentary Assemblies — Acts and Resolutions",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/Recommendations",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "EU recommendations from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is eU recommendations, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU — Recommendations",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/RulesOfProcedure",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "EU rules of procedure from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is eU rules of procedure, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU — Rules of Procedure & Institutional Acts",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/SWD-Documents",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Commission staff working documents from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is european Commission staff working documents, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Commission — Staff Working Documents (SWD/SEC)",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/Treaties",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "EU treaties from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader; a PDF of the same page supplied by the reader on 20 November 2026 is the earlier copy. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is eU treaties, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU — Treaties (Primary Law)",
+        "country": "EU",
+        "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "legislation"
         ]
       }
     },

@@ -1,0 +1,34 @@
+id: EU/ECB-Opinions
+terms:
+- title: EUR-Lex legal notice (disclaimer and copyright notice)
+  url: https://eur-lex.europa.eu/content/legal-notice/legal-notice.html
+- title: 'Publications Office of the European Union, legal notices: copyright'
+  url: https://op.europa.eu/en/web/about-us/legal-notices/publications-office-of-the-european-union-copyright
+- title: European Central Bank, disclaimer and copyright
+  url: https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: European Central Bank copyright terms (the Publications Office says ECB publications follow the ECB's own rules)
+  url: https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: 'European Central Bank opinions from EUR-Lex (eur-lex.europa.eu). Source: European Central Bank. Extract only; the full text is available free of charge on EUR-Lex and the ECB''s website. Only ECB legal instruments as published in the Official Journal of the European Union are authentic.'
+status_lines:
+- Only ECB legal instruments as published in the Official Journal of the European Union are deemed authentic.
+- Extract only, where a single section or a capped passage is shown.
+conditions:
+- Reproduced accurately, with the ECB cited as the source.
+- Where the material is included in something that is sold, buyers must be told, before they pay and each time they reach the material, that it can be obtained free of charge from the ECB's website.
+- Any change made to the material, such as adjusting data, must be stated.
+- Documents that bear their authors' names, such as ECB Working Papers, need the ECB's or the authors' written authorisation before republication.
+- Only ECB legal instruments as published in the Official Journal of the European Union are deemed authentic.
+not_covered:
+- The ECB's name and logos
+- Third-party material
+evidence: The three pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Their filing location is tracked on TEC-746.
+notes: In legal-sources this source is european Central Bank opinions, collected from EUR-Lex. The Publications Office's copyright page says "the publications of the European Central Bank are subject to the specific rules" of the ECB, so this record follows the ECB's terms rather than the EUR-Lex notice alone. The ECB's terms allow free use of its information, including in documents that are sold, on the conditions listed. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.
+signal: double_yellow
