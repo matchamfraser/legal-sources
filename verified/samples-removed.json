@@ -1,0 +1,19 @@
+{
+  "_notice": "Upstream sample folders removed from this fork because the publisher's own terms do not allow them to be republished (TEC-826, decided by the owner on 24 November 2026). See FORK.md. tests/test_fork_samples.py checks they stay removed after an upstream merge.",
+  "removed": [
+    "EU/Eurojust",
+    "IE/AnBordPleanala",
+    "IE/PressOmbudsman",
+    "IE/RTB",
+    "UK/ASA",
+    "UK/CAA",
+    "UK/CAT",
+    "UK/FCA",
+    "UK/GC",
+    "UK/NAO",
+    "UK/PRA",
+    "UK/SRA",
+    "UK/TPR",
+    "UK/ValuationTribunalWales"
+  ]
+}
