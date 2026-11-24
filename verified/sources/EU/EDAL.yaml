@@ -1,0 +1,22 @@
+id: EU/EDAL
+terms:
+- title: European Database of Asylum Law, disclaimer
+  url: https://www.asylumlawdatabase.eu/page/disclamer
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported
+  url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+commercial_use: not_allowed
+assistant_reading: not_granted
+storing_text: not_permitted
+linking: permitted
+conditions:
+- The content belongs to the European Council on Refugees and Exiles and is licensed under CC BY-NC-SA 3.0, which excludes commercial use.
+- '"The terms of that agreement however should not be interpreted as precluding in any way the use of the database as a reference tool by legal practitioners working for remuneration." That allows consulting it, not reproducing it in a product.'
+not_covered:
+- External links and attachments
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: 'Red: the licence is non-commercial. The catalogue''s CC BY 4.0 label is not borne out. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.'
+signal: red

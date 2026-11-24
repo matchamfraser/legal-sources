@@ -1,0 +1,25 @@
+id: EU/EMA
+terms:
+- title: European Medicines Agency, legal notice
+  url: https://www.ema.europa.eu/en/about-us/about-website/legal-notice
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: 'EMA copyright and limited reproduction notice: reproduction authorised with EMA acknowledged'
+  url: https://www.ema.europa.eu/en/about-us/about-website/legal-notice
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: 'European Medicines Agency documents from ema.europa.eu. Source: European Medicines Agency. Extract only.'
+status_lines:
+- Extract only, where a single section or a capped passage is shown.
+conditions:
+- EMA is always acknowledged as the source of the material, in each copy.
+- Documents where copyright vests in a third party, and photos or other material not under EMA's copyright, need those holders' permission.
+not_covered:
+- Content supplied by third parties, including photos and other material not under EMA's copyright
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: 'EMA''s legal notice says: "Information and documents made available on EMA''s webpages are public and may be reproduced and / or distributed, totally or in part, irrespective of the means and / or the formats used, for non-commercial and commercial purposes, provided that EMA is always acknowledged as the source of the material." An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.'
+signal: double_yellow

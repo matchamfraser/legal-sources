@@ -274,6 +274,31 @@ read on its own website:
 - **Not yet read:** the Single Resolution Board (no copyright terms found)
   and the EDPS (refuses automated browsers).
 
+The third and last EU batch is the other 43 agencies, bodies and courts, read
+on 24 November 2026. With it every EU source in the catalogue has a record.
+
+- **Open, each on its own conditions (17):** BEREC, EASA, the Court of
+  Auditors, ECDC, the EEA, EMA, EMSA, TED, the Parliament's adopted texts and
+  written questions, three sources under the Commission's CC BY 4.0 notice
+  (CPCS, OLAF, ENSREG) and four collected from EUR-Lex (Committee of the
+  Regions and EESC opinions, trade defence acts). The Parliament requires a link to the
+  complete item with any partial reproduction. Double yellow.
+- **Verified, link only (7):** DG COMP's competition decisions, the
+  Ombudsman's decisions, the Court of Justice's tax judgments and the EPPO's
+  case press releases name firms and people. ACER's legal notice contradicts
+  itself on reuse. EFSA's source is the EFSA Journal, which Wiley publishes
+  under per-article licences, not EFSA's website notice. N-Lex is a gateway
+  and its permission excludes the national texts.
+- **Red (5):** the CPVO (non-commercial only), EDAL (CC BY-NC-SA 3.0), EFRAG
+  (all rights reserved), Eurojust (private use only) and the EPO, whose terms
+  reserve commercial search and retrieval services over its databases to a
+  separate licence.
+- **Not yet read (14):** CURIA, ECHA (three sources), the e-Justice ECLI
+  search, EUIPO (two) and the FRA case law database refused or challenged
+  automated browsers; GDPRhub runs a proof-of-work check; no terms were found
+  for ERA, the .eu ADR site or IUROPA; the EMA ePI portal and the EPO bulk
+  product need an account.
+
 ## Irish sources
 
 The other 19 Irish sources were read on 24 November 2026 (TEC-743). Irish

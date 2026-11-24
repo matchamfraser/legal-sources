@@ -1,0 +1,26 @@
+id: EU/TED
+terms:
+- title: TED, legal notice
+  url: https://ted.europa.eu/en/legal-notice
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: 'TED legal notice: procurement notices freely reusable under the Commission''s reuse policy (Decision 2011/833/EU); editorial content under CC BY 4.0'
+  url: https://ted.europa.eu/en/legal-notice
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: Procurement notices from Tenders Electronic Daily (ted.europa.eu), the Supplement to the Official Journal of the European Union. © European Union. Extract only. Only the electronically signed notices published in the Supplement to the Official Journal are authentic.
+status_lines:
+- Extract only, where a single section or a capped passage is shown.
+- Only the electronically signed notices published in the Supplement to the Official Journal of the European Union are authentic.
+conditions:
+- '"Unless otherwise noted": check each notice.'
+- 'Editorial content of the TED websites is CC BY 4.0: give appropriate credit and indicate changes.'
+not_covered:
+- Content marked with other conditions
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: 'TED''s legal notice says: "Unless otherwise noted, the procurement notices published in the Supplement to the Official Journal of the European Union can be freely reused, for commercial or non-commercial purposes." An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.'
+signal: double_yellow

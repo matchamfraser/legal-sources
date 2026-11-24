@@ -1,0 +1,26 @@
+id: EU/EP-Questions
+terms:
+- title: European Parliament, legal notice
+  url: https://www.europarl.europa.eu/legal-notice/en/
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: 'European Parliament legal notice: reuse authorised with the source acknowledged'
+  url: https://www.europarl.europa.eu/legal-notice/en/
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: 'European Parliament written questions and answers from europarl.europa.eu. © European Union – Source: European Parliament. Extract only; the complete text is at the linked page.'
+status_lines:
+- Extract only, with a link to the complete item, as the Parliament requires for partial reproduction.
+conditions:
+- Reuse is authorised "for personal use or for further non-commercial or commercial dissemination, provided that the entire item is reproduced and the source is acknowledged".
+- Any partial reproduction must also cite the URL of the complete item or the page it came from.
+- Do not delete or change the indications of the author or the source. The reuse of certain data may be subject to different conditions, marked on the item.
+not_covered:
+- Third-party material for which the European Union does not hold the rights of use
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: In legal-sources this source is MEPs' written questions and the institutions' answers. The Parliament's legal notice authorises reuse of items that are the property of the European Union, for non-commercial or commercial dissemination, provided the entire item is reproduced and the source acknowledged; a partial reproduction must also cite the URL of the complete item. Only the official texts published in the Official Journal are authentic. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.
+signal: double_yellow

@@ -1,0 +1,27 @@
+id: EU/ECDC
+terms:
+- title: ECDC, intellectual property notices
+  url: https://www.ecdc.europa.eu/en/ecdc-intellectual-property-notices
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: Creative Commons Attribution 4.0 International (CC BY 4.0), under ECDC's intellectual property notice
+  url: https://www.ecdc.europa.eu/en/ecdc-intellectual-property-notices
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: ECDC technical guidance from ecdc.europa.eu. © European Centre for Disease Prevention and Control (ECDC). Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Extract only.
+status_lines:
+- Extract only, where a single section or a capped passage is shown.
+conditions:
+- 'Three conditions apply together: ECDC is always acknowledged as the creator, a link to the CC BY 4.0 licence is given, and any modification is indicated.'
+- Data provided to ECDC by reporting countries' authorities or WHO is credited as "Dataset provided by ECDC based on data provided by public health authorities, scientific institutes or health care providers in the relevant reporting countries and/or by WHO."
+- Content supplied by third parties needs its copyright holder's permission.
+not_covered:
+- The ECDC logo, which needs ECDC's prior written permission
+- Content supplied by third parties
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: ECDC's intellectual property notice says that, unless otherwise stated, the material it owns is licensed under CC BY 4.0 and may be reproduced, adapted or distributed for commercial or non-commercial purposes on three cumulative conditions. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.
+signal: double_yellow
