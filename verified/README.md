@@ -293,11 +293,24 @@ on 24 November 2026. With it every EU source in the catalogue has a record.
   (all rights reserved), Eurojust (private use only) and the EPO, whose terms
   reserve commercial search and retrieval services over its databases to a
   separate licence.
-- **Not yet read (14):** CURIA, ECHA (three sources), the e-Justice ECLI
+- **Not yet read (14 on that day):** CURIA, ECHA (three sources), the e-Justice ECLI
   search, EUIPO (two) and the FRA case law database refused or challenged
   automated browsers; GDPRhub runs a proof-of-work check; no terms were found
   for ERA, the .eu ADR site or IUROPA; the EMA ePI portal and the EPO bulk
   product need an account.
+
+### EU court judgments (TEC-745)
+
+The sources proposed for EL4-2 were settled on 24 November 2026: EU/CURIA
+(Court of Justice and General Court judgments), EU/ECJ-Tax, the two Advocate
+General opinion sources and EU/EUR-Lex. CURIA was first recorded as unread
+because curia.europa.eu refuses automated browsers, but legal-sources collects
+these judgments through the Publications Office's CELLAR, so the EUR-Lex
+notice is the one that applies. That notice allows commercial and
+non-commercial reuse of the legal documents and sets no limit on automated
+reading, so `assistant_reading` is `permitted` on all five. They stay yellow,
+details and a link only, until the data protection assessment (TEC-763)
+accepts reading judgment text. Only the European Court Reports are official.
 
 ## Irish sources
 

@@ -100,6 +100,14 @@
         {
           "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
           "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        },
+        {
+          "title": "Publications Office of the European Union, copyright",
+          "url": "https://op.europa.eu/en/web/about-us/legal-notices/publications-office-of-the-european-union-copyright"
+        },
+        {
+          "title": "EUR-Lex webservice (limits)",
+          "url": "https://eur-lex.europa.eu/content/help/data-reuse/webservice.html"
         }
       ],
       "date_read": "2026-11-24",
@@ -110,8 +118,8 @@
         "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
       },
       "commercial_use": "allowed",
-      "assistant_reading": "unknown",
-      "storing_text": "unknown",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
       "linking": "permitted",
       "attribution_line": null,
       "status_lines": [
@@ -119,15 +127,18 @@
         "For case law, only the versions published in the European Court Reports are deemed official sources."
       ],
       "conditions": [
-        "The opinions are case law and name parties. Additional rights may need clearing where content depicts identifiable private individuals; nothing is read from them until the data protection check is done (TEC-763).",
-        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document."
+        "Held at details and a link until the data protection assessment (TEC-763) accepts reading the text: the terms permit it, but judgments and opinions name parties and other people.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission.",
+        "Unless otherwise specified. Some documents have special conditions of use, mentioned in the respective document: check each document.",
+        "The Publications Office's copyright page says that questions about \"the conditions under which the content of the CELLAR ... may be re-used\" go to op-copyright@publications.europa.eu. The documents in CELLAR are the ones the EUR-Lex notice covers, and the record relies on that notice.",
+        "Access: the EUR-Lex webservice has a daily call limit and, from 1 January 2026, returns at most 10,000 results a search; large volumes go through the mass download services or the CELLAR API and SPARQL endpoint."
       ],
       "not_covered": [
         "The EUR-Lex logo, which needs the prior consent of the Publications Office",
         "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
       ],
-      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Its filing location is tracked on TEC-746.",
-      "notes": "Verified and held at link only, as EU case law on EU/EUR-Lex is. In legal-sources this source is the opinions of the Advocates General of the Court of Justice, collected from EUR-Lex. legal-sources lists them twice; EU/AG-Opinions and EU/AdvocateGeneralOpinions are the same documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "evidence": "The pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only, as every case-law source is until TEC-763. In legal-sources this source is the opinions of the Advocates General of the Court of Justice, collected from EUR-Lex. legal-sources lists them twice; EU/AG-Opinions and EU/AdvocateGeneralOpinions are the same documents. The EUR-Lex legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" It sets no limit on automated reading or analysis, so assistant_reading is permitted on the terms (TEC-745). An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
       "source": {
         "name": "CJEU — Opinions of the Advocates General",
         "country": "EU",
@@ -187,6 +198,14 @@
         {
           "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
           "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        },
+        {
+          "title": "Publications Office of the European Union, copyright",
+          "url": "https://op.europa.eu/en/web/about-us/legal-notices/publications-office-of-the-european-union-copyright"
+        },
+        {
+          "title": "EUR-Lex webservice (limits)",
+          "url": "https://eur-lex.europa.eu/content/help/data-reuse/webservice.html"
         }
       ],
       "date_read": "2026-11-24",
@@ -197,8 +216,8 @@
         "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
       },
       "commercial_use": "allowed",
-      "assistant_reading": "unknown",
-      "storing_text": "unknown",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
       "linking": "permitted",
       "attribution_line": null,
       "status_lines": [
@@ -206,15 +225,18 @@
         "For case law, only the versions published in the European Court Reports are deemed official sources."
       ],
       "conditions": [
-        "The opinions are case law and name parties. Additional rights may need clearing where content depicts identifiable private individuals; nothing is read from them until the data protection check is done (TEC-763).",
-        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document."
+        "Held at details and a link until the data protection assessment (TEC-763) accepts reading the text: the terms permit it, but judgments and opinions name parties and other people.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission.",
+        "Unless otherwise specified. Some documents have special conditions of use, mentioned in the respective document: check each document.",
+        "The Publications Office's copyright page says that questions about \"the conditions under which the content of the CELLAR ... may be re-used\" go to op-copyright@publications.europa.eu. The documents in CELLAR are the ones the EUR-Lex notice covers, and the record relies on that notice.",
+        "Access: the EUR-Lex webservice has a daily call limit and, from 1 January 2026, returns at most 10,000 results a search; large volumes go through the mass download services or the CELLAR API and SPARQL endpoint."
       ],
       "not_covered": [
         "The EUR-Lex logo, which needs the prior consent of the Publications Office",
         "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
       ],
-      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Its filing location is tracked on TEC-746.",
-      "notes": "Verified and held at link only, as EU case law on EU/EUR-Lex is. In legal-sources this source is the opinions of the Advocates General of the Court of Justice, collected from EUR-Lex. legal-sources lists them twice; EU/AG-Opinions and EU/AdvocateGeneralOpinions are the same documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "evidence": "The pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only, as every case-law source is until TEC-763. In legal-sources this source is the opinions of the Advocates General of the Court of Justice, collected from EUR-Lex. legal-sources lists them twice; EU/AG-Opinions and EU/AdvocateGeneralOpinions are the same documents. The EUR-Lex legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" It sets no limit on automated reading or analysis, so assistant_reading is permitted on the terms (TEC-745). An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
       "source": {
         "name": "EU — Advocate General Opinions (CJEU)",
         "country": "EU",
@@ -495,22 +517,50 @@
     {
       "id": "EU/CURIA",
       "signal": "yellow",
-      "verified": false,
-      "terms": [],
-      "date_read": null,
-      "read_by": null,
-      "review_by": null,
-      "licence": null,
-      "commercial_use": "unknown",
-      "assistant_reading": "unknown",
-      "storing_text": "unknown",
-      "linking": "unknown",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        },
+        {
+          "title": "Publications Office of the European Union, copyright",
+          "url": "https://op.europa.eu/en/web/about-us/legal-notices/publications-office-of-the-european-union-copyright"
+        },
+        {
+          "title": "EUR-Lex webservice (limits)",
+          "url": "https://eur-lex.europa.eu/content/help/data-reuse/webservice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
       "attribution_line": null,
-      "status_lines": [],
-      "conditions": [],
-      "not_covered": [],
-      "evidence": null,
-      "notes": "Not yet verified for this register: the Court of Justice's website refused automated browsers (HTTP 403), so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "status_lines": [
+        "Linked, not reproduced.",
+        "For case law, only the versions published in the European Court Reports are deemed official sources."
+      ],
+      "conditions": [
+        "Held at details and a link until the data protection assessment (TEC-763) accepts reading the text: the terms permit it, but judgments and opinions name parties and other people.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission.",
+        "Unless otherwise specified. Some documents have special conditions of use, mentioned in the respective document: check each document.",
+        "The Publications Office's copyright page says that questions about \"the conditions under which the content of the CELLAR ... may be re-used\" go to op-copyright@publications.europa.eu. The documents in CELLAR are the ones the EUR-Lex notice covers, and the record relies on that notice.",
+        "Access: the EUR-Lex webservice has a daily call limit and, from 1 January 2026, returns at most 10,000 results a search; large volumes go through the mass download services or the CELLAR API and SPARQL endpoint."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only, as every case-law source is until TEC-763. In legal-sources this source is the judgments of the Court of Justice and the General Court, which legal-sources collects through the Publications Office's CELLAR SPARQL endpoint and content negotiation, not from curia.europa.eu (whose website refused automated browsers). The EUR-Lex legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" It sets no limit on automated reading or analysis, so assistant_reading is permitted on the terms (TEC-745). An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
       "source": {
         "name": "Court of Justice of the EU (CURIA)",
         "country": "EU",
@@ -1222,6 +1272,14 @@
         {
           "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
           "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        },
+        {
+          "title": "Publications Office of the European Union, copyright",
+          "url": "https://op.europa.eu/en/web/about-us/legal-notices/publications-office-of-the-european-union-copyright"
+        },
+        {
+          "title": "EUR-Lex webservice (limits)",
+          "url": "https://eur-lex.europa.eu/content/help/data-reuse/webservice.html"
         }
       ],
       "date_read": "2026-11-24",
@@ -1232,8 +1290,8 @@
         "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
       },
       "commercial_use": "allowed",
-      "assistant_reading": "unknown",
-      "storing_text": "unknown",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
       "linking": "permitted",
       "attribution_line": null,
       "status_lines": [
@@ -1241,15 +1299,18 @@
         "For case law, only the versions published in the European Court Reports are deemed official sources."
       ],
       "conditions": [
-        "The judgments are case law and name parties. Additional rights may need clearing where content depicts identifiable private individuals; nothing is read from them until the data protection check is done (TEC-763).",
-        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document."
+        "Held at details and a link until the data protection assessment (TEC-763) accepts reading the text: the terms permit it, but judgments and opinions name parties and other people.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission.",
+        "Unless otherwise specified. Some documents have special conditions of use, mentioned in the respective document: check each document.",
+        "The Publications Office's copyright page says that questions about \"the conditions under which the content of the CELLAR ... may be re-used\" go to op-copyright@publications.europa.eu. The documents in CELLAR are the ones the EUR-Lex notice covers, and the record relies on that notice.",
+        "Access: the EUR-Lex webservice has a daily call limit and, from 1 January 2026, returns at most 10,000 results a search; large volumes go through the mass download services or the CELLAR API and SPARQL endpoint."
       ],
       "not_covered": [
         "The EUR-Lex logo, which needs the prior consent of the Publications Office",
         "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
       ],
-      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Its filing location is tracked on TEC-746.",
-      "notes": "Verified and held at link only, as EU case law on EU/EUR-Lex is. In legal-sources this source is the Court of Justice's tax judgments, collected from EUR-Lex and the Publications Office's metadata service. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "evidence": "The pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only, as every case-law source is until TEC-763. In legal-sources this source is the Court of Justice's tax judgments, collected from EUR-Lex and the Publications Office's metadata service. The EUR-Lex legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" It sets no limit on automated reading or analysis, so assistant_reading is permitted on the terms (TEC-745). An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
       "source": {
         "name": "ECJ Tax Cases",
         "country": "EU",
@@ -2525,31 +2586,45 @@
         {
           "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
           "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        },
+        {
+          "title": "Publications Office of the European Union, copyright",
+          "url": "https://op.europa.eu/en/web/about-us/legal-notices/publications-office-of-the-european-union-copyright"
+        },
+        {
+          "title": "EUR-Lex webservice (limits)",
+          "url": "https://eur-lex.europa.eu/content/help/data-reuse/webservice.html"
         }
       ],
-      "date_read": "2026-11-20",
+      "date_read": "2026-11-24",
       "read_by": "Fraser Matcham",
-      "review_by": "2027-05-20",
+      "review_by": "2027-05-24",
       "licence": {
         "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
         "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
       },
       "commercial_use": "allowed",
-      "assistant_reading": "unknown",
-      "storing_text": "unknown",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
       "linking": "permitted",
       "attribution_line": null,
       "status_lines": [
-        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Linked, not reproduced.",
         "For case law, only the versions published in the European Court Reports are deemed official sources."
       ],
-      "conditions": [],
+      "conditions": [
+        "Held at details and a link until the data protection assessment (TEC-763) accepts reading the text: the terms permit it, but judgments and opinions name parties and other people.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission.",
+        "Unless otherwise specified. Some documents have special conditions of use, mentioned in the respective document: check each document.",
+        "The Publications Office's copyright page says that questions about \"the conditions under which the content of the CELLAR ... may be re-used\" go to op-copyright@publications.europa.eu. The documents in CELLAR are the ones the EUR-Lex notice covers, and the record relies on that notice.",
+        "Access: the EUR-Lex webservice has a daily call limit and, from 1 January 2026, returns at most 10,000 results a search; large volumes go through the mass download services or the CELLAR API and SPARQL endpoint."
+      ],
       "not_covered": [
         "The EUR-Lex logo, which needs the prior consent of the Publications Office",
-        "Logos, names, trademarks, patents and registered designs"
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
       ],
-      "evidence": "PDF of the legal notice page saved by the reader on 20 November 2026. Its filing location is tracked on TEC-746.",
-      "notes": "The reader saved and supplied the page; an AI assistant working for the reader read it in full the same day. Held at link only. The notice allows commercial and non-commercial reuse of the legal documents published in EUR-Lex unless otherwise specified, but this source covers legislation as adopted and case law, and two things are not settled for those: no attribution line has been approved, and judgments name people, so the data protection check comes first (TEC-761, TEC-763). The CC BY 4.0 wording in the notice is for consolidated texts and summaries, which are recorded under EU/ConsolidatedLegislation.",
+      "evidence": "The pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only, as every case-law source is until TEC-763. In legal-sources this source is the EUR-Lex portal as a whole, legislation as adopted and case law. The CC BY 4.0 wording in the notice is for consolidated texts and summaries, recorded under EU/ConsolidatedLegislation; no attribution line has been approved for this record. The EUR-Lex legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" It sets no limit on automated reading or analysis, so assistant_reading is permitted on the terms (TEC-745). An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
       "source": {
         "name": "EUR-Lex Portal",
         "country": "EU",
