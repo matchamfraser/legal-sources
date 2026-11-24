@@ -1,0 +1,24 @@
+id: EU/Ombudsman
+terms:
+- title: European Ombudsman, copyright
+  url: https://www.ombudsman.europa.eu/en/copyright
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: 'European Ombudsman copyright notice: reproduction authorised with the source acknowledged'
+  url: https://www.ombudsman.europa.eu/en/copyright
+commercial_use: allowed
+assistant_reading: unknown
+storing_text: unknown
+linking: permitted
+status_lines:
+- Linked, not reproduced.
+conditions:
+- The decisions are on complaints and can name complainants and officials; nothing is read from them until the data protection check is done (TEC-763).
+- Reproduction is authorised "provided the source is acknowledged, save where otherwise stated".
+not_covered:
+- Material marked as needing prior permission
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: Verified and held at link only. In legal-sources this source is the Ombudsman's decisions. The terms allow reproduction with the source acknowledged and set no limit to non-commercial use, but whether an assistant may read decisions about named people is left open here and no attribution line is set. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.
+signal: yellow

@@ -1,0 +1,24 @@
+id: EU/ACER
+terms:
+- title: ACER, legal notice
+  url: https://www.acer.europa.eu/legal-notice
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: 'ACER legal notice: conflicting statements on reuse'
+  url: https://www.acer.europa.eu/legal-notice
+commercial_use: unknown
+assistant_reading: unknown
+storing_text: unknown
+linking: permitted
+status_lines:
+- Linked, not reproduced.
+conditions:
+- The legal notice says both that "Downloading of this Licensed Material other than for personal use is prohibited. The republication, retransmission, reproduction or other use of this Licensed Material is prohibited." and that information and documents on ACER's webpages "may be reproduced and/or distributed ... for non-commercial and commercial purposes, provided that the Agency is always acknowledged as the source of the material".
+- Held at link only until ACER says which applies.
+not_covered:
+- Third-party material
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: 'Verified and held at link only: ACER''s legal notice contradicts itself on reuse, so no commercial position or attribution line is set. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.'
+signal: yellow

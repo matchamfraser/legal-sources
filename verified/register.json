@@ -12,15 +12,86 @@
     "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
   },
   "schema_version": 1,
-  "records_count": 116,
+  "records_count": 159,
   "latest_date_read": "2026-11-24",
   "signals": {
     "green": 2,
-    "double_yellow": 56,
-    "yellow": 46,
-    "red": 12
+    "double_yellow": 73,
+    "yellow": 67,
+    "red": 17
   },
   "records": [
+    {
+      "id": "EU/ACER",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "ACER, legal notice",
+          "url": "https://www.acer.europa.eu/legal-notice"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "ACER legal notice: conflicting statements on reuse",
+        "url": "https://www.acer.europa.eu/legal-notice"
+      },
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The legal notice says both that \"Downloading of this Licensed Material other than for personal use is prohibited. The republication, retransmission, reproduction or other use of this Licensed Material is prohibited.\" and that information and documents on ACER's webpages \"may be reproduced and/or distributed ... for non-commercial and commercial purposes, provided that the Agency is always acknowledged as the source of the material\".",
+        "Held at link only until ACER says which applies."
+      ],
+      "not_covered": [
+        "Third-party material"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only: ACER's legal notice contradicts itself on reuse, so no commercial position or attribution line is set. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "EU Agency for Energy Regulators (ACER)",
+        "country": "EU",
+        "url": "https://www.acer.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/ADR",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: the .eu dispute resolution site (eu.adr.eu) publishes its procedural rules but no copyright or re-use terms could be found on it, so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "EU Domain Dispute Resolution (.eu)",
+        "country": "EU",
+        "url": "https://eu.adr.eu",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
     {
       "id": "EU/AG-Opinions",
       "signal": "yellow",
@@ -148,6 +219,49 @@
         "name": "EU — Advocate General Opinions (CJEU)",
         "country": "EU",
         "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/BEREC",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "BEREC, legal notice",
+          "url": "https://www.berec.europa.eu/en/legal-notice"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "BEREC Office copyright notice: re-use authorised with the BEREC Office acknowledged",
+        "url": "https://www.berec.europa.eu/en/legal-notice"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "BEREC documents from berec.europa.eu. Source: Agency for Support for BEREC (BEREC Office). Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Re-use is authorised \"provided that the BEREC Office is acknowledged as the source of the material\".",
+        "Individual documents may carry specific conditions in their own copyright notices: check each document."
+      ],
+      "not_covered": [
+        "The BEREC Office logo, which needs the BEREC Office's prior written permission"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "BEREC's legal notice says: \"Copyright © for the entire content of this website unless otherwise stated: Agency for Support for BEREC (the BEREC Office). Re-use is authorised, provided that the BEREC Office is acknowledged as the source of the material.\" It sets no limit to non-commercial use. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "Body of European Regulators for Electronic Communications (BEREC)",
+        "country": "EU",
+        "url": "https://www.berec.europa.eu",
         "data_types": [
           "doctrine"
         ]
@@ -283,6 +397,169 @@
         "name": "European Commission — Proposals & Communications (COM documents)",
         "country": "EU",
         "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/CPCS",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Commission, legal notice",
+          "url": "https://commission.europa.eu/legal-notice_en"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Creative Commons Attribution 4.0 International (CC BY 4.0), under the Commission's reuse policy (Decision 2011/833/EU)",
+        "url": "https://commission.europa.eu/legal-notice_en"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Consumer Protection Cooperation network coordinated actions from commission.europa.eu. Source: European Commission. © European Union. Licensed under CC BY 4.0. Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise indicated (e.g. in individual copyright notices): check each document.",
+        "Give appropriate credit and indicate changes, as CC BY 4.0 requires.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "Software or documents covered by industrial property rights, such as patents, trade marks, registered designs, logos and names",
+        "Content not owned by the EU"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "In legal-sources this source is the coordinated enforcement actions of the Consumer Protection Cooperation network, published on the Commission's website. The Commission's legal notice says: \"Unless otherwise indicated (e.g. in individual copyright notices), content owned by the EU on this website is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence. This means that reuse is allowed, provided appropriate credit is given and changes are indicated.\" An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU Consumer Protection Cooperation Network",
+        "country": "EU",
+        "url": "https://commission.europa.eu/live-work-travel-eu/consumer-rights-and-complaints/enforcement-consumer-protection/coordinated-actions_en",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/CPVO-Decisions",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "CPVO, copyright notice",
+          "url": "https://cpvo.europa.eu/en/copyright-notice"
+        },
+        {
+          "title": "CPVO online services, terms and conditions",
+          "url": "https://online.plantvarieties.eu/assets/TC/TC_V4.0.pdf"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "CPVO copyright notice: reproduction authorised except for commercial purposes",
+        "url": "https://cpvo.europa.eu/en/copyright-notice"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "\"Reproduction of the content on our website is authorised, except for commercial purposes, provided that their source and non-authentic character are acknowledged and that it is mentioned that they have been provided free of charge.\"",
+        "The online services' terms and conditions govern the user area and grant no reuse licence."
+      ],
+      "not_covered": [
+        "Commercial reproduction"
+      ],
+      "evidence": "The pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Red: the CPVO allows non-commercial reproduction only. The catalogue labels this source with the EUR-Lex position. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "Community Plant Variety Office Board of Appeal",
+        "country": "EU",
+        "url": "https://cpvo.europa.eu/",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/CURIA",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: the Court of Justice's website refused automated browsers (HTTP 403), so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "Court of Justice of the EU (CURIA)",
+        "country": "EU",
+        "url": "https://curia.europa.eu",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/CoR-Opinions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Committee of the Regions opinions from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is the opinions of the European Committee of the Regions, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Committee of the Regions — Opinions",
+        "country": "EU",
+        "url": "https://cor.europa.eu/en/our-work/opinions",
         "data_types": [
           "doctrine"
         ]
@@ -514,6 +791,100 @@
       }
     },
     {
+      "id": "EU/DGComp",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Commission, legal notice",
+          "url": "https://commission.europa.eu/legal-notice_en"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Creative Commons Attribution 4.0 International (CC BY 4.0), under the Commission's reuse policy (Decision 2011/833/EU)",
+        "url": "https://commission.europa.eu/legal-notice_en"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "Competition decisions are addressed to named undertakings and can name individuals; nothing is read from them until the data protection check is done (TEC-763).",
+        "Unless otherwise indicated (e.g. in individual copyright notices): check each document.",
+        "Give appropriate credit and indicate changes, as CC BY 4.0 requires.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "Software or documents covered by industrial property rights, such as patents, trade marks, registered designs, logos and names",
+        "Content not owned by the EU"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the Commission's competition case decisions, from the competition case search, which links to the Commission's legal notice. The terms allow commercial reuse, but whether an assistant may read decisions about named firms and people is left open here and no attribution line is set. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "EU Competition Directorate-General (DG COMP)",
+        "country": "EU",
+        "url": "https://competition-cases.ec.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/EASA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EASA, copyright, disclaimer and confidentiality",
+          "url": "https://www.easa.europa.eu/en/copyright-disclaimer"
+        },
+        {
+          "title": "EASA Safety Publications tool, disclaimer and copyright notice",
+          "url": "https://ad.easa.europa.eu/disclaimer"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EASA copyright notice: reproduction authorised with the source acknowledged",
+        "url": "https://www.easa.europa.eu/en/copyright-disclaimer"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "EASA airworthiness directives and safety publications from ad.easa.europa.eu. Source: European Union Aviation Safety Agency. Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Reproduction is authorised \"provided the source is acknowledged, save where otherwise stated\".",
+        "Where prior permission must be obtained for an item, that permission replaces the general one and states its restrictions.",
+        "The tool also holds airworthiness directives issued by non-EU States of Design and by national authorities; those are the issuing authority's, not EASA's."
+      ],
+      "not_covered": [
+        "Airworthiness directives issued by authorities other than EASA"
+      ],
+      "evidence": "The pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "In legal-sources this source is EASA's airworthiness directives, from its Safety Publications tool. EASA's website and the tool carry the same notice: \"Reproduction is authorised, provided the source is acknowledged, save where otherwise stated.\" It sets no limit to non-commercial use. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU Aviation Safety Agency (EASA)",
+        "country": "EU",
+        "url": "https://ad.easa.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
       "id": "EU/EBA",
       "signal": "double_yellow",
       "verified": true,
@@ -555,6 +926,50 @@
         "data_types": [
           "doctrine",
           "legislation"
+        ]
+      }
+    },
+    {
+      "id": "EU/ECA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Court of Auditors, legal notice",
+          "url": "https://www.eca.europa.eu/en/legal-notice"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Creative Commons Attribution 4.0 International (CC BY 4.0), under the ECA's reuse policy (Decision No 6-2019)",
+        "url": "https://www.eca.europa.eu/en/legal-notice"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Court of Auditors reports, opinions and reviews from eca.europa.eu. Source: European Court of Auditors. Licensed under CC BY 4.0. Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise indicated (e.g. in individual copyright notices): check each document.",
+        "Give appropriate credit and indicate any changes clearly; do not distort the original meaning or message of the documents.",
+        "Elements subject to third parties' intellectual property rights (e.g. text, photographs, pictures, graphs) need those rights holders' prior authorisation."
+      ],
+      "not_covered": [
+        "Elements subject to third parties' intellectual property rights"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "The ECA's legal notice says that, unless otherwise indicated, the content of its website is licensed under CC BY 4.0, and that you must not distort the original meaning or message of the documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Court of Auditors — Reports, Opinions & Reviews",
+        "country": "EU",
+        "url": "https://www.eca.europa.eu/en/reports-open-data",
+        "data_types": [
+          "doctrine"
         ]
       }
     },
@@ -671,6 +1086,208 @@
       }
     },
     {
+      "id": "EU/ECDC",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "ECDC, intellectual property notices",
+          "url": "https://www.ecdc.europa.eu/en/ecdc-intellectual-property-notices"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Creative Commons Attribution 4.0 International (CC BY 4.0), under ECDC's intellectual property notice",
+        "url": "https://www.ecdc.europa.eu/en/ecdc-intellectual-property-notices"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "ECDC technical guidance from ecdc.europa.eu. © European Centre for Disease Prevention and Control (ECDC). Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Three conditions apply together: ECDC is always acknowledged as the creator, a link to the CC BY 4.0 licence is given, and any modification is indicated.",
+        "Data provided to ECDC by reporting countries' authorities or WHO is credited as \"Dataset provided by ECDC based on data provided by public health authorities, scientific institutes or health care providers in the relevant reporting countries and/or by WHO.\"",
+        "Content supplied by third parties needs its copyright holder's permission."
+      ],
+      "not_covered": [
+        "The ECDC logo, which needs ECDC's prior written permission",
+        "Content supplied by third parties"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "ECDC's intellectual property notice says that, unless otherwise stated, the material it owns is licensed under CC BY 4.0 and may be reproduced, adapted or distributed for commercial or non-commercial purposes on three cumulative conditions. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Centre for Disease Prevention and Control — Technical Guidance",
+        "country": "EU",
+        "url": "https://www.ecdc.europa.eu/en/publications-data",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/ECHA-REACH",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: ECHA's website refused automated browsers (HTTP 403 from its firewall), so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "ECHA REACH Study Results — IUCLID Public REST API",
+        "country": "EU",
+        "url": "https://iuclid6.echa.europa.eu/public-api",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/ECHA",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: ECHA's website refused automated browsers (HTTP 403 from its firewall), so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "European Chemicals Agency (ECHA)",
+        "country": "EU",
+        "url": "https://echa.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/ECHABoA",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: ECHA's website refused automated browsers (HTTP 403 from its firewall), so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "ECHA Board of Appeal Decisions",
+        "country": "EU",
+        "url": "https://echa.europa.eu/about-us/who-we-are/board-of-appeal/decisions",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/ECJ-Tax",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced.",
+        "For case law, only the versions published in the European Court Reports are deemed official sources."
+      ],
+      "conditions": [
+        "The judgments are case law and name parties. Additional rights may need clearing where content depicts identifiable private individuals; nothing is read from them until the data protection check is done (TEC-763).",
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Its filing location is tracked on TEC-746.",
+      "notes": "Verified and held at link only, as EU case law on EU/EUR-Lex is. In legal-sources this source is the Court of Justice's tax judgments, collected from EUR-Lex and the Publications Office's metadata service. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "ECJ Tax Cases",
+        "country": "EU",
+        "url": "https://curia.europa.eu",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/ECLI",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: the e-Justice portal refused automated browsers (HTTP 403); the search engine also returns national courts' case law, whose terms are each court's own, so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "ECLI Search Engine - European Case Law",
+        "country": "EU",
+        "url": "https://e-justice.europa.eu/topics/legislation-and-case-law/european-case-law-identifier-ecli-search-engine_en",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
       "id": "EU/ECSC-Decisions",
       "signal": "double_yellow",
       "verified": true,
@@ -712,6 +1329,47 @@
         "url": "https://eur-lex.europa.eu",
         "data_types": [
           "legislation"
+        ]
+      }
+    },
+    {
+      "id": "EU/EDAL",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Database of Asylum Law, disclaimer",
+          "url": "https://www.asylumlawdatabase.eu/page/disclamer"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "The content belongs to the European Council on Refugees and Exiles and is licensed under CC BY-NC-SA 3.0, which excludes commercial use.",
+        "\"The terms of that agreement however should not be interpreted as precluding in any way the use of the database as a reference tool by legal practitioners working for remuneration.\" That allows consulting it, not reproducing it in a product."
+      ],
+      "not_covered": [
+        "External links and attachments"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Red: the licence is non-commercial. The catalogue's CC BY 4.0 label is not borne out. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "European Database of Asylum Law",
+        "country": "EU",
+        "url": "https://www.asylumlawdatabase.eu/summaries",
+        "data_types": [
+          "case_law"
         ]
       }
     },
@@ -833,6 +1491,225 @@
       }
     },
     {
+      "id": "EU/EEA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Environment Agency, legal notice",
+          "url": "https://www.eea.europa.eu/en/legal-notice"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EEA copyright notice: re-use free of charge with the EEA acknowledged; EEA materials published under CC BY",
+        "url": "https://www.eea.europa.eu/en/legal-notice"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Environment Agency material from eea.europa.eu. Source: European Environment Agency (EEA). Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "The EEA is always acknowledged as the original source, in each copy, and the original meaning or message of the content is not distorted.",
+        "The re-use of certain data may be subject to different conditions, marked on the item: check each item.",
+        "Content supplied by third parties needs its copyright holder's permission."
+      ],
+      "not_covered": [
+        "Content supplied by third parties"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "The EEA's legal notice says that material for which the EEA holds the rights \"may be re-used without prior permission, free of charge, for commercial or non-commercial purposes, provided that the EEA is always acknowledged as the original source of the material and that the original meaning or message of the content is not distorted.\" The catalogue marks this source blocked. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Environment Agency (EEA)",
+        "country": "EU",
+        "url": "https://www.eea.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/EESC-InitiativeOpinions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Economic and Social Committee own-initiative and exploratory opinions from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is the own-initiative and exploratory opinions of the European Economic and Social Committee, collected from EUR-Lex and the Publications Office's metadata service. The opinions overlap with EU/ESC-Opinions. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Economic and Social Committee — Own-Initiative & Exploratory Opinions",
+        "country": "EU",
+        "url": "https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/EESC-Opinions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Economic and Social Committee opinions and information reports from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is the opinions and information reports of the European Economic and Social Committee, collected from EUR-Lex and the Publications Office's metadata service. The opinions overlap with EU/ESC-Opinions. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Economic and Social Committee — Opinions & Information Reports",
+        "country": "EU",
+        "url": "https://www.eesc.europa.eu/en/our-work/opinions-information-reports/opinions",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/EFRAG",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EFRAG, disclaimer",
+          "url": "https://www.efrag.org/en/disclaimer"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EFRAG disclaimer: all rights reserved; any copy or use needs prior written permission",
+        "url": "https://www.efrag.org/en/disclaimer"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "\"Any copy, adaptation, change, translation, arrangement, public announcement, renting or other form of exploitation of part or all of this website ... is prohibited without the prior written permission of EFRAG.\"",
+        "EFRAG also claims the database right, which lets it prohibit any retrieval or reuse of all or part of the content."
+      ],
+      "not_covered": [
+        "EFRAG's name, logo and other marks"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Red: EFRAG reserves all rights and grants none without written permission. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "EU Financial Reporting Advisory Group",
+        "country": "EU",
+        "url": "https://www.efrag.org",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/EFSA",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EFSA, legal notice",
+          "url": "https://www.efsa.europa.eu/en/legalnotice"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EFSA legal notice for its website; EFSA Journal articles carry their own licences",
+        "url": "https://www.efsa.europa.eu/en/legalnotice"
+      },
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The source is the EFSA Journal, which Wiley publishes. EFSA's website notice (\"Re-use is authorised, provided that EFSA is acknowledged as the source of the material\") does not cover it.",
+        "CrossRef's metadata for the journal's DOI prefix, checked on 24 November 2026, lists Wiley's text and data mining licence on 4,833 works, Wiley's terms and conditions on 626 and CC BY-ND 4.0 on 272; the newest works list none. The catalogue's CC BY 4.0 label is not borne out.",
+        "EFSA's linking policy: links must not be used in a defamatory context, suggest EFSA endorses a product or service, confuse users as to the source, or be displayed alongside advertising."
+      ],
+      "not_covered": [
+        "The EFSA logo, which needs EFSA's prior written permission"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only. EFSA's own website allows reuse with acknowledgement, but the articles this source collects are published by Wiley under per-article licences, which were not read. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "European Food Safety Authority (EFSA)",
+        "country": "EU",
+        "url": "https://www.efsa.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
       "id": "EU/EIOPA",
       "signal": "double_yellow",
       "verified": true,
@@ -874,6 +1751,166 @@
         "name": "EU Insurance and Pensions Authority (EIOPA)",
         "country": "EU",
         "url": "https://www.eiopa.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/EMA-ePI",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: the ePI developer portal shows nothing without signing in. EMA's legal notice, read for EU/EMA, covers www.ema.europa.eu and not this API, so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "EMA Electronic Product Information (ePI) — SmPC & PIL via FHIR API",
+        "country": "EU",
+        "url": "https://epi.developer.ema.europa.eu/",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/EMA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Medicines Agency, legal notice",
+          "url": "https://www.ema.europa.eu/en/about-us/about-website/legal-notice"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EMA copyright and limited reproduction notice: reproduction authorised with EMA acknowledged",
+        "url": "https://www.ema.europa.eu/en/about-us/about-website/legal-notice"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Medicines Agency documents from ema.europa.eu. Source: European Medicines Agency. Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "EMA is always acknowledged as the source of the material, in each copy.",
+        "Documents where copyright vests in a third party, and photos or other material not under EMA's copyright, need those holders' permission."
+      ],
+      "not_covered": [
+        "Content supplied by third parties, including photos and other material not under EMA's copyright"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "EMA's legal notice says: \"Information and documents made available on EMA's webpages are public and may be reproduced and / or distributed, totally or in part, irrespective of the means and / or the formats used, for non-commercial and commercial purposes, provided that EMA is always acknowledged as the source of the material.\" An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Medicines Agency (EMA)",
+        "country": "EU",
+        "url": "https://www.ema.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/EMSA",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Maritime Safety Agency, disclaimer",
+          "url": "https://www.emsa.europa.eu/disclaimer.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EMSA copyright notice: reproduction authorised with the source acknowledged",
+        "url": "https://www.emsa.europa.eu/disclaimer.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Maritime Safety Agency documents from emsa.europa.eu. Source: European Maritime Safety Agency (EMSA). Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Reproduction is authorised \"provided the source is acknowledged, save where otherwise stated\".",
+        "Where prior permission must be obtained for an item, that permission replaces the general one and states its restrictions."
+      ],
+      "not_covered": [
+        "Material marked as needing prior permission"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "EMSA's disclaimer says: \"Reproduction is authorised, provided the source is acknowledged, save where otherwise stated.\" It sets no limit to non-commercial use. The catalogue marks this source blocked. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU Maritime Safety Agency",
+        "country": "EU",
+        "url": "https://www.emsa.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/ENSREG",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Commission, legal notice",
+          "url": "https://commission.europa.eu/legal-notice_en"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Creative Commons Attribution 4.0 International (CC BY 4.0), under the Commission's reuse policy (Decision 2011/833/EU)",
+        "url": "https://commission.europa.eu/legal-notice_en"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Nuclear Safety Regulators Group documents from ensreg.eu. Source: ENSREG. © European Union. Licensed under CC BY 4.0. Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise indicated (e.g. in individual copyright notices): check each document.",
+        "Give appropriate credit and indicate changes, as CC BY 4.0 requires.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission.",
+        "ENSREG's website links to the Commission's legal notice. Reports written by national regulators, and other content not owned by the EU, are outside it: check each document."
+      ],
+      "not_covered": [
+        "Software or documents covered by industrial property rights, such as patents, trade marks, registered designs, logos and names",
+        "Content not owned by the EU"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "In legal-sources this source is ENSREG's documents; the catalogue marks it blocked for want of full text. The Commission's legal notice says: \"Unless otherwise indicated (e.g. in individual copyright notices), content owned by the EU on this website is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence. This means that reuse is allowed, provided appropriate credit is given and changes are indicated.\" An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU Nuclear Safety Regulators Group (ENSREG)",
+        "country": "EU",
+        "url": "https://www.ensreg.eu",
         "data_types": [
           "doctrine"
         ]
@@ -970,6 +2007,50 @@
       }
     },
     {
+      "id": "EU/EP-Questions",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Parliament, legal notice",
+          "url": "https://www.europarl.europa.eu/legal-notice/en/"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "European Parliament legal notice: reuse authorised with the source acknowledged",
+        "url": "https://www.europarl.europa.eu/legal-notice/en/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Parliament written questions and answers from europarl.europa.eu. © European Union – Source: European Parliament. Extract only; the complete text is at the linked page.",
+      "status_lines": [
+        "Extract only, with a link to the complete item, as the Parliament requires for partial reproduction."
+      ],
+      "conditions": [
+        "Reuse is authorised \"for personal use or for further non-commercial or commercial dissemination, provided that the entire item is reproduced and the source is acknowledged\".",
+        "Any partial reproduction must also cite the URL of the complete item or the page it came from.",
+        "Do not delete or change the indications of the author or the source. The reuse of certain data may be subject to different conditions, marked on the item."
+      ],
+      "not_covered": [
+        "Third-party material for which the European Union does not hold the rights of use"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "In legal-sources this source is MEPs' written questions and the institutions' answers. The Parliament's legal notice authorises reuse of items that are the property of the European Union, for non-commercial or commercial dissemination, provided the entire item is reproduced and the source acknowledged; a partial reproduction must also cite the URL of the complete item. Only the official texts published in the Official Journal are authentic. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Parliament — Parliamentary Questions (written questions & answers)",
+        "country": "EU",
+        "url": "https://data.europarl.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
       "id": "EU/EP-Resolutions",
       "signal": "double_yellow",
       "verified": true,
@@ -1009,6 +2090,148 @@
         "name": "European Parliament — Non-Legislative Resolutions",
         "country": "EU",
         "url": "https://eur-lex.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/EPO-BoABulk",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: the bulk data product page states no terms and downloading needs an account. The EPO's website terms, read for EU/EPO, reserve commercial search and retrieval services to a separate licence, so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "EPO Boards of Appeal Bulk Dataset",
+        "country": "EU",
+        "url": "https://publication-bdds.apps.epo.org/raw-data/products/public/product/21",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/EPO",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Patent Office, terms and conditions of use for the website",
+          "url": "https://www.epo.org/en/terms-of-use/terms-and-conditions-use-website-european-patent-office"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EPO website terms of use: commercial use of EPO database content for search or retrieval services needs a separate licence",
+        "url": "https://www.epo.org/en/terms-of-use/terms-and-conditions-use-website-european-patent-office"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "Section 6.2 allows the EPO's own information to be displayed, downloaded and processed \"for private and commercial purposes\", displayed accurately and with the website cited as the source.",
+        "Section 6.4: the right of use \"does not include permission to copy all - or a substantial part of - the data ... from the Office or EPO databases\" or to use data mining, robots or similar tools to gather and extract data.",
+        "Section 6.5: \"To make commercial use of the content of the Office or EPO databases accessible from the website to provide the EPO or third parties with database-search or information-retrieval services ... you must conclude a separate licence agreement with the EPO.\""
+      ],
+      "not_covered": [
+        "Third-party content, which needs prior written consent"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Red: this source collects decisions from the EPO's databases for a search and retrieval service, which section 6.5 reserves to a separate licence agreement. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "European Patent Office (EPO)",
+        "country": "EU",
+        "url": "https://www.epo.org",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/EPPO",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Public Prosecutor's Office, disclaimer",
+          "url": "https://www.eppo.europa.eu/disclaimer_en"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EPPO disclaimer: content subject to copyright; no reuse permission stated",
+        "url": "https://www.eppo.europa.eu/disclaimer_en"
+      },
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The disclaimer says the content of the website and the EPPO logo are subject to copyright, and grants no permission to reuse it.",
+        "The press releases are about investigations and prosecutions and name suspects and defendants; nothing is read from them until the data protection check is done (TEC-763)."
+      ],
+      "not_covered": [
+        "The EPPO logo",
+        "Third-party content"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the EPPO's case press releases. The EPPO states copyright but no reuse terms. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "European Public Prosecutor's Office — Case Information",
+        "country": "EU",
+        "url": "https://www.eppo.europa.eu/en/news",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/ERA",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: the Agency for Railways' legal notice page returns 404 and no copyright link could be found on its website, so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "EU Agency for Railways (ERA)",
+        "country": "EU",
+        "url": "https://www.era.europa.eu",
         "data_types": [
           "doctrine"
         ]
@@ -1239,6 +2462,62 @@
       }
     },
     {
+      "id": "EU/EUIPO-Decisions",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: EUIPO's website refused automated browsers (HTTP 403), so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "EU Intellectual Property Office Board of Appeal Decisions",
+        "country": "EU",
+        "url": "https://euipo.europa.eu/eSearchCLW/",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/EUIPO",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: EUIPO's website refused automated browsers (HTTP 403), so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "EU Intellectual Property Office (EUIPO)",
+        "country": "EU",
+        "url": "https://euipo.europa.eu",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
       "id": "EU/EUR-Lex",
       "signal": "yellow",
       "verified": true,
@@ -1277,6 +2556,119 @@
         "url": "https://eur-lex.europa.eu",
         "data_types": [
           "legislation",
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "EU/EuroParl",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Parliament, legal notice",
+          "url": "https://www.europarl.europa.eu/legal-notice/en/"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "European Parliament legal notice: reuse authorised with the source acknowledged",
+        "url": "https://www.europarl.europa.eu/legal-notice/en/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Parliament adopted texts from europarl.europa.eu. © European Union – Source: European Parliament. Extract only; the complete text is at the linked page.",
+      "status_lines": [
+        "Extract only, with a link to the complete item, as the Parliament requires for partial reproduction."
+      ],
+      "conditions": [
+        "Reuse is authorised \"for personal use or for further non-commercial or commercial dissemination, provided that the entire item is reproduced and the source is acknowledged\".",
+        "Any partial reproduction must also cite the URL of the complete item or the page it came from.",
+        "Do not delete or change the indications of the author or the source. The reuse of certain data may be subject to different conditions, marked on the item."
+      ],
+      "not_covered": [
+        "Third-party material for which the European Union does not hold the rights of use"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "In legal-sources this source is the Parliament's adopted texts. The Parliament's legal notice authorises reuse of items that are the property of the European Union, for non-commercial or commercial dissemination, provided the entire item is reproduced and the source acknowledged; a partial reproduction must also cite the URL of the complete item. Only the official texts published in the Official Journal are authentic. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "European Parliament Adopted Texts",
+        "country": "EU",
+        "url": "https://data.europarl.europa.eu",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
+    {
+      "id": "EU/Eurojust",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Eurojust, disclaimers",
+          "url": "https://www.eurojust.europa.eu/about-us/disclaimers"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Eurojust disclaimer: private use only; other use needs Eurojust's permission",
+        "url": "https://www.eurojust.europa.eu/about-us/disclaimers"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "\"This site and its content are the copyright of Eurojust with the exception of the legal instruments.\"",
+        "\"The materials provided in this website may be used for private purposes. For use, reproduction or transmission for purposes other than private use, please request permission from Eurojust.\""
+      ],
+      "not_covered": [
+        "The Eurojust name and logo"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Red: Eurojust allows private use only. The legal instruments it publishes are excepted from its copyright, but this source is its case-law analyses and reports. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "Eurojust — Case Law Analysis & Judicial Cooperation Reports",
+        "country": "EU",
+        "url": "https://www.eurojust.europa.eu/term/case-law-analysis",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/FRA-CaseLaw",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: the Fundamental Rights Agency's website put up a traffic verification page, which was not bypassed, so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "EU Fundamental Rights Agency — Case Law Database",
+        "country": "EU",
+        "url": "https://fra.europa.eu/en/case-law-database",
+        "data_types": [
           "case_law"
         ]
       }
@@ -1323,6 +2715,35 @@
         "url": "https://eur-lex.europa.eu",
         "data_types": [
           "legislation"
+        ]
+      }
+    },
+    {
+      "id": "EU/GDPRhub",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: GDPRhub puts automated browsers through a proof-of-work check (Anubis), which was not bypassed, so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "GDPRhub — European DPA Decisions Wiki",
+        "country": "EU",
+        "url": "https://gdprhub.eu/",
+        "data_types": [
+          "case_law",
+          "doctrine"
         ]
       }
     },
@@ -1462,6 +2883,49 @@
       }
     },
     {
+      "id": "EU/NLex",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "N-Lex, copyright notice",
+          "url": "https://n-lex.europa.eu/n-lex/copyright-notice/"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "N-Lex copyright notice: introductory information reusable with the source given; national legal texts excluded",
+        "url": "https://n-lex.europa.eu/n-lex/copyright-notice/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The permission covers only N-Lex's introductory general information, credited as '© European Union, n-lex.europa.eu'.",
+        "\"The permission granted above does not extend to any legal texts or documents available in the national databases.\" Each national database's own copyright notice applies."
+      ],
+      "not_covered": [
+        "Legal texts and documents in the national databases"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only. N-Lex is a search gateway to the national legislation databases and holds no documents of its own; national legislation is covered by each country's own record. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "N-Lex (EU National Law Portal)",
+        "country": "EU",
+        "url": "https://n-lex.europa.eu/",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
+    {
       "id": "EU/OJC-Acts",
       "signal": "double_yellow",
       "verified": true,
@@ -1548,6 +3012,94 @@
         "url": "https://eur-lex.europa.eu",
         "data_types": [
           "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/OLAF",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Commission, legal notice",
+          "url": "https://commission.europa.eu/legal-notice_en"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Creative Commons Attribution 4.0 International (CC BY 4.0), under the Commission's reuse policy (Decision 2011/833/EU)",
+        "url": "https://commission.europa.eu/legal-notice_en"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "European Anti-Fraud Office (OLAF) news and press releases from anti-fraud.ec.europa.eu. Source: European Commission. © European Union. Licensed under CC BY 4.0. Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise indicated (e.g. in individual copyright notices): check each document.",
+        "Give appropriate credit and indicate changes, as CC BY 4.0 requires.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "Software or documents covered by industrial property rights, such as patents, trade marks, registered designs, logos and names",
+        "Content not owned by the EU"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "In legal-sources this source is OLAF's news and press releases. OLAF's website links to the Commission's legal notice. The Commission's legal notice says: \"Unless otherwise indicated (e.g. in individual copyright notices), content owned by the EU on this website is licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) licence. This means that reuse is allowed, provided appropriate credit is given and changes are indicated.\" An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU Anti-Fraud Office (OLAF)",
+        "country": "EU",
+        "url": "https://anti-fraud.ec.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/Ombudsman",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "European Ombudsman, copyright",
+          "url": "https://www.ombudsman.europa.eu/en/copyright"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "European Ombudsman copyright notice: reproduction authorised with the source acknowledged",
+        "url": "https://www.ombudsman.europa.eu/en/copyright"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The decisions are on complaints and can name complainants and officials; nothing is read from them until the data protection check is done (TEC-763).",
+        "Reproduction is authorised \"provided the source is acknowledged, save where otherwise stated\"."
+      ],
+      "not_covered": [
+        "Material marked as needing prior permission"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the Ombudsman's decisions. The terms allow reproduction with the source acknowledged and set no limit to non-commercial use, but whether an assistant may read decisions about named people is left open here and no attribution line is set. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "European Ombudsman",
+        "country": "EU",
+        "url": "https://www.ombudsman.europa.eu",
+        "data_types": [
+          "case_law"
         ]
       }
     },
@@ -1760,6 +3312,95 @@
       }
     },
     {
+      "id": "EU/TDI",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "EUR-Lex legal notice (disclaimer and copyright notice)",
+          "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "EUR-Lex legal notice; reuse policy based on Commission Decision 2011/833/EU",
+        "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "EU trade defence regulations and decisions from EUR-Lex (eur-lex.europa.eu). © European Union, 1998–2026. Reused under the Commission's reuse policy (Decision 2011/833/EU). Extract only. Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+      "status_lines": [
+        "Only European Union documents published in the Official Journal of the European Union are deemed authentic.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Unless otherwise specified. Some documents, such as the International Accounting Standards, have special conditions of use, mentioned in the respective Official Journal or document: check each document.",
+        "Additional rights may need clearing where content depicts identifiable private individuals or includes third-party works, and content not owned by the EU may need its rights holders' permission."
+      ],
+      "not_covered": [
+        "The EUR-Lex logo, which needs the prior consent of the Publications Office",
+        "Software or documents covered by industrial property rights, such as patents, trademarks, registered designs, logos and names"
+      ],
+      "evidence": "The legal notice was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Its filing location is tracked on TEC-746.",
+      "notes": "In legal-sources this source is the EU's anti-dumping, anti-subsidy and safeguard regulations and decisions, collected from EUR-Lex and the Publications Office's metadata service. The legal notice says: \"Unless otherwise specified, you can re-use the legal documents published in EUR-Lex for commercial or non-commercial purposes.\" The CC BY 4.0 wording in the notice covers consolidated texts, summaries and editorial content, not these documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU Trade Defence Instruments",
+        "country": "EU",
+        "url": "https://trade.ec.europa.eu/tdi",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "EU/TED",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "TED, legal notice",
+          "url": "https://ted.europa.eu/en/legal-notice"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "TED legal notice: procurement notices freely reusable under the Commission's reuse policy (Decision 2011/833/EU); editorial content under CC BY 4.0",
+        "url": "https://ted.europa.eu/en/legal-notice"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Procurement notices from Tenders Electronic Daily (ted.europa.eu), the Supplement to the Official Journal of the European Union. © European Union. Extract only. Only the electronically signed notices published in the Supplement to the Official Journal are authentic.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown.",
+        "Only the electronically signed notices published in the Supplement to the Official Journal of the European Union are authentic."
+      ],
+      "conditions": [
+        "\"Unless otherwise noted\": check each notice.",
+        "Editorial content of the TED websites is CC BY 4.0: give appropriate credit and indicate changes."
+      ],
+      "not_covered": [
+        "Content marked with other conditions"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "TED's legal notice says: \"Unless otherwise noted, the procurement notices published in the Supplement to the Official Journal of the European Union can be freely reused, for commercial or non-commercial purposes.\" An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "EU Tenders Electronic Daily (TED)",
+        "country": "EU",
+        "url": "https://ted.europa.eu",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
       "id": "EU/Treaties",
       "signal": "double_yellow",
       "verified": true,
@@ -1801,6 +3442,34 @@
         "url": "https://eur-lex.europa.eu",
         "data_types": [
           "legislation"
+        ]
+      }
+    },
+    {
+      "id": "EU/iuropa",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: no copyright or licence terms could be found on the IUROPA project's website; the catalogue's label points to non-commercial terms, so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "IUROPA — CJEU Structured Dataset (University of Gothenburg)",
+        "country": "EU",
+        "url": "https://iuropa.org/",
+        "data_types": [
+          "case_law"
         ]
       }
     },

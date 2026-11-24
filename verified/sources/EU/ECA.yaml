@@ -1,0 +1,26 @@
+id: EU/ECA
+terms:
+- title: European Court of Auditors, legal notice
+  url: https://www.eca.europa.eu/en/legal-notice
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: Creative Commons Attribution 4.0 International (CC BY 4.0), under the ECA's reuse policy (Decision No 6-2019)
+  url: https://www.eca.europa.eu/en/legal-notice
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: 'European Court of Auditors reports, opinions and reviews from eca.europa.eu. Source: European Court of Auditors. Licensed under CC BY 4.0. Extract only.'
+status_lines:
+- Extract only, where a single section or a capped passage is shown.
+conditions:
+- 'Unless otherwise indicated (e.g. in individual copyright notices): check each document.'
+- Give appropriate credit and indicate any changes clearly; do not distort the original meaning or message of the documents.
+- Elements subject to third parties' intellectual property rights (e.g. text, photographs, pictures, graphs) need those rights holders' prior authorisation.
+not_covered:
+- Elements subject to third parties' intellectual property rights
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: The ECA's legal notice says that, unless otherwise indicated, the content of its website is licensed under CC BY 4.0, and that you must not distort the original meaning or message of the documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.
+signal: double_yellow

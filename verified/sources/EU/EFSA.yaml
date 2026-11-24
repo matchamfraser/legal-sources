@@ -1,0 +1,25 @@
+id: EU/EFSA
+terms:
+- title: EFSA, legal notice
+  url: https://www.efsa.europa.eu/en/legalnotice
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: EFSA legal notice for its website; EFSA Journal articles carry their own licences
+  url: https://www.efsa.europa.eu/en/legalnotice
+commercial_use: unknown
+assistant_reading: unknown
+storing_text: unknown
+linking: permitted
+status_lines:
+- Linked, not reproduced.
+conditions:
+- The source is the EFSA Journal, which Wiley publishes. EFSA's website notice ("Re-use is authorised, provided that EFSA is acknowledged as the source of the material") does not cover it.
+- CrossRef's metadata for the journal's DOI prefix, checked on 24 November 2026, lists Wiley's text and data mining licence on 4,833 works, Wiley's terms and conditions on 626 and CC BY-ND 4.0 on 272; the newest works list none. The catalogue's CC BY 4.0 label is not borne out.
+- 'EFSA''s linking policy: links must not be used in a defamatory context, suggest EFSA endorses a product or service, confuse users as to the source, or be displayed alongside advertising.'
+not_covered:
+- The EFSA logo, which needs EFSA's prior written permission
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: Verified and held at link only. EFSA's own website allows reuse with acknowledgement, but the articles this source collects are published by Wiley under per-article licences, which were not read. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.
+signal: yellow

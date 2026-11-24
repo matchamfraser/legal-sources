@@ -1,0 +1,23 @@
+id: EU/EPO
+terms:
+- title: European Patent Office, terms and conditions of use for the website
+  url: https://www.epo.org/en/terms-of-use/terms-and-conditions-use-website-european-patent-office
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: 'EPO website terms of use: commercial use of EPO database content for search or retrieval services needs a separate licence'
+  url: https://www.epo.org/en/terms-of-use/terms-and-conditions-use-website-european-patent-office
+commercial_use: not_allowed
+assistant_reading: not_granted
+storing_text: not_permitted
+linking: permitted
+conditions:
+- Section 6.2 allows the EPO's own information to be displayed, downloaded and processed "for private and commercial purposes", displayed accurately and with the website cited as the source.
+- 'Section 6.4: the right of use "does not include permission to copy all - or a substantial part of - the data ... from the Office or EPO databases" or to use data mining, robots or similar tools to gather and extract data.'
+- 'Section 6.5: "To make commercial use of the content of the Office or EPO databases accessible from the website to provide the EPO or third parties with database-search or information-retrieval services ... you must conclude a separate licence agreement with the EPO."'
+not_covered:
+- Third-party content, which needs prior written consent
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: 'Red: this source collects decisions from the EPO''s databases for a search and retrieval service, which section 6.5 reserves to a separate licence agreement. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.'
+signal: red
