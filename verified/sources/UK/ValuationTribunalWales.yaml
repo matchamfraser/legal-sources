@@ -1,3 +1,22 @@
 id: UK/ValuationTribunalWales
-signal: yellow
-notes: 'Not yet verified for this register: the Tribunal''s websites were opened in a browser on 20 November 2026, including the decisions portal at valuationtribunalwales.net, and have no terms or copyright page that could be found, so nobody has read this publisher''s terms for it and it is link only here. legal-sources labels it "ogl-3.0"; that label is a lead, not a finding. A person can settle it by asking the publisher.'
+terms:
+- title: Valuation Tribunal for Wales, main website (footer copyright notice)
+  url: https://www.valuationtribunal.wales/home.html
+- title: Valuation Tribunal Wales public portal (listings and decisions)
+  url: https://valuationtribunalwales.net/
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: 'Valuation Tribunal for Wales copyright notice: all rights reserved. No re-use licence is stated.'
+  url: https://www.valuationtribunal.wales/home.html
+commercial_use: not_allowed
+assistant_reading: not_granted
+storing_text: not_permitted
+linking: permitted
+conditions:
+- The main website's footer says "© 2026 Valuation Tribunal for Wales, all rights reserved." Neither site states a re-use licence.
+- Link only to the decisions portal at valuationtribunalwales.net. On 24 November 2026 the main website's home page, at valuationtribunal.wales and at the older valuation-tribunals-wales.org.uk, carried injected advertising for online casinos, which suggests the site has been compromised. Do not link to it until that is resolved.
+evidence: The 2 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: 'Red: the Tribunal reserves all rights and grants no licence, as An Bord Pleanála does. The catalogue''s Open Government Licence label is not borne out. The decisions concern named appellants'' property tax appeals. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.'
+signal: red

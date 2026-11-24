@@ -1,3 +1,19 @@
 id: UK/ASA
-signal: yellow
-notes: 'Not yet verified for this register: its website was opened in a browser on 20 November 2026 and has no terms or copyright page that could be found: none in its footer, and the usual addresses do not exist. The footer says only "Copyright © 2026 ASA and CAP", so nobody has read this publisher''s terms for it and it is link only here. legal-sources labels it "ogl-3.0"; that label is a lead, not a finding. A person can settle it by asking the publisher.'
+terms:
+- title: Advertising Standards Authority, website (footer copyright notice)
+  url: https://www.asa.org.uk/
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: ASA and CAP copyright notice. No re-use licence is stated.
+  url: https://www.asa.org.uk/
+commercial_use: not_allowed
+assistant_reading: not_granted
+storing_text: not_permitted
+linking: permitted
+conditions:
+- The site carries "Copyright © 2026 ASA and CAP" and no terms, licence or re-use page could be found on it or by searching, on 20 and 24 November 2026.
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: 'Red: copyright is asserted and no re-use licence is offered, as with IE/PressOmbudsman. The ASA is an independent, non-statutory body, not a Crown body, so the catalogue''s Open Government Licence label is not borne out. Its rulings name advertisers. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.'
+signal: red

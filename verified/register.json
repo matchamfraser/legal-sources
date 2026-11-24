@@ -17,8 +17,8 @@
   "signals": {
     "green": 9,
     "double_yellow": 73,
-    "yellow": 68,
-    "red": 18
+    "yellow": 66,
+    "red": 20
   },
   "records": [
     {
@@ -4343,23 +4343,33 @@
     },
     {
       "id": "UK/ASA",
-      "signal": "yellow",
-      "verified": false,
-      "terms": [],
-      "date_read": null,
-      "read_by": null,
-      "review_by": null,
-      "licence": null,
-      "commercial_use": "unknown",
-      "assistant_reading": "unknown",
-      "storing_text": "unknown",
-      "linking": "unknown",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Advertising Standards Authority, website (footer copyright notice)",
+          "url": "https://www.asa.org.uk/"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "ASA and CAP copyright notice. No re-use licence is stated.",
+        "url": "https://www.asa.org.uk/"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
       "attribution_line": null,
       "status_lines": [],
-      "conditions": [],
+      "conditions": [
+        "The site carries \"Copyright © 2026 ASA and CAP\" and no terms, licence or re-use page could be found on it or by searching, on 20 and 24 November 2026."
+      ],
       "not_covered": [],
-      "evidence": null,
-      "notes": "Not yet verified for this register: its website was opened in a browser on 20 November 2026 and has no terms or copyright page that could be found: none in its footer, and the usual addresses do not exist. The footer says only \"Copyright © 2026 ASA and CAP\", so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by asking the publisher.",
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Red: copyright is asserted and no re-use licence is offered, as with IE/PressOmbudsman. The ASA is an independent, non-statutory body, not a Crown body, so the catalogue's Open Government Licence label is not borne out. Its rulings name advertisers. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
       "source": {
         "name": "UK Advertising Standards Authority (ASA)",
         "country": "UK",
@@ -4969,7 +4979,7 @@
       "conditions": [],
       "not_covered": [],
       "evidence": null,
-      "notes": "Not yet verified for this register: its website refused automated browsers on 20 November 2026 with a security check, which was not bypassed, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by asking the publisher.",
+      "notes": "Not yet verified for this register: its website refused automated browsers on 20 and 24 November 2026 with a Cloudflare security check, which was not bypassed, so nobody has read the website's terms for it and it is link only here. A lead, read on 24 November 2026: the Electoral Commission's API licence (api.electoralcommission.org.uk/terms) is based on the Open Government Licence 3.0 with amendments, requires the attribution \"Contains Electoral Commission Information © Electoral Commission and/or database right\", and bars using any automated system to extract content, including data mining and screen scraping. That licence covers the API's election data, not the enforcement decisions this source collects. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by reading the copyright page in their own browser or asking the publisher.",
       "source": {
         "name": "UK Electoral Commission",
         "country": "UK",
@@ -5822,7 +5832,7 @@
       "conditions": [],
       "not_covered": [],
       "evidence": null,
-      "notes": "Not yet verified for this register: its website refused automated browsers on 20 November 2026 with a security check, which was not bypassed, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by asking the publisher.",
+      "notes": "Not yet verified for this register: its website refused automated browsers on 20 and 24 November 2026 with a Cloudflare security check, which was not bypassed, so nobody has read this publisher's terms for it and it is link only here. IPSO is an independent press regulator, not a Crown body, so an Open Government Licence would be unusual. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by reading the terms in their own browser or asking the publisher.",
       "source": {
         "name": "UK Press Standards Organisation",
         "country": "UK",
@@ -6630,7 +6640,7 @@
       "conditions": [],
       "not_covered": [],
       "evidence": null,
-      "notes": "Not yet verified for this register: the Ombudsman's websites were opened in a browser on 20 November 2026 and have no terms or copyright page that could be found, in their footers, sitemap or publication scheme. The decisions site says real names of individuals are not published, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by asking the publisher.",
+      "notes": "Not yet verified for this register: the Ombudsman's websites were opened in a browser on 20 and 24 November 2026 and have no terms or copyright page that could be found, in their footers, sitemap or publication scheme. The decisions site says real names of individuals are not published, so nobody has read this publisher's terms for the decisions and it is link only here. A lead, read on 24 November 2026: the Ombudsman's annual report and accounts 2025 to 2026 (HC 394) says \"© Parliamentary and Health Service Ombudsman copyright 2026. This publication is licensed under the terms of the Open Government Licence v3.0 except where otherwise stated\"; that statement covers that publication only. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by asking the publisher.",
       "source": {
         "name": "UK Parliamentary and Health Service Ombudsman",
         "country": "UK",
@@ -7314,23 +7324,38 @@
     },
     {
       "id": "UK/ValuationTribunalWales",
-      "signal": "yellow",
-      "verified": false,
-      "terms": [],
-      "date_read": null,
-      "read_by": null,
-      "review_by": null,
-      "licence": null,
-      "commercial_use": "unknown",
-      "assistant_reading": "unknown",
-      "storing_text": "unknown",
-      "linking": "unknown",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Valuation Tribunal for Wales, main website (footer copyright notice)",
+          "url": "https://www.valuationtribunal.wales/home.html"
+        },
+        {
+          "title": "Valuation Tribunal Wales public portal (listings and decisions)",
+          "url": "https://valuationtribunalwales.net/"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Valuation Tribunal for Wales copyright notice: all rights reserved. No re-use licence is stated.",
+        "url": "https://www.valuationtribunal.wales/home.html"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
       "attribution_line": null,
       "status_lines": [],
-      "conditions": [],
+      "conditions": [
+        "The main website's footer says \"© 2026 Valuation Tribunal for Wales, all rights reserved.\" Neither site states a re-use licence.",
+        "Link only to the decisions portal at valuationtribunalwales.net. On 24 November 2026 the main website's home page, at valuationtribunal.wales and at the older valuation-tribunals-wales.org.uk, carried injected advertising for online casinos, which suggests the site has been compromised. Do not link to it until that is resolved."
+      ],
       "not_covered": [],
-      "evidence": null,
-      "notes": "Not yet verified for this register: the Tribunal's websites were opened in a browser on 20 November 2026, including the decisions portal at valuationtribunalwales.net, and have no terms or copyright page that could be found, so nobody has read this publisher's terms for it and it is link only here. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by asking the publisher.",
+      "evidence": "The 2 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Red: the Tribunal reserves all rights and grants no licence, as An Bord Pleanála does. The catalogue's Open Government Licence label is not borne out. The decisions concern named appellants' property tax appeals. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
       "source": {
         "name": "Valuation Tribunal for Wales — Decisions",
         "country": "UK",
