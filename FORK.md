@@ -75,3 +75,19 @@ python3 scripts/build_verified_register.py --check
 After a merge, run the check: a source that upstream has removed or renamed
 makes its record fail, because every record's id must exist in
 `manifest.yaml`.
+
+## Sources paused pending the publisher's reply
+
+Nothing from these sources is used by this fork's products until the publisher
+answers the reader's question about its terms. Each record in `verified/` says
+when the question was sent. Upstream's collectors and sample records for them
+stay in `sources/`, unchanged, as upstream's.
+
+| Source | Asked | Record |
+| --- | --- | --- |
+| Electoral Commission | 24 November 2026 | `verified/sources/UK/EC.yaml` |
+| IPSO | 24 November 2026 | `verified/sources/UK/IPSO.yaml` |
+| Parliamentary and Health Service Ombudsman | 24 November 2026 | `verified/sources/UK/PHSO.yaml` |
+
+When a reply comes, the record is rewritten from it and the source leaves this
+table.
