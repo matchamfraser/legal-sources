@@ -320,6 +320,29 @@ was read:
   the OCEI and the Tax Appeals Commission), and four publish no re-use terms
   that could be found.
 
+## US federal sources
+
+The federal legislation and regulation sources were read on 24 November 2026
+(TEC-744). Works of the US Government are not subject to copyright
+(17 U.S.C. 105), and GPO's public domain notice on GovInfo says public
+documents can generally be reprinted without legal restriction, while
+warning that they may contain copyrighted material used with permission.
+
+- **Green (7):** the US Code, GovInfo (bills, the CFR and public laws, two
+  sources), Congress.gov, the Federal Register, the eCFR and presidential
+  documents. The Federal Register and eCFR sites show a CAPTCHA to automated
+  browsers and allow programmatic access only through their APIs; those
+  three records rest on GPO's notice, and their own legal pages were not read.
+- **Red (1):** Cornell LII. Its markup and own content are CC BY-NC-SA 2.5;
+  the government texts underneath come from GovInfo instead.
+- **Not yet read (1):** Regulations.gov refuses automated browsers. Its
+  public comments are written by the public, not the Government.
+
+Access keys and limits are on each record: an api.data.gov key with 1,000
+requests an hour by default, 5,000 for Congress.gov; GovInfo bulk data and the
+Federal Register and eCFR APIs need no key. The EL3-3 shortlist is the US
+Code, the eCFR, the Federal Register and Congress.gov.
+
 ## Licence and credit
 
 The register is part of this fork and is under the GNU Affero General Public

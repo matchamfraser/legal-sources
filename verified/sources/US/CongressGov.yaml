@@ -1,0 +1,25 @@
+id: US/CongressGov
+terms:
+- title: Congress.gov API, official repository (Library of Congress)
+  url: https://github.com/LibraryOfCongress/api.congress.gov
+- title: Library of Congress, legal
+  url: https://www.loc.gov/legal/
+- title: api.data.gov, developer manual (keys and rate limits)
+  url: https://api.data.gov/docs/developer-manual/
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: 'Public domain in the United States: works of the US Government (17 U.S.C. 105), as stated in GPO''s notice'
+  url: https://www.govinfo.gov/about/policies
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: Data retrieved from Congress.gov (https://www.congress.gov/). Bills are works of the United States Government, not subject to copyright (17 U.S.C. 105).
+not_covered:
+- Copyrighted material included in a Government publication with its owner's permission, which needs that owner's consent
+- Images GPO licenses for its websites, which are not in the public domain
+evidence: The 3 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: 'In legal-sources this source is Congressional bills through the Congress.gov API. The Library of Congress says the API lets the public "view, retrieve, and re-use machine-readable data", and offers "Data retrieved from Congress.gov (https://www.congress.gov/)" as an optional citation, used here. Its legal page says it generally does not own the rights to items in its collections. Access: an api.data.gov key is required and the limit is 5,000 requests an hour. The Library''s legal page asks automated programs to make no more than 10 requests a minute to its applications and to honour robots.txt. The Congress.gov website itself runs a bot check, which was not bypassed. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.'
+signal: green

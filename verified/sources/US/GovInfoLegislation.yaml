@@ -1,0 +1,25 @@
+id: US/GovInfoLegislation
+terms:
+- title: GovInfo, Public Domain & Copyright Notice (U.S. Government Publishing Office)
+  url: https://www.govinfo.gov/about/policies
+- title: GovInfo API documentation
+  url: https://api.govinfo.gov/docs/
+- title: api.data.gov, developer manual (keys and rate limits)
+  url: https://api.data.gov/docs/developer-manual/
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: 'Public domain in the United States: works of the US Government (17 U.S.C. 105), as stated in GPO''s notice'
+  url: https://www.govinfo.gov/about/policies
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: Federal legislation from govinfo.gov (U.S. Government Publishing Office). A work of the United States Government, not subject to copyright (17 U.S.C. 105).
+not_covered:
+- Copyrighted material included in a Government publication with its owner's permission, which needs that owner's consent
+- Images GPO licenses for its websites, which are not in the public domain
+evidence: The 3 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: 'In legal-sources this source is Congressional bills through the GovInfo API; the catalogue marks it blocked as redundant with US/GovInfo. GPO''s notice quotes 17 U.S.C. 105 and says: "By virtue of the foregoing, public documents can generally be reprinted without legal restriction. However, Government publications may contain copyrighted material which was used with permission of the copyright owner." Access: an api.data.gov key is required; the default limit is 1,000 requests an hour per key, and exceeding it blocks the key for an hour. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.'
+signal: green
