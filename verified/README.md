@@ -163,9 +163,16 @@ website, and reading those is where the label failed most often:
   browser, two were settled: the Civil Aviation Authority publishes under its
   own terms (no reproduction for publication; red), and the planning appeals
   portal under the Open Government Licence with maps and plans excluded
-  (verified, link only). Five remain unread: two sites refuse automated
+  (verified, link only). Five remained unread: two sites refuse automated
   browsers, and three publish no terms page that could be found. Each
   record says what was tried.
+- **Second attempt, 24 November 2026.** Two of the five are now red: the
+  Valuation Tribunal for Wales ("all rights reserved") and the ASA (copyright
+  asserted, no licence). The Tribunal's main website home page carried
+  injected casino advertising that day, so links go only to its decisions
+  portal. The Electoral Commission and IPSO still refuse automated browsers,
+  and the PHSO still has no terms for its decisions; those three stay unread,
+  with the leads found recorded in their notes, for a person to settle.
 
 Four sources the product uses have no id in `manifest.yaml` (Companies House,
 GLEIF, the UK sanctions list and the gov.uk bank holidays feed), so they
