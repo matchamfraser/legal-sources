@@ -12,13 +12,13 @@
     "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
   },
   "schema_version": 1,
-  "records_count": 159,
+  "records_count": 168,
   "latest_date_read": "2026-11-24",
   "signals": {
-    "green": 2,
+    "green": 9,
     "double_yellow": 73,
-    "yellow": 67,
-    "red": 17
+    "yellow": 68,
+    "red": 18
   },
   "records": [
     {
@@ -7325,6 +7325,95 @@
       }
     },
     {
+      "id": "US/CongressGov",
+      "signal": "green",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Congress.gov API, official repository (Library of Congress)",
+          "url": "https://github.com/LibraryOfCongress/api.congress.gov"
+        },
+        {
+          "title": "Library of Congress, legal",
+          "url": "https://www.loc.gov/legal/"
+        },
+        {
+          "title": "api.data.gov, developer manual (keys and rate limits)",
+          "url": "https://api.data.gov/docs/developer-manual/"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Public domain in the United States: works of the US Government (17 U.S.C. 105), as stated in GPO's notice",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Data retrieved from Congress.gov (https://www.congress.gov/). Bills are works of the United States Government, not subject to copyright (17 U.S.C. 105).",
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [
+        "Copyrighted material included in a Government publication with its owner's permission, which needs that owner's consent",
+        "Images GPO licenses for its websites, which are not in the public domain"
+      ],
+      "evidence": "The 3 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "In legal-sources this source is Congressional bills through the Congress.gov API. The Library of Congress says the API lets the public \"view, retrieve, and re-use machine-readable data\", and offers \"Data retrieved from Congress.gov (https://www.congress.gov/)\" as an optional citation, used here. Its legal page says it generally does not own the rights to items in its collections. Access: an api.data.gov key is required and the limit is 5,000 requests an hour. The Library's legal page asks automated programs to make no more than 10 requests a minute to its applications and to honour robots.txt. The Congress.gov website itself runs a bot check, which was not bypassed. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "Congress.gov (Congressional Bills)",
+        "country": "US",
+        "url": "https://api.congress.gov",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
+    {
+      "id": "US/CornellLII",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Legal Information Institute, terms of use (copyright)",
+          "url": "https://www.law.cornell.edu/lii/terms/documentation"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Creative Commons Attribution-NonCommercial-ShareAlike 2.5 for LII's markup, navigation and own content",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/2.5/"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "\"Distribution of these pages on the Internet does not constitute consent to any use of this material for commercial redistribution.\"",
+        "LII claims copyright in the markup, navigation apparatus and other value-added features of its editions, licensed under CC BY-NC-SA 2.5: credit LII, no commercial use, share alike.",
+        "\"Links to the collection or individual pages in it are welcome.\""
+      ],
+      "not_covered": [
+        "The underlying US Government texts, which are public domain and are taken from GovInfo instead (US/USCode, US/GovInfo)"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Red: the catalogue collects LII's pages, and LII's own material on them is non-commercial. The catalogue's public domain label applies to the government texts underneath, not to LII's editions. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "Cornell Legal Information Institute",
+        "country": "US",
+        "url": "https://www.law.cornell.edu/",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
+    {
       "id": "US/CourtListener",
       "signal": "yellow",
       "verified": false,
@@ -7349,6 +7438,289 @@
         "url": "https://www.courtlistener.com",
         "data_types": [
           "case_law"
+        ]
+      }
+    },
+    {
+      "id": "US/FederalRegister",
+      "signal": "green",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GovInfo, Public Domain & Copyright Notice (U.S. Government Publishing Office)",
+          "url": "https://www.govinfo.gov/about/policies"
+        },
+        {
+          "title": "FederalRegister.gov and eCFR.gov access notice (shown to automated browsers)",
+          "url": "https://unblock.federalregister.gov/"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Public domain in the United States: works of the US Government (17 U.S.C. 105), as stated in GPO's notice",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Federal Register documents from federalregister.gov (Office of the Federal Register and U.S. Government Publishing Office). A work of the United States Government, not subject to copyright (17 U.S.C. 105).",
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [
+        "Copyrighted material included in a Government publication with its owner's permission, which needs that owner's consent",
+        "Images GPO licenses for its websites, which are not in the public domain"
+      ],
+      "evidence": "The 2 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "In legal-sources this source is Federal Register documents through the FederalRegister.gov API. GPO's notice quotes 17 U.S.C. 105 and says: \"By virtue of the foregoing, public documents can generally be reprinted without legal restriction. However, Government publications may contain copyrighted material which was used with permission of the copyright owner.\" FederalRegister.gov and eCFR.gov showed a CAPTCHA to the automated browser, which was not solved. That page says: \"Due to aggressive automated scraping of FederalRegister.gov and eCFR.gov, programmatic access to these sites is limited to access to our extensive developer APIs.\" The APIs answered without a key. The sites' own legal status and API pages were not read; the record rests on GPO's notice, under which GPO publishes the official Federal Register and Code of Federal Regulations on GovInfo, including Federal Register and eCFR bulk data, as the reader chose. Access: the API only; no scraping of the website. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "Federal Register",
+        "country": "US",
+        "url": "https://www.federalregister.gov",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
+    {
+      "id": "US/GovInfo",
+      "signal": "green",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GovInfo, Public Domain & Copyright Notice (U.S. Government Publishing Office)",
+          "url": "https://www.govinfo.gov/about/policies"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Public domain in the United States: works of the US Government (17 U.S.C. 105), as stated in GPO's notice",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Federal legislation and regulations from govinfo.gov (U.S. Government Publishing Office). A work of the United States Government, not subject to copyright (17 U.S.C. 105).",
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [
+        "Copyrighted material included in a Government publication with its owner's permission, which needs that owner's consent",
+        "Images GPO licenses for its websites, which are not in the public domain"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "In legal-sources this source is Congressional bills, the Code of Federal Regulations and public laws, from GovInfo's bulk data repository. GPO's notice quotes 17 U.S.C. 105 and says: \"By virtue of the foregoing, public documents can generally be reprinted without legal restriction. However, Government publications may contain copyrighted material which was used with permission of the copyright owner.\" Access: the bulk data repository needs no key, and its robots.txt lists the bulk data sitemaps. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "GovInfo (US Federal Legislation)",
+        "country": "US",
+        "url": "https://www.govinfo.gov",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
+    {
+      "id": "US/GovInfoLegislation",
+      "signal": "green",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GovInfo, Public Domain & Copyright Notice (U.S. Government Publishing Office)",
+          "url": "https://www.govinfo.gov/about/policies"
+        },
+        {
+          "title": "GovInfo API documentation",
+          "url": "https://api.govinfo.gov/docs/"
+        },
+        {
+          "title": "api.data.gov, developer manual (keys and rate limits)",
+          "url": "https://api.data.gov/docs/developer-manual/"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Public domain in the United States: works of the US Government (17 U.S.C. 105), as stated in GPO's notice",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Federal legislation from govinfo.gov (U.S. Government Publishing Office). A work of the United States Government, not subject to copyright (17 U.S.C. 105).",
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [
+        "Copyrighted material included in a Government publication with its owner's permission, which needs that owner's consent",
+        "Images GPO licenses for its websites, which are not in the public domain"
+      ],
+      "evidence": "The 3 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "In legal-sources this source is Congressional bills through the GovInfo API; the catalogue marks it blocked as redundant with US/GovInfo. GPO's notice quotes 17 U.S.C. 105 and says: \"By virtue of the foregoing, public documents can generally be reprinted without legal restriction. However, Government publications may contain copyrighted material which was used with permission of the copyright owner.\" Access: an api.data.gov key is required; the default limit is 1,000 requests an hour per key, and exceeding it blocks the key for an hour. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "GovInfo Federal Legislation (Congress Bills)",
+        "country": "US",
+        "url": "https://api.govinfo.gov",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
+    {
+      "id": "US/PresidentialDocuments",
+      "signal": "green",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GovInfo, Public Domain & Copyright Notice (U.S. Government Publishing Office)",
+          "url": "https://www.govinfo.gov/about/policies"
+        },
+        {
+          "title": "FederalRegister.gov and eCFR.gov access notice (shown to automated browsers)",
+          "url": "https://unblock.federalregister.gov/"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Public domain in the United States: works of the US Government (17 U.S.C. 105), as stated in GPO's notice",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Presidential documents from federalregister.gov (Office of the Federal Register and U.S. Government Publishing Office). A work of the United States Government, not subject to copyright (17 U.S.C. 105).",
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [
+        "Copyrighted material included in a Government publication with its owner's permission, which needs that owner's consent",
+        "Images GPO licenses for its websites, which are not in the public domain"
+      ],
+      "evidence": "The 2 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "In legal-sources this source is executive orders, proclamations and other presidential documents through the FederalRegister.gov API. GPO's notice quotes 17 U.S.C. 105 and says: \"By virtue of the foregoing, public documents can generally be reprinted without legal restriction. However, Government publications may contain copyrighted material which was used with permission of the copyright owner.\" FederalRegister.gov and eCFR.gov showed a CAPTCHA to the automated browser, which was not solved. That page says: \"Due to aggressive automated scraping of FederalRegister.gov and eCFR.gov, programmatic access to these sites is limited to access to our extensive developer APIs.\" The APIs answered without a key. The sites' own legal status and API pages were not read; the record rests on GPO's notice, under which GPO publishes the official Federal Register and Code of Federal Regulations on GovInfo, including Federal Register and eCFR bulk data, as the reader chose. Access: the API only; no scraping of the website. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "Presidential Documents (Executive Orders, Proclamations)",
+        "country": "US",
+        "url": "https://www.federalregister.gov",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
+    {
+      "id": "US/RegulationsGov",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: Regulations.gov refused automated browsers (HTTP 403), so nobody has read its user notice for it and it is link only here. GSA's API page (open.gsa.gov/api/regulationsgov) was read: the API needs an api.data.gov key, the Terms of Participation it shows cover posting comments, and DEMO_KEY is limited to 30 requests an hour. The source includes public comments, which are written by members of the public, not the Government. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "Regulations.gov — Federal Rulemaking Documents and Public Comments",
+        "country": "US",
+        "url": "https://www.regulations.gov/",
+        "data_types": [
+          "legislation",
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "US/USCode",
+      "signal": "green",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GovInfo, Public Domain & Copyright Notice (U.S. Government Publishing Office)",
+          "url": "https://www.govinfo.gov/about/policies"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Public domain in the United States: works of the US Government (17 U.S.C. 105), as stated in GPO's notice",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "United States Code from govinfo.gov (U.S. Government Publishing Office). A work of the United States Government, not subject to copyright (17 U.S.C. 105).",
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [
+        "Copyrighted material included in a Government publication with its owner's permission, which needs that owner's consent",
+        "Images GPO licenses for its websites, which are not in the public domain"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "In legal-sources this source is the United States Code, from GovInfo's USCODE collection. GPO's notice quotes 17 U.S.C. 105 and says: \"By virtue of the foregoing, public documents can generally be reprinted without legal restriction. However, Government publications may contain copyrighted material which was used with permission of the copyright owner.\" Access: GovInfo's collections and bulk data need no key, and its robots.txt lists the US Code and bulk data sitemaps. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "US Code (Codified Federal Statutes)",
+        "country": "US",
+        "url": "https://www.govinfo.gov/app/collection/uscode",
+        "data_types": [
+          "legislation"
+        ]
+      }
+    },
+    {
+      "id": "US/eCFR",
+      "signal": "green",
+      "verified": true,
+      "terms": [
+        {
+          "title": "GovInfo, Public Domain & Copyright Notice (U.S. Government Publishing Office)",
+          "url": "https://www.govinfo.gov/about/policies"
+        },
+        {
+          "title": "FederalRegister.gov and eCFR.gov access notice (shown to automated browsers)",
+          "url": "https://unblock.federalregister.gov/"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Public domain in the United States: works of the US Government (17 U.S.C. 105), as stated in GPO's notice",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Code of Federal Regulations from ecfr.gov (Office of the Federal Register and U.S. Government Publishing Office). A work of the United States Government, not subject to copyright (17 U.S.C. 105).",
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [
+        "Copyrighted material included in a Government publication with its owner's permission, which needs that owner's consent",
+        "Images GPO licenses for its websites, which are not in the public domain"
+      ],
+      "evidence": "The 2 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "In legal-sources this source is the electronic Code of Federal Regulations through the eCFR API. GPO's notice quotes 17 U.S.C. 105 and says: \"By virtue of the foregoing, public documents can generally be reprinted without legal restriction. However, Government publications may contain copyrighted material which was used with permission of the copyright owner.\" FederalRegister.gov and eCFR.gov showed a CAPTCHA to the automated browser, which was not solved. That page says: \"Due to aggressive automated scraping of FederalRegister.gov and eCFR.gov, programmatic access to these sites is limited to access to our extensive developer APIs.\" The APIs answered without a key. The sites' own legal status and API pages were not read; the record rests on GPO's notice, under which GPO publishes the official Federal Register and Code of Federal Regulations on GovInfo, including Federal Register and eCFR bulk data, as the reader chose. Access: the API only; no scraping of the website. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "eCFR - Electronic Code of Federal Regulations",
+        "country": "US",
+        "url": "https://www.ecfr.gov/",
+        "data_types": [
+          "legislation"
         ]
       }
     }
