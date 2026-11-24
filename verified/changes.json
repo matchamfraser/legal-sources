@@ -13,7 +13,7 @@
   "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
  },
  "schema_version": 1,
- "generated_at": "2026-11-23T14:58:30Z",
+ "generated_at": "2026-11-24T02:57:44Z",
  "window_days": 90,
  "sources": {
   "EU/ConsolidatedLegislation": {
@@ -37,9 +37,9 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-23T14:58:30Z",
-   "last_success": "2026-11-23T14:58:30Z",
-   "items_count": 143
+   "checked_at": "2026-11-24T02:57:44Z",
+   "last_success": "2026-11-24T02:57:44Z",
+   "items_count": 140
   },
   "IE/Acts": {
    "name": "Irish Statute Database",
@@ -60,8 +60,8 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-23T14:58:30Z",
-   "last_success": "2026-11-23T14:58:30Z",
+   "checked_at": "2026-11-24T02:57:44Z",
+   "last_success": "2026-11-24T02:57:44Z",
    "items_count": 40
   },
   "UK/LegislationGovUK": {
@@ -88,15 +88,24 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-23T14:58:30Z",
-   "last_success": "2026-11-23T14:58:30Z",
-   "items_count": 105
+   "checked_at": "2026-11-24T02:57:44Z",
+   "last_success": "2026-11-24T02:57:44Z",
+   "items_count": 108
   }
  },
  "skipped": {},
  "truncated": false,
  "items_count": 288,
  "items": [
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1229",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (Portmoak, Perth and Kinross) (Emergency) (Revocation) Regulations 2026",
+   "date": "2026-11-23",
+   "first_seen": "2026-11-24",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1229"
+  },
   {
    "source": "UK/LegislationGovUK",
    "id": "uksi/2026/1220",
@@ -132,6 +141,24 @@
    "date": "2026-11-23",
    "first_seen": "2026-11-23",
    "url": "https://www.legislation.gov.uk/uksi/2026/1198"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/351",
+   "kind": "statutory_instrument",
+   "title": "The North West Scotland Trunk Roads (Temporary Prohibitions of Traffic and Overtaking and Temporary Speed Restrictions) (No. 11) Order 2026",
+   "date": "2026-11-23",
+   "first_seen": "2026-11-24",
+   "url": "https://www.legislation.gov.uk/ssi/2026/351"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/350",
+   "kind": "statutory_instrument",
+   "title": "The North East Scotland Trunk Roads (Temporary Prohibitions of Traffic and Overtaking and Temporary Speed Restrictions) (No. 11) Order 2026",
+   "date": "2026-11-23",
+   "first_seen": "2026-11-24",
+   "url": "https://www.legislation.gov.uk/ssi/2026/350"
   },
   {
    "source": "UK/LegislationGovUK",
@@ -2701,33 +2728,6 @@
    "date": "2026-08-26",
    "first_seen": "2026-11-20",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023R0594-20260826"
-  },
-  {
-   "source": "EU/ConsolidatedLegislation",
-   "id": "02019R1154-20260825",
-   "kind": "consolidated_version",
-   "title": "Regulation (EU) 2019/1154 of the European Parliament and of the Council of 20 June 2019 on a multiannual recovery plan for Mediterranean swordfish and amending Council Regulation (EC) No 1967/2006 and Regulation (EU) 2017/2107 of the European Parliament and of the Council",
-   "date": "2026-08-25",
-   "first_seen": "2026-11-20",
-   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02019R1154-20260825"
-  },
-  {
-   "source": "EU/ConsolidatedLegislation",
-   "id": "02021R0404-20260825",
-   "kind": "consolidated_version",
-   "title": "Commission Implementing Regulation (EU) 2021/404 of 24 March 2021 laying down the lists of third countries, territories or zones thereof from which the entry into the Union of animals, germinal products and products of animal origin is permitted in accordance with Regulation (EU) 2016/429 of the European Parliament and of the Council (Text with EEA relevance)",
-   "date": "2026-08-25",
-   "first_seen": "2026-11-20",
-   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0404-20260825"
-  },
-  {
-   "source": "EU/ConsolidatedLegislation",
-   "id": "02015R0098-20260825",
-   "kind": "consolidated_version",
-   "title": "Commission Delegated Regulation (EU) 2015/98 of 18 November 2014 on the implementation of the Union's international obligations, as referred to in Article 15(2) of Regulation (EU) No 1380/2013 of the European Parliament and of the Council, under the International Convention for the Conservation of Atlantic Tunas and the Convention on Future Multilateral Cooperation in the Northwest Atlantic Fishe…",
-   "date": "2026-08-25",
-   "first_seen": "2026-11-20",
-   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02015R0098-20260825"
   }
  ],
  "state": {
