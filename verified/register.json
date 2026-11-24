@@ -12,13 +12,13 @@
     "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
   },
   "schema_version": 1,
-  "records_count": 86,
+  "records_count": 105,
   "latest_date_read": "2026-11-24",
   "signals": {
-    "green": 1,
-    "double_yellow": 47,
-    "yellow": 30,
-    "red": 8
+    "green": 2,
+    "double_yellow": 51,
+    "yellow": 41,
+    "red": 11
   },
   "records": [
     {
@@ -1347,6 +1347,34 @@
       }
     },
     {
+      "id": "IE/ASAI",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: its website, opened in a browser, has no terms or copyright page that could be found; the footer says only \"© Advertising Standards Authority 2026\", so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "Advertising Standards Authority for Ireland (ASAI) — Complaint Adjudications",
+        "country": "IE",
+        "url": "https://adstandards.ie/complaints-decisions/",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
       "id": "IE/Acts",
       "signal": "green",
       "verified": true,
@@ -1400,6 +1428,714 @@
         "url": "https://www.irishstatutebook.ie",
         "data_types": [
           "legislation"
+        ]
+      }
+    },
+    {
+      "id": "IE/AnBordPleanala",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "An Coimisiún Pleanála, copyright",
+          "url": "https://www.pleanala.ie/en-IE/Copyright"
+        },
+        {
+          "title": "An Coimisiún Pleanála, legal notices",
+          "url": "https://www.pleanala.ie/en-ie/legal-notices"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "An Coimisiún Pleanála copyright notice. All rights reserved; no re-use licence is stated.",
+        "url": "https://www.pleanala.ie/en-IE/Copyright"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "The copyright page says all rights to the material on the site are the Commission's or third parties', and grants no licence to re-use it. The footer says \"All rights reserved\"."
+      ],
+      "not_covered": [],
+      "evidence": "The 2 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Red: the publisher's own terms, not an open licence. legal-sources labels this source CC BY 4.0; none of the pages read mentions that licence. In legal-sources it is planning decisions, which also name appellants and properties. An Bord Pleanála is now An Coimisiún Pleanála. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "An Bord Pleanála (An Coimisiún Pleanála) — Planning Appeal Decisions",
+        "country": "IE",
+        "url": "https://www.pleanala.ie/en-ie/case-search",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "IE/BAILII",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: its website refused automated browsers with a security check, which was not bypassed, so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "BAILII Irish Courts",
+        "country": "IE",
+        "url": "https://www.bailii.org",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "IE/CBI-Enforcement",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Central Bank of Ireland, re-use of public sector information",
+          "url": "https://www.centralbank.ie/fns/re-use-of-public-sector-information"
+        },
+        {
+          "title": "Central Bank of Ireland, disclaimer",
+          "url": "https://www.centralbank.ie/fns/disclaimer"
+        },
+        {
+          "title": "Department of Public Expenditure and Reform, Circular 12/2016: Licence for Re-Use of Public Sector Information",
+          "url": "https://www.centralbank.ie/docs/default-source/ftr/ftr-1-3-licence.pdf"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Irish standard licence for re-use of public sector information (Creative Commons Attribution 4.0 International)",
+        "url": "https://www.centralbank.ie/fns/re-use-of-public-sector-information"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The documents are about named people or businesses, and personal data is outside the licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Acknowledge the source and the publisher's copyright where the information is supplied to others.",
+        "Reproduce the information accurately and do not use it in a misleading way.",
+        "Do not use it for the principal purpose of advertising or promoting a particular product or service, or for illegal, immoral, fraudulent or dishonest purposes."
+      ],
+      "not_covered": [
+        "Personal data",
+        "Material marked as another owner's"
+      ],
+      "evidence": "The 3 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the Central Bank of Ireland's enforcement actions. The Bank's page says the information on its website is its copyright unless expressly indicated otherwise, and may be re-used without prior permission under the licence it links, Circular 12/2016. The licence allows commercial re-use, but it does not cover personal data, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "Central Bank of Ireland — Enforcement Actions / Settlement Notices",
+        "country": "IE",
+        "url": "https://www.centralbank.ie/news-media/legal-notices/enforcement-actions",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "IE/CCPC",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "CCPC, legal statement",
+          "url": "https://www.ccpc.ie/legal"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Creative Commons Attribution 4.0 International, under the CCPC's Open Data licence terms",
+        "url": "https://www.ccpc.ie/legal"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Information from the Competition and Consumer Protection Commission (ccpc.ie). © CCPC. Licensed under CC BY 4.0. Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Logos, images, photographs, video and third-party material are not licensed and cannot be re-used.",
+        "Acknowledge the source and the publisher's copyright where the information is supplied to others.",
+        "Reproduce the information accurately and do not use it in a misleading way.",
+        "Do not use it for the principal purpose of advertising or promoting a particular product or service, or for illegal, immoral, fraudulent or dishonest purposes.",
+        "Determinations and enforcement notices can name businesses and individuals. Personal data is outside the licence, so those wait for the data protection check (TEC-763)."
+      ],
+      "not_covered": [
+        "Logos, images, photographs, video and third-party material",
+        "Any crest, logo or mark of the State, a Government Department or a public body, unless part of the document re-used",
+        "Personal data"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "The CCPC's legal statement says that, except logos, images, photographs, video and third-party material, all the information on its website is licensed under CC BY 4.0, and must be properly attributed to the CCPC. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "Irish Competition Authority (CCPC)",
+        "country": "IE",
+        "url": "https://www.ccpc.ie",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "IE/CoimisiunNaMean",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: its disclaimer, opened in a browser, says what the information is and where it comes from but gives no re-use terms, and none could be found elsewhere on the site, so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "Coimisiún na Meán (Ireland's media regulator) — Broadcasting & Video-on-Demand Complaint Decisions",
+        "country": "IE",
+        "url": "https://www.cnam.ie/general-public/report-complain/something-i-saw-on-tv-on-demand-or-heard-on-radio/complaint-decisions/",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "IE/DPC",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Data Protection Commission, re-use of public sector information",
+          "url": "https://www.dataprotection.ie/en/who-we-are/corporate-governance/re-use-public-sector-information"
+        },
+        {
+          "title": "Department of Public Expenditure and Reform, Circular 12/2016: Licence for Re-Use of Public Sector Information",
+          "url": "https://www.centralbank.ie/docs/default-source/ftr/ftr-1-3-licence.pdf"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Irish standard licence for re-use of public sector information (Creative Commons Attribution 4.0 International)",
+        "url": "https://www.dataprotection.ie/en/who-we-are/corporate-governance/re-use-public-sector-information"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Data Protection Commission guidance and decisions from dataprotection.ie. © Data Protection Commission. Contains Irish Public Sector Information licensed under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence. Extract only.",
+      "status_lines": [
+        "The Data Protection Commission does not certify that the information is up to date or error free.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "Acknowledge the source and the publisher's copyright where the information is supplied to others.",
+        "Reproduce the information accurately and do not use it in a misleading way.",
+        "Do not use it for the principal purpose of advertising or promoting a particular product or service, or for illegal, immoral, fraudulent or dishonest purposes.",
+        "Decisions and inquiry reports can name organisations and individuals. Personal data is outside the licence, so those wait for the data protection check (TEC-763)."
+      ],
+      "not_covered": [
+        "Material marked as another owner's",
+        "Personal data"
+      ],
+      "evidence": "The 2 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "The DPC's page says the information on its website is its copyright unless otherwise indicated, may be re-used free of charge in any format, and is subject to the latest PSI licence on data.gov.ie. Circular 12/2016 makes CC BY 4.0 the standard Irish PSI licence. The attribution line uses the standard statement for Irish public sector information. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "Irish Data Protection Commission (DPC)",
+        "country": "IE",
+        "url": "https://www.dataprotection.ie",
+        "data_types": [
+          "case_law",
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "IE/FSPO",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "FSPO, re-use of public sector information",
+          "url": "https://www.fspo.ie/governance/reuse.asp"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "FSPO re-use terms under the Re-use of Public Sector Information Regulations",
+        "url": "https://www.fspo.ie/governance/reuse.asp"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The documents are about named people or businesses, and personal data is outside the licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Acknowledge the source and the publisher's copyright where the information is supplied to others.",
+        "Reproduce the information accurately and do not use it in a misleading way.",
+        "Do not use it for the principal purpose of advertising or promoting a particular product or service, or for illegal, immoral, fraudulent or dishonest purposes."
+      ],
+      "not_covered": [
+        "Personal data",
+        "Material marked as another owner's"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the Financial Services and Pensions Ombudsman's legally binding decisions. The FSPO's page allows re-use free of charge in any format, on the conditions listed. The licence allows commercial re-use, but it does not cover personal data, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "Financial Services and Pensions Ombudsman of Ireland (Legally Binding Decisions)",
+        "country": "IE",
+        "url": "https://www.fspo.ie/complaint-outcomes/investigation-services/legally-binding-decisions/",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "IE/OCEI",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: its website refused automated browsers (HTTP 403), so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "Commissioner for Environmental Information (Ireland) — Appeal Decisions",
+        "country": "IE",
+        "url": "https://ocei.ie/en/decisions/",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "IE/OIC",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: its website refused automated browsers (HTTP 403), so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "Office of the Information Commissioner (Ireland) — Review Decisions",
+        "country": "IE",
+        "url": "https://oic.ie/en/decisions/",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "IE/Oireachtas",
+      "signal": "green",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Houses of the Oireachtas, copyright and re-use",
+          "url": "https://www.oireachtas.ie/en/copyright-and-reuse/"
+        },
+        {
+          "title": "Oireachtas (Open Data) PSI Licence",
+          "url": "https://www.oireachtas.ie/en/open-data/license/"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Oireachtas (Public Sector Information – Open Data) Licence, incorporating Creative Commons Attribution 4.0 International",
+        "url": "https://www.oireachtas.ie/en/open-data/license/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Material from the Houses of the Oireachtas (oireachtas.ie). © Houses of the Oireachtas. Reused under the Oireachtas (Public Sector Information – Open Data) Licence, which incorporates CC BY 4.0. Extract only.",
+      "status_lines": [
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [],
+      "not_covered": [
+        "Third-party images, which are credited on the site and not covered by the licence",
+        "Logos, crests and insignia, such as the official harp and other State emblems of Ireland",
+        "Broadcast proceedings, which have their own licence",
+        "Documents whose re-use is restricted to protect a person's personal data"
+      ],
+      "evidence": "The 2 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "The copyright page says most of the information on the site, including legislation, is the copyright of the Houses of the Oireachtas, and that most of it is subject to the Oireachtas (Open Data) PSI Licence, which applies CC BY 4.0. The licence's conditions are the ones recorded under IE/Acts: identify the Houses as creator, keep the copyright notice, refer to the licence and keep any disclaimers. In legal-sources this source is the Oireachtas's debates, bills and other parliamentary documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "Oireachtas - Irish Parliament",
+        "country": "IE",
+        "url": "https://www.oireachtas.ie",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "IE/PressOmbudsman",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Press Ombudsman and Press Council, copyright",
+          "url": "https://pressombudsman.ie/copyright/"
+        },
+        {
+          "title": "Press Ombudsman and Press Council, disclaimer",
+          "url": "https://pressombudsman.ie/disclaimer/"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Press Council of Ireland copyright statement. No re-use licence is stated.",
+        "url": "https://pressombudsman.ie/copyright/"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "The copyright page says the information, content, text and images on the site are protected by copyright, trade mark, database right and other laws, and grants no licence to re-use them."
+      ],
+      "not_covered": [],
+      "evidence": "The 2 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Red: the publisher's own terms, not an open licence. The catalogue labels this source non-commercial. The Press Council is an independent body, not a public sector one, and its decisions name publications and complainants. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "Office of the Press Ombudsman & Press Council of Ireland — Published Decisions",
+        "country": "IE",
+        "url": "https://pressombudsman.ie/",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "IE/RTB",
+      "signal": "red",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Residential Tenancies Board, terms of use",
+          "url": "https://rtb.ie/terms-of-use/"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Residential Tenancies Board terms of use. Personal non-commercial use only.",
+        "url": "https://rtb.ie/terms-of-use/"
+      },
+      "commercial_use": "not_allowed",
+      "assistant_reading": "not_granted",
+      "storing_text": "not_permitted",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [
+        "A limited licence for personal non-commercial use: to bookmark pages, download the materials and print a copy, with all notices left intact. Any other use, including distribution or re-publication, needs the RTB's prior written consent.",
+        "The licence to use the site's information does not extend to its sale or marketing without the RTB's prior written consent."
+      ],
+      "not_covered": [],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Red: the publisher's own terms, not an open licence. legal-sources labels this source CC BY 4.0; the terms of use do not mention that licence. In legal-sources it is adjudication and tribunal orders, which also name landlords and tenants. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "Residential Tenancies Board of Ireland (Determination Orders)",
+        "country": "IE",
+        "url": "https://rtb.ie/disputes/dispute-outcomes-and-orders/adjudication-and-tribunal-orders/",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "IE/Revenue-TDM",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Revenue, re-use of public sector information",
+          "url": "https://www.revenue.ie/en/corporate/using-revenue/reuse-of-public-sector-information/index.aspx"
+        },
+        {
+          "title": "Revenue, Public Sector Information Licence",
+          "url": "https://www.revenue.ie/en/corporate/using-revenue/reuse-of-public-sector-information/public-sector-information-licence.pdf"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Revenue Public Sector Information Licence, conforming to Creative Commons Attribution 4.0 International",
+        "url": "https://www.revenue.ie/en/corporate/using-revenue/reuse-of-public-sector-information/index.aspx"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Revenue Tax and Duty Manuals from revenue.ie. Information provided courtesy of the Revenue Commissioners under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence. Extract only. Revenue does not certify that the information is up to date.",
+      "status_lines": [
+        "Revenue does not certify that the information is up to date or error free.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "The attribution is Revenue's own statement, word for word: \"Information provided courtesy of the Revenue Commissioners under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence\", with a link to the licence where possible.",
+        "The information is Revenue's copyright \"unless otherwise indicated\": check each document."
+      ],
+      "not_covered": [
+        "Material marked as another owner's"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746. The licence PDF was listed and not opened.",
+      "notes": "In legal-sources this source is revenue Tax and Duty Manuals. Revenue's page allows re-use \"free of charge in any format\", including copying, modifying, publishing and adapting, \"for any lawful purpose\", under a PSI licence conforming to CC BY 4.0, and gives the attribution statement to use. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "Irish Revenue Tax and Duty Manuals",
+        "country": "IE",
+        "url": "https://www.revenue.ie/en/tax-professionals/tdm/index.aspx",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "IE/Revenue",
+      "signal": "double_yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Revenue, re-use of public sector information",
+          "url": "https://www.revenue.ie/en/corporate/using-revenue/reuse-of-public-sector-information/index.aspx"
+        },
+        {
+          "title": "Revenue, Public Sector Information Licence",
+          "url": "https://www.revenue.ie/en/corporate/using-revenue/reuse-of-public-sector-information/public-sector-information-licence.pdf"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Revenue Public Sector Information Licence, conforming to Creative Commons Attribution 4.0 International",
+        "url": "https://www.revenue.ie/en/corporate/using-revenue/reuse-of-public-sector-information/index.aspx"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
+      "attribution_line": "Revenue guidance from revenue.ie. Information provided courtesy of the Revenue Commissioners under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence. Extract only. Revenue does not certify that the information is up to date.",
+      "status_lines": [
+        "Revenue does not certify that the information is up to date or error free.",
+        "Extract only, where a single section or a capped passage is shown."
+      ],
+      "conditions": [
+        "The attribution is Revenue's own statement, word for word: \"Information provided courtesy of the Revenue Commissioners under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence\", with a link to the licence where possible.",
+        "The information is Revenue's copyright \"unless otherwise indicated\": check each document."
+      ],
+      "not_covered": [
+        "Material marked as another owner's"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746. The licence PDF was listed and not opened.",
+      "notes": "In legal-sources this source is revenue guidance. Revenue's page allows re-use \"free of charge in any format\", including copying, modifying, publishing and adapting, \"for any lawful purpose\", under a PSI licence conforming to CC BY 4.0, and gives the attribution statement to use. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.",
+      "source": {
+        "name": "Irish Revenue Commissioners",
+        "country": "IE",
+        "url": "https://www.revenue.ie",
+        "data_types": [
+          "doctrine"
+        ]
+      }
+    },
+    {
+      "id": "IE/SupremeCourt",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: the judgments site refused automated requests, and the Courts Service's disclaimer gives no re-use terms, so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "Irish Courts Service - Case Law",
+        "country": "IE",
+        "url": "https://www2.courts.ie/Judgments",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "IE/TaxAppealsCommission",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: its website refused automated browsers with a security check, which was not bypassed, so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "Irish Tax Appeals Commission Determinations",
+        "country": "IE",
+        "url": "https://www.taxappeals.ie/en/determinations/",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "IE/ValuationTribunal",
+      "signal": "yellow",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Valuation Tribunal, FOI, data protection and PSI licence",
+          "url": "https://www.valuationtribunal.ie/about-us/foi-psi-function/"
+        }
+      ],
+      "date_read": "2026-11-24",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-24",
+      "licence": {
+        "name": "Valuation Tribunal re-use terms, under the latest PSI licence at psi.gov.ie",
+        "url": "https://www.valuationtribunal.ie/about-us/foi-psi-function/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "permitted",
+      "attribution_line": null,
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "The documents are about named people or businesses, and personal data is outside the licence. Nothing is read from them until the data protection check is done (TEC-763).",
+        "Acknowledge the source and the publisher's copyright where the information is supplied to others.",
+        "Reproduce the information accurately and do not use it in a misleading way.",
+        "Do not use it for the principal purpose of advertising or promoting a particular product or service, or for illegal, immoral, fraudulent or dishonest purposes."
+      ],
+      "not_covered": [
+        "Personal data",
+        "Material marked as another owner's"
+      ],
+      "evidence": "The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified and held at link only. In legal-sources this source is the Valuation Tribunal's judgments. The Tribunal's page allows re-use free of charge, subject to the latest PSI licence. The licence allows commercial re-use, but it does not cover personal data, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.",
+      "source": {
+        "name": "Valuation Tribunal of Ireland (An Binse Luachála) — Judgments",
+        "country": "IE",
+        "url": "https://www.valuationtribunal.ie/judgments/",
+        "data_types": [
+          "case_law"
+        ]
+      }
+    },
+    {
+      "id": "IE/WRC",
+      "signal": "yellow",
+      "verified": false,
+      "terms": [],
+      "date_read": null,
+      "read_by": null,
+      "review_by": null,
+      "licence": null,
+      "commercial_use": "unknown",
+      "assistant_reading": "unknown",
+      "storing_text": "unknown",
+      "linking": "unknown",
+      "attribution_line": null,
+      "status_lines": [],
+      "conditions": [],
+      "not_covered": [],
+      "evidence": null,
+      "notes": "Not yet verified for this register: its disclaimer, opened in a browser, gives no re-use terms, and none could be found in its sitemap, so nobody has read this publisher's terms for it and it is link only here. Checked on 24 November 2026. The catalogue's licence label is a lead, not a finding.",
+      "source": {
+        "name": "Workplace Relations Commission (WRC) — Adjudication & Labour Court Decisions",
+        "country": "IE",
+        "url": "https://www.workplacerelations.ie/en/search/?decisions=1",
+        "data_types": [
+          "case_law"
         ]
       }
     },

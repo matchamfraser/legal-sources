@@ -1,0 +1,27 @@
+id: IE/Oireachtas
+terms:
+- title: Houses of the Oireachtas, copyright and re-use
+  url: https://www.oireachtas.ie/en/copyright-and-reuse/
+- title: Oireachtas (Open Data) PSI Licence
+  url: https://www.oireachtas.ie/en/open-data/license/
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: Oireachtas (Public Sector Information – Open Data) Licence, incorporating Creative Commons Attribution 4.0 International
+  url: https://www.oireachtas.ie/en/open-data/license/
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: Material from the Houses of the Oireachtas (oireachtas.ie). © Houses of the Oireachtas. Reused under the Oireachtas (Public Sector Information – Open Data) Licence, which incorporates CC BY 4.0. Extract only.
+status_lines:
+- Extract only, where a single section or a capped passage is shown.
+not_covered:
+- Third-party images, which are credited on the site and not covered by the licence
+- Logos, crests and insignia, such as the official harp and other State emblems of Ireland
+- Broadcast proceedings, which have their own licence
+- Documents whose re-use is restricted to protect a person's personal data
+evidence: The 2 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: 'The copyright page says most of the information on the site, including legislation, is the copyright of the Houses of the Oireachtas, and that most of it is subject to the Oireachtas (Open Data) PSI Licence, which applies CC BY 4.0. The licence''s conditions are the ones recorded under IE/Acts: identify the Houses as creator, keep the copyright notice, refer to the licence and keep any disclaimers. In legal-sources this source is the Oireachtas''s debates, bills and other parliamentary documents. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.'
+signal: green

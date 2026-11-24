@@ -1,0 +1,27 @@
+id: IE/ValuationTribunal
+terms:
+- title: Valuation Tribunal, FOI, data protection and PSI licence
+  url: https://www.valuationtribunal.ie/about-us/foi-psi-function/
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: Valuation Tribunal re-use terms, under the latest PSI licence at psi.gov.ie
+  url: https://www.valuationtribunal.ie/about-us/foi-psi-function/
+commercial_use: allowed
+assistant_reading: unknown
+storing_text: unknown
+linking: permitted
+status_lines:
+- Linked, not reproduced.
+conditions:
+- The documents are about named people or businesses, and personal data is outside the licence. Nothing is read from them until the data protection check is done (TEC-763).
+- Acknowledge the source and the publisher's copyright where the information is supplied to others.
+- Reproduce the information accurately and do not use it in a misleading way.
+- Do not use it for the principal purpose of advertising or promoting a particular product or service, or for illegal, immoral, fraudulent or dishonest purposes.
+not_covered:
+- Personal data
+- Material marked as another owner's
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: Verified and held at link only. In legal-sources this source is the Valuation Tribunal's judgments. The Tribunal's page allows re-use free of charge, subject to the latest PSI licence. The licence allows commercial re-use, but it does not cover personal data, so whether an assistant may read these is left open here and no attribution line is set. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.
+signal: yellow

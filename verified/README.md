@@ -258,6 +258,27 @@ batch is the 27 sources whose documents come from EUR-Lex itself:
 - **Two are the Advocates General's opinions**, the same documents listed
   twice. They are case law and name parties: verified, and link only.
 
+## Irish sources
+
+The other 19 Irish sources were read on 24 November 2026 (TEC-743). Irish
+public bodies publish under the Re-use of Public Sector Information
+Regulations, and the standard licence is CC BY 4.0, but each body's own page
+was read:
+
+- **Open:** the Oireachtas (green, the same licence as the Statute Book),
+  Revenue's guidance and manuals (CC BY 4.0, with Revenue's own attribution
+  statement), the CCPC and the Data Protection Commission (double yellow).
+- **Verified, link only:** the Central Bank's enforcement actions, the
+  Financial Services and Pensions Ombudsman's decisions and the Valuation
+  Tribunal's judgments. Their licences are open, but the documents are about
+  named people or businesses.
+- **Red:** An Coimisiún Pleanála ("all rights reserved"), the Residential
+  Tenancies Board (personal non-commercial use only) and the Press Ombudsman
+  (no licence granted). The catalogue labels the first two CC BY 4.0.
+- **Not yet read:** four sites refuse automated browsers (BAILII, the OIC,
+  the OCEI and the Tax Appeals Commission), and four publish no re-use terms
+  that could be found.
+
 ## Licence and credit
 
 The register is part of this fork and is under the GNU Affero General Public
