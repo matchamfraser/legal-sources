@@ -1,0 +1,28 @@
+id: IE/Revenue-TDM
+terms:
+- title: Revenue, re-use of public sector information
+  url: https://www.revenue.ie/en/corporate/using-revenue/reuse-of-public-sector-information/index.aspx
+- title: Revenue, Public Sector Information Licence
+  url: https://www.revenue.ie/en/corporate/using-revenue/reuse-of-public-sector-information/public-sector-information-licence.pdf
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: Revenue Public Sector Information Licence, conforming to Creative Commons Attribution 4.0 International
+  url: https://www.revenue.ie/en/corporate/using-revenue/reuse-of-public-sector-information/index.aspx
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: Revenue Tax and Duty Manuals from revenue.ie. Information provided courtesy of the Revenue Commissioners under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence. Extract only. Revenue does not certify that the information is up to date.
+status_lines:
+- Revenue does not certify that the information is up to date or error free.
+- Extract only, where a single section or a capped passage is shown.
+conditions:
+- 'The attribution is Revenue''s own statement, word for word: "Information provided courtesy of the Revenue Commissioners under a Creative Commons Attribution 4.0 International (CC BY 4.0) licence", with a link to the licence where possible.'
+- 'The information is Revenue''s copyright "unless otherwise indicated": check each document.'
+not_covered:
+- Material marked as another owner's
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746. The licence PDF was listed and not opened.
+notes: In legal-sources this source is revenue Tax and Duty Manuals. Revenue's page allows re-use "free of charge in any format", including copying, modifying, publishing and adapting, "for any lawful purpose", under a PSI licence conforming to CC BY 4.0, and gives the attribution statement to use. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.
+signal: double_yellow

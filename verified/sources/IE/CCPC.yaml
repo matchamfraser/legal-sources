@@ -1,0 +1,30 @@
+id: IE/CCPC
+terms:
+- title: CCPC, legal statement
+  url: https://www.ccpc.ie/legal
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: Creative Commons Attribution 4.0 International, under the CCPC's Open Data licence terms
+  url: https://www.ccpc.ie/legal
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+attribution_line: Information from the Competition and Consumer Protection Commission (ccpc.ie). © CCPC. Licensed under CC BY 4.0. Extract only.
+status_lines:
+- Extract only, where a single section or a capped passage is shown.
+conditions:
+- Logos, images, photographs, video and third-party material are not licensed and cannot be re-used.
+- Acknowledge the source and the publisher's copyright where the information is supplied to others.
+- Reproduce the information accurately and do not use it in a misleading way.
+- Do not use it for the principal purpose of advertising or promoting a particular product or service, or for illegal, immoral, fraudulent or dishonest purposes.
+- Determinations and enforcement notices can name businesses and individuals. Personal data is outside the licence, so those wait for the data protection check (TEC-763).
+not_covered:
+- Logos, images, photographs, video and third-party material
+- Any crest, logo or mark of the State, a Government Department or a public body, unless part of the document re-used
+- Personal data
+evidence: The page was opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: The CCPC's legal statement says that, except logos, images, photographs, video and third-party material, all the information on its website is licensed under CC BY 4.0, and must be properly attributed to the CCPC. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record and approved the attribution line on 24 November 2026.
+signal: double_yellow

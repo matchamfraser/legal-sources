@@ -1,0 +1,21 @@
+id: IE/AnBordPleanala
+terms:
+- title: An Coimisiún Pleanála, copyright
+  url: https://www.pleanala.ie/en-IE/Copyright
+- title: An Coimisiún Pleanála, legal notices
+  url: https://www.pleanala.ie/en-ie/legal-notices
+date_read: 2026-11-24
+read_by: Fraser Matcham
+review_by: 2027-05-24
+licence:
+  name: An Coimisiún Pleanála copyright notice. All rights reserved; no re-use licence is stated.
+  url: https://www.pleanala.ie/en-IE/Copyright
+commercial_use: not_allowed
+assistant_reading: not_granted
+storing_text: not_permitted
+linking: unknown
+conditions:
+- The copyright page says all rights to the material on the site are the Commission's or third parties', and grants no licence to re-use it. The footer says "All rights reserved".
+evidence: The 2 pages were opened in a browser and read on 24 November 2026 by an AI assistant working for the reader. Filing of saved copies is tracked on TEC-746.
+notes: 'Red: the publisher''s own terms, not an open licence. legal-sources labels this source CC BY 4.0; none of the pages read mentions that licence. In legal-sources it is planning decisions, which also name appellants and properties. An Bord Pleanála is now An Coimisiún Pleanála. An AI assistant working for the reader opened the pages in a browser and read them; the reader confirmed the record on 24 November 2026.'
+signal: red
