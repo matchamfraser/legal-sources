@@ -13,7 +13,7 @@
   "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
  },
  "schema_version": 1,
- "generated_at": "2026-11-25T00:54:46Z",
+ "generated_at": "2026-11-25T14:38:50Z",
  "window_days": 90,
  "sources": {
   "EU/ConsolidatedLegislation": {
@@ -37,8 +37,8 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-25T00:54:46Z",
-   "last_success": "2026-11-25T00:54:46Z",
+   "checked_at": "2026-11-25T14:38:50Z",
+   "last_success": "2026-11-25T14:38:50Z",
    "items_count": 149
   },
   "IE/Acts": {
@@ -60,8 +60,8 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-25T00:54:46Z",
-   "last_success": "2026-11-25T00:54:46Z",
+   "checked_at": "2026-11-25T14:38:50Z",
+   "last_success": "2026-11-25T14:38:50Z",
    "items_count": 45
   },
   "UK/LegislationGovUK": {
@@ -88,15 +88,42 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-25T00:54:46Z",
-   "last_success": "2026-11-25T00:54:46Z",
-   "items_count": 120
+   "checked_at": "2026-11-25T14:38:50Z",
+   "last_success": "2026-11-25T14:38:50Z",
+   "items_count": 123
   }
  },
  "skipped": {},
  "truncated": false,
- "items_count": 314,
+ "items_count": 317,
  "items": [
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1234",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (Stonehenge) (No. 2) Regulations 2026",
+   "date": "2026-11-25",
+   "first_seen": "2026-11-25",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1234"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1212",
+   "kind": "statutory_instrument",
+   "title": "The Domestic Abuse Act 2021 (Commencement No. 10) Regulations 2026",
+   "date": "2026-11-25",
+   "first_seen": "2026-11-25",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1212"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1174",
+   "kind": "statutory_instrument",
+   "title": "The Frodsham Solar Farm Order 2026",
+   "date": "2026-11-25",
+   "first_seen": "2026-11-25",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1174"
+  },
   {
    "source": "UK/LegislationGovUK",
    "id": "uksi/2026/1235",
