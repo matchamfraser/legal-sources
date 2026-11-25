@@ -13,7 +13,7 @@
   "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
  },
  "schema_version": 1,
- "generated_at": "2026-11-24T14:59:59Z",
+ "generated_at": "2026-11-25T00:54:46Z",
  "window_days": 90,
  "sources": {
   "EU/ConsolidatedLegislation": {
@@ -37,9 +37,9 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-24T14:59:59Z",
-   "last_success": "2026-11-24T14:59:59Z",
-   "items_count": 146
+   "checked_at": "2026-11-25T00:54:46Z",
+   "last_success": "2026-11-25T00:54:46Z",
+   "items_count": 149
   },
   "IE/Acts": {
    "name": "Irish Statute Database",
@@ -60,8 +60,8 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-24T14:59:59Z",
-   "last_success": "2026-11-24T14:59:59Z",
+   "checked_at": "2026-11-25T00:54:46Z",
+   "last_success": "2026-11-25T00:54:46Z",
    "items_count": 45
   },
   "UK/LegislationGovUK": {
@@ -88,15 +88,33 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-24T14:59:59Z",
-   "last_success": "2026-11-24T14:59:59Z",
-   "items_count": 116
+   "checked_at": "2026-11-25T00:54:46Z",
+   "last_success": "2026-11-25T00:54:46Z",
+   "items_count": 120
   }
  },
  "skipped": {},
  "truncated": false,
- "items_count": 307,
+ "items_count": 314,
  "items": [
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1235",
+   "kind": "statutory_instrument",
+   "title": "The Voter Identification (Amendment of List of Specified Documents) (Northern Ireland) Regulations 2026",
+   "date": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1235"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1233",
+   "kind": "statutory_instrument",
+   "title": "The Air Navigation (Restriction of Flying) (Springholm, Dumfries and Galloway) (Emergency) Regulations 2026",
+   "date": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1233"
+  },
   {
    "source": "UK/LegislationGovUK",
    "id": "uksi/2026/1230",
@@ -150,6 +168,24 @@
    "date": "2026-11-24",
    "first_seen": "2026-11-24",
    "url": "https://www.legislation.gov.uk/uksi/2026/1221"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/353",
+   "kind": "statutory_instrument",
+   "title": "The South West Scotland Trunk Roads (Temporary Prohibitions of Traffic and Overtaking and Temporary Speed Restrictions) (No. 11) Order 2026",
+   "date": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "url": "https://www.legislation.gov.uk/ssi/2026/353"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/352",
+   "kind": "statutory_instrument",
+   "title": "The South East Scotland Trunk Roads (Temporary Prohibitions of Traffic and Overtaking and Temporary Speed Restrictions) (No. 11) Order 2026",
+   "date": "2026-11-24",
+   "first_seen": "2026-11-25",
+   "url": "https://www.legislation.gov.uk/ssi/2026/352"
   },
   {
    "source": "UK/LegislationGovUK",
@@ -930,6 +966,15 @@
    "url": "https://www.legislation.gov.uk/wsi/2026/136"
   },
   {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02017R0117-20261119",
+   "kind": "consolidated_version",
+   "title": "Commission Delegated Regulation (EU) 2017/117 of 5 September 2016 establishing fisheries conservation measures for the protection of the marine environment in the Baltic Sea and repealing Delegated Regulation (EU) 2015/1778",
+   "date": "2026-11-19",
+   "first_seen": "2026-11-25",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02017R0117-20261119"
+  },
+  {
    "source": "UK/LegislationGovUK",
    "id": "uksi/2026/1210",
    "kind": "statutory_instrument",
@@ -1705,6 +1750,15 @@
   },
   {
    "source": "EU/ConsolidatedLegislation",
+   "id": "02016R1239-20261105",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2016/1239 of 18 May 2016 laying down rules for the application of Regulation (EU) No 1308/2013 of the European Parliament and of the Council with regard to the system of import and export licences (Text with EEA relevance)",
+   "date": "2026-11-05",
+   "first_seen": "2026-11-25",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016R1239-20261105"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
    "id": "02002R0881-20261105",
    "kind": "consolidated_version",
    "title": "Council Regulation (EC) No 881/2002 of 27 May 2002 imposing certain specific restrictive measures directed against certain persons and entities associated with the ISIL (Da'esh) and Al-Qaida organisations",
@@ -1810,6 +1864,15 @@
    "date": "2026-10-30",
    "first_seen": "2026-11-24",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021R0404-20261030"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024R2746-20261029",
+   "kind": "consolidated_version",
+   "title": "Commission Implementing Regulation (EU) 2024/2746 of 25 October 2024 laying down rules for the application of Council Regulation (EC) No 1217/2009 setting up the Farm Sustainability Data Network and repealing Commission Implementing Regulation (EU) 2015/220",
+   "date": "2026-10-29",
+   "first_seen": "2026-11-25",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2746-20261029"
   },
   {
    "source": "EU/ConsolidatedLegislation",
@@ -2569,6 +2632,15 @@
   },
   {
    "source": "EU/ConsolidatedLegislation",
+   "id": "02024D1447-20260924",
+   "kind": "consolidated_version",
+   "title": "Council Implementing Decision (EU) 2024/1447 of 14 May 2024 on the approval of the assessment of the Ukraine Plan",
+   "date": "2026-09-24",
+   "first_seen": "2026-11-25",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024D1447-20260924"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
    "id": "02015R0340-20260924",
    "kind": "consolidated_version",
    "title": "Commission Regulation (EU) 2015/340 of 20 February 2015 laying down technical requirements and administrative procedures relating to air traffic controllers' licences and certificates pursuant to Regulation (EC) No 216/2008 of the European Parliament and of the Council, amending Commission Implementing Regulation (EU) No 923/2012 and repealing Commission Regulation (EU) No 805/2011 (Text with EEA…",
@@ -2890,15 +2962,6 @@
    "date": "2026-08-27",
    "first_seen": "2026-11-20",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021D1402-20260827"
-  },
-  {
-   "source": "EU/ConsolidatedLegislation",
-   "id": "02023R0594-20260826",
-   "kind": "consolidated_version",
-   "title": "Commission Implementing Regulation (EU) 2023/594 of 16 March 2023 laying down special disease control measures for African swine fever and repealing Implementing Regulation (EU) 2021/605 (Text with EEA relevance)",
-   "date": "2026-08-26",
-   "first_seen": "2026-11-20",
-   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023R0594-20260826"
   }
  ],
  "state": {
