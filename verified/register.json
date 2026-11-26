@@ -13,7 +13,7 @@
   },
   "schema_version": 1,
   "records_count": 168,
-  "latest_date_read": "2026-11-24",
+  "latest_date_read": "2026-11-26",
   "signals": {
     "green": 9,
     "double_yellow": 73,
@@ -4979,7 +4979,7 @@
       "conditions": [],
       "not_covered": [],
       "evidence": null,
-      "notes": "Paused on 24 November 2026: the reader emailed the Electoral Commission that day to ask whether, and on what terms, its content may be reused, read by software and linked to. Until it replies, nothing from this source is used: no text, no summaries and no links. The upstream sample records and collector in sources/UK/EC/ are upstream's, not used by this fork's products. Not yet verified for this register: its website refused automated browsers on 20 and 24 November 2026 with a Cloudflare security check, which was not bypassed, so nobody has read the website's terms for it and it is link only here. A lead, read on 24 November 2026: the Electoral Commission's API licence (api.electoralcommission.org.uk/terms) is based on the Open Government Licence 3.0 with amendments, requires the attribution \"Contains Electoral Commission Information © Electoral Commission and/or database right\", and bars using any automated system to extract content, including data mining and screen scraping. That licence covers the API's election data, not the enforcement decisions this source collects. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by reading the copyright page in their own browser or asking the publisher.",
+      "notes": "Paused on 24 November 2026: the reader emailed the Electoral Commission that day to ask whether, and on what terms, its content may be reused, read by software and linked to. The Commission acknowledged the email on 25 November 2026 and said the query was being considered; no answer had come by 26 November 2026. Until it answers, nothing from this source is used: no text, no summaries and no links. The upstream sample records and collector in sources/UK/EC/ are upstream's, not used by this fork's products. Not yet verified for this register: its website refused automated browsers on 20 and 24 November 2026 with a Cloudflare security check, which was not bypassed, so nobody has read the website's terms for it and it is link only here. A lead, read on 24 November 2026: the Electoral Commission's API licence (api.electoralcommission.org.uk/terms) is based on the Open Government Licence 3.0 with amendments, requires the attribution \"Contains Electoral Commission Information © Electoral Commission and/or database right\", and bars using any automated system to extract content, including data mining and screen scraping. That licence covers the API's election data, not the enforcement decisions this source collects. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by reading the copyright page in their own browser or asking the publisher.",
       "source": {
         "name": "UK Electoral Commission",
         "country": "UK",
@@ -5817,22 +5817,39 @@
     {
       "id": "UK/IPSO",
       "signal": "yellow",
-      "verified": false,
-      "terms": [],
-      "date_read": null,
-      "read_by": null,
-      "review_by": null,
-      "licence": null,
-      "commercial_use": "unknown",
-      "assistant_reading": "unknown",
-      "storing_text": "unknown",
-      "linking": "unknown",
+      "verified": true,
+      "terms": [
+        {
+          "title": "IPSO's rulings and resolution statements (permission given by email from IPSO's Systems Team on 26 November 2026)",
+          "url": "https://www.ipso.co.uk/rulings-and-resolution-statements/"
+        }
+      ],
+      "date_read": "2026-11-26",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-26",
+      "licence": {
+        "name": "Permission by email from IPSO: no objection to use of the published rulings; no licence and no credit conditions; a link to the original is requested",
+        "url": "https://www.ipso.co.uk/rulings-and-resolution-statements/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
       "attribution_line": null,
-      "status_lines": [],
-      "conditions": [],
-      "not_covered": [],
-      "evidence": null,
-      "notes": "Paused on 24 November 2026: the reader emailed IPSO that day to ask whether, and on what terms, its content may be reused, read by software and linked to. Until it replies, nothing from this source is used: no text, no summaries and no links. The upstream sample records and collector in sources/UK/IPSO/ are upstream's, not used by this fork's products. Not yet verified for this register: its website refused automated browsers on 20 and 24 November 2026 with a Cloudflare security check, which was not bypassed, so nobody has read this publisher's terms for it and it is link only here. IPSO is an independent press regulator, not a Crown body, so an Open Government Licence would be unusual. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by reading the terms in their own browser or asking the publisher.",
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "Held at details and a link until the case-law data protection assessment (TEC-763) accepts reading the text: the terms permit it, but rulings name complainants and other people.",
+        "IPSO asks that each ruling used is linked to the original on its website.",
+        "The permission is an email reply, not published terms: \"All the rulings published on our website are in the public domain and we have no objection to you using them. ... There are no licences for re-use, and we do not have any credit or acknowledgement conditions.\" Check at review that it still stands."
+      ],
+      "not_covered": [
+        "Material on the website other than the published rulings and resolution statements",
+        "Third-party material quoted in rulings, such as the articles complained about"
+      ],
+      "evidence": "The reader's email of 24 November 2026 and IPSO's reply of 26 November 2026, both in the reader's mailbox. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified by asking the publisher. IPSO's website refuses automated browsers and publishes no terms, so the reader emailed IPSO on 24 November 2026; the source was paused until the reply. IPSO's Systems Team replied on 26 November 2026 that the published rulings are in the public domain and that it has no objection to their use, with a link to the original appreciated. IPSO is an independent press regulator, not a Crown body, so the catalogue's Open Government Licence label is not borne out, though the outcome is open. An AI assistant working for the reader read the emails; the reader confirmed the record on 26 November 2026.",
       "source": {
         "name": "UK Press Standards Organisation",
         "country": "UK",
@@ -6625,22 +6642,45 @@
     {
       "id": "UK/PHSO",
       "signal": "yellow",
-      "verified": false,
-      "terms": [],
-      "date_read": null,
-      "read_by": null,
-      "review_by": null,
-      "licence": null,
-      "commercial_use": "unknown",
-      "assistant_reading": "unknown",
-      "storing_text": "unknown",
-      "linking": "unknown",
+      "verified": true,
+      "terms": [
+        {
+          "title": "Public Service Ombudsman, published decisions (licence confirmed by email from its Content Officer on 25 November 2026)",
+          "url": "https://decisions.ombudsman.org.uk/"
+        },
+        {
+          "title": "Open Government Licence v3.0",
+          "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+        }
+      ],
+      "date_read": "2026-11-26",
+      "read_by": "Fraser Matcham",
+      "review_by": "2027-05-26",
+      "licence": {
+        "name": "Open Government Licence v3.0, confirmed by the Ombudsman by email for all its content",
+        "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+      },
+      "commercial_use": "allowed",
+      "assistant_reading": "permitted",
+      "storing_text": "permitted",
+      "linking": "permitted",
       "attribution_line": null,
-      "status_lines": [],
-      "conditions": [],
-      "not_covered": [],
-      "evidence": null,
-      "notes": "Paused on 24 November 2026: the reader emailed the Parliamentary and Health Service Ombudsman that day to ask whether, and on what terms, its content may be reused, read by software and linked to. Until it replies, nothing from this source is used: no text, no summaries and no links. The upstream sample records and collector in sources/UK/PHSO/ are upstream's, not used by this fork's products. Not yet verified for this register: the Ombudsman's websites were opened in a browser on 20 and 24 November 2026 and have no terms or copyright page that could be found, in their footers, sitemap or publication scheme. The decisions site says real names of individuals are not published, so nobody has read this publisher's terms for the decisions and it is link only here. A lead, read on 24 November 2026: the Ombudsman's annual report and accounts 2025 to 2026 (HC 394) says \"© Parliamentary and Health Service Ombudsman copyright 2026. This publication is licensed under the terms of the Open Government Licence v3.0 except where otherwise stated\"; that statement covers that publication only. legal-sources labels it \"ogl-3.0\"; that label is a lead, not a finding. A person can settle it by asking the publisher.",
+      "status_lines": [
+        "Linked, not reproduced."
+      ],
+      "conditions": [
+        "Held at details and a link until the case-law data protection assessment (TEC-763) accepts reading the text: the terms permit it. The decisions site says real names of individuals are not published, but decisions describe individual complaints.",
+        "The Ombudsman asks: \"If you reuse or share our content, please quote and link to the source on our website.\"",
+        "The Open Government Licence requires the source to be acknowledged, with a link to the licence where possible, and does not cover personal data, third-party rights, or logos and other marks.",
+        "The confirmation is an email reply, not a published notice: \"All our content is licensed under the Open Government Licence 3.0.\" Check at review that it still stands."
+      ],
+      "not_covered": [
+        "Personal data",
+        "Third-party rights the Ombudsman is not authorised to license",
+        "Logos, crests and other marks"
+      ],
+      "evidence": "The reader's email of 24 November 2026 and the Ombudsman's reply of 25 November 2026, both in the reader's mailbox. Filing of saved copies is tracked on TEC-746.",
+      "notes": "Verified by asking the publisher. The Ombudsman's websites publish no copyright or reuse terms, so the reader emailed it on 24 November 2026; the source was paused until the reply. Its Content Officer replied on 25 November 2026 that all its content is licensed under the Open Government Licence 3.0. The Parliamentary and Health Service Ombudsman has renamed itself the Public Service Ombudsman. Its annual report and accounts 2025 to 2026 (HC 394) carries the same licence. An AI assistant working for the reader read the emails; the reader confirmed the record on 26 November 2026.",
       "source": {
         "name": "UK Parliamentary and Health Service Ombudsman",
         "country": "UK",

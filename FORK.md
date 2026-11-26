@@ -110,8 +110,7 @@ stay in `sources/`, unchanged, as upstream's.
 | Source | Asked | Record |
 | --- | --- | --- |
 | Electoral Commission | 24 November 2026 | `verified/sources/UK/EC.yaml` |
-| IPSO | 24 November 2026 | `verified/sources/UK/IPSO.yaml` |
-| Parliamentary and Health Service Ombudsman | 24 November 2026 | `verified/sources/UK/PHSO.yaml` |
 
 When a reply comes, the record is rewritten from it and the source leaves this
-table.
+table. IPSO (26 November 2026) and the Public Service Ombudsman (25 November
+2026) have replied and left it; their records say what they allowed.
