@@ -13,7 +13,7 @@
   "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
  },
  "schema_version": 1,
- "generated_at": "2026-11-26T00:32:13Z",
+ "generated_at": "2026-11-26T14:03:40Z",
  "window_days": 90,
  "sources": {
   "EU/ConsolidatedLegislation": {
@@ -37,8 +37,8 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-26T00:32:13Z",
-   "last_success": "2026-11-26T00:32:13Z",
+   "checked_at": "2026-11-26T14:03:40Z",
+   "last_success": "2026-11-26T14:03:40Z",
    "items_count": 148
   },
   "IE/Acts": {
@@ -60,8 +60,8 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-26T00:32:13Z",
-   "last_success": "2026-11-26T00:32:13Z",
+   "checked_at": "2026-11-26T14:03:40Z",
+   "last_success": "2026-11-26T14:03:40Z",
    "items_count": 45
   },
   "UK/LegislationGovUK": {
@@ -88,15 +88,96 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-26T00:32:13Z",
-   "last_success": "2026-11-26T00:32:13Z",
-   "items_count": 126
+   "checked_at": "2026-11-26T14:03:40Z",
+   "last_success": "2026-11-26T14:03:40Z",
+   "items_count": 135
   }
  },
  "skipped": {},
  "truncated": false,
- "items_count": 319,
+ "items_count": 328,
  "items": [
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1241",
+   "kind": "statutory_instrument",
+   "title": "The Pension Schemes Act 2026 (Commencement No. 2 and Transitional Provisions) Regulations 2026",
+   "date": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1241"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1236",
+   "kind": "statutory_instrument",
+   "title": "The Libya (Sanctions) (EU Exit) (Amendment) Regulations 2026",
+   "date": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1236"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1232",
+   "kind": "statutory_instrument",
+   "title": "The Care Planning, Placement and Case Review (England) (Amendment and Transitional Provision) Regulations 2026",
+   "date": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1232"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1231",
+   "kind": "statutory_instrument",
+   "title": "The Renters’ Rights Act 2025 (Commencement No. 4) Regulations 2026",
+   "date": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1231"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "ssi/2026/354",
+   "kind": "statutory_instrument",
+   "title": "The Crime and Policing Act 2026 (Commencement No. 1) (Scotland) Regulations 2026",
+   "date": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "url": "https://www.legislation.gov.uk/ssi/2026/354"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "nisr/2026/203",
+   "kind": "statutory_instrument",
+   "title": "The Administrative and Financial Provisions (2026 Act) (Commencement) Order (Northern Ireland) 2026",
+   "date": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "url": "https://www.legislation.gov.uk/nisr/2026/203"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "nisr/2026/202",
+   "kind": "statutory_instrument",
+   "title": "The Climate Change (Carbon Budget 2038-2042) Regulations (Northern Ireland) 2026",
+   "date": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "url": "https://www.legislation.gov.uk/nisr/2026/202"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "wsi/2026/141",
+   "kind": "statutory_instrument",
+   "title": "The Non-Domestic Rating (Electric Vehicle Charging Point Relief) (Wales) Regulations 2026",
+   "date": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "url": "https://www.legislation.gov.uk/wsi/2026/141"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "wsi/2026/140",
+   "kind": "statutory_instrument",
+   "title": "The Newport (Communities) and the Torfaen (Communities) (Consequential and Miscellaneous Provisions) Regulations 2026",
+   "date": "2026-11-26",
+   "first_seen": "2026-11-26",
+   "url": "https://www.legislation.gov.uk/wsi/2026/140"
+  },
   {
    "source": "UK/LegislationGovUK",
    "id": "uksi/2026/1237",
