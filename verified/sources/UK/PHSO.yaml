@@ -1,3 +1,30 @@
 id: UK/PHSO
+terms:
+- title: Public Service Ombudsman, published decisions (licence confirmed by email from its Content Officer on 25 November 2026)
+  url: https://decisions.ombudsman.org.uk/
+- title: Open Government Licence v3.0
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+date_read: 2026-11-26
+read_by: Fraser Matcham
+review_by: 2027-05-26
+licence:
+  name: Open Government Licence v3.0, confirmed by the Ombudsman by email for all its content
+  url: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+commercial_use: allowed
+assistant_reading: permitted
+storing_text: permitted
+linking: permitted
+status_lines:
+- Linked, not reproduced.
+conditions:
+- 'Held at details and a link until the case-law data protection assessment (TEC-763) accepts reading the text: the terms permit it. The decisions site says real names of individuals are not published, but decisions describe individual complaints.'
+- 'The Ombudsman asks: "If you reuse or share our content, please quote and link to the source on our website."'
+- The Open Government Licence requires the source to be acknowledged, with a link to the licence where possible, and does not cover personal data, third-party rights, or logos and other marks.
+- 'The confirmation is an email reply, not a published notice: "All our content is licensed under the Open Government Licence 3.0." Check at review that it still stands.'
+not_covered:
+- Personal data
+- Third-party rights the Ombudsman is not authorised to license
+- Logos, crests and other marks
+evidence: The reader's email of 24 November 2026 and the Ombudsman's reply of 25 November 2026, both in the reader's mailbox. Filing of saved copies is tracked on TEC-746.
+notes: Verified by asking the publisher. The Ombudsman's websites publish no copyright or reuse terms, so the reader emailed it on 24 November 2026; the source was paused until the reply. Its Content Officer replied on 25 November 2026 that all its content is licensed under the Open Government Licence 3.0. The Parliamentary and Health Service Ombudsman has renamed itself the Public Service Ombudsman. Its annual report and accounts 2025 to 2026 (HC 394) carries the same licence. An AI assistant working for the reader read the emails; the reader confirmed the record on 26 November 2026.
 signal: yellow
-notes: 'Paused on 24 November 2026: the reader emailed the Parliamentary and Health Service Ombudsman that day to ask whether, and on what terms, its content may be reused, read by software and linked to. Until it replies, nothing from this source is used: no text, no summaries and no links. The upstream sample records and collector in sources/UK/PHSO/ are upstream''s, not used by this fork''s products. Not yet verified for this register: the Ombudsman''s websites were opened in a browser on 20 and 24 November 2026 and have no terms or copyright page that could be found, in their footers, sitemap or publication scheme. The decisions site says real names of individuals are not published, so nobody has read this publisher''s terms for the decisions and it is link only here. A lead, read on 24 November 2026: the Ombudsman''s annual report and accounts 2025 to 2026 (HC 394) says "© Parliamentary and Health Service Ombudsman copyright 2026. This publication is licensed under the terms of the Open Government Licence v3.0 except where otherwise stated"; that statement covers that publication only. legal-sources labels it "ogl-3.0"; that label is a lead, not a finding. A person can settle it by asking the publisher.'

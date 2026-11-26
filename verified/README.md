@@ -173,6 +173,15 @@ website, and reading those is where the label failed most often:
   portal. The Electoral Commission and IPSO still refuse automated browsers,
   and the PHSO still has no terms for its decisions; those three stay unread,
   with the leads found recorded in their notes, for a person to settle.
+- **Asked by email, 24 November 2026.** The reader wrote to all three, and
+  each was paused until it replied. IPSO (26 November) has no objection to
+  the use of its published rulings and asks for a link to the original; the
+  Public Service Ombudsman, formerly the PHSO (25 November), says all its
+  content is under the Open Government Licence 3.0 and asks that reuse quotes
+  and links to the source. Both are verified, with reading permitted, and
+  held at details and a link until the case-law data protection check
+  (TEC-763). The Electoral Commission has acknowledged the email and stays
+  paused.
 
 Four sources the product uses have no id in `manifest.yaml` (Companies House,
 GLEIF, the UK sanctions list and the gov.uk bank holidays feed), so they
