@@ -13,7 +13,7 @@
   "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
  },
  "schema_version": 1,
- "generated_at": "2026-11-25T14:38:50Z",
+ "generated_at": "2026-11-26T00:32:13Z",
  "window_days": 90,
  "sources": {
   "EU/ConsolidatedLegislation": {
@@ -37,9 +37,9 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-25T14:38:50Z",
-   "last_success": "2026-11-25T14:38:50Z",
-   "items_count": 149
+   "checked_at": "2026-11-26T00:32:13Z",
+   "last_success": "2026-11-26T00:32:13Z",
+   "items_count": 148
   },
   "IE/Acts": {
    "name": "Irish Statute Database",
@@ -60,8 +60,8 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-25T14:38:50Z",
-   "last_success": "2026-11-25T14:38:50Z",
+   "checked_at": "2026-11-26T00:32:13Z",
+   "last_success": "2026-11-26T00:32:13Z",
    "items_count": 45
   },
   "UK/LegislationGovUK": {
@@ -88,15 +88,24 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-25T14:38:50Z",
-   "last_success": "2026-11-25T14:38:50Z",
-   "items_count": 123
+   "checked_at": "2026-11-26T00:32:13Z",
+   "last_success": "2026-11-26T00:32:13Z",
+   "items_count": 126
   }
  },
  "skipped": {},
  "truncated": false,
- "items_count": 317,
+ "items_count": 319,
  "items": [
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1237",
+   "kind": "statutory_instrument",
+   "title": "The Water Supply and Sewerage Services (Customer Service Standards) (Amendment) Regulations 2026",
+   "date": "2026-11-25",
+   "first_seen": "2026-11-26",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1237"
+  },
   {
    "source": "UK/LegislationGovUK",
    "id": "uksi/2026/1234",
@@ -105,6 +114,24 @@
    "date": "2026-11-25",
    "first_seen": "2026-11-25",
    "url": "https://www.legislation.gov.uk/uksi/2026/1234"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1226",
+   "kind": "statutory_instrument",
+   "title": "The State Pension Debits and Credits (Revaluation) Order 2026",
+   "date": "2026-11-25",
+   "first_seen": "2026-11-26",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1226"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1225",
+   "kind": "statutory_instrument",
+   "title": "The State Pension Revaluation for Transitional Pensions Order 2026",
+   "date": "2026-11-25",
+   "first_seen": "2026-11-26",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1225"
   },
   {
    "source": "UK/LegislationGovUK",
@@ -239,7 +266,7 @@
    "title": "National Archives Act 1986 (Section 8(1A)) (Transfer of Departmental Records) (No. 4) Order 2026",
    "date": null,
    "first_seen": "2026-11-24",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/593/made/en/pdf"
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/593/made/en/html"
   },
   {
    "source": "IE/Acts",
@@ -248,7 +275,7 @@
    "title": "European Union (Data Protection Act 2018) (Amendment of section 60) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-24",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/592/made/en/pdf"
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/592/made/en/html"
   },
   {
    "source": "IE/Acts",
@@ -257,7 +284,7 @@
    "title": "Aircraft Noise (Dublin Airport) Regulation Act 2019 Levy No. 8 Regulations 2026",
    "date": null,
    "first_seen": "2026-11-24",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/591/made/en/pdf"
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/591/made/en/html"
   },
   {
    "source": "IE/Acts",
@@ -275,7 +302,7 @@
    "title": "Planning and Development Act 2024 (Commencement) (No. 3) Order 2026",
    "date": null,
    "first_seen": "2026-11-24",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/589/made/en/pdf"
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/589/made/en/html"
   },
   {
    "source": "UK/LegislationGovUK",
@@ -473,7 +500,7 @@
    "title": "Local Community Development Committee (Section 128E) (Amendment) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/588/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/588/made/en/html",
    "seeded": true
   },
   {
@@ -483,17 +510,17 @@
    "title": "The Solicitors Acts 1954 to 2015 (Apprentices’ Fees) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/587/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/587/made/en/html",
    "seeded": true
   },
   {
    "source": "IE/Acts",
    "id": "eli/2026/si/586",
    "kind": "statutory_instrument",
-   "title": "Planning and Development (Amendment) Act 2026 (Commencement) (No. 3) Order 2026.",
+   "title": "Planning and Development (Amendment) Act 2026 (Commencement) (No. 3) Order 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/586/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/586/made/en/html",
    "seeded": true
   },
   {
@@ -503,7 +530,7 @@
    "title": "Statistics (Census of Population) Order 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/585/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/585/made/en/html",
    "seeded": true
   },
   {
@@ -513,7 +540,7 @@
    "title": "European Union (Restrictive Measures concerning Ukraine) (No. 16) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/584/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/584/made/en/html",
    "seeded": true
   },
   {
@@ -523,7 +550,7 @@
    "title": "European Union (Restrictive Measures concerning Russia) (No. 10) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/583/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/583/made/en/html",
    "seeded": true
   },
   {
@@ -533,7 +560,7 @@
    "title": "European Union (Restrictive Measures against Cyber-attacks threatening the Union or its Member States) (No. 4) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/582/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/582/made/en/html",
    "seeded": true
   },
   {
@@ -543,7 +570,7 @@
    "title": "European Union (Restrictive Measures concerning Hamas and the Palestinian Islamic Jihad)(No.3) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/581/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/581/made/en/html",
    "seeded": true
   },
   {
@@ -553,7 +580,7 @@
    "title": "European Union (Restrictive Measures Against Serious Human Rights Violations and Abuses) (No. 4) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/580/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/580/made/en/html",
    "seeded": true
   },
   {
@@ -563,7 +590,7 @@
    "title": "Protection of Young Persons (Employment in Food and Beverage Services Sector) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/579/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/579/made/en/html",
    "seeded": true
   },
   {
@@ -573,7 +600,7 @@
    "title": "National Archives Act 1986 (Section 8(1A)) (Transfer of Departmental Records) (No. 2) Order 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/578/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/578/made/en/html",
    "seeded": true
   },
   {
@@ -583,7 +610,7 @@
    "title": "National Archives Act 1986 (Section 8(1A)) (Transfer of Departmental Records) Order 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/577/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/577/made/en/html",
    "seeded": true
   },
   {
@@ -593,7 +620,7 @@
    "title": "Environment (Miscellaneous Provisions) Act 2026 (Commencement) (No. 2) Order 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/576/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/576/made/en/html",
    "seeded": true
   },
   {
@@ -603,7 +630,7 @@
    "title": "Avian Influenza (Biosecurity measures) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/575/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/575/made/en/html",
    "seeded": true
   },
   {
@@ -613,7 +640,7 @@
    "title": "Criminal Justice (Terrorist Offences) Act 2005 (Section 42) (Restrictive Measures concerning Certain Persons and Entities Associated with the ISIL (Da’esh) and Al-Qaida Organisations) (No. 10) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/574/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/574/made/en/html",
    "seeded": true
   },
   {
@@ -623,7 +650,7 @@
    "title": "International Protection Act 2026 (Section 63) (Age Assessment) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/573/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/573/made/en/html",
    "seeded": true
   },
   {
@@ -633,7 +660,7 @@
    "title": "European Union (Capital Requirements) (Amendment) (No. 3) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/572/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/572/made/en/html",
    "seeded": true
   },
   {
@@ -643,7 +670,7 @@
    "title": "European Union (Consumer Credit Agreements) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/571/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/571/made/en/html",
    "seeded": true
   },
   {
@@ -653,7 +680,7 @@
    "title": "European Union (Restrictive Measures concerning the Democratic Republic of the Congo) (No. 3) Regulations 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/570/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/570/made/en/html",
    "seeded": true
   },
   {
@@ -663,7 +690,7 @@
    "title": "Domestic Violence Judgments Register Act 2026 (Commencement) Order 2026",
    "date": null,
    "first_seen": "2026-11-20",
-   "url": "https://www.irishstatutebook.ie/eli/2026/si/569/made/en/pdf",
+   "url": "https://www.irishstatutebook.ie/eli/2026/si/569/made/en/html",
    "seeded": true
   },
   {
@@ -2980,15 +3007,6 @@
    "date": "2026-08-28",
    "first_seen": "2026-11-20",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002R0881-20260828"
-  },
-  {
-   "source": "EU/ConsolidatedLegislation",
-   "id": "02021D1402-20260827",
-   "kind": "consolidated_version",
-   "title": "Commission Implementing Decision (EU) 2021/1402 of 25 August 2021 on harmonised standards for gas meters and other measuring instruments drafted in support of Directive 2014/32/EU of the European Parliament and of the Council (Text with EEA relevance)",
-   "date": "2026-08-27",
-   "first_seen": "2026-11-20",
-   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02021D1402-20260827"
   }
  ],
  "state": {
