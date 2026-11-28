@@ -13,7 +13,7 @@
   "modified": "This fork of legal-sources was modified by Fraser Matcham from 20 November 2026."
  },
  "schema_version": 1,
- "generated_at": "2026-11-27T14:01:24Z",
+ "generated_at": "2026-11-28T00:08:02Z",
  "window_days": 90,
  "sources": {
   "EU/ConsolidatedLegislation": {
@@ -37,9 +37,9 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-27T14:01:24Z",
-   "last_success": "2026-11-27T14:01:24Z",
-   "items_count": 147
+   "checked_at": "2026-11-28T00:08:02Z",
+   "last_success": "2026-11-28T00:08:02Z",
+   "items_count": 150
   },
   "IE/Acts": {
    "name": "Irish Statute Database",
@@ -60,8 +60,8 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-27T14:01:24Z",
-   "last_success": "2026-11-27T14:01:24Z",
+   "checked_at": "2026-11-28T00:08:02Z",
+   "last_success": "2026-11-28T00:08:02Z",
    "items_count": 54
   },
   "UK/LegislationGovUK": {
@@ -88,15 +88,33 @@
    "review_by": "2027-05-20",
    "ok": true,
    "error": null,
-   "checked_at": "2026-11-27T14:01:24Z",
-   "last_success": "2026-11-27T14:01:24Z",
-   "items_count": 148
+   "checked_at": "2026-11-28T00:08:02Z",
+   "last_success": "2026-11-28T00:08:02Z",
+   "items_count": 150
   }
  },
  "skipped": {},
  "truncated": false,
- "items_count": 349,
+ "items_count": 354,
  "items": [
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1257",
+   "kind": "statutory_instrument",
+   "title": "The Persistent Organic Pollutants (Amendment) Regulations 2026",
+   "date": "2026-11-27",
+   "first_seen": "2026-11-28",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1257"
+  },
+  {
+   "source": "UK/LegislationGovUK",
+   "id": "uksi/2026/1252",
+   "kind": "statutory_instrument",
+   "title": "The Children (Prescribed Orders - Jersey) (England) Regulations 2026",
+   "date": "2026-11-27",
+   "first_seen": "2026-11-28",
+   "url": "https://www.legislation.gov.uk/uksi/2026/1252"
+  },
   {
    "source": "UK/LegislationGovUK",
    "id": "uksi/2026/1245",
@@ -1489,12 +1507,48 @@
   },
   {
    "source": "EU/ConsolidatedLegislation",
+   "id": "02024D2643-20261116",
+   "kind": "consolidated_version",
+   "title": "Council Decision (CFSP) 2024/2643 of 8 October 2024 concerning restrictive measures in view of Russia’s destabilising activities",
+   "date": "2026-11-16",
+   "first_seen": "2026-11-28",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024D2643-20261116"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02024R2642-20261116",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EU) 2024/2642 of 8 October 2024 concerning restrictive measures in view of Russia’s destabilising activities",
+   "date": "2026-11-16",
+   "first_seen": "2026-11-28",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02024R2642-20261116"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
    "id": "02023D0941-20261116",
    "kind": "consolidated_version",
    "title": "Commission Implementing Decision (EU) 2023/941 of 2 May 2023 on harmonised standards for personal protective equipment drafted in support of Regulation (EU) 2016/425 of the European Parliament and of the Council (Text with EEA relevance)",
    "date": "2026-11-16",
    "first_seen": "2026-11-20",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02023D0941-20261116"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02014R0269-20261116",
+   "kind": "consolidated_version",
+   "title": "Council Regulation (EU) No 269/2014 of 17 March 2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+   "date": "2026-11-16",
+   "first_seen": "2026-11-28",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014R0269-20261116"
+  },
+  {
+   "source": "EU/ConsolidatedLegislation",
+   "id": "02014D0145-20261116",
+   "kind": "consolidated_version",
+   "title": "Council Decision 2014/145/CFSP of 17 March 2014 concerning restrictive measures in respect of actions undermining or threatening the territorial integrity, sovereignty and independence of Ukraine",
+   "date": "2026-11-16",
+   "first_seen": "2026-11-28",
+   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014D0145-20261116"
   },
   {
    "source": "EU/ConsolidatedLegislation",
@@ -3268,15 +3322,6 @@
    "date": "2026-09-01",
    "first_seen": "2026-11-20",
    "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02016R2070-20260901"
-  },
-  {
-   "source": "EU/ConsolidatedLegislation",
-   "id": "02009L0048-20260829",
-   "kind": "consolidated_version",
-   "title": "Directive 2009/48/EC of the European Parliament and of the Council of 18 June 2009 on the safety of toys (Text with EEA relevance)",
-   "date": "2026-08-29",
-   "first_seen": "2026-11-20",
-   "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009L0048-20260829"
   }
  ],
  "state": {
